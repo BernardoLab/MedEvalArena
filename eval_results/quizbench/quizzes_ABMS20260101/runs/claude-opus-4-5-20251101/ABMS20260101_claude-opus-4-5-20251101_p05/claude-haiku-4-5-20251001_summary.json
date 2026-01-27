@@ -1,0 +1,1 @@
+{"model": "claude-haiku-4-5-20251001", "created_at": "2026-01-02T00:49:40Z", "total_corr": 8, "total_wrong": 2, "acc": 0.8, "n_items": 10, "batch_input_file": "ABMS20260101_claude-opus-4-5-20251101_p05_claude-haiku-4-5-20251001_anthropic_batch_requests.jsonl", "batch_id": "msgbatch_0123SRNXpK4tNGvWLti9WK7N", "used_batch_api": true, "batch_provider": "anthropic"}

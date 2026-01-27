@@ -1,0 +1,11 @@
+{
+  "created_at": "2025-12-14T20:25:13Z",
+  "source_report_path": "/Users/dbernardo/Documents/pyres/MedEvalArena/topic_mapping_report_20251214T202513Z.json",
+  "generator_model": "deepseek-v3.2",
+  "runs_root": "eval_results/quizbench/quizzes_Jan2026/runs/deepseek-v3.2",
+  "targets_csv": "data/ABMS_specialties.csv",
+  "topic_map_path": "data/topic_to_abms.yaml",
+  "mode": "map",
+  "unmapped_policy": "keep",
+  "global_runs_root": "eval_results/quizbench/quizzes_Jan2026/runs"
+}

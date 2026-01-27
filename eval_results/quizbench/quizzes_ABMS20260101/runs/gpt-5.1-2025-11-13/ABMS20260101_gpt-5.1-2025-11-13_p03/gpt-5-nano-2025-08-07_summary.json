@@ -1,0 +1,1 @@
+{"model": "gpt-5-nano-2025-08-07", "created_at": "2026-01-01T16:30:34Z", "total_corr": 8, "total_wrong": 2, "acc": 0.8, "n_items": 10, "batch_input_file": "ABMS20260101_gpt-5.1-2025-11-13_p03_gpt-5-nano-2025-08-07_batch_input.jsonl", "batch_id": "batch_6956a074384c8190a021f46c68c34381", "used_batch_api": true}

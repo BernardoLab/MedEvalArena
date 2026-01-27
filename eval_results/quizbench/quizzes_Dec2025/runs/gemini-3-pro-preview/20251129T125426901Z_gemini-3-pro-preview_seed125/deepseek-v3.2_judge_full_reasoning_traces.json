@@ -1,0 +1,482 @@
+[
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed125",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed125-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389334-Hu1SxQJpXicAQLbqbwzL",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389334,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: Deeply sedated/paralyzed patient, paralysis paused, controlled breath delivered first, patient effort (flow deflection) occurs after breath initiation, effort triggers a second breath, and esophageal manometry confirms diaphragm activity (EAdi) and negative pressure swing begin after the machine breath starts. This sequence perfectly matches the definition of reverse triggering (entrainment), where a machine breath induces a reflexive diaphragmatic contraction. Main logical issue: None. Main medical accuracy issue: None; the description and explanation align with current critical care literature. Minimal fix: None required; the item is clear, accurate, and unambiguous.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1867,
+        "completion_tokens": 185,
+        "total_tokens": 2052,
+        "cost": 0.00058179,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050409,
+          "upstream_inference_completions_cost": 7.77e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed125",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed125-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389341-Om0dtVPLYpEhyf1GfiJd",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389341,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: older male, macrocytic anemia, relapsing polychondritis refractory to immunosuppression, vacuoles in myeloid/erythroid precursors, normal cytogenetics. This combination is highly specific for VEXAS syndrome, a recently defined entity. The item's logic is sound, as the UBA1 mutation is the defining genetic lesion for this syndrome, making it the single best answer. All other options (JAK2 in myeloproliferative neoplasms, SF3B1 in MDS, TET2 in clonal hematopoiesis, MYD88 in lymphoproliferative disorders) are associated with other hematologic/inflammatory conditions but not this specific constellation. No internal contradictions or missing critical details are present. Medical accuracy is high, reflecting current literature. Minimal fix: None required; the item is unambiguous and accurate as written.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1826,
+        "completion_tokens": 232,
+        "total_tokens": 2058,
+        "cost": 0.00059046,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049302,
+          "upstream_inference_completions_cost": 9.744e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed125",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed125-003",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389350-KWjat7kJCSKcSOZJf7dE",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389350,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "length",
+          "native_finish_reason": "length",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n    \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: patient received an antidote for suspected cyanide toxicity (hydroxocobalamin implied), CRRT initiated, 'Blood Leak' alarm triggers without visible blood in effluent. The unique mechanism is optical interference from the intensely red-colored antidote (hydroxocobalamin) with the machine's optical detector. No logical issues; the vignette is specific and supports a single best answer. Medical accuracy is sound, aligning with known complications of hydroxocobalamin. Minor fix: explicitly name 'hydroxocobalamin' in the stem to eliminate any ambiguity about the antidote's identity, though the association is standard.\",\n    \"logical_false_reason\": \"T\",\n    \"logical_validity\": true,\n    \"medical_accuracy_score\":  \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1881,
+        "completion_tokens": 4096,
+        "total_tokens": 5977,
+        "cost": 0.00222819,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050787,
+          "upstream_inference_completions_cost": 0.00172032
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed125",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed125-004",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389413-d3PkRhhWqTdEFegmevUt",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389414,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: infant age, rapidly expanding violaceous plaque, profound thrombocytopenia, hypofibrinogenemia, elevated D-dimer, and explicit diagnosis of Kasabach-Merritt Phenomenon (KMP). The question asks for the underlying vascular anomaly most strongly associated with KMP. Main logical issue: None; the stem is specific and the options are distinct. Main medical accuracy issue: None; the item correctly states the modern understanding that KMP is associated with specific vascular tumors, not common infantile hemangiomas. Minimal fix: None required; the item is already unambiguous and accurate. The keyed answer (Kaposiform Hemangioendothelioma) is the single best and correct choice, as infantile hemangiomas (A) are not associated, and venous malformations (C), pyogenic granulomas (D), and port-wine stains (E) are not the primary tumors linked to this specific coagulopathy.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1856,
+        "completion_tokens": 250,
+        "total_tokens": 2106,
+        "cost": 0.00060612,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050112,
+          "upstream_inference_completions_cost": 0.000105
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed125",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed125-005",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389423-FGiPt9X9DejobobMFiV9",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389423,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: progressive gait instability, dysarthria, severe sleep dysfunction with undifferentiated NREM/REM sleep and stridor, unremarkable MRI, and normal CSF. This constellation is highly specific for anti-IgLON5 disease, a distinct autoimmune/neurodegenerative disorder. The item is logically valid; the vignette points uniquely to anti-IgLON5, and the key matches. Medical accuracy is high, aligning with current literature. The other antibodies are associated with different syndromes (e.g., Anti-Hu/Yo with paraneoplastic cerebellar degeneration, Anti-LGI1 with limbic encephalitis, Anti-GABA-B with limbic encephalitis/seizures), none of which feature the core sleep architecture disorganization and stridor. Minimal fix: None required; the item is well-constructed.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1818,
+        "completion_tokens": 221,
+        "total_tokens": 2039,
+        "cost": 0.00058368,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049086,
+          "upstream_inference_completions_cost": 9.282e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed125",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed125-006",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389435-copqzlVxOdfoA31I1bMy",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389435,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: severe chronic hyponatremia (Na 105 mEq/L), concomitant hypokalemia (K 2.5 mEq/L), IV KCl given, serum sodium rises from 105 to 112 mEq/L in 2 hours. The question asks for the primary physiological mechanism for this rapid rise. The keyed answer (B) correctly identifies the intracellular cation exchange: administered potassium enters cells, and sodium exits to maintain electroneutrality, acutely raising serum sodium concentration. This is a well-established, immediate mechanism. Alternatives are incorrect: (A) is a pathological consequence, not a mechanism for acute rise; (C) and (E) are too slow and not primary here; (D) involves ADH, which is not directly triggered by KCl. No logical contradictions or underspecification. Medical accuracy is sound. Minimal fix: None required for core logic; could add 'acute' to the stem to further emphasize the time frame.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1847,
+        "completion_tokens": 251,
+        "total_tokens": 2098,
+        "cost": 0.00060411,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049869,
+          "upstream_inference_completions_cost": 0.00010542
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed125",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed125-007",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389446-0vkMBgSLjNdA5aS794zr",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389446,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: delayed umbilical stump bleeding, poor wound healing, recurrent soft tissue hematomas, normal PT/aPTT/fibrinogen/platelets, and a positive urea solubility test (clot dissolution). This pattern is pathognomonic for factor XIII deficiency. The logic is sound; the normal screening tests rule out most common factor deficiencies (A, B, C) and platelet disorders. The urea solubility test is a specific confirmatory test for factor XIII deficiency. Alpha-2-antiplasmin deficiency (E) also causes a positive solubility test but typically presents with immediate, severe bleeding rather than delayed bleeding and poor wound healing, making D the superior choice. No major medical inaccuracies. Minimal fix: None required; the item is clear and accurate as written.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1832,
+        "completion_tokens": 214,
+        "total_tokens": 2046,
+        "cost": 0.00058452,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049464,
+          "upstream_inference_completions_cost": 8.988e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed125",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed125-008",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389454-CJtHV2He4nQTjSroFXHh",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389454,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "length",
+          "native_finish_reason": "length",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n    \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: ingestion of rodenticide, flaccid paralysis, severe hypokalemia (1.8 mEq/L), and PVCs on ECG. These findings are classic for barium toxicity, which causes hypokalemia via blockade of potassium efflux channels (Kir channels), leading to intracellular shift. The keyed answer (C) correctly identifies this. Alternatives are less consistent: arsenic causes GI symptoms and neuropathy; thallium causes alopecia and neuropathy; strychnine causes painful muscle spasms; sodium monofluoroacetate causes metabolic acidosis and seizures. No internal contradictions or missing critical details. Medical accuracy is sound. Minimal fix: None required; the item is clear and accurate.\",\n    \"logical_false_reason\": \"T\",\n    \"logical_validity\": true,\n    \"medical_accuracy_score\":  \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1848,
+        "completion_tokens": 4096,
+        "total_tokens": 5944,
+        "cost": 0.00221928,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049896,
+          "upstream_inference_completions_cost": 0.00172032
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed125",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed125-009",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389517-NSTOnMVmlLknKTsMT0H9",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389517,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: failure to thrive, chronic steatorrhea, absent DTRs, ataxia, acanthocytes, and extremely low cholesterol/triglycerides with absent LDL. This constellation is classic for abetalipoproteinemia. The primary pathophysiology is a defect in the assembly and secretion of apoB-containing lipoproteins. The keyed answer (C, MTP deficiency) is the direct cause. Alternatives are incorrect: A (LDL receptor) causes familial hypercholesterolemia; B (ABCA1) causes Tangier disease (low HDL); D (lipoprotein lipase) and E (apo C-II) cause hypertriglyceridemia from impaired chylomicron clearance, not the described lipid profile. No logical contradictions or missing details. Medical accuracy is sound. Minimal fix: None required; the item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1857,
+        "completion_tokens": 230,
+        "total_tokens": 2087,
+        "cost": 0.00059799,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050139,
+          "upstream_inference_completions_cost": 9.66e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed125",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed125-010",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389523-HpKduspQzILtUTEC4j2Z",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389523,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. The stem provides classic CADASIL clues: migraine with aura, cognitive decline, lacunar stroke in a young patient without vascular risk factors, and the highly specific MRI finding of white matter hyperintensities involving the anterior temporal poles and external capsules. This constellation uniquely points to a NOTCH3 mutation. The alternatives are less defensible: GLA (Fabry disease) often involves kidney and heart; HTRA1 (CARASIL) typically lacks migraine and includes alopecia/spondylosis; APP (CAA/Alzheimer's) is not linked to this presentation; COL4A1 mutations often cause porencephaly and hemorrhages. No internal contradictions or missing critical details exist. The item is medically accurate and logically valid. A minimal fix is not required, but adding 'autosomal dominant family history' would further strengthen specificity.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1821,
+        "completion_tokens": 224,
+        "total_tokens": 2045,
+        "cost": 0.00058575,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049167,
+          "upstream_inference_completions_cost": 9.408e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

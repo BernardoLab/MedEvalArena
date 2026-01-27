@@ -1,0 +1,287 @@
+[
+  {
+    "quiz_id": "20251219T221819110Z_deepseek-v3.2_seed133",
+    "question_id": "20251219T221819110Z_deepseek-v3.2_seed133-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766635967-XqA9jVnVeDCmor1LAAWj",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766635967,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: PSC with UC, hilar stricture, CA19-9 >100, suspicious cytology, PET SUV >5. These findings meet criteria for a diagnostic workup for cholangiocarcinoma, but the vignette explicitly states brush cytology is 'suspicious but not diagnostic.' The next step in standard algorithms (e.g., AASLD) is to obtain a tissue diagnosis via a method like endoscopic ultrasound with fine-needle aspiration (EUS-FNA) or cholangioscopy before considering transplant protocols, which require a confirmed diagnosis. Option C (neoadjuvant therapy/transplant) is a definitive management step that is premature without a confirmed diagnosis. Main logical issue: A unique best answer exists (B or D for tissue acquisition), but the provided key (C) is not that answer. Main medical accuracy issue: Recommending a major transplant protocol without biopsy confirmation contradicts standard staging and eligibility guidelines. Minimal fix: Change the key to B or D, or revise the stem to state 'biopsy-confirmed cholangiocarcinoma' to justify C.\",\n  \"medical_accuracy_score\":  \"2\",\n  \"logical_validity\": false,\n  \"logical_false_reason\": \"K\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1980,
+        "completion_tokens": 283,
+        "total_tokens": 2263,
+        "cost": 0.0006478,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0005346,
+          "upstream_inference_completions_cost": 0.0001132
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251219T221819110Z_deepseek-v3.2_seed133",
+    "question_id": "20251219T221819110Z_deepseek-v3.2_seed133-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766635977-WUNAYLvwp4dX3EtnPAe9",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766635978,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: PNH on eculizumab, breakthrough hemolysis (low Hb, high LDH, low haptoglobin), negative DAT, undetectable C5 level, last dose 12 days ago. The undetectable C5 level indicates adequate drug coverage, making C5 polymorphism (B) unlikely as it typically allows normal C5 levels. The most likely explanation is proximal complement activation (E), a known mechanism of breakthrough hemolysis due to C3 opsonization, especially with high clone size. Main logical issue: Key mismatch; unique best answer exists but is not B. Main medical accuracy issue: Key implies C5 polymorphism despite undetectable C5, which contradicts the mechanism. Minimal fix: Change key to E and adjust rationale to explain C3-mediated hemolysis with undetectable C5.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\": \n    \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1965,
+        "completion_tokens": 229,
+        "total_tokens": 2194,
+        "cost": 0.00062673,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053055,
+          "upstream_inference_completions_cost": 9.618e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251219T221819110Z_deepseek-v3.2_seed133",
+    "question_id": "20251219T221819110Z_deepseek-v3.2_seed133-003",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766635984-yhfwPc74646m2Ae8dfF3",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766635984,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: post-liver transplant patient on immunosuppression, fever/cough/hypoxemia, CT showing nodules with ground-glass halos (classic for angioinvasive fungal infection like aspergillosis), high TTV load in BAL and blood. TTV is a recognized biomarker of net immunosuppression, not a direct pathogen. The keyed answer correctly interprets high TTV as indicating over-immunosuppression, guiding reduction of tacrolimus while evaluating for fungal infection. Alternatives are medically inaccurate: TTV is not a treatable pulmonary pathogen (B), not specific for CMV co‑infection (C), does have clinical significance as an immunosuppression marker (D), and is not an indication for donor-derived infection workup via lung biopsy (E). No logical contradictions; a unique best answer is supported. Medical accuracy is high. Minimal fix: none required; item is sound.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1958,
+        "completion_tokens": 236,
+        "total_tokens": 2194,
+        "cost": 0.00149296,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00109648,
+          "upstream_inference_completions_cost": 0.00039648
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251219T221819110Z_deepseek-v3.2_seed133",
+    "question_id": "20251219T221819110Z_deepseek-v3.2_seed133-004",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766635990-T6aJxvb5UX1vFjM5dV9u",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766635990,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: postprandial abdominal pain/diarrhea improving with fasting, elevated serum tryptase (45 ng/mL) during an episode, duodenal biopsy showing villous blunting and intraepithelial lymphocytes, and exclusion of mesenteric ischemia and gastroparesis. The elevated tryptase is a specific diagnostic marker for systemic mastocytosis, distinguishing it from other options. No logical issues; the vignette supports a single best answer. Medical accuracy is sound: the tryptase threshold (>20 ng/mL) and clinical presentation align with consensus diagnostic criteria for systemic mastocytosis with GI involvement. Minimal fix: None required; the item is unambiguous and accurate as written.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1922,
+        "completion_tokens": 196,
+        "total_tokens": 2118,
+        "cost": 0.0014056,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00107632,
+          "upstream_inference_completions_cost": 0.00032928
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251219T221819110Z_deepseek-v3.2_seed133",
+    "question_id": "20251219T221819110Z_deepseek-v3.2_seed133-005",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766635998-Lic0ICjBFc8QcP1alpYS",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766635998,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: Essential thrombocythemia (JAK2+), acute stroke in MCA territory, multiple small enhancing brain lesions, negative TTE for vegetations and negative blood cultures. The findings point to a hypercoagulable state with embolic strokes, and NBTE is a known complication of myeloproliferative neoplasms. The other options are less consistent: hydroxyurea leukoencephalopathy is symmetric and non-enhancing; AML transformation lacks blasts; JAK2 mutation is not linked to vasculitis; paradoxical embolism lacks a venous source and doesn't explain multiple enhancing lesions. No logical or medical inaccuracies. Minimal fix: None needed; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1914,
+        "completion_tokens": 195,
+        "total_tokens": 2109,
+        "cost": 0.00059868,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00051678,
+          "upstream_inference_completions_cost": 8.19e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251219T221819110Z_deepseek-v3.2_seed133",
+    "question_id": "20251219T221819110Z_deepseek-v3.2_seed133-006",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766636003-9xcjz1ILvNJF4zavhQSx",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766636003,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: hematopoietic stem cell transplant recipient (immunocompromised), day +45, encephalitis features (confusion, myoclonus), MRI showing symmetric thalamic and periaqueductal gray hyperintensities, CSF with mild pleocytosis and normal glucose, negative PCR for common herpesviruses, and metagenomic NGS detecting Astrovirus VA1/HMO-C RNA. The findings point to a viral encephalitis with no proven specific antiviral therapy. Main logical issue: None; the stem provides sufficient detail to uniquely support reduction of immunosuppression and supportive care as the standard management for this rare infection. Main medical accuracy issue: None; the key and rationale align with current literature and guidelines for managing astrovirus encephalitis in immunocompromised hosts. Minimal fix: None required; the item is clear and accurate. However, to emphasize the lack of proven therapy, one could add 'No antiviral therapy has proven efficacy for Astrovirus VA1/HMO-C encephalitis' to the stem.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1959,
+        "completion_tokens": 256,
+        "total_tokens": 2215,
+        "cost": 0.00063645,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052893,
+          "upstream_inference_completions_cost": 0.00010752
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

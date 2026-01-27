@@ -1,0 +1,35 @@
+generator_model,total_misses,topic,topic_misses,topic_pct
+ALL,39,unknown,9,23.076923076923077
+ALL,39,cardiology,8,20.51282051282051
+ALL,39,neurology,6,15.384615384615385
+ALL,39,infectious disease,3,7.6923076923076925
+ALL,39,pediatrics,3,7.6923076923076925
+ALL,39,misc,2,5.128205128205128
+ALL,39,obstetrics,2,5.128205128205128
+ALL,39,pulmonology,2,5.128205128205128
+ALL,39,rheumatology,2,5.128205128205128
+ALL,39,critical care,1,2.564102564102564
+ALL,39,emergency medicine,1,2.564102564102564
+claude-opus-4-5-20251101,10,cardiology,3,30.0
+claude-opus-4-5-20251101,10,neurology,2,20.0
+claude-opus-4-5-20251101,10,emergency medicine,1,10.0
+claude-opus-4-5-20251101,10,infectious disease,1,10.0
+claude-opus-4-5-20251101,10,pediatrics,1,10.0
+claude-opus-4-5-20251101,10,pulmonology,1,10.0
+claude-opus-4-5-20251101,10,rheumatology,1,10.0
+deepseek-v3.2,8,cardiology,2,25.0
+deepseek-v3.2,8,neurology,2,25.0
+deepseek-v3.2,8,critical care,1,12.5
+deepseek-v3.2,8,misc,1,12.5
+deepseek-v3.2,8,obstetrics,1,12.5
+deepseek-v3.2,8,pulmonology,1,12.5
+gemini-3-pro-preview,6,cardiology,2,33.33333333333333
+gemini-3-pro-preview,6,infectious disease,2,33.33333333333333
+gemini-3-pro-preview,6,neurology,1,16.666666666666664
+gemini-3-pro-preview,6,pediatrics,1,16.666666666666664
+gpt-5.1-2025-11-13,4,neurology,1,25.0
+gpt-5.1-2025-11-13,4,obstetrics,1,25.0
+gpt-5.1-2025-11-13,4,pediatrics,1,25.0
+gpt-5.1-2025-11-13,4,rheumatology,1,25.0
+grok-4-0709,1,cardiology,1,100.0
+kimi-k2-thinking,1,misc,1,100.0

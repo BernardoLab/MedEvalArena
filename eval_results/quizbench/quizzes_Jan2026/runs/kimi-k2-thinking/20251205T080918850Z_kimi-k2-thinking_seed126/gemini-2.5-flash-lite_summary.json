@@ -1,0 +1,1 @@
+{"model": "gemini-2.5-flash-lite", "created_at": "2025-12-05T17:56:47Z", "total_corr": 8, "total_wrong": 2, "acc": 0.8, "n_items": 10, "batch_input_file": "20251205T080918850Z_kimi-k2-thinking_seed126_gemini-2.5-flash-lite_batch_input.jsonl", "batch_id": "batches/pjge4hea04y8ks6gwi020m32sqtg38skcv86", "used_batch_api": true}

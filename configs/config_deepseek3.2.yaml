@@ -1,0 +1,18 @@
+# QuizBench generation configuration
+generator_models:
+  - "deepseek-v3.2"
+test_models:
+  - none
+num_questions_per_batch: 10
+seed0: 125
+quizzes_dir: quizzes/
+runs_root: eval_results/quizbench/quizzes_Jan2026/runs/deepseek-v3.2/
+deepseek_api_key: ""
+openrouter_api_key: ""
+use_openrouter: true
+use_batch_api: false
+reasoning_effort: high
+# max_tokens: 600
+max_output_tokens: 16000
+temperature: 0.0
+num_questions_per_quiz: 50

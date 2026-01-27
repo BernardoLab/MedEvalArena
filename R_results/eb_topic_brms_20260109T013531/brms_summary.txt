@@ -1,0 +1,151 @@
+ Family: bernoulli 
+  Links: mu = logit 
+Formula: y ~ 1 + topic + (1 + topic || llm) + (1 | quiz) + (1 | item) 
+   Data: df (Number of observations: 3000) 
+  Draws: 4 chains, each with iter = 4000; warmup = 2000; thin = 1;
+         total post-warmup draws = 8000
+
+Multilevel Hyperparameters:
+~item (Number of levels: 300) 
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sd(Intercept)     2.32      0.19     1.97     2.73 1.00     2211     3725
+
+~llm (Number of levels: 10) 
+                                           Estimate Est.Error l-95% CI u-95% CI
+sd(Intercept)                                  0.67      0.21     0.37     1.17
+sd(topicAnesthesiology)                        0.55      0.46     0.02     1.73
+sd(topicCardiovascular)                        0.43      0.37     0.01     1.38
+sd(topicCriticalCareMedicine)                  0.51      0.46     0.01     1.66
+sd(topicDermatology)                           0.46      0.41     0.01     1.50
+sd(topicEmergencyMedicine)                     0.37      0.31     0.01     1.12
+sd(topicEndocrine)                             0.74      0.58     0.03     2.15
+sd(topicGastrointestinal)                      0.42      0.36     0.01     1.35
+sd(topicGeneralSurgery)                        0.64      0.47     0.02     1.79
+sd(topicGeriatrics)                            0.57      0.51     0.02     1.89
+sd(topicHematology)                            0.47      0.43     0.01     1.57
+sd(topicImmunology)                            0.82      0.73     0.02     2.71
+sd(topicInfectiousDisease)                     0.92      0.53     0.06     2.07
+sd(topicMedicalOncology)                       0.75      0.70     0.02     2.59
+sd(topicNephrology)                            0.58      0.51     0.02     1.91
+sd(topicNeurologicalSurgery)                   0.62      0.49     0.02     1.81
+sd(topicNeurology)                             0.58      0.43     0.02     1.62
+sd(topicObstetricsandGynecology)               0.45      0.36     0.01     1.33
+sd(topicOphthalmology)                         0.55      0.47     0.02     1.72
+sd(topicOrthopedicSurgery)                     0.57      0.52     0.01     1.91
+sd(topicOtolaryngology)                        0.57      0.53     0.01     1.93
+sd(topicPediatrics)                            0.36      0.28     0.01     1.04
+sd(topicPhysicalMedicineandRehabilitation)     0.56      0.47     0.02     1.78
+sd(topicPlasticSurgery)                        0.82      0.67     0.03     2.47
+sd(topicPsychiatry)                            0.50      0.39     0.02     1.46
+sd(topicPulmonary)                             0.59      0.46     0.02     1.69
+sd(topicRadiationOncology)                     0.59      0.51     0.02     1.88
+sd(topicRheumatologyDMusculoskeletal)          0.84      0.74     0.02     2.69
+sd(topicThoracicSurgery)                       0.93      0.67     0.03     2.47
+sd(topicUrology)                               0.57      0.51     0.01     1.88
+sd(topicVascularSurgery)                       2.68      0.94     1.21     4.81
+                                           Rhat Bulk_ESS Tail_ESS
+sd(Intercept)                              1.00     2415     4467
+sd(topicAnesthesiology)                    1.00     3493     3049
+sd(topicCardiovascular)                    1.00     3992     3144
+sd(topicCriticalCareMedicine)              1.00     4093     3887
+sd(topicDermatology)                       1.00     4102     3324
+sd(topicEmergencyMedicine)                 1.00     4058     3143
+sd(topicEndocrine)                         1.00     2562     3135
+sd(topicGastrointestinal)                  1.00     3657     2936
+sd(topicGeneralSurgery)                    1.00     1850     2042
+sd(topicGeriatrics)                        1.00     3995     3523
+sd(topicHematology)                        1.00     3549     3371
+sd(topicImmunology)                        1.00     3516     3356
+sd(topicInfectiousDisease)                 1.00     2661     2869
+sd(topicMedicalOncology)                   1.00     4588     4304
+sd(topicNephrology)                        1.00     3893     3173
+sd(topicNeurologicalSurgery)               1.00     3663     3965
+sd(topicNeurology)                         1.00     2955     3294
+sd(topicObstetricsandGynecology)           1.00     3176     2833
+sd(topicOphthalmology)                     1.00     3506     3648
+sd(topicOrthopedicSurgery)                 1.00     3362     2974
+sd(topicOtolaryngology)                    1.00     4286     3340
+sd(topicPediatrics)                        1.00     3309     3756
+sd(topicPhysicalMedicineandRehabilitation) 1.00     4012     3545
+sd(topicPlasticSurgery)                    1.00     2652     2998
+sd(topicPsychiatry)                        1.00     2903     2632
+sd(topicPulmonary)                         1.00     3158     3341
+sd(topicRadiationOncology)                 1.00     3292     3130
+sd(topicRheumatologyDMusculoskeletal)      1.00     3736     3840
+sd(topicThoracicSurgery)                   1.00     2725     3466
+sd(topicUrology)                           1.00     3559     2882
+sd(topicVascularSurgery)                   1.00     3197     3644
+
+~quiz (Number of levels: 6) 
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sd(Intercept)     0.55      0.35     0.04     1.41 1.01     1111     1711
+
+Regression Coefficients:
+                                       Estimate Est.Error l-95% CI u-95% CI
+Intercept                                  3.12      0.44     2.23     3.99
+topicAnesthesiology                        0.50      0.68    -0.80     1.84
+topicCardiovascular                        0.06      0.65    -1.20     1.32
+topicCriticalCareMedicine                 -0.11      0.77    -1.63     1.38
+topicDermatology                          -0.06      0.79    -1.64     1.47
+topicEmergencyMedicine                     0.03      0.60    -1.14     1.22
+topicEndocrine                             0.20      0.69    -1.13     1.58
+topicGastrointestinal                      0.09      0.67    -1.18     1.41
+topicGeneralSurgery                       -0.66      0.65    -1.92     0.63
+topicGeriatrics                            0.44      0.81    -1.15     2.06
+topicHematology                           -0.73      0.75    -2.19     0.75
+topicImmunology                            0.74      0.81    -0.86     2.32
+topicInfectiousDisease                    -0.38      0.68    -1.70     0.97
+topicMedicalOncology                       0.87      0.83    -0.74     2.50
+topicNephrology                            0.42      0.79    -1.13     1.99
+topicNeurologicalSurgery                  -0.71      0.77    -2.20     0.78
+topicNeurology                            -0.05      0.62    -1.23     1.16
+topicObstetricsandGynecology               0.37      0.63    -0.91     1.60
+topicOphthalmology                        -0.68      0.74    -2.15     0.79
+topicOrthopedicSurgery                     0.01      0.78    -1.49     1.54
+topicOtolaryngology                        0.34      0.81    -1.22     1.95
+topicPediatrics                           -0.35      0.52    -1.34     0.67
+topicPhysicalMedicineandRehabilitation    -0.04      0.76    -1.53     1.48
+topicPlasticSurgery                       -0.48      0.76    -1.93     1.02
+topicPsychiatry                            0.41      0.62    -0.81     1.62
+topicPulmonary                            -0.20      0.68    -1.51     1.15
+topicRadiationOncology                    -0.34      0.76    -1.82     1.17
+topicRheumatologyDMusculoskeletal          0.68      0.82    -0.89     2.34
+topicThoracicSurgery                      -0.76      0.76    -2.24     0.75
+topicUrology                               0.13      0.77    -1.36     1.67
+topicVascularSurgery                      -0.39      0.83    -1.99     1.24
+                                       Rhat Bulk_ESS Tail_ESS
+Intercept                              1.00     2029     1852
+topicAnesthesiology                    1.00     3484     4948
+topicCardiovascular                    1.00     3249     4216
+topicCriticalCareMedicine              1.00     4029     5278
+topicDermatology                       1.00     3087     2000
+topicEmergencyMedicine                 1.00     3181     4070
+topicEndocrine                         1.00     3634     5297
+topicGastrointestinal                  1.00     3116     4856
+topicGeneralSurgery                    1.00     3070     4451
+topicGeriatrics                        1.00     5082     5731
+topicHematology                        1.00     2895     4335
+topicImmunology                        1.00     5502     6153
+topicInfectiousDisease                 1.00     3124     4070
+topicMedicalOncology                   1.00     6055     5993
+topicNephrology                        1.00     5371     5813
+topicNeurologicalSurgery               1.00     3312     5061
+topicNeurology                         1.00     3276     4884
+topicObstetricsandGynecology           1.00     2468     2067
+topicOphthalmology                     1.00     3620     4712
+topicOrthopedicSurgery                 1.00     3944     5172
+topicOtolaryngology                    1.00     4087     5448
+topicPediatrics                        1.00     2767     4297
+topicPhysicalMedicineandRehabilitation 1.00     4596     5502
+topicPlasticSurgery                    1.00     3810     4752
+topicPsychiatry                        1.00     2939     3999
+topicPulmonary                         1.00     2762     2154
+topicRadiationOncology                 1.00     4385     5298
+topicRheumatologyDMusculoskeletal      1.00     6072     5682
+topicThoracicSurgery                   1.00     4195     5173
+topicUrology                           1.00     4425     6020
+topicVascularSurgery                   1.00     4838     5703
+
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).

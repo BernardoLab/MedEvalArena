@@ -1,0 +1,159 @@
+{
+  "created_at": "2025-12-23T23:21:37Z",
+  "config_path": "/home/dbernardo/Documents/pyres/MedEvalArena/config_gemini.yaml",
+  "generator_models": [
+    "gemini-3-pro-preview"
+  ],
+  "generator_model": "gemini-3-pro-preview",
+  "api_providers_by_model": {
+    "gemini-3-pro-preview": "openai_or_gemini_batch"
+  },
+  "test_models": [
+    "none"
+  ],
+  "test_models_csv": "none",
+  "num_quizzes_per_generator": 5,
+  "num_questions_per_batch": 10,
+  "num_questions_per_quiz": 50,
+  "runs_root": "eval_results/quizbench/quizzes_Jan2026/runs/gemini-3-pro-preview/",
+  "api_provider": "openai_or_gemini_batch",
+  "quizzes_root_dir": "quizzes/",
+  "quiz_collection": "quizzes_Jan2026",
+  "quizzes_dir": "quizzes/quizzes_Jan2026",
+  "target_planning": {
+    "enabled": true,
+    "topic_mapping_report": "/home/dbernardo/Documents/pyres/MedEvalArena/topic_mapping_report_20251214T202513Z.json",
+    "planned_batch_request_multiplier": 2.0,
+    "targets_csv": "/home/dbernardo/Documents/pyres/MedEvalArena/data/ABMS_specialties.csv",
+    "target_total": 49,
+    "topic_map_path": "/home/dbernardo/Documents/pyres/MedEvalArena/data/topic_to_abms.yaml",
+    "topic_map_mode": "map",
+    "unmapped_topic_policy": "keep",
+    "topics_eval_model": null,
+    "prefer_topic_mapping_outputs": true,
+    "judge_models_yaml": "/home/dbernardo/Documents/pyres/MedEvalArena/data/judge_models.yaml",
+    "min_medical_score": null,
+    "allow_missing_judges": false,
+    "questions_dist_files": {
+      "gemini-3-pro-preview": "/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_Jan2026/runs/gemini-3-pro-preview/questions_dist_gemini-3-pro-preview.json"
+    }
+  },
+  "quizzes": [
+    {
+      "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251223T232137723Z_gemini-3-pro-preview_seed128.jsonl",
+      "generator_model": "gemini-3-pro-preview",
+      "seed": 128,
+      "target_topic": [
+        "Pediatrics",
+        "Pediatrics",
+        "Anesthesiology",
+        "Anesthesiology",
+        "Psychiatry",
+        "Psychiatry",
+        "Psychiatry",
+        "General Surgery",
+        "General Surgery",
+        "Ophthalmology",
+        "Pediatrics",
+        "Pediatrics",
+        "Anesthesiology",
+        "Anesthesiology",
+        "Psychiatry",
+        "Psychiatry",
+        "Psychiatry",
+        "General Surgery",
+        "General Surgery",
+        "Ophthalmology"
+      ]
+    },
+    {
+      "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251223T232137723Z_gemini-3-pro-preview_seed129.jsonl",
+      "generator_model": "gemini-3-pro-preview",
+      "seed": 129,
+      "target_topic": [
+        "Orthopedic Surgery",
+        "Dermatology",
+        "Urology",
+        "Otolaryngology",
+        "Physical Medicine and Rehabilitation",
+        "Plastic Surgery",
+        "Neurological Surgery",
+        "Radiation Oncology",
+        "Thoracic Surgery",
+        "Vascular Surgery",
+        "Orthopedic Surgery",
+        "Dermatology",
+        "Urology",
+        "Otolaryngology",
+        "Physical Medicine and Rehabilitation",
+        "Plastic Surgery",
+        "Neurological Surgery",
+        "Radiation Oncology",
+        "Thoracic Surgery",
+        "Vascular Surgery"
+      ]
+    },
+    {
+      "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed130",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251223T232137723Z_gemini-3-pro-preview_seed130.jsonl",
+      "generator_model": "gemini-3-pro-preview",
+      "seed": 130,
+      "target_topic": [
+        "Gastrointestinal",
+        "Gastrointestinal",
+        "Hematology",
+        "Immunology",
+        "Medical Oncology",
+        "Allergy/Immunology",
+        "Geriatrics",
+        "Gastrointestinal",
+        "Gastrointestinal",
+        "Hematology",
+        "Immunology",
+        "Medical Oncology",
+        "Allergy/Immunology",
+        "Geriatrics"
+      ]
+    }
+  ],
+  "run_ids": [],
+  "batch_jobs": [
+    {
+      "generator_model": "gemini-3-pro-preview",
+      "batch_id": "batches/433zjcxnqxdjplnegdehcrsa3o8gxp8ix75m",
+      "batch_input_path": "quizzes/quizzes_Jan2026/batch_inputs/gemini-3-pro-preview_batch_input_005.jsonl",
+      "num_requests": 1,
+      "provider": "openai_or_gemini_batch"
+    },
+    {
+      "generator_model": "gemini-3-pro-preview",
+      "batch_id": "batches/9pkmy39qgs4s0enkmpuuzl0b4ys8ka16z9rd",
+      "batch_input_path": "quizzes/quizzes_Jan2026/batch_inputs/gemini-3-pro-preview_batch_input_006.jsonl",
+      "num_requests": 1,
+      "provider": "openai_or_gemini_batch"
+    },
+    {
+      "generator_model": "gemini-3-pro-preview",
+      "batch_id": "batches/cil85n6o4pnbtwdrs22ael2mk9n0kw56knl5",
+      "batch_input_path": "quizzes/quizzes_Jan2026/batch_inputs/gemini-3-pro-preview_batch_input_007.jsonl",
+      "num_requests": 1,
+      "provider": "openai_or_gemini_batch"
+    }
+  ],
+  "judge_models": [
+    "claude-opus-4-5-20251101",
+    "deepseek-v3.2",
+    "gemini-3-pro-preview",
+    "gpt-5.1-2025-11-13",
+    "grok-4-0709",
+    "kimi-k2-thinking"
+  ],
+  "judge_run_ids": [
+    "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "20251223T232137723Z_gemini-3-pro-preview_seed130"
+  ],
+  "last_judge_eval_at": "2025-12-25T07:21:11Z"
+}

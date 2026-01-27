@@ -1,0 +1,54 @@
+[INFO] Evaluating 5 quizzes with model 'gpt-5.1-2025-11-13'
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_deepseek-v3.2_p01 path=quizzes/quizzes_ABMS20260101/deepseek-v3.2/ABMS20260101_deepseek-v3.2_p01.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_deepseek-v3.2_p01, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/deepseek-v3.2/ABMS20260101_deepseek-v3.2_p01/ABMS20260101_deepseek-v3.2_p01_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-Tg5oBmyMz5f3ugKJZkBznS
+Created batch with id: batch_694f73db412c819091b620bb813ec7c9
+Initial batch status: validating
+Batch batch_694f73db412c819091b620bb813ec7c9 status: validating. Sleeping 60s...
+Batch batch_694f73db412c819091b620bb813ec7c9 status: in_progress. Sleeping 60s...
+Batch batch_694f73db412c819091b620bb813ec7c9 status: in_progress. Sleeping 60s...
+Batch batch_694f73db412c819091b620bb813ec7c9 reached terminal status: completed
+Downloading batch file: file-2Damprqy8oHYMrQjQ5b49h
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/deepseek-v3.2/ABMS20260101_deepseek-v3.2_p01
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_deepseek-v3.2_p02 path=quizzes/quizzes_ABMS20260101/deepseek-v3.2/ABMS20260101_deepseek-v3.2_p02.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_deepseek-v3.2_p02, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/deepseek-v3.2/ABMS20260101_deepseek-v3.2_p02/ABMS20260101_deepseek-v3.2_p02_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-JFcpUPVvUpQLi6BYL7WiXc
+Created batch with id: batch_694f74929c248190bc99dc1bfe5c8ddc
+Initial batch status: validating
+Batch batch_694f74929c248190bc99dc1bfe5c8ddc status: validating. Sleeping 60s...
+Batch batch_694f74929c248190bc99dc1bfe5c8ddc status: in_progress. Sleeping 60s...
+Batch batch_694f74929c248190bc99dc1bfe5c8ddc reached terminal status: completed
+Downloading batch file: file-TgvpuvV263gEHr8xk6UkMs
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/deepseek-v3.2/ABMS20260101_deepseek-v3.2_p02
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_deepseek-v3.2_p03 path=quizzes/quizzes_ABMS20260101/deepseek-v3.2/ABMS20260101_deepseek-v3.2_p03.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_deepseek-v3.2_p03, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/deepseek-v3.2/ABMS20260101_deepseek-v3.2_p03/ABMS20260101_deepseek-v3.2_p03_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-BUdFnikkWUs8ZfKKU2WJ8p
+Created batch with id: batch_694f750d55d08190a228697ce5295c44
+Initial batch status: validating
+Batch batch_694f750d55d08190a228697ce5295c44 status: validating. Sleeping 60s...
+Batch batch_694f750d55d08190a228697ce5295c44 status: in_progress. Sleeping 60s...
+Batch batch_694f750d55d08190a228697ce5295c44 reached terminal status: completed
+Downloading batch file: file-5X1Wpoz89NA6SWi2GL3hU2
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/deepseek-v3.2/ABMS20260101_deepseek-v3.2_p03
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_deepseek-v3.2_p04 path=quizzes/quizzes_ABMS20260101/deepseek-v3.2/ABMS20260101_deepseek-v3.2_p04.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_deepseek-v3.2_p04, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/deepseek-v3.2/ABMS20260101_deepseek-v3.2_p04/ABMS20260101_deepseek-v3.2_p04_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-U2bgcvCwmpnAw5CbhdChup
+Created batch with id: batch_694f758828b881908c1ff0cedc12679c
+Initial batch status: validating
+Batch batch_694f758828b881908c1ff0cedc12679c status: validating. Sleeping 60s...
+Batch batch_694f758828b881908c1ff0cedc12679c status: in_progress. Sleeping 60s...
+Batch batch_694f758828b881908c1ff0cedc12679c reached terminal status: completed
+Downloading batch file: file-9XKoqqNRZ38nXHzfp8nF8B
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/deepseek-v3.2/ABMS20260101_deepseek-v3.2_p04
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_deepseek-v3.2_p05 path=quizzes/quizzes_ABMS20260101/deepseek-v3.2/ABMS20260101_deepseek-v3.2_p05.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_deepseek-v3.2_p05, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/deepseek-v3.2/ABMS20260101_deepseek-v3.2_p05/ABMS20260101_deepseek-v3.2_p05_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-QtfGYKjVG76wHZcFJB5aM6
+Created batch with id: batch_694f76033d48819091b7408942b0c051
+Initial batch status: validating
+Batch batch_694f76033d48819091b7408942b0c051 status: validating. Sleeping 60s...
+Batch batch_694f76033d48819091b7408942b0c051 status: in_progress. Sleeping 60s...
+Batch batch_694f76033d48819091b7408942b0c051 reached terminal status: completed
+Downloading batch file: file-VgtXUbUywDj8it8uDN1Noj
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/deepseek-v3.2/ABMS20260101_deepseek-v3.2_p05
+[INFO] Updated manifest at /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/deepseek-v3.2/quizbench_manifest_ABMS20260101.json
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/deepseek-v3.2

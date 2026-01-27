@@ -1,0 +1,954 @@
+[
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459485-dbztmU74WzRCnL0vNwoN",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459485,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: 3-week-old infant with life-threatening apnea, profound hypoventilation during sleep (PaCO2 >60 mmHg), and a heterozygous non-polyalanine repeat expansion mutation in PHOX2B, which is diagnostic for Congenital Central Hypoventilation Syndrome (CCHS). The immediate need is to secure ventilation to prevent hypercapnic injury, and the specific mutation type is associated with severe hypoventilation and extreme opioid sensitivity. Main logical issue: None; the stem provides sufficient, consistent information to uniquely support the key. Main medical accuracy issue: None; the key aligns with standard management for severe CCHS: non-invasive ventilation with a high backup rate (>20/min) and strict opioid avoidance. Minimal fix: None required for validity; for enhanced clarity, the stem could explicitly state 'severe CCHS' to reinforce the need for aggressive settings.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1905,
+        "completion_tokens": 223,
+        "total_tokens": 2128,
+        "cost": 0.00060801,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00051435,
+          "upstream_inference_completions_cost": 9.366e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459490-F8UH12gJ9fobef7TVZPm",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459490,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: A unique best answer exists, but the provided key (B) is not it. Key stem clues: term neonate, day 2 of life, refractory seizures, mother on isoniazid throughout pregnancy, standard anticonvulsants failed. This strongly points to pyridoxine-dependent epilepsy/seizures due to isoniazid-induced pyridoxine deficiency. The most appropriate immediate management is prompt IV pyridoxine administration. Option A (pyridoxine 50 mg IV once) is the standard initial diagnostic and therapeutic dose for suspected pyridoxine-dependent seizures in neonates, per guidelines (e.g., 50-100 mg IV, often as a single dose, with EEG monitoring). Option B incorrectly specifies a complex regimen (100 mg IV q6h) and prioritizes continuous EEG monitoring over immediate pyridoxine, which delays definitive treatment. While EEG monitoring is important, the immediate step is pyridoxine administration. Thus, A is defensible as best. Main logical issue: miskeying. Main medical accuracy issue: Option B's dosing and sequencing are non-standard. Minimal fix: Change key to A, or adjust option B to 'Administer pyridoxine 50-100 mg IV once while initiating continuous EEG monitoring.'\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\": \n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1881,
+        "completion_tokens": 315,
+        "total_tokens": 2196,
+        "cost": 0.00064017,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050787,
+          "upstream_inference_completions_cost": 0.0001323
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-003",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459497-3WQDhaTGyxXh01x8lPnv",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459497,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: Williams syndrome, supravalvular aortic stenosis, diffuse coronary artery narrowing, history of hypercalcemia. The vignette uniquely points to a contraindication related to coronary ischemia risk. The keyed answer (E, isoflurane) is not the single best answer; the most contraindicated agent is sevoflurane (A) due to its potent coronary vasodilatory properties and higher risk of coronary steal compared to isoflurane, a well-established anesthetic consideration for fixed coronary lesions. The item's logic is medically inaccurate in prioritizing isoflurane. No other options are equally defensible for coronary steal. Minimal fix: Change key to A (Sevoflurane) and update rationale to reflect its greater coronary vasodilation potential.\",\n  \"medical_accuracy_score\":  \"2\",\n  \"logical_validity\": false,\n  \"logical_false_reason\": \"K\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1876,
+        "completion_tokens": 219,
+        "total_tokens": 2095,
+        "cost": 0.00059412,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050652,
+          "upstream_inference_completions_cost": 8.76e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-004",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459505-DBT9cCNwaiuGSTKXJqBx",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459505,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: X-linked chronic granulomatous disease (CGD), osteomyelitis with Aspergillus nidulans despite broad-spectrum antibiotics, on prophylactic interferon-gamma. The unique virulence of A. nidulans in CGD and the need for aggressive antifungal therapy (voriconazole) while continuing interferon-gamma prophylaxis are well-established. The item is logically valid: a single best answer is defensible based on standard management for CGD with invasive aspergillosis. Medical accuracy is high, aligning with guidelines that recommend voriconazole as primary therapy and continuation of interferon-gamma. No contradictions or underspecification. Minimal fix: None required; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1884,
+        "completion_tokens": 192,
+        "total_tokens": 2076,
+        "cost": 0.00058932,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050868,
+          "upstream_inference_completions_cost": 8.064e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-005",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459511-gZ9s2bAKGfJyaEF7xE69",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459511,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: 2-month-old with delayed cord separation, severe leukocytosis, recurrent infections, absent CD18, confirmed ITGB2 mutation (diagnostic of leukocyte adhesion deficiency type 1). The vignette clearly indicates a severe, life-threatening immunodeficiency with poor prognosis without early transplant. Main logical issue: None; the stem supports a unique best answer. Main medical accuracy issue: None; the key aligns with standard management guidelines for LAD-1, which is urgent hematopoietic stem cell transplant in infancy before severe infections occur. Minimal fix: None required; the item is already unambiguous and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1876,
+        "completion_tokens": 176,
+        "total_tokens": 2052,
+        "cost": 0.00134624,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00105056,
+          "upstream_inference_completions_cost": 0.00029568
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-006",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459514-pB86eMt3AraMgYw7Gx1w",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459514,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: King-Denborough syndrome with RYR1 mutation → malignant hyperthermia (MH) susceptibility. The question asks for the most appropriate anesthetic plan. The keyed answer (C: regional anesthesia alone with spinal block, have dantrolene available) is defensible as a safe option, but it is not uniquely best. Option A (TIVA with propofol/remifentanil, avoid dantrolene prophylaxis) is equally or more appropriate for a 5-year-old undergoing inguinal hernia repair, as regional anesthesia alone (spinal block) is often insufficient as the sole anesthetic in young children and may require sedation. Both A and C avoid triggers and have dantrolene available (A implicitly by standard MH protocol). The stem does not specify if regional is feasible or if sedation/general anesthesia is needed, creating underspecification (U) leading to multiple defensible answers (M). Main medical accuracy issue: The rationale incorrectly states prophylactic dantrolene is not recommended due to side effects; current guidelines state it is not routinely recommended due to lack of evidence for benefit and potential side effects, but the key point is trigger avoidance. Minimal fix: Specify 'The surgeon requests general anesthesia' or remove option A to make C uniquely best.\", \"logical_false_reason\": \"K\", \"logical_validity\": false, \"medical_accuracy_score\":  \"4\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1890,
+        "completion_tokens": 314,
+        "total_tokens": 2204,
+        "cost": 0.00064218,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0005103,
+          "upstream_inference_completions_cost": 0.00013188
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-007",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459521-sqVv2bUy95zMyuksHmqU",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459521,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. Key stem clues: severe preeclampsia/HELLP (coagulopathy risk), peripartum cardiomyopathy with EF 25% (need to avoid myocardial depression and fluid shifts), and bromocriptine use (vasoconstrictive potential). The most appropriate anesthetic is general anesthesia with a cardiac-stable induction agent (e.g., etomidate) and careful hemodynamic control, as neuraxial techniques (spinal/epidural) are relatively contraindicated due to the high risk of coagulopathy from HELLP and the risk of sympathectomy-induced cardiovascular collapse in severe cardiomyopathy. Option A is defensible as best. Option C (keyed answer) is incorrect because epidural placement is contraindicated with HELLP due to thrombocytopenia risk. Main logical issue: The key does not match the single best answer supported by standard guidelines. Main medical accuracy issue: Recommending neuraxial anesthesia in this context is dangerous. Minimal fix: Change the key to A and add a stem note confirming normal platelet count if neuraxial were to be considered, but general anesthesia remains standard for this combined pathology.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"2\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1890,
+        "completion_tokens": 289,
+        "total_tokens": 2179,
+        "cost": 0.00154392,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0010584,
+          "upstream_inference_completions_cost": 0.00048552
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-008",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459528-qSP1tY0fASfs0iQik3BA",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459528,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "length",
+          "native_finish_reason": "length",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. The stem describes a 28-year-old Ashkenazi Jewish man with progressive ataxia, dysarthria, psychosis, visual hallucinations, low hexosaminidase A activity (5% of normal), and cerebellar atrophy on MRI. This is classic for late-onset Tay-Sachs disease (LOTS). The keyed answer (B) suggests enrolling in a clinical trial of miglustat. While miglustat is a substrate reduction therapy studied in some lysosomal storage disorders (e.g., Niemann-Pick type C, Gaucher), it is not a standard or established therapy for Tay-Sachs disease (GM2 gangliosidosis). The most appropriate management, based on current standard of care and board-exam expectations, is A: Initiate antipsychotic therapy with clozapine (often preferred for treatment-resistant psychosis) and refer for genetic counseling. This addresses the most pressing symptoms and provides essential genetic counseling. Option B is not the best standard answer. Option C (intrathecal enzyme replacement) is experimental. Option D (donepezil) is not a primary therapy. Option E (palliative care only) is premature. The main logical issue is miskeying; a unique best answer (A) exists but the provided key (B) is incorrect. The main medical accuracy issue is the incorrect implication that miglustat is a standard or trial therapy for LOTS. Minimal fix: Change the key to A.\", \"logical_false_reason\": \"K\", \"logical_validity\": false, \"medical_accuracy_score\":  \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1858,
+        "completion_tokens": 4096,
+        "total_tokens": 5954,
+        "cost": 0.00222198,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050166,
+          "upstream_inference_completions_cost": 0.00172032
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-009",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459596-XVRijz93RGIj9sn6XRXr",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459596,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: CYP2D6 ultrarapid metabolizer status requiring high-dose risperidone. The most critical monitoring is for hyperprolactinemia, a direct, common, and dose-dependent adverse effect of risperidone, not QTc prolongation, which is a rare, less dose-dependent risk for risperidone. Main logical issue: The provided key (D) is not the single best answer; the most defensible best answer is C (Monthly prolactin level). Main medical accuracy issue: Overemphasizes QTc risk for risperidone, which is more strongly associated with other antipsychotics (e.g., ziprasidone, thioridazine). Minimal fix: Change the key to C and adjust the rationale to highlight risperidone's high risk for prolactin elevation and metabolic effects at high doses.\",\n  \"medical_accuracy_score\":  \"2\",\n  \"logical_validity\": false,\n  \"logical_false_reason\": \"K\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1835,
+        "completion_tokens": 231,
+        "total_tokens": 2066,
+        "cost": 0.00058785,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049545,
+          "upstream_inference_completions_cost": 9.24e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-010",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459609-Ak2W1bAdJL2opAlQ2bcL",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459609,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: 19-year-old woman, progressive psychosis with Cotard's syndrome, CSF anti-NMDA receptor antibodies confirm autoimmune encephalitis. This diagnosis mandates urgent immunotherapy. Main logical issue: None; stem provides definitive diagnostic finding (antibodies) that directly points to first-line treatment. Main medical accuracy issue: None; the keyed answer (IVIG + corticosteroids) aligns with consensus first-line immunotherapy for anti-NMDA receptor encephalitis. Minimal fix: None required for logical validity or medical accuracy; item is sound. Alternative choices are correctly inferior: A (antipsychotics alone) delays definitive treatment; C (ECT) is not first-line for autoimmune cause; D (plasmapheresis alone) is less effective as monotherapy; E (rituximab) is second-line.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1828,
+        "completion_tokens": 210,
+        "total_tokens": 2038,
+        "cost": 0.00058176,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049356,
+          "upstream_inference_completions_cost": 8.82e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-011",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459614-MMSi7tf3WyRc2i7rIqOB",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459614,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. The clinical vignette describes a patient with features of Albright's hereditary osteodystrophy (AHO) — short stature, obesity, developmental delay, brachydactyly, subcutaneous calcifications — plus biochemical evidence of PTH resistance (hypocalcemia, hyperphosphatemia, elevated PTH). This constellation is classic for pseudohypoparathyroidism type 1A (PHP1A). The most appropriate initial diagnostic test, per standard medical education and clinical guidelines, is GNAS gene sequencing (option A) to identify an inactivating mutation on the maternal allele. While abnormal methylation (option B) is the underlying mechanism in many cases and can be used for diagnosis, the initial, most direct, and most commonly taught confirmatory test is genetic sequencing. The keyed answer (B) is not the single best answer; A is equally or more defensible based on typical board exam logic, leading to a miskey. The item is medically accurate in describing the condition but fails to uniquely support B as the best answer over A. Minimal fix: Change the key to A, or rephrase the stem to explicitly ask for the test that assesses imprinting status, making B uniquely correct.\", \"logical_false_reason\": \"K\", \"logical_validity\": false, \"medical_accuracy_score\":  \"4\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1848,
+        "completion_tokens": 299,
+        "total_tokens": 2147,
+        "cost": 0.00062454,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049896,
+          "upstream_inference_completions_cost": 0.00012558
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-012",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459620-shtFOnPzCT6jaPxLDYbh",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459620,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: high-risk T-cell ALL, tumor lysis syndrome (TLS) with hyperuricemia and acute kidney injury, G6PD deficiency. The presence of G6PD deficiency is the critical discriminator, as rasburicase is contraindicated due to risk of hemolytic anemia. The keyed answer (B) correctly recommends aggressive hydration and allopurinol while avoiding rasburicase. Alternatives are inferior: A (rasburicase) is contraindicated; C (hemodialysis) is premature without refractory electrolyte/volume issues; D (rasburicase with transfusion) still carries hemolysis risk; E (alkalinization) is not routinely recommended due to risk of calcium phosphate precipitation. No logical contradictions or underspecification; the item supports a unique best answer. Medical accuracy is consistent with current guidelines. Minimal fix: none needed; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1861,
+        "completion_tokens": 241,
+        "total_tokens": 2102,
+        "cost": 0.00060369,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050247,
+          "upstream_inference_completions_cost": 0.00010122
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-013",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459625-0Din7gFMQtWpiBm9aqDI",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459626,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K. Verdict on keyed answer: Miskeyed. Key stem clues: 6-year-old with social communication deficits (inappropriate responses, difficulty with non-literal language) but no restricted interests or repetitive behaviors, requiring a tool to differentiate Social Communication Disorder (SCD) from Autism Spectrum Disorder (ASD). Main logical issue: A unique best answer exists, but the provided key (C, CCC-2) is not it. The ADOS-2 (A) is the gold-standard observational assessment specifically designed to differentiate ASD from other conditions, including SCD, by evaluating social communication and restricted/repetitive behaviors separately. The CCC-2 is a parent-report measure focused on communication profiles, not a primary differential diagnostic tool. Main medical accuracy issue: The rationale incorrectly states the ADOS-2 cannot differentiate SCD from ASD; in clinical practice and DSM-5 differential diagnosis, the ADOS-2 is central to this distinction. Minimal fix: Change the correct answer key from C to A.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1830,
+        "completion_tokens": 250,
+        "total_tokens": 2080,
+        "cost": 0.0014448,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0010248,
+          "upstream_inference_completions_cost": 0.00042
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-014",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459630-thdEzQ2T0ibbxa6puoxP",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459631,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: Majeed syndrome (LPIN2 mutation) is a rare autoinflammatory disorder with chronic multifocal osteomyelitis. The question asks for the most effective NSAID for long-term management. Indomethacin is widely cited in literature as the NSAID of choice for chronic nonbacterial osteomyelitis (CNO) and its variant Majeed syndrome due to superior anti-inflammatory potency. The stem provides a specific genetic diagnosis, narrowing the focus. Alternatives are less effective or inappropriate: ibuprofen and naproxen are standard NSAIDs but not first-line for this condition; celecoxib has limited pediatric data; aspirin is contraindicated in children due to Reye syndrome risk. No internal contradiction or missing detail prevents a unique best answer. Medical accuracy is sound, aligning with expert consensus and review articles. Minimal fix: None required for logical validity; to enhance clarity, the stem could explicitly state 'based on current literature and expert recommendation' to preempt debate about regional variations.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"4\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1850,
+        "completion_tokens": 246,
+        "total_tokens": 2096,
+        "cost": 0.00060282,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0004995,
+          "upstream_inference_completions_cost": 0.00010332
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-015",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459637-g5azVKRsIIrjf4rdY5DL",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459637,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: 2-year-old with clonidine patch ingestion, 6 hours later presents with lethargy, bradycardia (HR 60), hypotension (BP 70/40). The most appropriate immediate management for symptomatic clonidine toxicity with hemodynamic compromise is supportive care with IV fluids and vasopressors if needed, and atropine for symptomatic bradycardia. Naloxone is sometimes used but is not first-line or most appropriate; it is not standard of care. Atropine (B) is a defensible best answer for symptomatic bradycardia in this context. The keyed answer (C) is not the most appropriate. Main logical issue: Key mismatch. Main medical accuracy issue: Naloxone is not first-line for clonidine toxicity; supportive care and atropine are standard. Minimal fix: Change key to B (atropine) and adjust rationale to emphasize atropine for symptomatic bradycardia as first-line, with naloxone as a possible adjunct.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"2\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1858,
+        "completion_tokens": 269,
+        "total_tokens": 2127,
+        "cost": 0.00061464,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050166,
+          "upstream_inference_completions_cost": 0.00011298
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-016",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459643-itxZl3w7PPYWxoV4GhTY",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459643,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: Freeman-Sheldon syndrome with microstomia, micrognathia, and short neck defines a known difficult airway scenario. The combination of severe facial contractures and limited neck mobility makes mask ventilation and direct laryngoscopy high-risk, necessitating an awake technique to preserve spontaneous respiration. Main logical issue: None; the vignette provides sufficient classic features to uniquely indicate a difficult airway requiring awake fiberoptic intubation. Main medical accuracy issue: None; the key aligns with standard difficult airway algorithms and syndrome-specific guidelines. Minimal fix: None required; the item is clear and accurate. The rationale correctly dismisses other options due to risks of airway loss, failed intubation, or inappropriate invasiveness.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1855,
+        "completion_tokens": 200,
+        "total_tokens": 2055,
+        "cost": 0.00058085,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050085,
+          "upstream_inference_completions_cost": 8e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-017",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459676-BYdOdhNnylRoUmdB19kY",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459676,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: hemodynamically unstable TdP with QTc 580 ms due to methadone. Main logical issue: The keyed answer (C, isoproterenol) is not the best choice for hemodynamically unstable TdP; current guidelines prioritize immediate defibrillation/cardioversion for unstable polymorphic VT (including TdP), and isoproterenol is contraindicated in unstable patients. Magnesium is first-line for stable TdP but not for unstable. Main medical accuracy issue: Isoproterenol is not appropriate for unstable TdP; it may be used in pause-dependent TdP with bradycardia but only if patient is stable. Minimal fix: Change correct answer to 'A. Amiodarone 150 mg IV bolus' (though amiodarone is also not first-line for unstable TdP; better to add 'synchronized cardioversion' as an option).\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\": \n  \"2\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1832,
+        "completion_tokens": 256,
+        "total_tokens": 2088,
+        "cost": 0.00060216,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049464,
+          "upstream_inference_completions_cost": 0.00010752
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-018",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459681-ycw8jy7SrulzUa6I76xv",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459681,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: forensic psychiatric evaluation for factitious disorder imposed on another (FDIA), need to detect malingering/factitious behavior. The M-FAST (option C) is a screening tool for malingering but is not specifically designed for factitious disorders; the Structured Interview of Reported Symptoms (SIRS-2) (option B) is the gold-standard instrument for assessing feigned psychiatric symptoms, including factitious presentations, in forensic contexts. Main logical issue: The keyed answer (C) is not the best choice; option B is more accurate and specific per standard forensic assessment guidelines. Main medical accuracy issue: The rationale incorrectly states SIRS assesses only malingered psychosis; SIRS-2 evaluates a broad range of feigned symptoms, including factitious behavior. Minimal fix: Change the key to B and update the rationale to reflect SIRS-2's validated use for factitious disorder assessment.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1835,
+        "completion_tokens": 247,
+        "total_tokens": 2082,
+        "cost": 0.00144256,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0010276,
+          "upstream_inference_completions_cost": 0.00041496
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-019",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459690-GYSDQ4O7WDTUKlHYEc4G",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459690,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: severe nocturnal sialorrhea from clozapine, recurrent aspiration pneumonia, need for most effective treatment. Main logical issue: The keyed answer (B) is not the standard of care. Sublingual use of ophthalmic atropine solution is a non-standard, off-label route with safety concerns (e.g., variable dosing, systemic absorption risk) and is not the most effective or recommended first-line therapy. Main medical accuracy issue: The rationale incorrectly prioritizes a non-standard intervention. Glycopyrrolate (D) is widely accepted as the most effective and best-tolerated pharmacologic treatment for clozapine-induced sialorrhea in guidelines, due to its quaternary structure minimizing CNS side effects. Minimal fix: Change the key to D (Glycopyrrolate 1 mg twice daily) and update the rationale to reflect guideline-recommended first-line therapy.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"2\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1843,
+        "completion_tokens": 246,
+        "total_tokens": 2089,
+        "cost": 0.00144536,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00103208,
+          "upstream_inference_completions_cost": 0.00041328
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed129-020",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459694-e5luYGQRu9gNop1KU6qi",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459695,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. The stem presents a culturally specific acute reaction (ataque de nervios) to a stressor (news of mother's death) with dissociative and emotional symptoms, leading to an emergency visit, implying clinical distress. DSM-5 classifies this under 'Other specified trauma- and stressor-related disorder' with specification of the cultural syndrome. Key stem clues: acute episode post-stressor, specific cultural label from family, symptoms not typical of normative grief due to clinical presentation. Alternatives are less appropriate: panic disorder lacks the cultural framework and typically involves recurrent attacks; dissociative identity disorder requires identity fragmentation; acute stress disorder requires persistent symptoms >3 days; 'no diagnosis' is incorrect because the presentation is acute and severe enough for emergency care, indicating impairment. The item is logically valid and medically accurate per DSM-5. Minimal fix: none needed; item is clear.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1843,
+        "completion_tokens": 231,
+        "total_tokens": 2074,
+        "cost": 0.00059463,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049761,
+          "upstream_inference_completions_cost": 9.702e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

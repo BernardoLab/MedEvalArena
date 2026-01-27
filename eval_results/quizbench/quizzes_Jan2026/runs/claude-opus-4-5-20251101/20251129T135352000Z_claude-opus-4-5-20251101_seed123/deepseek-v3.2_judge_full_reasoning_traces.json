@@ -1,0 +1,482 @@
+[
+  {
+    "quiz_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123",
+    "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389532-ysSynDqeH7Zvb0AcVXs8",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389532,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: recurrent syncope with high LVOT gradient, septal thickness, and septal perforator occlusion for alcohol ablation. The critical finding is contrast opacification of the papillary muscle region, indicating risk of alcohol-induced necrosis and mitral regurgitation. The logical flow is sound: the procedure goal is septal ablation, but non-target opacification necessitates an adjustment before considering abortion or alternative targets. The keyed answer (C) aligns with standard interventional protocol to reposition the balloon distally to isolate the septal bed. Alternatives are inferior: A/D risk harm, B is premature, E is not the first step. Medical accuracy is high, reflecting guideline-concordant management. Minimal fix: none required; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1968,
+        "completion_tokens": 207,
+        "total_tokens": 2175,
+        "cost": 0.0006183,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053136,
+          "upstream_inference_completions_cost": 8.694e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123",
+    "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389541-qEt7qaIEvCsofgbRfOp7",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389541,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: PSP phenotype (vertical supranuclear gaze palsy, axial rigidity, early falls, hummingbird sign) with MAPT mutation. This classic presentation points to PSP, a primary 4R tauopathy. The item is logically valid: the stem provides sufficient specific findings to diagnose PSP, and the neuropathology question has a single best answer (4R tau predominance). Medical accuracy is sound: PSP is indeed a 4R tauopathy, and MAPT mutations can cause PSP-like syndromes. The keyed answer (B) is correct. Alternatives are incorrect: A (3R) is Pick's, C (mixed) is Alzheimer's, D is non-specific, E is not characteristic. No logical flaws or missing details. Minimal fix: None required; item is already unambiguous and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1926,
+        "completion_tokens": 218,
+        "total_tokens": 2144,
+        "cost": 0.00061158,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052002,
+          "upstream_inference_completions_cost": 9.156e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123",
+    "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123-003",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389548-dPiAP7XIrdmX4GDE0IKb",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389548,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. Key stem clues: Recurrent neuroglycopenia 3-4 hours postprandially, rapid glucose drop from 180 to 45 mg/dL within 90 minutes after meals, normal gastric emptying, markedly elevated anti-insulin antibodies. The described pattern of a rapid drop within 90 minutes is inconsistent with the classic 'buffering and delayed release' mechanism (B), which typically causes hypoglycemia 3-5 hours postprandially. Instead, the rapid drop aligns better with antibody-mediated accelerated insulin clearance (A), where initial high antibody binding causes hyperglycemia, followed by rapid clearance of antibody-bound insulin complexes, leading to a swift decline in glucose. Main logical issue: The keyed answer (B) does not match the temporal pattern in the vignette. Main medical accuracy issue: The explanation for option B is medically accurate for classic IAS, but the vignette's timing contradicts it. Minimal fix: Change the CGM finding to 'shows glucose rising to 180 mg/dL postprandially, then falling to 45 mg/dL 4-5 hours later' to match the keyed mechanism.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1953,
+        "completion_tokens": 285,
+        "total_tokens": 2238,
+        "cost": 0.00064701,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052731,
+          "upstream_inference_completions_cost": 0.0001197
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123",
+    "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123-004",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389557-asNjndKE1mlpZMqEfe9S",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389557,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "length",
+          "native_finish_reason": "length",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n    \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: CRT-D patient with improved symptoms, 94% biventricular pacing, but electrograms show intrinsic conduction with LV activation 40 ms after RV (LBBB pattern) and paced activation with LV only 15 ms before RV. The programmed AV delays (120/150 ms) are relatively long, risking fusion with intrinsic conduction. The logic is that shortening the AV delay (option A) ensures full ventricular capture by the device, preventing fusion and improving resynchronization. Alternatives are worse: B increases fusion, C worsens LBBB, D is less targeted than shortening AV delay to prevent fusion, and E is non-specific. The item is medically accurate and logically valid, supporting a single best answer. Minimal fix: None required; the item is sound.\",\n    \"logical_false_reason\": \"T\",\n    \"logical_validity\": true,\n    \"medical_accuracy_score\":  \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    ",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2004,
+        "completion_tokens": 4096,
+        "total_tokens": 6100,
+        "cost": 0.0022614,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00054108,
+          "upstream_inference_completions_cost": 0.00172032
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123",
+    "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123-005",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389617-JmAhZ0UGQhfjsvy1eJ7e",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389617,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: acute LVO stroke (NIHSS 18, M1 occlusion), favorable perfusion (small core/large penumbra), within thrombectomy window, and critical contraindication to IV alteplase (INR 3.2 >1.7). The item correctly identifies that mechanical thrombectomy is indicated and not contraindicated by therapeutic anticoagulation, while IV alteplase is contraindicated. The logic is sound and aligns with current AHA/ASA guidelines. No medical inaccuracies or logical flaws. Minimal fix: None required; the item is clear and accurate as written.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1980,
+        "completion_tokens": 175,
+        "total_tokens": 2155,
+        "cost": 0.0006081,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0005346,
+          "upstream_inference_completions_cost": 7.35e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123",
+    "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123-006",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389626-93tBYQm97jJ0OuFwhZdz",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389626,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: severe persistent asthma with poor control despite high-dose inhaled therapy and omalizumab, elevated eosinophils (450 cells/μL), high FeNO (55 ppb), and frequent exacerbations. The question asks for the biologic switch most likely to provide additional benefit after omalizumab failure in a patient with clear type 2 inflammation biomarkers. Tezepelumab (D) is a defensible key as it targets TSLP upstream of multiple pathways and has evidence for efficacy post-omalizumab and across biomarker profiles. Alternatives are less optimal: anti-IL-5/IL-5R agents (B, C) and dupilumab (A) target more downstream Th2 pathways already partially addressed, while adding oral steroids (E) is a non-biologic step with significant side effects. No logical contradictions or underspecification. Medical accuracy is sound, aligning with current severe asthma biologic selection guidelines. Minimal fix: none required for a valid item; could optionally clarify 'most likely' based on recent head-to-head trial data.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2003,
+        "completion_tokens": 268,
+        "total_tokens": 2271,
+        "cost": 0.00065337,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00054081,
+          "upstream_inference_completions_cost": 0.00011256
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123",
+    "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123-007",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389636-bsDjBCfUga1II6K5bawQ",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389636,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "length",
+          "native_finish_reason": "length",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n    \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: Coma, miosis, respiratory depression, hypotension, and ECG showing QRS >100 ms with terminal R wave in aVR >3 mm are classic for tricyclic antidepressant (TCA) toxicity. After airway and naloxone, sodium bicarbonate is the standard next step for sodium channel blockade. Main logical issue: None; the vignette provides sufficient, consistent findings to uniquely point to TCA toxicity and the indicated management. Main medical accuracy issue: None; the explanation aligns with current toxicology guidelines. Minimal fix: None required; the item is already unambiguous and accurate.\",\n    \"logical_false_reason\": \"T\",\n    \"logical_validity\": true,\n    \"medical_accuracy_score\":  \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1982,
+        "completion_tokens": 4096,
+        "total_tokens": 6078,
+        "cost": 0.00225546,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053514,
+          "upstream_inference_completions_cost": 0.00172032
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123",
+    "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123-008",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389706-3drpcXXCgQRwohKQq2Yh",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389706,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. Key stem clues: Refractory painful diabetic neuropathy after duloxetine and gabapentin. The question asks for the intervention with the strongest evidence for further symptomatic improvement. The provided key (C: Spinal cord stimulation) is not the best-supported answer. While SCS has evidence, the strongest and most established evidence for refractory painful diabetic neuropathy is for high-concentration (8%) capsaicin patch (option B), which is FDA-approved for this specific condition and supported by robust RCTs. SCS is invasive and typically considered after other pharmacologic and topical options. The item is medically accurate but miskeyed. Minimal fix: Change the correct answer key to B.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \t\n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1986,
+        "completion_tokens": 193,
+        "total_tokens": 2179,
+        "cost": 0.00061728,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053622,
+          "upstream_inference_completions_cost": 8.106e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123",
+    "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123-009",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389718-4P5HCUaroqmg6SSBgBdq",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389718,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: COPD exacerbation with hypercapnic respiratory failure (pH 7.31, PaCO2 58), initial BiPAP (IPAP 12/EPAP 5) fails to improve ventilation after 2 hours (pH 7.29, PaCO2 62), patient remains alert, cooperative, and tolerating mask. Main logical issue: None; the stem provides a clear scenario of inadequate initial BiPAP settings without clinical deterioration, making a trial of increased support the logical next step. Main medical accuracy issue: None; the logic aligns with standard management for NIV failure in COPD exacerbation. Minimal fix: None required for logical validity; to enhance clarity, the stem could explicitly state the patient has no signs of fatigue or altered mental status.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2051,
+        "completion_tokens": 216,
+        "total_tokens": 2267,
+        "cost": 0.00064449,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00055377,
+          "upstream_inference_completions_cost": 9.072e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123",
+    "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123-010",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389727-sL7l1ypKGMm9GuTJh3ZA",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389727,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "length",
+          "native_finish_reason": "length",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n    \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: WPW pattern on baseline ECG, documented antidromic AVRT (wide complex tachycardia with AV dissociation, RBBB morphology), and need to decide between ablation vs. medical management. The question asks for the electrophysiologic finding that most strongly supports proceeding with catheter ablation. The keyed answer (D) is correct: the shortest pre-excited RR interval (SPERRI) during induced atrial fibrillation ≤250 ms is the standard high-risk marker for sudden cardiac death in WPW, favoring ablation. The logic is sound: SPERRI directly assesses the pathway's ability to conduct rapid atrial rates to the ventricle. Medical accuracy is high, aligning with ACC/AHA/ESC guidelines. Alternatives are correctly inferior: ERP (A) is less predictive; inducible orthodromic AVRT (B) and location (C) do not define high-risk; decremental properties (E) suggest lower risk. No logical contradictions or missing details. Minimal fix: None required; item is valid and accurate.\",\n    \"logical_false_reason\": \"T\",\n    \"logical_validity\": true,\n    \"medical_accuracy_score\":  \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    ",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2016,
+        "completion_tokens": 4096,
+        "total_tokens": 6112,
+        "cost": 0.00226464,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00054432,
+          "upstream_inference_completions_cost": 0.00172032
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

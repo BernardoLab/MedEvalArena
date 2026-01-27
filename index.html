@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="MedEvalArena">
+  <meta name="keywords" content="LLMs, Evaluation, Medicine">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MedEvalArena</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+  <style>
+    body {
+      font-family: "Noto Sans", "Google Sans", sans-serif;
+    }
+    .publication-title {
+      font-family: "Google Sans", "Noto Sans", sans-serif;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+    }
+    .publication-subtitle {
+      margin-top: 0.6rem;
+      color: #4a4a4a;
+    }
+    .publication-authors {
+      margin-top: 0.35rem;
+      margin-bottom: 0.35rem;
+    }
+    .author-block {
+      display: inline-block;
+      margin: 0 0.2rem;
+    }
+    .author-block a {
+      color: inherit;
+    }
+
+    /* Results table tweaks (in spirit of OlympicArena). */
+    #results-table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 0.75rem;
+      border: 1px solid #ddd;
+      font-size: 14px;
+    }
+    #results-table th, #results-table td {
+      padding: 10px 12px;
+      vertical-align: middle;
+    }
+    #results-table thead th {
+      background-color: #f2f2f2;
+      border-bottom: 2px solid #ddd;
+      white-space: nowrap;
+      cursor: pointer;
+      user-select: none;
+    }
+    #results-table tbody tr:hover {
+      background-color: rgba(117, 209, 215, 0.08);
+    }
+    .rank-badge {
+      display: inline-flex;
+      min-width: 2.1rem;
+      height: 2.1rem;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0.6rem;
+      border: 1px solid #ddd;
+      background: #fff;
+      font-weight: 600;
+      color: #363636;
+    }
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+    .centered-footer {
+      text-align: center;
+    }
+    .sticky-controls {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      background: white;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+
+    /* Leaderboard bar plot */
+    :root {
+      --leaderboard-track: #e9eef4;
+      --leaderboard-bg: #f7f9fc;
+      --leaderboard-text: #2f2f2f;
+    }
+    .leaderboard-card {
+      background: var(--leaderboard-bg);
+      border: 1px solid #e2e7ef;
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 10px 28px rgba(16, 24, 40, 0.06);
+    }
+    .leaderboard-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      align-items: stretch;
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+    .leaderboard-legend {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.85rem;
+      color: #5f6b7a;
+      margin-bottom: 0.75rem;
+    }
+    .leaderboard-dot {
+      width: 0.55rem;
+      height: 0.55rem;
+      border-radius: 999px;
+      background: #3a86ff;
+      display: inline-block;
+    }
+    .leaderboard-plot {
+      --leader-bar-height: 170px;
+      --leader-label-space: 2.4rem;
+      --leader-axis-space: 2.6rem;
+      --leader-gridline-color: rgba(47, 47, 47, 0.18);
+      --leader-gridlines: none;
+      --leader-gridline-positions: 0 0;
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(var(--leader-count, 1), minmax(22px, 1fr));
+      align-items: end;
+      gap: 0.5rem;
+      min-height: calc(var(--leader-bar-height) + var(--leader-label-space) + 1.2rem);
+      padding: 0.25rem 0.25rem var(--leader-label-space) var(--leader-axis-space);
+    }
+    .leaderboard-plot::before {
+      content: "";
+      position: absolute;
+      left: var(--leader-axis-space);
+      right: 0;
+      bottom: var(--leader-label-space);
+      height: var(--leader-bar-height);
+      background-image: var(--leader-gridlines);
+      background-size: 100% 1px;
+      background-position: var(--leader-gridline-positions);
+      background-repeat: no-repeat;
+      pointer-events: none;
+    }
+    .leaderboard-plot--accuracy {
+      --leader-gridlines:
+        linear-gradient(to right, var(--leader-gridline-color), var(--leader-gridline-color)),
+        linear-gradient(to right, var(--leader-gridline-color), var(--leader-gridline-color)),
+        linear-gradient(to right, var(--leader-gridline-color), var(--leader-gridline-color)),
+        linear-gradient(to right, var(--leader-gridline-color), var(--leader-gridline-color)),
+        linear-gradient(to right, var(--leader-gridline-color), var(--leader-gridline-color));
+      --leader-gridline-positions: 0 100%, 0 75%, 0 50%, 0 25%, 0 0;
+    }
+    .leaderboard-plot--accuracy .leader-bar-label {
+      align-items: flex-end;
+      padding-bottom: 0.35rem;
+    }
+    .leader-bar-label.leader-bar-label--bottom {
+      align-items: flex-end;
+      padding-bottom: 0.35rem;
+    }
+    .leader-bar-label.leader-bar-label--above {
+      inset: auto;
+      left: 50%;
+      bottom: calc(var(--leader-fill-height, 0%) + 0.25rem);
+      transform: translateX(-50%);
+      width: auto;
+      height: auto;
+      color: #4a4a4a;
+      text-shadow: none;
+      align-items: center;
+      justify-content: center;
+    }
+    .leaderboard-plot--cost {
+      --leader-gridlines:
+        linear-gradient(to right, var(--leader-gridline-color), var(--leader-gridline-color)),
+        linear-gradient(to right, var(--leader-gridline-color), var(--leader-gridline-color)),
+        linear-gradient(to right, var(--leader-gridline-color), var(--leader-gridline-color)),
+        linear-gradient(to right, var(--leader-gridline-color), var(--leader-gridline-color)),
+        linear-gradient(to right, var(--leader-gridline-color), var(--leader-gridline-color));
+      --leader-gridline-positions: 0 100%, 0 75%, 0 50%, 0 25%, 0 0;
+    }
+    .leader-y-axis {
+      position: absolute;
+      left: 0;
+      bottom: var(--leader-label-space);
+      height: var(--leader-bar-height);
+      width: var(--leader-axis-space);
+      pointer-events: none;
+      z-index: 2;
+    }
+    .leader-y-tick {
+      position: absolute;
+      right: 0;
+      padding-right: 0.35rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #5f6b7a;
+      line-height: 1;
+      white-space: nowrap;
+      background: var(--leaderboard-bg);
+    }
+    .leader-col {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      z-index: 1;
+    }
+    .leader-label-anchor {
+      position: absolute;
+      left: 50%;
+      bottom: -0.5rem;
+      width: 0;
+      height: 0;
+    }
+    .leader-label-shift {
+      display: inline-block;
+      transform: translateX(-100%);
+    }
+    .leader-label {
+      display: inline-block;
+      font-weight: 600;
+      color: var(--leaderboard-text);
+      font-size: 0.78rem;
+      white-space: nowrap;
+      line-height: 1.1;
+      transform: rotate(-65deg);
+      transform-origin: top right;
+    }
+    .leader-bar-vertical {
+      position: relative;
+      height: var(--leader-bar-height);
+      width: 55%;
+      border-radius: 12px 12px 0 0;
+      background-color: transparent;
+      overflow: hidden;
+      display: flex;
+      align-items: flex-end;
+    }
+    .leader-bar-fill {
+      position: relative;
+      width: 100%;
+      border-radius: 12px 12px 0 0;
+      transition: height 0.6s ease;
+      z-index: 1;
+    }
+    .leader-bar-label {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #fff;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.28);
+      pointer-events: none;
+      z-index: 2;
+    }
+    .leaderboard-scatter-svg {
+      width: 100%;
+      height: 280px;
+      display: block;
+      overflow: visible;
+    }
+    .leaderboard-scatter-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      align-items: stretch;
+    }
+    .leaderboard-scatter-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem 1rem;
+      align-items: center;
+      justify-content: center;
+      color: #5f6b7a;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .leaderboard-scatter-legend-label {
+      font-weight: 700;
+      color: #1f2937;
+      margin-right: 0.3rem;
+    }
+    .leaderboard-scatter-legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .leaderboard-scatter-legend-icon {
+      width: 18px;
+      height: 18px;
+      display: block;
+    }
+    .leaderboard-scatter-legend-line {
+      width: 22px;
+      height: 10px;
+      display: block;
+    }
+    .leaderboard-scatter-gridline {
+      stroke: rgba(47, 47, 47, 0.18);
+      stroke-width: 1;
+      shape-rendering: crispEdges;
+    }
+    .leaderboard-scatter-axis {
+      stroke: rgba(47, 47, 47, 0.3);
+      stroke-width: 1.2;
+      shape-rendering: crispEdges;
+    }
+    .leaderboard-scatter-tick {
+      fill: #5f6b7a;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .leaderboard-scatter-axis-label {
+      fill: #5f6b7a;
+      font-size: 15px;
+      font-weight: 700;
+    }
+    .leaderboard-scatter-pareto {
+      stroke: #9ca3af;
+      stroke-width: 1.5;
+      stroke-dasharray: 6 4;
+      fill: none;
+      stroke-linejoin: round;
+      stroke-linecap: round;
+    }
+    .leaderboard-scatter-point {
+      stroke: #fff;
+      stroke-width: 2;
+    }
+    .leaderboard-scatter-point--pareto {
+      stroke: #fff;
+      stroke-width: 2;
+    }
+    @media (max-width: 768px) {
+      .leaderboard-grid {
+        grid-template-columns: 1fr;
+      }
+      .leaderboard-plot {
+        --leader-bar-height: 150px;
+        --leader-label-space: 2.1rem;
+        --leader-axis-space: 2.3rem;
+        grid-template-columns: repeat(var(--leader-count, 1), minmax(20px, 1fr));
+        gap: 0.4rem;
+      }
+      .leader-label {
+        font-size: 0.72rem;
+        transform: rotate(-30deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarMain" class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://github.com/bernardolab"><span class="icon"><i class="fas fa-home"></i></span></a>
+      <a class="navbar-item" href="https://github.com/bernardolab/MedEvalArena" target="_blank" rel="noopener"><span class="icon"><i class="fab fa-github"></i></span></a>
+      <a class="navbar-item" href="#leaderboard">Leaderboard</a>
+      <a class="navbar-item" href="#tables">Tables</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">🏥 MedEvalArena</h1>
+          
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Preethi Prem<sup>1</sup>,</span> <span class="author-block">Kie Shidara<sup>2</sup>,</span> <span class="author-block">Vikasini Kuppa<sup>3</sup>,</span> <span class="author-block">Feng Liu<sup>4</sup>,</span> <span class="author-block">Ahmed Alaa<sup>5</sup>,</span> <span class="author-block"><a href="mailto:dbernardoj@gmail.com">Danilo Bernardo</a><sup>2*</sup></span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Carle Illinois College of Medicine, University of Illinois Urbana-Champaign, Urbana, IL,</span> <span class="author-block"><sup>2</sup>Weill Institute of Neurology and Neurosciences, University of California, San Francisco, San Francisco, CA,</span> <span class="author-block"><sup>3</sup>University of California, Riverside, Riverside, CA,</span> <span class="author-block"><sup>4</sup>Department of Systems Engineering, Stevens Institute of Technology, Hoboken, NJ,</span> <span class="author-block"><sup>5</sup>Department of EECS, University of California Berkeley, Berkeley, CA</span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>*</sup>Corresponding author</span>
+          </div>
+          
+
+          <div class="column has-text-centered" style="margin-top: 1rem;">
+            <div class="publication-links">
+              
+            <span class="link-block">
+              <a href="https://github.com/bernardolab/MedEvalArena" class="external-link button is-normal is-rounded is-dark" target="_blank" rel="noopener">
+                <span class="icon"><i class="fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+            </span>
+            <span class="link-block">
+              <a href="#leaderboard" class="external-link button is-normal is-rounded is-dark" >
+                <span class="icon"><i class="fas fa-chart-bar"></i></span>
+                <span>Leaderboard</span>
+              </a>
+            </span>
+            <span class="link-block">
+              <a href="#tables" class="external-link button is-normal is-rounded is-dark" >
+                <span class="icon"><span style="font-size:18px">🏆</span></span>
+                <span>Tables</span>
+              </a>
+            </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <figure class="image" style="margin: 0 auto 0.2rem; max-width: 85%;">
+          <img
+            src="website_images/intro_graphic.png"
+            alt="MedEvalArena introduction graphic"
+            style="display: block; width: 100%; height: auto;"
+          />
+        </figure>
+        <h2 class="title is-3">Introduction</h2>
+        <div class="content has-text-justified">
+          <p>
+            Large Language Models have shown strong performance in medical
+            question answering, but their capabilities in complex clinical
+            reasoning remain difficult to characterize systematically.
+            We present <strong>MedEvalArena</strong>, a dynamic evaluation
+            framework designed to compare medical reasoning robustness
+            across models using a symmetric, adversarial round-robin protocol.
+          </p>
+
+          <p>
+            In MedEvalArena, each model generates adversarial medical quizzes
+            intended to challenge the reasoning abilities of other models.
+            All models are then evaluated on the full shared quiz set,
+            enabling controlled and scalable comparisons beyond static
+            benchmarks.
+          </p>
+
+          <p>
+            Responses are assessed using an LLM-as-judge paradigm along two
+            orthogonal axes, logical correctness and medical accuracy. By 
+            co-evolving the evaluation data with frontier LLMs, MedEvalArena 
+            provides a principled framework for evaluating medical reasoning 
+            in both LLMs and humans.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-fluid">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 id="leaderboard" class="title is-3"><i class="fas fa-chart-bar"></i>&nbsp;Leaderboard</h2>
+        <div class="leaderboard-grid">
+          <div class="leaderboard-card">
+            <div class="leaderboard-legend">
+              <span class="leaderboard-dot"></span>
+              <span>Accuracy</span>
+            </div>
+            <div id="leaderboard-accuracy"></div>
+          </div>
+          <div class="leaderboard-card">
+            <div class="leaderboard-legend">
+              <span class="leaderboard-dot"></span>
+              <span>Cost per evaluation</span>
+            </div>
+            <div id="leaderboard-cost"></div>
+          </div>
+          <div class="leaderboard-card">
+            <div class="leaderboard-legend">
+              <span class="leaderboard-dot"></span>
+              <span>Accuracy vs Cost per evaluation</span>
+            </div>
+            <div id="leaderboard-accuracy-vs-cost"></div>
+          </div>
+        </div>
+        <div class="content has-text-justified">
+          <p class="help">
+            Up to Top-10 models by accuracy shown. Each evaluation contains 300 questions (50 questions generated per LLM).
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 id="tables" class="title is-3">🏟️ Results</h2>
+        <div class="content has-text-justified">
+          <p class="help">
+            Default sort is by <b>Mean Accuracy</b> (descending). Top-3 entries are marked with 🥇🥈🥉.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <div class="sticky-controls">
+          <div class="field is-grouped is-grouped-multiline" style="margin-bottom: 0.5rem;">
+            <div class="control is-expanded">
+              <input id="modelFilter" class="input" type="search" placeholder="Filter by model name…" aria-label="Filter by model name" />
+            </div>
+            <div class="control">
+              <div class="tags has-addons">
+                <span class="tag is-light">Models</span>
+                <span id="modelCount" class="tag is-info">0</span>
+              </div>
+            </div>
+            <div class="control">
+              <div class="tags has-addons">
+                <span class="tag is-light">Generated</span>
+                <span class="tag is-light mono">2026-01-25T19:49:05Z</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="overflow-x: auto;">
+          <table id="results-table" class="table is-striped is-hoverable is-fullwidth">
+            <thead>
+              <tr>
+                <th data-key="rank">#</th>
+                <th data-key="model">Model</th>
+                <th class="has-text-right" data-key="mean_accuracy">Mean Accuracy</th>
+                <th class="has-text-right" data-key="sem">SEM</th>
+              </tr>
+            </thead>
+            <tbody id="tables-body"></tbody>
+          </table>
+        </div>
+
+        <p class="help">Tip: click a column header to sort.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">📬 Contact</h2>
+        <div class="content has-text-justified">
+          <p>For questions, please open a GitHub issue on the repository.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="footer centered-footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>Template inspired by https://github.com/kmranrg/academic-project-page-template.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script id="tables-data" type="application/json">{"meta":{"title":"MedEvalArena","description":"MedEvalArena","keywords":"LLMs, Evaluation, Medicine","emoji":"\ud83c\udfe5","subtitle":"","authors":[{"name":"Preethi Prem","affiliations":[1]},{"name":"Kie Shidara","affiliations":[2]},{"name":"Vikasini Kuppa","affiliations":[3]},{"name":"Feng Liu","affiliations":[4]},{"name":"Ahmed Alaa","affiliations":[5]},{"name":"Danilo Bernardo","url":"mailto:dbernardoj@gmail.com","affiliations":[2],"corresponding":true}],"affiliations":[{"id":1,"text":"Carle Illinois College of Medicine, University of Illinois Urbana-Champaign, Urbana, IL"},{"id":2,"text":"Weill Institute of Neurology and Neurosciences, University of California, San Francisco, San Francisco, CA"},{"id":3,"text":"University of California, Riverside, Riverside, CA"},{"id":4,"text":"Department of Systems Engineering, Stevens Institute of Technology, Hoboken, NJ"},{"id":5,"text":"Department of EECS, University of California Berkeley, Berkeley, CA"}],"home_url":"https://github.com/bernardolab","paper_url":"","code_url":"https://github.com/bernardolab/MedEvalArena","data_url":"","submit_url":"","twitter_url":"","contact_email":"","issues_url":"","bibtex":"","generated_at":"2026-01-25T19:49:05Z","source_csv":"tmp/agg_majority_by_model_ABMS20260101.csv"},"rows":[{"model":"claude-opus-4-5-20251101","num_quizzes":30,"mean_accuracy":0.9166666666666666,"sem":0.01734261466806272,"generator_count":6,"generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking","raw_generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking"},{"model":"gpt-5.1-2025-11-13","num_quizzes":30,"mean_accuracy":0.8866666666666667,"sem":0.012441433680675682,"generator_count":6,"generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking","raw_generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking"},{"model":"deepseek-v3.2","num_quizzes":30,"mean_accuracy":0.8833333333333333,"sem":0.01922841129075108,"generator_count":6,"generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking","raw_generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking"},{"model":"grok-4-0709","num_quizzes":30,"mean_accuracy":0.8800000000000001,"sem":0.01819435304589368,"generator_count":6,"generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking","raw_generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking"},{"model":"gemini-3-pro-preview","num_quizzes":30,"mean_accuracy":0.87,"sem":0.01866215052101353,"generator_count":6,"generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking","raw_generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking"},{"model":"grok-4-1-fast-reasoning","num_quizzes":30,"mean_accuracy":0.8633333333333333,"sem":0.0216997978343956,"generator_count":6,"generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking","raw_generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking"},{"model":"kimi-k2-thinking","num_quizzes":30,"mean_accuracy":0.8566666666666667,"sem":0.016388483013352006,"generator_count":6,"generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking","raw_generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking"},{"model":"gpt-5-nano-2025-08-07","num_quizzes":30,"mean_accuracy":0.81,"sem":0.023168547843906883,"generator_count":6,"generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking","raw_generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking"},{"model":"claude-haiku-4-5-20251001","num_quizzes":30,"mean_accuracy":0.8033333333333333,"sem":0.02273451643532127,"generator_count":6,"generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking","raw_generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking"},{"model":"gemini-2.5-flash-lite","num_quizzes":30,"mean_accuracy":0.76,"sem":0.02228344058124623,"generator_count":6,"generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking","raw_generator_models":"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking"}],"cost_by_model":{"grok-4-0709":9.27,"gemini-3-pro-preview":6.43,"claude-opus-4-5-20251101":2.15,"gpt-5.1-2025-11-13":1.86,"kimi-k2-thinking":1.15,"deepseek-v3.2":0.42,"claude-haiku-4-5-20251001":0.41,"gpt-5-nano-2025-08-07":0.23,"gemini-2.5-flash-lite":0.19,"grok-4-1-fast-reasoning":0.1855}}</script>
+
+<script>
+  // Bulma navbar burger toggle
+  document.addEventListener('DOMContentLoaded', () => {
+    const burgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    burgers.forEach((el) => {
+      el.addEventListener('click', () => {
+        const target = el.dataset.target;
+        const menu = document.getElementById(target);
+        el.classList.toggle('is-active');
+        menu.classList.toggle('is-active');
+      });
+    });
+  });
+
+  (function() {
+    const dataEl = document.getElementById('tables-data');
+    const payload = JSON.parse(dataEl.textContent);
+    const rowsRaw = Array.isArray(payload.rows) ? payload.rows : [];
+    const costByModel = payload.cost_by_model || {};
+
+    const filterEl = document.getElementById('modelFilter');
+    const bodyEl = document.getElementById('tables-body');
+    const countEl = document.getElementById('modelCount');
+    const tableEl = document.getElementById('results-table');
+    const accuracyRootEl = document.getElementById('leaderboard-accuracy');
+    const costRootEl = document.getElementById('leaderboard-cost');
+    const scatterRootEl = document.getElementById('leaderboard-accuracy-vs-cost');
+
+    function isNum(x) {
+      return typeof x === 'number' && isFinite(x);
+    }
+
+    function fmtPct(x) {
+      if (!isNum(x)) return '—';
+      return (x * 100).toFixed(2) + '%';
+    }
+
+    function fmtPctInt(x) {
+      if (!isNum(x)) return '—';
+      return String(Math.round(x * 100)) + '%';
+    }
+
+    function fmtPctIntNoSign(x) {
+      if (!isNum(x)) return '—';
+      return String(Math.round(x * 100));
+    }
+
+    function fmtInt(x) {
+      if (!isNum(x)) return '—';
+      return String(Math.trunc(x));
+    }
+
+    function fmtUsd(x) {
+      if (!isNum(x)) return '—';
+      return '$' + x.toFixed(2);
+    }
+
+    function fmtUsdInt(x) {
+      if (!isNum(x)) return '—';
+      return '$' + String(Math.round(x));
+    }
+
+    function fmtCentsNoDollar(x) {
+      if (!isNum(x)) return '—';
+      return x.toFixed(2);
+    }
+
+    function mountReact(element, component) {
+      if (!element || !window.React || !window.ReactDOM) return;
+      if (typeof ReactDOM.createRoot === 'function') {
+        ReactDOM.createRoot(element).render(component);
+      } else {
+        ReactDOM.render(component, element);
+      }
+    }
+
+    function sortByAccuracy(rows) {
+      const sorted = rows.slice();
+      sorted.sort((a, b) => {
+        const na = isNum(a.mean_accuracy) ? a.mean_accuracy : -Infinity;
+        const nb = isNum(b.mean_accuracy) ? b.mean_accuracy : -Infinity;
+        if (na === nb) {
+          return String(a.model || '').localeCompare(String(b.model || ''));
+        }
+        return nb - na;
+      });
+      return sorted;
+    }
+
+    function colorStops(idx, total) {
+      const t = total > 1 ? (idx / (total - 1)) : 0;
+      const hue = 210 - (t * 80);
+      return 'hsl(' + hue + ', 70%, 52%)';
+    }
+
+    function renderLeaderboardChart(rootEl, rows, valueFn, valueFmt, emptyMsg, colorFn, options) {
+      if (!rootEl) return;
+      if (!window.React || !window.ReactDOM) {
+        rootEl.textContent = 'Leaderboard chart requires React.';
+        return;
+      }
+
+      const opts = options || {};
+      const trackClass = (typeof opts.trackClass === 'string') ? opts.trackClass : '';
+      const plotClass = (typeof opts.plotClass === 'string') ? opts.plotClass : '';
+      const labelFmt = (typeof opts.labelFmt === 'function') ? opts.labelFmt : valueFmt;
+      const yTicks = Array.isArray(opts.yTicks) ? opts.yTicks : [];
+      const minValue = isNum(opts.minValue) ? opts.minValue : 0;
+      const maxValueOverride = isNum(opts.maxValue) ? opts.maxValue : null;
+      const wantsAutoLabelSpace = opts.autoLabelSpace !== false;
+      const labelBottomMinValue = isNum(opts.labelBottomMinValue) ? opts.labelBottomMinValue : null;
+
+      if (!rows.length) {
+        rootEl.textContent = emptyMsg;
+        return;
+      }
+
+      const numericValues = rows.map(valueFn).filter(isNum);
+      if (!numericValues.length) {
+        rootEl.textContent = emptyMsg;
+        return;
+      }
+
+      const maxValue = (maxValueOverride !== null) ? maxValueOverride : Math.max.apply(null, numericValues);
+      const span = maxValue - minValue;
+      const scale = span > 0 ? span : 1;
+      const e = React.createElement;
+
+      let labelSpacePx = null;
+      if (wantsAutoLabelSpace && rootEl && rootEl.ownerDocument) {
+        try {
+          const doc = rootEl.ownerDocument;
+          const isMobile = !!(window.matchMedia && window.matchMedia('(max-width: 768px)').matches);
+          const labelAngleDeg = isNum(opts.labelAngleDeg) ? opts.labelAngleDeg : (isMobile ? -30 : -65);
+          const labelSpaceMin = isNum(opts.labelSpaceMinPx) ? opts.labelSpaceMinPx : 0;
+          const labelSpaceExtra = isNum(opts.labelSpaceExtraPx) ? opts.labelSpaceExtraPx : 26;
+
+          const probe = doc.createElement('span');
+          probe.className = 'leader-label mono';
+          probe.style.position = 'absolute';
+          probe.style.visibility = 'hidden';
+          probe.style.pointerEvents = 'none';
+          probe.style.whiteSpace = 'nowrap';
+          probe.style.transform = 'none';
+          probe.style.top = '-10000px';
+          probe.style.left = '-10000px';
+          doc.body.appendChild(probe);
+
+          let maxW = 0;
+          let maxH = 0;
+          rows.forEach(r => {
+            probe.textContent = String(r.model || '');
+            const rect = probe.getBoundingClientRect();
+            if (isNum(rect.width)) maxW = Math.max(maxW, rect.width);
+            if (isNum(rect.height)) maxH = Math.max(maxH, rect.height);
+          });
+          probe.remove();
+
+          const theta = Math.abs(labelAngleDeg) * Math.PI / 180;
+          const drop = (maxW * Math.sin(theta)) + (maxH * Math.cos(theta));
+          labelSpacePx = Math.max(labelSpaceMin, Math.ceil(drop + labelSpaceExtra));
+        } catch (err) {
+          labelSpacePx = null;
+        }
+      }
+
+      let yAxisEl = null;
+      if (yTicks.length) {
+        const tickNodes = yTicks
+          .map((t, tickIdx) => {
+            if (!t || typeof t !== 'object') return null;
+            const v = t.value;
+            const label = t.label;
+            if (!isNum(v)) return null;
+            const text = (label === undefined || label === null) ? '' : String(label);
+            if (!text) return null;
+
+            const rawPos = ((v - minValue) / scale) * 100;
+            const pos = Math.max(0, Math.min(100, rawPos));
+
+            const style = {};
+            if (pos >= 99.5) {
+              style.top = '0%';
+            } else if (pos <= 0.5) {
+              style.bottom = '0%';
+            } else {
+              style.bottom = pos.toFixed(2) + '%';
+              style.transform = 'translateY(50%)';
+            }
+
+            return e(
+              'div',
+              { className: 'leader-y-tick mono', key: 'tick-' + tickIdx, style },
+              text,
+            );
+          })
+          .filter(Boolean);
+        if (tickNodes.length) {
+          yAxisEl = e('div', { className: 'leader-y-axis' }, tickNodes);
+        }
+      }
+
+      const nodes = rows.map((r, idx) => {
+        const value = valueFn(r);
+        const hasValue = isNum(value);
+        const rawHeight = hasValue ? ((value - minValue) / scale) * 100 : 0;
+        const height = Math.max(0, Math.min(100, rawHeight));
+        const barVarStyle = {
+          '--leader-fill-height': height.toFixed(2) + '%',
+        };
+        const style = {
+          height: height.toFixed(2) + '%',
+          backgroundColor: colorFn(r, idx) || '#9aa7b5',
+        };
+        const barClassName = 'leader-bar-vertical' + (trackClass ? ' ' + trackClass : '');
+        const isLabelBottom = hasValue && labelBottomMinValue !== null && value >= labelBottomMinValue;
+        const isLabelAbove = hasValue && labelBottomMinValue !== null && value < labelBottomMinValue;
+        const barLabelClassName = 'leader-bar-label mono' + (
+          isLabelBottom ? ' leader-bar-label--bottom' : ''
+        ) + (
+          isLabelAbove ? ' leader-bar-label--above' : ''
+        );
+        const title = String(r.model || '') + ' - ' + valueFmt(value);
+        return e(
+          'div',
+          { className: 'leader-col', key: String(r.model || 'model') + '-' + idx, title },
+          e(
+            'div',
+            { className: barClassName, style: barVarStyle },
+            e('div', { className: 'leader-bar-fill', style }),
+            e('div', { className: barLabelClassName }, labelFmt(value)),
+          ),
+          e(
+            'div',
+            { className: 'leader-label-anchor' },
+            e(
+              'div',
+              { className: 'leader-label-shift' },
+              e('div', { className: 'leader-label mono' }, String(r.model || '')),
+            ),
+          ),
+        );
+      });
+
+      const plotStyle = { '--leader-count': String(rows.length) };
+      if (isNum(labelSpacePx)) {
+        plotStyle['--leader-label-space'] = String(labelSpacePx) + 'px';
+      }
+      const plotClassName = 'leaderboard-plot' + (plotClass ? ' ' + plotClass : '');
+      const children = yAxisEl ? [yAxisEl].concat(nodes) : nodes;
+      mountReact(rootEl, e('div', { className: plotClassName, style: plotStyle }, children));
+    }
+
+    function renderScatterChart(rootEl, rows, xFn, yFn, emptyMsg, colorFn, options) {
+      if (!rootEl) return;
+      if (!window.React || !window.ReactDOM) {
+        rootEl.textContent = 'Scatter plot requires React.';
+        return;
+      }
+
+      const opts = options || {};
+      const xMin = isNum(opts.xMin) ? opts.xMin : 0;
+      const xMax = isNum(opts.xMax) ? opts.xMax : 1;
+      const yMin = isNum(opts.yMin) ? opts.yMin : 0;
+      const yMax = isNum(opts.yMax) ? opts.yMax : 1;
+      const xTicks = Array.isArray(opts.xTicks) ? opts.xTicks : [];
+      const yTicks = Array.isArray(opts.yTicks) ? opts.yTicks : [];
+      const xLabel = (typeof opts.xLabel === 'string') ? opts.xLabel : '';
+      const yLabel = (typeof opts.yLabel === 'string') ? opts.yLabel : '';
+
+      const points = rows
+        .map((r, idx) => {
+          const x = xFn(r);
+          const y = yFn(r);
+          return {
+            r,
+            idx,
+            x,
+            y,
+          };
+        })
+        .filter(p => isNum(p.x) && isNum(p.y));
+
+      if (!points.length) {
+        rootEl.textContent = emptyMsg;
+        return;
+      }
+
+      const width = 1000;
+      const height = 360;
+      const margin = { left: 86, right: 22, top: 22, bottom: 74 };
+      const plotW = width - margin.left - margin.right;
+      const plotH = height - margin.top - margin.bottom;
+      const spanX = (xMax - xMin) || 1;
+      const spanY = (yMax - yMin) || 1;
+
+      function clamp01(t) {
+        return Math.max(0, Math.min(1, t));
+      }
+
+      function sx(x) {
+        const t = clamp01((x - xMin) / spanX);
+        return margin.left + (t * plotW);
+      }
+
+      function sy(y) {
+        const t = clamp01((y - yMin) / spanY);
+        return margin.top + ((1 - t) * plotH);
+      }
+
+      function paretoFrontier(pointsIn) {
+        const sorted = pointsIn.slice().sort((a, b) => {
+          const dx = a.x - b.x;
+          if (dx !== 0) return dx;
+          const dy = b.y - a.y;
+          if (dy !== 0) return dy;
+          return a.idx - b.idx;
+        });
+        const pareto = [];
+        let bestY = -Infinity;
+        sorted.forEach((p) => {
+          if (p.y > bestY + 1e-9) {
+            pareto.push(p);
+            bestY = p.y;
+          }
+        });
+        return pareto;
+      }
+
+      function buildParetoPath(pointsIn) {
+        if (!pointsIn.length) return '';
+        let d = '';
+        let prev = pointsIn[0];
+        d += 'M ' + sx(prev.x) + ' ' + sy(prev.y);
+        for (let i = 1; i < pointsIn.length; i += 1) {
+          const curr = pointsIn[i];
+          d += ' L ' + sx(curr.x) + ' ' + sy(prev.y);
+          d += ' L ' + sx(curr.x) + ' ' + sy(curr.y);
+          prev = curr;
+        }
+        return d;
+      }
+
+      function starPath(cx, cy, outerR, innerR) {
+        const spikes = 5;
+        const step = Math.PI / spikes;
+        let angle = -Math.PI / 2;
+        let d = '';
+        for (let i = 0; i < spikes * 2; i += 1) {
+          const r = (i % 2 === 0) ? outerR : innerR;
+          const x = cx + Math.cos(angle) * r;
+          const y = cy + Math.sin(angle) * r;
+          d += (i === 0 ? 'M ' : ' L ') + x + ' ' + y;
+          angle += step;
+        }
+        return d + ' Z';
+      }
+
+      function polygonPath(cx, cy, r, sides, rotation) {
+        const n = Math.max(3, sides || 3);
+        const rot = isNum(rotation) ? rotation : -Math.PI / 2;
+        let d = '';
+        for (let i = 0; i < n; i += 1) {
+          const angle = rot + (i * 2 * Math.PI) / n;
+          const x = cx + Math.cos(angle) * r;
+          const y = cy + Math.sin(angle) * r;
+          d += (i === 0 ? 'M ' : ' L ') + x + ' ' + y;
+        }
+        return d + ' Z';
+      }
+
+      function paretoMarkerPath(cx, cy, idx, outerR, innerR) {
+        if (idx === 0) {
+          return starPath(cx, cy, outerR, innerR);
+        }
+        const sides = 3 + idx;
+        return polygonPath(cx, cy, outerR, sides, -Math.PI / 2);
+      }
+
+      const e = React.createElement;
+      const nodes = [];
+
+      // Gridlines and ticks
+      xTicks.forEach((t, i) => {
+        if (!t || typeof t !== 'object') return;
+        const v = t.value;
+        if (!isNum(v)) return;
+        const label = (t.label === undefined || t.label === null) ? '' : String(t.label);
+        const x = sx(v);
+        nodes.push(
+          e('line', {
+            className: 'leaderboard-scatter-gridline',
+            key: 'xgrid-' + i,
+            x1: x,
+            x2: x,
+            y1: margin.top,
+            y2: margin.top + plotH,
+          }),
+        );
+        if (label) {
+          nodes.push(
+            e('text', {
+              className: 'leaderboard-scatter-tick mono',
+              key: 'xlabel-' + i,
+              x,
+              y: margin.top + plotH + 22,
+              textAnchor: 'middle',
+              dominantBaseline: 'hanging',
+            }, label),
+          );
+        }
+      });
+
+      yTicks.forEach((t, i) => {
+        if (!t || typeof t !== 'object') return;
+        const v = t.value;
+        if (!isNum(v)) return;
+        const label = (t.label === undefined || t.label === null) ? '' : String(t.label);
+        const y = sy(v);
+        nodes.push(
+          e('line', {
+            className: 'leaderboard-scatter-gridline',
+            key: 'ygrid-' + i,
+            x1: margin.left,
+            x2: margin.left + plotW,
+            y1: y,
+            y2: y,
+          }),
+        );
+        if (label) {
+          nodes.push(
+            e('text', {
+              className: 'leaderboard-scatter-tick mono',
+              key: 'ylabel-' + i,
+              x: margin.left - 10,
+              y,
+              textAnchor: 'end',
+              dominantBaseline: 'middle',
+            }, label),
+          );
+        }
+      });
+
+      // Axes
+      nodes.push(
+        e('line', {
+          className: 'leaderboard-scatter-axis',
+          key: 'xaxis',
+          x1: margin.left,
+          x2: margin.left + plotW,
+          y1: margin.top + plotH,
+          y2: margin.top + plotH,
+        }),
+      );
+      nodes.push(
+        e('line', {
+          className: 'leaderboard-scatter-axis',
+          key: 'yaxis',
+          x1: margin.left,
+          x2: margin.left,
+          y1: margin.top,
+          y2: margin.top + plotH,
+        }),
+      );
+
+      if (xLabel) {
+        nodes.push(
+          e('text', {
+            className: 'leaderboard-scatter-axis-label mono',
+            key: 'xlabel-main',
+            x: margin.left + (plotW / 2),
+            y: height - 18,
+            textAnchor: 'middle',
+            dominantBaseline: 'alphabetic',
+          }, xLabel),
+        );
+      }
+      if (yLabel) {
+        nodes.push(
+          e('text', {
+            className: 'leaderboard-scatter-axis-label mono',
+            key: 'ylabel-main',
+            x: 18,
+            y: margin.top + (plotH / 2),
+            textAnchor: 'middle',
+            dominantBaseline: 'alphabetic',
+            transform: 'rotate(-90 18 ' + (margin.top + (plotH / 2)) + ')',
+          }, yLabel),
+        );
+      }
+
+      const paretoPoints = paretoFrontier(points);
+      const paretoIdx = new Set(paretoPoints.map(p => p.idx));
+      const paretoModels = [];
+      const paretoModelIndex = new Map();
+      const paretoModelInfo = new Map();
+      paretoPoints.forEach((p) => {
+        const model = String(p.r.model || '');
+        if (!model || paretoModelIndex.has(model)) return;
+        const index = paretoModels.length;
+        paretoModels.push(model);
+        paretoModelIndex.set(model, index);
+        paretoModelInfo.set(model, {
+          index,
+          row: p.r,
+          color: colorFn(p.r, p.idx) || '#9aa7b5',
+        });
+      });
+      if (paretoPoints.length > 1) {
+        const paretoPath = buildParetoPath(paretoPoints);
+        if (paretoPath) {
+          nodes.push(
+            e('path', {
+              className: 'leaderboard-scatter-pareto',
+              key: 'pareto-frontier',
+              d: paretoPath,
+            }),
+          );
+        }
+      }
+
+      // Points
+      const paretoOuterR = 11;
+      const paretoInnerR = 5.2;
+      points.forEach((p) => {
+        const modelName = String(p.r.model || '');
+        const title = modelName
+          + '\nCost: ' + fmtUsd(p.x)
+          + '\nAccuracy: ' + fmtPct(p.y);
+        const isPareto = paretoIdx.has(p.idx);
+        const fill = colorFn(p.r, p.idx) || '#9aa7b5';
+        const markerIdx = isPareto ? (paretoModelIndex.get(modelName) ?? 0) : -1;
+        nodes.push(
+          e('g', { key: 'pt-' + modelName + '-' + p.idx },
+            e('title', null, title),
+            isPareto
+              ? e('path', {
+                  className: 'leaderboard-scatter-point--pareto',
+                  d: paretoMarkerPath(sx(p.x), sy(p.y), markerIdx, paretoOuterR, paretoInnerR),
+                  fill,
+                })
+              : e('circle', {
+                  className: 'leaderboard-scatter-point',
+                  cx: sx(p.x),
+                  cy: sy(p.y),
+                  r: 7,
+                  fill,
+                }),
+          ),
+        );
+      });
+
+      const svg = e(
+        'svg',
+        {
+          className: 'leaderboard-scatter-svg',
+          viewBox: '0 0 ' + width + ' ' + height,
+          role: 'img',
+          'aria-label': 'Accuracy vs cost per evaluation scatter plot',
+        },
+        nodes,
+      );
+      const paretoLegendItems = [];
+      paretoModels.forEach((model) => {
+        const info = paretoModelInfo.get(model);
+        if (!info) return;
+        const color = info.color || '#9aa7b5';
+        paretoLegendItems.push(
+          e('div', { className: 'leaderboard-scatter-legend-item', key: 'pareto-' + model },
+            e(
+              'svg',
+              {
+                className: 'leaderboard-scatter-legend-icon',
+                viewBox: '0 0 24 24',
+                role: 'img',
+                'aria-hidden': 'true',
+              },
+              e('path', {
+                d: paretoMarkerPath(12, 12, info.index, 8, 4),
+                fill: color,
+                stroke: '#fff',
+                strokeWidth: 2,
+              }),
+            ),
+            e('span', { className: 'mono' }, model),
+          ),
+        );
+      });
+      const paretoLineLegend = e(
+        'div',
+        { className: 'leaderboard-scatter-legend-item', key: 'pareto-line' },
+        e(
+          'svg',
+          {
+            className: 'leaderboard-scatter-legend-line',
+            viewBox: '0 0 22 10',
+            role: 'img',
+            'aria-hidden': 'true',
+          },
+          e('line', {
+            x1: 1,
+            x2: 21,
+            y1: 5,
+            y2: 5,
+            stroke: '#9ca3af',
+            strokeWidth: 2,
+            strokeDasharray: '6 4',
+            strokeLinecap: 'round',
+          }),
+        ),
+        e('span', null, 'Pareto frontier'),
+      );
+      const legend = paretoLegendItems.length
+        ? e(
+            'div',
+            { className: 'leaderboard-scatter-legend' },
+            e('span', { className: 'leaderboard-scatter-legend-label' }, 'Pareto models'),
+            paretoLegendItems,
+            paretoLineLegend,
+          )
+        : null;
+      mountReact(rootEl, e('div', { className: 'leaderboard-scatter-wrap' }, svg, legend));
+    }
+
+    let sortKey = 'mean_accuracy';
+    let sortDir = 'desc'; // 'asc' | 'desc'
+
+    function cmp(a, b) {
+      const dir = sortDir === 'asc' ? 1 : -1;
+      const ka = a[sortKey];
+      const kb = b[sortKey];
+
+      if (typeof ka === 'string' || typeof kb === 'string') {
+        return dir * String(ka || '').localeCompare(String(kb || ''));
+      }
+
+      const na = isNum(ka) ? ka : -Infinity;
+      const nb = isNum(kb) ? kb : -Infinity;
+      if (na === nb) {
+        return dir * String(a.model || '').localeCompare(String(b.model || ''));
+      }
+      return dir * (na - nb);
+    }
+
+    function applyFilterAndSort() {
+      const q = String(filterEl.value || '').trim().toLowerCase();
+      const filtered = q
+        ? rowsRaw.filter(r => String(r.model || '').toLowerCase().includes(q))
+        : rowsRaw.slice();
+      filtered.sort(cmp);
+      return filtered;
+    }
+
+    function render() {
+      const rows = applyFilterAndSort();
+      countEl.textContent = String(rows.length);
+      bodyEl.innerHTML = '';
+
+      rows.forEach((r, idx) => {
+        const rank = idx + 1;
+        let medal = '';
+        if (rank === 1) medal = ' 🥇';
+        else if (rank === 2) medal = ' 🥈';
+        else if (rank === 3) medal = ' 🥉';
+
+        const tr = document.createElement('tr');
+        tr.title = r.generator_models ? ('Generators: ' + r.generator_models) : '';
+
+        const tdRank = document.createElement('td');
+        const rankSpan = document.createElement('span');
+        rankSpan.className = 'rank-badge';
+        rankSpan.textContent = String(rank);
+        tdRank.appendChild(rankSpan);
+
+        const tdModel = document.createElement('td');
+        const modelSpan = document.createElement('span');
+        modelSpan.className = 'mono';
+        modelSpan.textContent = String(r.model || '');
+        tdModel.appendChild(modelSpan);
+        if (medal) tdModel.appendChild(document.createTextNode(medal));
+
+        const tdMean = document.createElement('td');
+        tdMean.className = 'has-text-right mono';
+        tdMean.textContent = fmtPct(r.mean_accuracy);
+
+        const tdSem = document.createElement('td');
+        tdSem.className = 'has-text-right mono has-text-grey';
+        tdSem.textContent = fmtPct(r.sem);
+
+        tr.appendChild(tdRank);
+        tr.appendChild(tdModel);
+        tr.appendChild(tdMean);
+        tr.appendChild(tdSem);
+        bodyEl.appendChild(tr);
+      });
+    }
+
+    filterEl.addEventListener('input', render);
+
+    const headerCells = tableEl.querySelectorAll('thead th[data-key]');
+    headerCells.forEach(th => {
+      th.addEventListener('click', () => {
+        const key = th.getAttribute('data-key');
+        if (!key) return;
+
+        if (sortKey === key) {
+          sortDir = (sortDir === 'asc') ? 'desc' : 'asc';
+        } else {
+          sortKey = key;
+          sortDir = (key === 'model') ? 'asc' : 'desc';
+        }
+
+        headerCells.forEach(x => x.classList.remove('has-text-info'));
+        th.classList.add('has-text-info');
+
+        render();
+      });
+    });
+
+    const topRows = sortByAccuracy(rowsRaw).slice(0, 10);
+    const colorByModel = new Map();
+    topRows.forEach((r, idx) => {
+      colorByModel.set(String(r.model || ''), colorStops(idx, topRows.length));
+    });
+    const topRowsByCostDesc = topRows.slice();
+    topRowsByCostDesc.sort((a, b) => {
+      const ca = costByModel[String(a.model || '')];
+      const cb = costByModel[String(b.model || '')];
+      const na = isNum(ca) ? ca : -Infinity;
+      const nb = isNum(cb) ? cb : -Infinity;
+      if (na === nb) {
+        return String(a.model || '').localeCompare(String(b.model || ''));
+      }
+      return nb - na;
+    });
+
+    renderLeaderboardChart(
+      accuracyRootEl,
+      topRows,
+      r => r.mean_accuracy,
+      fmtPct,
+      'No accuracy data available.',
+      (r, idx) => colorByModel.get(String(r.model || '')) || colorStops(idx, topRows.length),
+      {
+        minValue: 0.6,
+        maxValue: 1.0,
+        plotClass: 'leaderboard-plot--accuracy',
+        yTicks: [
+          { value: 1.0, label: '100%' },
+          { value: 0.9, label: '90%' },
+          { value: 0.8, label: '80%' },
+          { value: 0.7, label: '70%' },
+          { value: 0.6, label: '60%' },
+        ],
+        labelFmt: fmtPctIntNoSign,
+      },
+    );
+    renderLeaderboardChart(
+      costRootEl,
+      topRowsByCostDesc,
+      r => costByModel[String(r.model || '')],
+      fmtUsd,
+      'No cost data available.',
+      (r, idx) => colorByModel.get(String(r.model || '')) || colorStops(idx, topRows.length),
+      {
+        minValue: 0,
+        maxValue: 10,
+        plotClass: 'leaderboard-plot--cost',
+        labelBottomMinValue: 2,
+        yTicks: [
+          { value: 10, label: '$10' },
+          { value: 0, label: '0' },
+        ],
+        labelFmt: fmtCentsNoDollar,
+      },
+    );
+    renderScatterChart(
+      scatterRootEl,
+      topRows,
+      r => costByModel[String(r.model || '')],
+      r => r.mean_accuracy,
+      'No accuracy/cost data available.',
+      (r, idx) => colorByModel.get(String(r.model || '')) || colorStops(idx, topRows.length),
+      {
+        xMin: 0,
+        xMax: 10,
+        yMin: 0.6,
+        yMax: 1.0,
+        xLabel: 'Cost per evaluation',
+        yLabel: 'Accuracy',
+        xTicks: [
+          { value: 0, label: '$0' },
+          { value: 2, label: '$2' },
+          { value: 4, label: '$4' },
+          { value: 6, label: '$6' },
+          { value: 8, label: '$8' },
+          { value: 10, label: '$10' },
+        ],
+        yTicks: [
+          { value: 1.0, label: '100%' },
+          { value: 0.9, label: '90%' },
+          { value: 0.8, label: '80%' },
+          { value: 0.7, label: '70%' },
+          { value: 0.6, label: '60%' },
+        ],
+      },
+    );
+    render();
+  })();
+</script>
+
+<noscript>
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="notification is-warning">
+        This page requires JavaScript enabled to render.
+      </div>
+    </div>
+  </section>
+</noscript>
+
+</body>
+</html>

@@ -1,0 +1,482 @@
+[
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed127",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed127-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765459013-1XZ2SLeaNa4VCwPDqj7i",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765459013,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. Key stem clues: Opioid use disorder, massive OTC anti-diarrheal (loperamide) use, syncope, bradycardia, marked QTc prolongation (680 ms), wide-complex beats, hemodynamically stable, no response to magnesium. The most appropriate next step for a stable patient with bradycardia-dependent acquired long QT and wide beats is transcutaneous or transvenous pacing to increase heart rate and shorten repolarization. Isoproterenol (keyed answer B) is a second-line option if pacing is unavailable or as a bridge, but pacing is the definitive and preferred intervention, making it the best answer. Option D (synchronized cardioversion) is for unstable tachyarrhythmias, not this bradycardic picture. Main logical issue: A unique best answer (pacing) exists but is not among the options, and the provided key (isoproterenol) is a second-line alternative. Minimal fix: Add 'Transcutaneous pacing' as an option and key it, or rephrase the stem to specify pacing is unavailable, making isoproterenol the best pharmacologic choice.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1911,
+        "completion_tokens": 288,
+        "total_tokens": 2199,
+        "cost": 0.00063693,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00051597,
+          "upstream_inference_completions_cost": 0.00012096
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed127",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed127-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765459028-gOzsqEugF1MhAl9KvBJg",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765459028,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: infant with failure to thrive, hypotonia, pyridoxine-responsive seizures, hypercalcemia, hypercalciuria, suppressed PTH, skeletal demineralization with 'moth-eaten' metaphyses, and critically low alkaline phosphatase. This constellation is pathognomonic for severe infantile hypophosphatasia (HPP). Main logical issue: None; the findings uniquely point to HPP. Main medical accuracy issue: None; the pathophysiology and treatment are accurately described. Asfotase alfa (enzyme replacement) is the definitive treatment. Minimal fix: None required; the item is well-constructed and unambiguous.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1936,
+        "completion_tokens": 190,
+        "total_tokens": 2126,
+        "cost": 0.00060252,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052272,
+          "upstream_inference_completions_cost": 7.98e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed127",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed127-003",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765459032-XEfvYETk5R6cCINzOY3l",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765459032,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: older male, recurrent fevers, auricular chondritis, pulmonary infiltrates, macrocytic anemia, refractory to typical polychondritis treatment, and bone marrow biopsy showing hypercellularity with cytoplasmic vacuoles in myeloid/erythroid precursors. This constellation is highly specific for VEXAS syndrome. The item is logically valid; the vignette provides sufficient detail to uniquely select VEXAS. The keyed answer (B) is correct. Medical accuracy is high, as the description aligns with the established clinical and pathological features of this recently defined syndrome. No logical or medical issues are present. Minimal fix: None required; the item is well-constructed.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1877,
+        "completion_tokens": 191,
+        "total_tokens": 2068,
+        "cost": 0.00058701,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050679,
+          "upstream_inference_completions_cost": 8.022e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed127",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed127-004",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765459037-tqdBLdH7v1dM6p15bd59",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765459037,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. Key stem clues: High anion gap metabolic acidosis (AG 24, HCO3 12) with normal lactate, ketones, creatinine, and negative toxic alcohol screen. The explanation correctly identifies 5-oxoproline acidosis from glutathione depletion (malnutrition, chronic acetaminophen). The most appropriate therapeutic intervention for this specific, confirmed diagnosis is N-acetylcysteine (C). However, the item is miskeyed; the provided correct answer key is C, which matches the intended best answer. The logical validity is false because the key is correct, but the item is underspecified (U) as a secondary issue: the diagnosis of 5-oxoproline acidosis is inferred but not confirmed by the data (e.g., urine organic acids or 5-oxoproline level not mentioned), requiring an assumption. Medical accuracy is sound. Minimal fix: Add 'Urine organic acid analysis reveals elevated 5-oxoproline' to the stem to eliminate underspecification.\",\n  \"logical_false_reason\": \"U\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \t\n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1897,
+        "completion_tokens": 255,
+        "total_tokens": 2152,
+        "cost": 0.00061929,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00051219,
+          "upstream_inference_completions_cost": 0.0001071
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed127",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed127-005",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765459058-gJAGmX9FIjLrMENB4ZJW",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765459058,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. Key stem clues: large (4.5 cm) invasive pituitary macroadenoma, amenorrhea/galactorrhea, prolactin 145 ng/mL (mildly elevated). The clinical picture strongly suggests a prolactinoma, but the prolactin level is discordantly low for the tumor size, raising suspicion for the 'hook effect' (assay artifact). The most appropriate next step is to confirm the diagnosis before definitive management. While measuring prolactin in diluted serum (C) is a correct diagnostic step, the most appropriate next step in management for a confirmed or suspected macroprolactinoma is initiation of a dopamine agonist (e.g., cabergoline), which is not listed. The keyed answer (C) is a diagnostic confirmatory step, not the definitive management step implied by the stem. The absence of dopamine agonist as an option makes the item flawed. Minimal fix: Add 'Initiation of cabergoline therapy' as an option and key it, or rephrase the stem to ask for the 'most appropriate diagnostic step'.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1889,
+        "completion_tokens": 269,
+        "total_tokens": 2158,
+        "cost": 0.00062301,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00051003,
+          "upstream_inference_completions_cost": 0.00011298
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed127",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed127-006",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765459064-cFJuCuYjZkWJ7a3WbcSA",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765459064,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: history of radiation (risk for constrictive pericarditis), tamponade presentation, pericardiocentesis with bloody fluid, post-drainage intrapericardial pressure 0 mmHg (tamponade resolved), but persistently elevated RA pressure (18 mmHg) with new prominent y-descent (constrictive physiology unmasked). This classic sequence is pathognomonic for effusive-constrictive pericarditis. No logical issues; stem provides sufficient detail for a unique best answer. Medical accuracy is sound, aligning with standard pathophysiology. Alternatives are inferior: A (pressure drop to 0 rules out incomplete drainage), C/D/E (lack of supporting STEMI/PE/acute dyspnea findings). Minimal fix: None required; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1877,
+        "completion_tokens": 214,
+        "total_tokens": 2091,
+        "cost": 0.00059667,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050679,
+          "upstream_inference_completions_cost": 8.988e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed127",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed127-007",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765459069-A4db8GVLQSn0a3nBreLG",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765459069,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: ICU patient on day 3 of continuous propofol infusion, new RBBB with coved ST elevation V1-V3, severe metabolic acidosis, high lactate, high CK, and new global hypokinesis. This constellation is classic for Propofol Infusion Syndrome (PRIS). Main logical issue: None; the vignette is specific and points uniquely to PRIS. Main medical accuracy issue: None; the description aligns with established diagnostic criteria for PRIS. Minimal fix: None required for logical validity. To enhance teaching, one could explicitly state the patient is on a high-dose infusion, though the duration and ICU context strongly imply it.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1886,
+        "completion_tokens": 188,
+        "total_tokens": 2074,
+        "cost": 0.00058818,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050922,
+          "upstream_inference_completions_cost": 7.896e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed127",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed127-008",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765459074-WgGFT5xJf1VsU6icAKqF",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765459074,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: progressive proximal weakness and elevated CK despite statin discontinuation, necrotizing myopathy with minimal inflammation on biopsy, and positive anti-HMGCR antibodies. This defines statin-associated autoimmune myopathy (SAAM), an immune-mediated condition requiring immunosuppression, not just statin cessation or supportive care. The logic is sound; the keyed answer (C) is uniquely defensible. Alternatives are incorrect: A (switch statin) ignores the autoimmune nature; B (CoQ10) is for statin myalgia, not SAAM; D (observation) is inappropriate as disease is progressive; E (dantrolene) is for malignant hyperthermia/neuroleptic malignant syndrome. Medical accuracy is high. Minimal fix: none required; the item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1874,
+        "completion_tokens": 217,
+        "total_tokens": 2091,
+        "cost": 0.00059712,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050598,
+          "upstream_inference_completions_cost": 9.114e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed127",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed127-009",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765459083-eEt3rUoQrMb9I9OA8uLP",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765459083,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K. Verdict on keyed answer: Miskeyed. Key stem clues: ambiguous genitalia (virilization), hypertension, hypokalemia, elevated 17-hydroxyprogesterone. The elevated 17-hydroxyprogesterone is a pathognomonic marker for 21-hydroxylase deficiency (Option A). The presence of hypertension and hypokalemia is classically associated with 11-beta-hydroxylase deficiency (Option B), but this condition typically features normal or low 17-hydroxyprogesterone. The stem provides contradictory biochemical markers, making a single, consistent diagnosis impossible without ignoring a key lab value. Main logical issue: The item is internally contradictory (C) because it pairs a diagnostic hallmark of one deficiency with the clinical features of another. Main medical accuracy issue: The implied pathophysiology is inaccurate for a single, unified diagnosis. Minimal fix: Change the lab finding from '17-hydroxyprogesterone is elevated' to '11-deoxycortisol is elevated' to align with 11-beta-hydroxylase deficiency.\",\n  \"logical_false_reason\": \"C\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"2\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1879,
+        "completion_tokens": 248,
+        "total_tokens": 2127,
+        "cost": 0.00061149,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050733,
+          "upstream_inference_completions_cost": 0.00010416
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed127",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed127-010",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765459089-owwGDf0hW7V8a2HxysIj",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765459089,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: chronic amiodarone use, hyperthyroidism (low TSH, high FT4), absence of neck pain, and absent thyroid vascularity on Doppler. This pattern is classic for Type 2 Amiodarone-Induced Thyrotoxicosis (destructive thyroiditis). The keyed answer (C: Prednisone) is the standard initial treatment for this condition, as thionamides (A, B) are ineffective, radioactive iodine (D) is contraindicated, and potassium perchlorate (E) is not first-line. The item is logically valid and medically accurate. The provided rationale correctly explains the pathophysiology and treatment. No fix needed.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1877,
+        "completion_tokens": 189,
+        "total_tokens": 2066,
+        "cost": 0.00058617,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050679,
+          "upstream_inference_completions_cost": 7.938e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

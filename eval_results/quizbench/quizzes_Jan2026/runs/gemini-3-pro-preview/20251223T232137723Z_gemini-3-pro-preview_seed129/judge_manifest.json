@@ -1,0 +1,7 @@
+{
+  "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+  "quiz_file": "quizzes/quizzes_Jan2026/20251223T232137723Z_gemini-3-pro-preview_seed129.jsonl",
+  "n_items": 20,
+  "judge_model": "kimi-k2-thinking",
+  "created_at": "2025-12-25T05:00:41Z"
+}

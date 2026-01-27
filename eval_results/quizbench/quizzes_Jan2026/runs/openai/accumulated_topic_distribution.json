@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-01-19T16:26:53Z",
+  "generator_model": "openai",
+  "runs_root": "/Users/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_Jan2026/runs",
+  "generator_run_root": "/Users/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_Jan2026/runs/openai",
+  "topics_eval_model": null,
+  "topic_map_path": "/Users/dbernardo/Documents/pyres/MedEvalArena/data/topic_to_abms.yaml",
+  "topic_map_mode": "map",
+  "unmapped_topic_policy": "keep",
+  "misc_category": "Misc",
+  "judge_models": [
+    "claude-opus-4-5-20251101",
+    "gemini-3-pro-preview",
+    "gpt-5.1-2025-11-13",
+    "grok-4-0709",
+    "deepseek-v3.2",
+    "kimi-k2-thinking"
+  ],
+  "logical_mode": "majority",
+  "min_medical_score": null,
+  "all_total_questions": 0,
+  "all_total_counted": 0,
+  "all_counts_by_topic": {},
+  "all_runs_included": [],
+  "all_runs_skipped": {
+    "/Users/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_Jan2026/runs/openai/quizzes": "no_topics_files"
+  },
+  "valid_total_questions": 0,
+  "valid_total_counted": 0,
+  "valid_counts_by_topic": {},
+  "valid_runs_included": [],
+  "valid_runs_skipped": {
+    "/Users/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_Jan2026/runs/openai/quizzes": "no_topics_files"
+  }
+}

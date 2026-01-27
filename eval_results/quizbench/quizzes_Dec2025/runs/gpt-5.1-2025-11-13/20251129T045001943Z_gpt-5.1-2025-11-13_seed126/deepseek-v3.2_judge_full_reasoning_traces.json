@@ -1,0 +1,482 @@
+[
+  {
+    "quiz_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126",
+    "question_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765457129-Q3g5QCapUzJyiJ7f0SU7",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765457129,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: 30 weeks, severe features (severe headache, visual changes, RUQ pain, BP >160/110, clonus), lab evidence of HELLP (thrombocytopenia, transaminitis), and persistent severe-range BP after initial hydralazine. The clinical picture mandates seizure prophylaxis with magnesium sulfate, administration of betamethasone for fetal lung maturation given preterm gestation, and expedited delivery, typically within 24-48 hours for severe preeclampsia with HELLP features. Option C correctly bundles these steps. Alternatives are inferior: A and D delay delivery unjustifiably; B omits steroids; E is unsafe outpatient management. The item is logically valid and medically accurate, aligning with ACOG guidelines for severe preeclampsia with HELLP syndrome. Minimal fix: None required; the item is sound.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2001,
+        "completion_tokens": 225,
+        "total_tokens": 2226,
+        "cost": 0.00063477,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00054027,
+          "upstream_inference_completions_cost": 9.45e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126",
+    "question_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765457138-54XrJ6GbCj0EOomsnBtv",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765457138,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "length",
+          "native_finish_reason": "length",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n    \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: advanced HFrEF (LVEF 20%, NYHA III on GDMT), INTERMACS 4 (recurrent but not refractory shock), persistent low cardiac index (1.6) and hypotension after diuresis, and high filling pressures. This profile defines a candidate for durable mechanical circulatory support. Main logical issue: None; the stem clearly supports a single best answer. Main medical accuracy issue: None; the logic aligns with current guidelines for advanced heart failure management. Minimal fix: None required; the item is well-constructed. Alternative E (Impella) is a short-term bridge, not definitive. C (TEER) is for less severe, stable patients. A (milrinone) is palliative, not definitive. B (urgent transplant alone) is less ideal than LVAD bridge in this unstable profile.\",\n    \"logical_false_reason\": \"T\",\n    \"logical_validity\": true,\n    \"medical_accuracy_score\":  \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    ",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2069,
+        "completion_tokens": 4096,
+        "total_tokens": 6165,
+        "cost": 0.00227895,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00055863,
+          "upstream_inference_completions_cost": 0.00172032
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126",
+    "question_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126-003",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765457196-6HLbcsYbJf318yx5dudO",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765457196,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: classic Kawasaki disease (KD) criteria met, day 10 of illness, coronary artery ectasia, elevated inflammatory markers, and no prior IVIG. The vignette describes a high-risk patient (coronary involvement, high inflammatory markers, presentation after day 10), making adjunctive initial therapy with corticosteroids plus IVIG and aspirin a guideline-supported, risk-adapted strategy. No logical issues; the stem provides sufficient detail to discriminate. Options A and E are inadequate monotherapies for high-risk KD. Options C and D involve biologics (infliximab, anakinra) not recommended as first-line initial therapy per major guidelines, which reserve them for IVIG-resistant disease. Medical accuracy is sound, aligning with AHA guidelines. Minimal fix: None required; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2007,
+        "completion_tokens": 224,
+        "total_tokens": 2231,
+        "cost": 0.00063597,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00054189,
+          "upstream_inference_completions_cost": 9.408e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126",
+    "question_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126-004",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765457201-tJcnKCZ82RsLiTdXW0aD",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765457201,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n    \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: WHO group 1 CTD-PAH, high-risk features (RV dysfunction, CI 2.0), and pregnancy plans. The most appropriate initial advanced therapy for high-risk PAH is aggressive upfront combination therapy, but the keyed answer (C) mandates IV epoprostenol as part of initial triple therapy. While parenteral prostacyclin is a high-risk option, current guidelines (e.g., ESC/ERS 2022) recommend initial dual oral combination (ERA + PDE5i) for most high-risk patients, with IV prostacyclin considered if inadequate response or highest risk. Option B (ambrisentan + tadalafil) is a guideline-supported, evidence-based initial strategy for this high-risk profile and is more appropriate than immediately starting IV therapy. The key incorrectly prioritizes an overly aggressive, less conventional initial step. Minimal fix: Change key to B, or modify option C to 'Initiate dual oral therapy and consider early addition of parenteral prostacyclin if inadequate response.'\",\n    \"logical_false_reason\": \"K\",\n    \"logical_validity\": false,\n    \"medical_accuracy_score\":  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2037,
+        "completion_tokens": 268,
+        "total_tokens": 2305,
+        "cost": 0.00066255,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00054999,
+          "upstream_inference_completions_cost": 0.00011256
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126",
+    "question_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126-005",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765457208-XpsGHeywwcCPf2B79pHW",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765457208,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. Key stem clues: severe hyperemesis gravidarum with inability to tolerate oral intake, significant dehydration/electrolyte abnormalities, and patient's request to avoid hospitalization. The vignette clearly indicates inpatient management is required, making outpatient options (A, B, D) incorrect. The keyed answer (E) recommends IV chlorpromazine, a phenothiazine, but chlorpromazine is not a first-line antiemetic in pregnancy due to significant sedation and extrapyramidal side effects; ondansetron or metoclopramide are preferred. Option C is the most appropriate: IV ondansetron and admission for IV hydration/nutrition (though PICC for TPN is premature). The main logical issue is miskeying; the medically safest and most guideline-consistent choice is not E. Minimal fix: Change the key to C and adjust the rationale to recommend IV ondansetron as first-line, with admission for IV fluids and antiemetics, reserving TPN only if refractory.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"2\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1994,
+        "completion_tokens": 264,
+        "total_tokens": 2258,
+        "cost": 0.00064926,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053838,
+          "upstream_inference_completions_cost": 0.00011088
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126",
+    "question_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126-006",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765457220-HUlN7cSGbq9qMVkc6QR1",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765457220,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: U (Underspecified). Verdict: Not uniquely determinable. Key stem clues: septic shock, then pulmonary-renal syndrome (DAH, hematuria, rising creatinine) with negative serologies (ANA, ANCA, complements) and normal coagulation. The item asks for the 'most appropriate next step' but lacks a critical detail: the patient's hemodynamic stability and bleeding risk for an invasive biopsy. In a critically ill ICU patient with recent shock and new hemoptysis, proceeding directly to kidney biopsy (keyed answer D) is not clearly safer or more urgent than other temporizing steps (e.g., supportive care C or empiric steroids A/B). The rationale emphasizes tissue diagnosis, but the stem underspecifies the patient's fitness for the procedure. Main medical accuracy issue: while biopsy is definitive, immediate empiric immunosuppression or plasmapheresis in a recent septic patient is high-risk, making supportive care a plausible alternative. Minimal fix: Add 'He is now hemodynamically stable, off pressors, and has no active bleeding' to make biopsy the safer, logical next step.\",\n  \"logical_false_reason\": \"U\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \t\n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2032,
+        "completion_tokens": 271,
+        "total_tokens": 2303,
+        "cost": 0.00066246,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00054864,
+          "upstream_inference_completions_cost": 0.00011382
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126",
+    "question_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126-007",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765457235-vujCzFBIHXIDcTLr2m1S",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765457235,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. Key stem clues: 6-week-old with severe dilated cardiomyopathy (EF 20%), inotrope-dependent, stabilized on milrinone. The most appropriate next step in definitive management planning for an infant with acute, severe, potentially reversible myocarditis (pending studies) who has stabilized on inotropes is urgent transplant listing (Status 1A), as per pediatric heart failure guidelines, given the high waitlist mortality. While LVAD evaluation (D) is a consideration, it is not the most appropriate immediate next step for planning definitive management in a stabilized infant where transplant is the definitive therapy for irreversible disease. Option B is the guideline-supported best answer. The keyed answer (D) is a plausible but secondary consideration, making the item miskeyed. Medical accuracy is sound. Minimal fix: Change the key to B.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \t\n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2013,
+        "completion_tokens": 225,
+        "total_tokens": 2238,
+        "cost": 0.00063801,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00054351,
+          "upstream_inference_completions_cost": 9.45e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126",
+    "question_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126-008",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765457263-vlBe8dJKbNH2xLiwpdkM",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765457263,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n    \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: SLE with known class IV nephritis, new severe headache/blurring/edema, hypertension, but labs show active SLE flare (rising anti-dsDNA, low complement, RBC casts) with only mild worsening of proteinuria and creatinine, and normal platelets/LFTs. This pattern favors lupus nephritis flare over new-onset severe preeclampsia. Logical issue: None; the item clearly distinguishes flare from preeclampsia based on serology and sediment. Medical accuracy: Accurate; pulse steroids for active lupus nephritis in pregnancy with stable maternal/fetal status is standard. Minimal fix: None required; the item is well-constructed and discriminates based on classic flare markers versus preeclampsia criteria.\",\n    \"logical_false_reason\": \"T\",\n    \"logical_validity\": true,\n    \"medical_accuracy_score\":  \t\n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2015,
+        "completion_tokens": 199,
+        "total_tokens": 2214,
+        "cost": 0.00062763,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00054405,
+          "upstream_inference_completions_cost": 8.358e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126",
+    "question_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126-009",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765457271-SGqD0kvrjdi4qf70KoHv",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765457271,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n    \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: severe ARDS (PaO2/FiO2 70, <80 after proning) refractory to lung-protective ventilation, paralysis, and proning; hemodynamically stable on low-dose vasopressor (MAP 72, lactate 1.8). Main logical issue: None; the stem clearly defines failure of conventional therapy, making VV-ECMO the definitive next step per standard criteria. Main medical accuracy issue: None; the logic aligns with EOLIA trial criteria and current guidelines for ECMO in refractory ARDS. Minimal fix: None required for logical validity; to enhance clarity, the stem could explicitly state 'no signs of cardiogenic shock' to preempt option E.\",\n    \"logical_false_reason\": \"T\",\n    \"logical_validity\": true,\n    \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1988,
+        "completion_tokens": 203,
+        "total_tokens": 2191,
+        "cost": 0.00062202,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053676,
+          "upstream_inference_completions_cost": 8.526e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126",
+    "question_id": "20251129T045001943Z_gpt-5.1-2025-11-13_seed126-010",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765457288-TmIRZ0Bn0HFPjQimYAT2",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765457288,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: HBV-positive, systemic symptoms, palpable purpura, mononeuritis multiplex, hypertension, microaneurysms on CT angiography, and high viral load—all consistent with HBV-associated polyarteritis nodosa (PAN). The item correctly requires a strategy addressing both active vasculitis and viral replication. The keyed answer (C: high-dose corticosteroids plus plasma exchange and antiviral therapy) aligns with current guidelines for severe HBV-PAN, which emphasize rapid immunosuppression with steroids and plasma exchange plus immediate antiviral therapy to control viral replication. Alternatives are inferior: A (no antiviral) risks HBV reactivation; B (delayed immunosuppression) allows vasculitis progression; D (rituximab) is not first-line for HBV-PAN; E (no steroids) inadequately treats vasculitis. No contradictions or underspecification; a single best answer is defensible. Minimal fix: none needed; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1952,
+        "completion_tokens": 244,
+        "total_tokens": 2196,
+        "cost": 0.00062952,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052704,
+          "upstream_inference_completions_cost": 0.00010248
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

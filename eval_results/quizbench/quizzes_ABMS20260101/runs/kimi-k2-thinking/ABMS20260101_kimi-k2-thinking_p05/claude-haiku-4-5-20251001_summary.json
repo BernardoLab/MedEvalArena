@@ -1,0 +1,1 @@
+{"model": "claude-haiku-4-5-20251001", "created_at": "2026-01-02T01:45:45Z", "total_corr": 10, "total_wrong": 0, "acc": 1.0, "n_items": 10, "batch_input_file": "ABMS20260101_kimi-k2-thinking_p05_claude-haiku-4-5-20251001_anthropic_batch_requests.jsonl", "batch_id": "msgbatch_01HGBwYdwnYa8vnusfZtMPeF", "used_batch_api": true, "batch_provider": "anthropic"}

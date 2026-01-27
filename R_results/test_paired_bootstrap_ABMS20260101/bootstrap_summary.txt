@@ -1,0 +1,100 @@
+Paired item bootstrap (resample items)
+Items used: 300
+LLMs: 10
+Bootstrap reps: 200
+Delta (major difference threshold, pp): 5
+All pairwise CIs within ±Delta: FALSE
+
+Pairs with CI extending beyond ±Delta:
+
+                         A                        B    diff_pct          lo95
+  claude-opus-4-5-20251101    gemini-2.5-flash-lite  15.6666667  11.325000000
+     gemini-2.5-flash-lite       gpt-5.1-2025-11-13 -13.0000000 -17.341666667
+             deepseek-v3.2    gemini-2.5-flash-lite  12.6666667   7.983333333
+     gemini-2.5-flash-lite              grok-4-0709 -12.1666667 -17.008333333
+     gemini-2.5-flash-lite     gemini-3-pro-preview -11.6666667 -16.666666667
+ claude-haiku-4-5-20251001 claude-opus-4-5-20251101 -11.3333333 -16.333333333
+  claude-opus-4-5-20251101    gpt-5-nano-2025-08-07  10.6666667   6.000000000
+     gemini-2.5-flash-lite  grok-4-1-fast-reasoning -10.3333333 -15.333333333
+     gemini-2.5-flash-lite         kimi-k2-thinking  -9.6666667 -15.691666667
+ claude-haiku-4-5-20251001       gpt-5.1-2025-11-13  -8.3333333 -13.333333333
+ claude-haiku-4-5-20251001            deepseek-v3.2  -8.3333333 -12.675000000
+ claude-haiku-4-5-20251001              grok-4-0709  -8.0000000 -12.008333333
+     gpt-5-nano-2025-08-07       gpt-5.1-2025-11-13  -7.6666667 -12.000000000
+             deepseek-v3.2    gpt-5-nano-2025-08-07   7.3333333   2.666666667
+     gpt-5-nano-2025-08-07              grok-4-0709  -7.1666667 -11.675000000
+ claude-haiku-4-5-20251001     gemini-3-pro-preview  -7.0000000 -12.333333333
+ claude-haiku-4-5-20251001  grok-4-1-fast-reasoning  -6.3333333 -10.666666667
+      gemini-3-pro-preview    gpt-5-nano-2025-08-07   6.3333333   1.333333333
+  claude-opus-4-5-20251101         kimi-k2-thinking   6.0000000   2.325000000
+     gpt-5-nano-2025-08-07  grok-4-1-fast-reasoning  -5.6666667 -10.333333333
+ claude-haiku-4-5-20251001         kimi-k2-thinking  -5.3333333 -10.675000000
+     gemini-2.5-flash-lite    gpt-5-nano-2025-08-07  -5.3333333 -10.000000000
+  claude-opus-4-5-20251101  grok-4-1-fast-reasoning   5.1666667   1.666666667
+  claude-opus-4-5-20251101     gemini-3-pro-preview   4.6666667   0.658333333
+     gpt-5-nano-2025-08-07         kimi-k2-thinking  -4.6666667  -9.675000000
+ claude-haiku-4-5-20251001    gemini-2.5-flash-lite   4.3333333   0.325000000
+  claude-opus-4-5-20251101              grok-4-0709   3.5000000  -0.666666667
+  claude-opus-4-5-20251101            deepseek-v3.2   3.0000000  -0.008333333
+        gpt-5.1-2025-11-13         kimi-k2-thinking   2.8333333  -1.666666667
+  claude-opus-4-5-20251101       gpt-5.1-2025-11-13   2.6666667  -0.666666667
+             deepseek-v3.2         kimi-k2-thinking   2.6666667  -1.350000000
+        gpt-5.1-2025-11-13  grok-4-1-fast-reasoning   2.3333333  -2.000000000
+               grok-4-0709         kimi-k2-thinking   2.3333333  -2.016666667
+             deepseek-v3.2  grok-4-1-fast-reasoning   2.0000000  -2.008333333
+      gemini-3-pro-preview       gpt-5.1-2025-11-13  -1.6666667  -5.000000000
+               grok-4-0709  grok-4-1-fast-reasoning   1.6666667  -2.675000000
+             deepseek-v3.2     gemini-3-pro-preview   1.3333333  -2.675000000
+ claude-haiku-4-5-20251001    gpt-5-nano-2025-08-07  -1.0000000  -5.675000000
+        gpt-5.1-2025-11-13              grok-4-0709   1.0000000  -3.675000000
+      gemini-3-pro-preview              grok-4-0709  -0.8333333  -6.008333333
+      gemini-3-pro-preview  grok-4-1-fast-reasoning   0.6666667  -4.333333333
+   grok-4-1-fast-reasoning         kimi-k2-thinking   0.6666667  -3.675000000
+       hi95
+ 21.0000000
+ -7.3333333
+ 16.6666667
+ -7.3333333
+ -5.6666667
+ -7.0000000
+ 15.6750000
+ -5.3333333
+ -4.6583333
+ -3.3333333
+ -3.9833333
+ -2.9916667
+ -3.6666667
+ 12.0000000
+ -2.3250000
+ -1.6666667
+ -2.3166667
+ 10.6833333
+ 10.0000000
+ -1.0000000
+ -0.9916667
+  0.0000000
+  8.6750000
+  8.3333333
+  0.6666667
+  9.3333333
+  7.6833333
+  7.3333333
+  7.0166667
+  7.0083333
+  7.0083333
+  6.6750000
+  7.3333333
+  5.6666667
+  2.3416667
+  6.0000000
+  5.0000000
+  4.3333333
+  5.0000000
+  3.6666667
+  5.3333333
+  5.0083333
+
+Files written:
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/test_paired_bootstrap_ABMS20260101/overall_accuracy_bootstrap.csv
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/test_paired_bootstrap_ABMS20260101/pairwise_accuracy_diffs_bootstrap.csv
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/test_paired_bootstrap_ABMS20260101/topic_accuracy_wilson.csv

@@ -1,0 +1,1 @@
+{"model": "deepseek-v3.2", "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed126", "created_at": "2025-12-11T13:16:53Z", "n_items": 10, "n_valid_responses": 7, "n_invalid_responses": 3, "n_pass": 4, "n_fail": 3, "fail_reason_counts": {"K": 3, "NA": 4}, "medical_score_mean": 4.142857142857143, "n_safety_flag_true": 0, "used_batch_api": false}

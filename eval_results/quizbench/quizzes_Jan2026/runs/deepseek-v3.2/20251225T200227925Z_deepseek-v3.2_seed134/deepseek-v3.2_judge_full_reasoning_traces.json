@@ -1,0 +1,384 @@
+[
+  {
+    "quiz_id": "20251225T200227925Z_deepseek-v3.2_seed134",
+    "question_id": "20251225T200227925Z_deepseek-v3.2_seed134-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766694026-iQvsRsLFUf4NApPWBkbD",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766694026,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. Key stem clues: Marfan syndrome, tearing interscapular pain, pulse deficit (right vs. left arm BP difference), widened mediastinum, normal aortic root on bedside echo. These strongly suggest acute aortic dissection, likely Stanford type B given normal aortic root. The immediate priority is to reduce shear stress via heart rate and blood pressure control before definitive imaging. However, the keyed answer (C) targets heart rate <60 bpm, which is overly aggressive and not the standard initial target; guidelines typically target HR 60-80 bpm and systolic BP 100-120 mmHg. Option A (labetalol) is a correct first-line agent, but its specified target (<120 mmHg) is acceptable, though slightly aggressive. Option A is defensible as best because labetalol is a combined alpha/beta-blocker often used first-line, and its target is closer to standard than C's HR <60. Thus, C is miskeyed; A is a better answer. Logical issue: Miskeying due to an overly restrictive heart rate target in the correct option. Medical accuracy issue: The specified HR target in C is too low and could be harmful. Minimal fix: Change option C's target to 'heart rate <80 bpm' to align with guidelines, making it the clear best answer.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\": \n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2029,
+        "completion_tokens": 326,
+        "total_tokens": 2355,
+        "cost": 0.00068475,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00054783,
+          "upstream_inference_completions_cost": 0.00013692
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251225T200227925Z_deepseek-v3.2_seed134",
+    "question_id": "20251225T200227925Z_deepseek-v3.2_seed134-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766694036-vhMS3BJzR9cYr65PdsWe",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766694036,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: chronic schizophrenia on clozapine, subacute progression (4 weeks) of confusion, ataxia, urinary incontinence; MRI shows symmetrical confluent T2/FLAIR hyperintensity in periventricular white matter and corpus callosum without enhancement; CSF shows mild lymphocytic pleocytosis, mild protein elevation, normal glucose, negative oligoclonal bands. These findings point to a non-inflammatory demyelinating process affecting the corpus callosum. Marchiafava-Bignami disease, though classically alcoholic, can occur with severe malnutrition (possible in chronic schizophrenia). Logical issue: None; item is well-constructed with a unique best answer. Medical accuracy: The association with schizophrenia is indirect (via possible malnutrition) but plausible; the triad and MRI are characteristic. Minimal fix: Explicitly mention poor nutritional status or chronic alcoholism to strengthen the link to Marchiafava-Bignami, but not required for validity.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1971,
+        "completion_tokens": 241,
+        "total_tokens": 2212,
+        "cost": 0.00063339,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053217,
+          "upstream_inference_completions_cost": 0.00010122
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251225T200227925Z_deepseek-v3.2_seed134",
+    "question_id": "20251225T200227925Z_deepseek-v3.2_seed134-003",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766694042-z6jR2UolJCgOJ94TC019",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766694042,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: U (Underspecified) leading to M. Verdict: Not uniquely determinable. The stem does not state that an antipsychotic was administered, which is a critical missing detail required to select neuroleptic malignant syndrome (NMS) as the best answer. Without this, both NMS (A) and delirium tremens with severe autonomic hyperactivity (D) are defensible. Delirium tremens can cause fever, agitation, and autonomic instability, and rhabdomyolysis can occur from agitation and immobility. The keyed answer (A) assumes an unstated antipsychotic use. The medical content is accurate if an antipsychotic was given, but the stem's omission makes the logic flawed. Minimal fix: Add to the stem: 'He was given haloperidol for agitation on hospital day 1.'\",\n  \"logical_false_reason\": \"U\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\": \n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1995,
+        "completion_tokens": 213,
+        "total_tokens": 2208,
+        "cost": 0.00062811,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053865,
+          "upstream_inference_completions_cost": 8.946e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251225T200227925Z_deepseek-v3.2_seed134",
+    "question_id": "20251225T200227925Z_deepseek-v3.2_seed134-004",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766694048-11q5oAtQN6ezDWbPhvaH",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766694048,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: prior high-grade urothelial bladder cancer (pT2) treated with cystectomy, new enhancing renal pelvis mass 3 years later with no metastases, consistent with metachronous upper tract urothelial carcinoma (UTUC). Main logical issue: None; the vignette provides a clear timeline, prior history, and imaging findings that uniquely point to localized UTUC management. Main medical accuracy issue: None; the keyed answer (nephroureterectomy with bladder cuff excision) aligns with standard guidelines for localized UTUC after prior bladder cancer. Minimal fix: None required; the item is already unambiguous and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1973,
+        "completion_tokens": 187,
+        "total_tokens": 2160,
+        "cost": 0.00141904,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00110488,
+          "upstream_inference_completions_cost": 0.00031416
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251225T200227925Z_deepseek-v3.2_seed134",
+    "question_id": "20251225T200227925Z_deepseek-v3.2_seed134-005",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766694052-WNOxAKW4iqtYxL5LsYfM",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766694052,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: Comatose patient with wide QRS (140 ms), terminal R in aVR, sinus bradycardia, hypotension, and acidosis—classic for sodium channel blocker overdose (e.g., tricyclic antidepressant). Main logical issue: The keyed answer (C, sodium bicarbonate) is a correct intervention, but the most appropriate immediate intervention in this unstable patient (GCS 3, hypotension, bradycardia, hypoxemia) is securing the airway and supporting ventilation (B) before specific antidotes, as per ACLS/toxidrome management prioritizing ABCs. Multiple answers defensible (M secondary) because both B and C are time-sensitive; however, B is uniquely first. Main medical accuracy issue: Sodium bicarbonate is indicated but not the immediate first step in an unstable, comatose patient with respiratory failure. Minimal fix: Change key to B and adjust rationale to emphasize airway/ventilation as immediate, followed by bicarbonate.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2029,
+        "completion_tokens": 257,
+        "total_tokens": 2286,
+        "cost": 0.001568,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00113624,
+          "upstream_inference_completions_cost": 0.00043176
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251225T200227925Z_deepseek-v3.2_seed134",
+    "question_id": "20251225T200227925Z_deepseek-v3.2_seed134-006",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766694058-2Qkk2Jnrh4AU33f3YJmC",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766694058,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. The stem clearly asks for the therapy with the strongest evidence base for reducing self-harm behaviors and hospitalizations in borderline personality disorder (BPD). The key discriminating finding is the patient's history of recurrent self-cutting without suicidal intent, which directly aligns with the outcome measure. Dialectical Behavior Therapy (DBT) is the unique best answer, as it is the most extensively researched and has the strongest evidence for reducing self-harm and hospitalizations in BPD, a fact consistent with current psychiatric guidelines. The alternatives (MBT, TFP, SFT, CBT) have evidence but are not as robust or specific for self-harm reduction. No logical contradictions or underspecification exist; the stem provides sufficient clinical detail. The medical accuracy is high, aligning with mainstream evidence. Minimal fix: None required; the item is valid and accurate.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1912,
+        "completion_tokens": 216,
+        "total_tokens": 2128,
+        "cost": 0.00060696,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00051624,
+          "upstream_inference_completions_cost": 9.072e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251225T200227925Z_deepseek-v3.2_seed134",
+    "question_id": "20251225T200227925Z_deepseek-v3.2_seed134-007",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766694063-hjcgwuwM1LwAnGhuuhSK",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766694063,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: acute onset of high fever, rigidity, autonomic instability, confusion, and markedly elevated CK in a patient recently started on risperidone—classic presentation of neuroleptic malignant syndrome (NMS). The immediate essential step is discontinuation of the offending antipsychotic and supportive care. Main logical issue: None; the vignette clearly points to NMS, and option D is the unequivocal first step. Main medical accuracy issue: None; the management aligns with current standards. Minimal fix: None required; the item is clear and accurate. The rationale correctly notes that dantrolene/bromocriptine are adjuncts, not first-line.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n    \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1953,
+        "completion_tokens": 191,
+        "total_tokens": 2144,
+        "cost": 0.00060753,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052731,
+          "upstream_inference_completions_cost": 8.022e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251225T200227925Z_deepseek-v3.2_seed134",
+    "question_id": "20251225T200227925Z_deepseek-v3.2_seed134-008",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766694068-lymsqWsKy95uVLHwG057",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766694069,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: Acute urinary retention with Foley placement, followed by confusion, hypotension, tachycardia, and severe hyponatremia (118 mEq/L) with high urine sodium (80 mEq/L), high urine osmolality (450 mOsm/kg), and low serum osmolality (255 mOsm/kg). The clinical picture indicates hyponatremia with volume depletion (hypotension, tachycardia) and inappropriate natriuresis. Main logical issue: The keyed answer (B, Cerebral salt wasting syndrome) is not the most likely cause in this context. CSWS is classically associated with intracranial pathology, not urinary obstruction. The most defensible best answer is C (Post-obstructive diuresis leading to volume depletion), as post-obstructive diuresis can cause volume depletion and hyponatremia due to sodium and water loss, and the scenario fits a typical complication after relief of urinary retention. Main medical accuracy issue: CSWS is not a recognized complication of urinary retention or Foley placement; the explanation incorrectly links it to a 'transient cerebral event' without evidence. Minimal fix: Change the key to C and adjust the rationale to explain how post-obstructive diuresis can lead to volume depletion and hyponatremia with high urine sodium due to ongoing natriuresis.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1985,
+        "completion_tokens": 333,
+        "total_tokens": 2318,
+        "cost": 0.00067581,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053595,
+          "upstream_inference_completions_cost": 0.00013986
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

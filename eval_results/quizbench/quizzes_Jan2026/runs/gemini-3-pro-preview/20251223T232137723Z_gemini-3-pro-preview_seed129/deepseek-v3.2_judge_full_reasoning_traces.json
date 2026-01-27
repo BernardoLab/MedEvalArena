@@ -1,0 +1,955 @@
+[
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617326-24kk9LGw2MtphIxyzr2s",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617326,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: unilateral foot deformity with dorsum touching anterior shin (calcaneovalgus), posteromedial bowing on radiographs, newborn presentation. This combination is classic for posteromedial bowing of the tibia. The natural history is well-established: spontaneous resolution of the bowing but persistence of a leg-length discrepancy (LLD) of 3-4 cm, making option A accurate. Option B (progression) is incorrect as the bowing improves. Option C is incorrect; anterolateral bowing, not posteromedial, is associated with NF1. Option D is incorrect; the foot deformity is calcaneovalgus, not rigid clubfoot. Option E describes congenital pseudarthrosis of the tibia, associated with anterolateral bowing. No logical contradictions or missing critical details exist; the keyed answer is uniquely defensible based on the findings. Medical accuracy is sound. Minimal fix: None required; the item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1911,
+        "completion_tokens": 253,
+        "total_tokens": 2164,
+        "cost": 0.0014952,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00107016,
+          "upstream_inference_completions_cost": 0.00042504
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617331-eEoZ38Hg4cmG5EGEKmn5",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617331,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: multiple firm, dome-shaped, skin-colored facial/neck papules, history of spontaneous pneumothorax, biopsy showing fibrofolliculoma. This combination is classic for Birt-Hogg-Dubé (BHD) syndrome. The renal tumors most strongly associated with BHD are hybrid oncocytic tumors and chromophobe renal cell carcinoma, making option C (Chromophobe Renal Cell Carcinoma) a plausible and commonly cited association. However, the most strongly associated and characteristic renal pathology in BHD is the hybrid oncocytic tumor, which is a distinct entity often grouped with chromophobe RCC but is not purely chromophobe RCC. Among the given options, chromophobe RCC is the closest match, but some major sources state the association is specifically with hybrid oncocytic tumors. The keyed answer (C) is therefore defensible but not the most precise given the options; however, in many board-style contexts, chromophobe RCC is accepted. The primary logical issue is miskeying relative to the strictest definition, but the item is not internally contradictory or underspecified. Medical accuracy is good. Minimal fix: Change option C to 'Hybrid oncocytic tumor / Chromophobe Renal Cell Carcinoma' to align precisely with syndrome characteristics.\", \"logical_false_reason\": \"K\", \"logical_validity\": false, \"medical_accuracy_score\":  \"4\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1854,
+        "completion_tokens": 316,
+        "total_tokens": 2170,
+        "cost": 0.0006333,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050058,
+          "upstream_inference_completions_cost": 0.00013272
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-003",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617339-ymPZBti2h0ZzgA4T3boz",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617339,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: sickle cell trait, gross hematuria, flank pain, centrally located infiltrative renal mass with retroperitoneal lymphadenopathy. These are classic for renal medullary carcinoma (RMC). The diagnostic immunohistochemical hallmark for RMC is loss of INI1 (SMARCB1) nuclear staining, making option C the unique best answer. The item is logically valid and medically accurate. Option A is typical for clear cell RCC, B for angiomyolipoma, D for papillary RCC, and E for Xp11 translocation RCC. No logical issues or medical inaccuracies are present. Minimal fix: None required; the item is clear and accurate as written.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1874,
+        "completion_tokens": 197,
+        "total_tokens": 2071,
+        "cost": 0.0013804,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00104944,
+          "upstream_inference_completions_cost": 0.00033096
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-004",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617345-AbyZUfCLWsiKX53OSoRG",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617345,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: sudden sensorineural hearing loss, tinnitus, vertigo (neurologic/auditory phase), followed by poliosis and vitiligo (melanocyte involvement), plus headache and neck stiffness (meningeal irritation). This classic progression strongly points to Vogt-Koyanagi-Harada (VKH) syndrome. The item is logically valid: a unique best answer exists, the key matches it, and there are no contradictions. Alternatives are inferior: Cogan's lacks poliosis/vitiligo; Susac involves branch retinal artery occlusions and encephalopathy; Meniere's lacks cutaneous findings; Superior canal dehiscence causes sound/pressure-induced vertigo, not the described systemic progression. Medical accuracy is sound, aligning with standard descriptions of VKH. Minimal fix: None required; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1848,
+        "completion_tokens": 223,
+        "total_tokens": 2071,
+        "cost": 0.00059262,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049896,
+          "upstream_inference_completions_cost": 9.366e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-005",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617351-ojpC0L3OeMo7iqbfH1ZG",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617351,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: elderly male, slowly progressive weakness, selective atrophy of forearm flexors and quadriceps with deltoid sparing, mixed myopathic/neuropathic EMG with spontaneous activity. This pattern is highly specific for inclusion body myositis (IBM). Anti-cN1A is the most specific serological marker for IBM, aligning with the key. Main logical issue: None; the vignette provides sufficient detail for a unique best answer. Main medical accuracy issue: None; the clinical description and antibody associations are accurate per current neurology standards. Minimal fix: None required for validity; the item is sound. To enhance teaching, the stem could explicitly mention 'asymmetric' weakness, a common IBM feature, but this is not necessary for answer discrimination.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1855,
+        "completion_tokens": 211,
+        "total_tokens": 2066,
+        "cost": 0.00058525,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050085,
+          "upstream_inference_completions_cost": 8.44e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-006",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617356-AQZPHle2fXWOQ5JeCXCD",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617356,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: hypernasal speech after cleft palate repair, large central velopharyngeal gap, poor lateral wall motion, excellent anterior-posterior velar excursion. Main logical issue: The keyed answer (A, superiorly based pharyngeal flap) is contradicted by the stem's finding of poor lateral wall motion, as a pharyngeal flap relies on lateral wall motion to close lateral ports. The single best answer is B (sphincter pharyngoplasty), which is indicated for poor lateral wall motion to create a central dynamic sphincter. Main medical accuracy issue: None; the surgical principles are consistent with standard otolaryngology/cleft care. Minimal fix: Change the correct answer key from A to B.\",\n  \"medical_accuracy_score\":  \"4\",\n  \"logical_validity\": false,\n  \"logical_false_reason\": \"K\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2250,
+        "completion_tokens": 209,
+        "total_tokens": 2459,
+        "cost": 0.0006911,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0006075,
+          "upstream_inference_completions_cost": 8.36e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-007",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617366-XWZOmHtPhIPepS9FhKrj",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617366,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict: Correct best. The stem clearly describes a blood blister-like aneurysm (BBA) of the supraclinoid ICA, a known entity with a fragile, non-saccular wall. The keyed answer (B: Intraoperative rupture and avulsion of the ICA wall) is the most significant and specific risk of microsurgical clipping for this lesion, as supported by the rationale. The other options (A, C, D, E) are potential complications of aneurysm surgery or SAH in general but are not the most significant or distinctive risk for a BBA. The item is logically valid: the vignette provides sufficient specific findings (negative initial DSA, repeat DSA finding of a small, broad-based, blister-like outpouching on the dorsal ICA) to identify the lesion type, and a single best answer is defensible. No contradictions or underspecification exist. Medical accuracy is high, aligning with current neurosurgical literature. Minimal fix: None required for validity; to enhance teaching, the stem could explicitly name the lesion as a 'blood blister-like aneurysm' to ensure all test-takers recognize the specific entity.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1855,
+        "completion_tokens": 268,
+        "total_tokens": 2123,
+        "cost": 0.00061341,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050085,
+          "upstream_inference_completions_cost": 0.00011256
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-008",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617373-4oIVn0z1DUJ6ntBwXZeX",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617373,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. The question asks for the traditional Manchester system definition of Point A in cervical cancer brachytherapy. The widely accepted definition is 2 cm superior to the external cervical os and 2 cm lateral to the cervical canal (or uterine canal). Option A correctly states this. Option B incorrectly substitutes 'cervical flange of the tandem' for the anatomical landmark (external os) and uses 'central canal,' which is non-standard terminology. The keyed answer (B) is therefore incorrect. The stem is clear and the options are distinct, allowing a single best answer (A). No contradictions or underspecification exist. Medical accuracy is high for the core concept, but the keyed answer contains an inaccuracy. Minimal fix: Change the key from B to A.\", \"logical_false_reason\": \"K\", \"logical_validity\": false, \"medical_accuracy_score\": \t\"4\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1865,
+        "completion_tokens": 208,
+        "total_tokens": 2073,
+        "cost": 0.00059091,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050355,
+          "upstream_inference_completions_cost": 8.736e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-009",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617378-L5r0WbWz5DgcvC8tJknX",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617378,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. The NETT trial's high-risk exclusion criteria are FEV1 ≤20% predicted AND either DLCO ≤20% predicted OR homogeneous emphysema. The stem asks for an 'absolute exclusion criterion.' Option B (DLCO 18% predicted) alone is not an absolute exclusion; it must be combined with a low FEV1. Option A (FEV1 25% predicted) is above the 20% threshold, so it does not meet the high-risk criteria. The keyed answer incorrectly isolates DLCO. The most defensible single best answer is not present; the item is underspecified (U) because it does not provide the necessary combination of findings. However, given the options, none are absolute exclusions in isolation per NETT, making the key incorrect. Main medical accuracy issue: oversimplification of NETT criteria. Minimal fix: Change stem to 'Which of the following findings, in combination with an FEV1 ≤20% predicted, is an absolute exclusion criterion for LVRS according to NETT?' and keep B as key.\", \"logical_false_reason\": \"K\", \"logical_validity\": false, \"medical_accuracy_score\": \t\"3\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1836,
+        "completion_tokens": 271,
+        "total_tokens": 2107,
+        "cost": 0.00060954,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049572,
+          "upstream_inference_completions_cost": 0.00011382
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-010",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617384-LfpzlOiuKmwxgjWjHqrN",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617384,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: right calf claudication, normal resting ABI dropping to 0.6 after exercise, normal popliteal artery on CTA, but pedal pulses disappear with active plantar flexion. This combination is classic for functional popliteal artery entrapment syndrome (PAES). The loss of pulse with plantar flexion is the key provocative maneuver. Among the anatomic variants listed, an accessory slip of the medial head of the gastrocnemius wrapping around the artery (Type III) is the most common type and fits the described functional entrapment. The item is logically valid: a single best answer is defensible, the key matches it, and there are no contradictions. Medical accuracy is sound, aligning with standard descriptions of PAES. Minimal fix: None required; the item is clear and accurate. However, note that classification systems vary; the explanation clarifies this nuance.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1918,
+        "completion_tokens": 235,
+        "total_tokens": 2153,
+        "cost": 0.00061656,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00051786,
+          "upstream_inference_completions_cost": 9.87e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-011",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617390-uZ62S4ClPluulkEZKRSq",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617390,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. The vignette describes a heavily ossified, lobulated mass attached to the posterior femoral cortex with a radiolucent cleft ('string sign') and histology showing low-grade spindle cells producing well-formed bone trabeculae. This combination is classic for a parosteal osteosarcoma, and the keyed answer (B: MDM2 and CDK4 amplification) is indeed the characteristic molecular finding for that diagnosis. However, the item is logically miskeyed because the provided correct answer key is 'B', but the answer explanation explicitly states the correct answer is 'Parosteal Osteosarcoma' and that MDM2/CDK4 amplification is characteristic. Since the key 'B' matches the explanation and the single best answer derived from the stem, the item is actually valid. The initial miskey assessment was an error in reading the key. Re-evaluating: The key 'B' is correct. The stem provides a unique best answer (parosteal osteosarcoma -> MDM2/CDK4 amplification). No other option is defensible: t(X;18) is for synovial sarcoma, IDH1 for cartilaginous tumors, GNAS for fibrous dysplasia, USP6 for nodular fasciitis. There is no contradiction or underspecification. Therefore, the correct validity label is V. Key stem clues: posterior distal femur, parosteal location, 'string sign', low-grade bone-forming histology. Main logical issue: None. Main medical accuracy issue: None; the association is accurate. Minimal fix: None required for validity; the item is sound.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1851,
+        "completion_tokens": 377,
+        "total_tokens": 2228,
+        "cost": 0.00065811,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049977,
+          "upstream_inference_completions_cost": 0.00015834
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-012",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617398-VrdC4xsKj3lUTuo5Jhej",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617398,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: Persistent painful purple-brown nodules on extensor surfaces, histopathology showing leukocytoclastic vasculitis with concentric fibrosis ('onion-skinning'), and IgA monoclonal gammopathy. These findings are classic for erythema elevatum diutinum (EED). The first-line treatment for EED is dapsone, which is option C. However, the provided key is C, which matches the correct answer. Wait, the input states 'Correct answer key: C' and the answer explanation endorses dapsone. Therefore, the key is correct. I need to re-evaluate. The question asks for first-line treatment of EED. Dapsone is widely accepted as first-line. Prednisone (A) is often used but not first-line; it might be used initially for severe cases but dapsone is preferred for maintenance. Methotrexate (B), infliximab (D), and cyclophosphamide (E) are not first-line. So, dapsone is uniquely best. The item appears logically valid and medically accurate. But let's check for any issues. The stem is specific and diagnostic. The options are distinct. Dapsone is correct. So logical validity should be true, and logical_false_reason T. However, I must ensure no contradictions or underspecification. The stem does not mention any contraindications or prior treatments, so dapsone is appropriate. Medical accuracy: dapsone is indeed first-line for EED per dermatology textbooks and guidelines. Score likely 4 or 5. I'll set medical_accuracy_score to 5 because it is precise and board-relevant. Logical validity true. So analysis should reflect that. But wait, the instruction says: 'If logical_validity = true → logical_false_reason MUST be \\\"T\\\".' So I'll set logical_false_reason to \\\"T\\\". Now, for the analysis string: I need to summarize in 150-220 words. Structure: Validity label: V (since it's valid). Verdict: Correct best. Key stem clues: extensor nodules, histology with onion-skinning, IgA gammopathy → EED. Main logical issue: none. Main medical accuracy issue: none. Minimal fix: none needed, but could add 'chronic' to emphasize EED. Actually, the stem already says 'persistent'. So it's fine. I'll write the analysis accordingly.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1820,
+        "completion_tokens": 562,
+        "total_tokens": 2382,
+        "cost": 0.00072744,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0004914,
+          "upstream_inference_completions_cost": 0.00023604
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-013",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617409-atl1NmY4HVW0iJPtqp7a",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617409,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: high-grade bladder tumor, diffuse edematous bullous appearance (no discrete mass), discohesive cells with eccentric nuclei, muscularis propria invasion, loss of E-cadherin expression on IHC. These features are classic for plasmacytoid urothelial carcinoma, whose hallmark is CDH1 mutation leading to E-cadherin loss. Main logical issue: None. Main medical accuracy issue: None; the description and molecular correlate are accurate per current literature. Minimal fix: None required for a valid item. The stem clearly points to a specific variant and its defining molecular alteration.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1824,
+        "completion_tokens": 172,
+        "total_tokens": 1996,
+        "cost": 0.00056472,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049248,
+          "upstream_inference_completions_cost": 7.224e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-014",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617414-YuEGg6XfNROXBMvpWcPS",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617414,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: Unilateral hearing loss and facial twitching (cranial nerve VII/VIII involvement), petrous apex expansile lesion, non-enhancing, hyperintense on both T1 and T2 MRI, smooth bone erosion on CT. This combination is classic for cholesterol granuloma. Main logical issue: None; the item is well-specified and the MRI signal uniquely points to cholesterol granuloma. Main medical accuracy issue: None; the description and explanation align with standard radiology and otolaryngology knowledge. Minimal fix: None required for a valid item, but to further reduce any ambiguity, one could explicitly state 'no diffusion restriction' to contrast with cholesteatoma, though the T1 hyperintensity is already highly specific.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1841,
+        "completion_tokens": 199,
+        "total_tokens": 2040,
+        "cost": 0.00058065,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049707,
+          "upstream_inference_completions_cost": 8.358e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-015",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617419-7f3X5bl2UQQoeQsXNFMj",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617419,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: ICU patient with sepsis/multi-organ failure, flaccid quadriparesis, normal sensory studies, reduced CMAP amplitudes with increased duration (no conduction block), EMG with spontaneous activity and short-duration/low-amplitude MUPs, and muscle biopsy showing selective loss of myosin filaments. This combination is classic for Critical Illness Myopathy (CIM), specifically acute quadriplegic myopathy with myosin loss. The sensory preservation argues against CIP (A) and GBS (C). Motor neuron disease (D) would show neurogenic EMG changes, not myopathic. Botulism (E) typically shows presynaptic neuromuscular junction findings. No logical contradictions; the key is uniquely defensible. Medical accuracy is high, aligning with standard neuromuscular ICU literature. Minimal fix: None required; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1872,
+        "completion_tokens": 226,
+        "total_tokens": 2098,
+        "cost": 0.001428,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00104832,
+          "upstream_inference_completions_cost": 0.00037968
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-016",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617424-hoIPwyuyqvFrYxDSpPwe",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617424,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: scaphoid waist nonunion with established humpback deformity, DISI pattern, intrascaphoid angle of 60°, no AVN. This describes a structural deformity requiring correction of length and alignment, not just union. Main logical issue: None; the stem clearly specifies a deformity needing structural correction, making a volar wedge graft uniquely indicated. Main medical accuracy issue: None; the Fisk-Fernandez technique is a standard, accepted method for this scenario. Minimal fix: None required; the item is already clear and accurate. Alternative choices are correctly inferior: Russe/Matti-Russe are non-structural inlay grafts, vascularized graft is for AVN, proximal row carpectomy is a salvage option not indicated here.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1890,
+        "completion_tokens": 211,
+        "total_tokens": 2101,
+        "cost": 0.0005947,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0005103,
+          "upstream_inference_completions_cost": 8.44e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-017",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617437-FJoK26OFsG9ZnM9GjBbs",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617437,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict: Correct best. The stem provides a classic triad for DNET: pediatric drug-resistant epilepsy, a cortically based 'bubbly' cystic-solid lesion on MRI without edema, and the specific histopathology of columns of neurons floating in a mucinous matrix with glioneuronal elements. This combination is pathognomonic. The keyed answer (B) is uniquely defensible. Alternative A (Ganglioglioma) is a close mimic but is correctly distinguished by the provided histologic detail (floating neurons in mucinous matrix is specific to DNET). Options C, D, and E lack the described imaging and histologic features. No internal contradictions or missing critical details are present. The item is medically accurate and logically valid. A minimal fix is not required, but to further strengthen, one could explicitly state the lesion is in the temporal cortex.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1852,
+        "completion_tokens": 215,
+        "total_tokens": 2067,
+        "cost": 0.00059034,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050004,
+          "upstream_inference_completions_cost": 9.03e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-018",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617444-ho65TFGo2S0m6kG0dPvF",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617444,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. The stem describes a hemodynamically stable SVC syndrome patient with small cell lung cancer scheduled for emergent radiation. The keyed answer (C) suggests high dose per fraction (3-4 Gy) for the first few treatments. However, for SVC syndrome in small cell lung cancer, the standard emergent approach is typically either immediate chemotherapy (if chemo-sensitive tumor) or radiation with a conventional fractionation schedule (e.g., 1.8-2 Gy per fraction). High-dose-per-fraction regimens (like 3-4 Gy) are more commonly associated with palliative treatment for non-small cell lung cancer or other solid tumors, and carry a higher risk of late toxicity. For small cell lung cancer, which is highly chemo-sensitive, concurrent chemoradiation with standard fractionation is often preferred. Moreover, the option of concurrent chemotherapy (D) is a strong contender, and hyperfractionation (E) is also used in definitive treatment for small cell lung cancer. The stem lacks critical details about chemo-eligibility and intent (curative vs. palliative), making the unique best answer unclear. The keyed answer is not the most defensible based on standard guidelines. Minimal fix: Specify whether the patient is a candidate for chemotherapy or clarify the treatment intent to distinguish between options C, D, and E.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\": \n  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1877,
+        "completion_tokens": 326,
+        "total_tokens": 2203,
+        "cost": 0.00064371,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050679,
+          "upstream_inference_completions_cost": 0.00013692
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-019",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617451-nWfvbI0pmuYkFnRSykdt",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617451,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: anterior mediastinal mass, high-grade malignancy, immunohistochemistry positive for CD5 and CD117, negative for TdT and CD1a. These findings are classic for thymic carcinoma, which is a high-grade epithelial tumor distinct from thymoma and lymphoma. The pattern excludes thymoma (typically CD5-/CD117-), T-cell lymphoblastic lymphoma (TdT+), seminoma (CD5-), and mediastinal large B-cell lymphoma (CD5-/CD117-). No logical issues; the item is well-specified and aligns with WHO classification. Main medical accuracy issue: None; the immunoprofile is accurate for thymic carcinoma. Minimal fix: None required; the item is unambiguous and accurate as written.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1846,
+        "completion_tokens": 211,
+        "total_tokens": 2057,
+        "cost": 0.00058282,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049842,
+          "upstream_inference_completions_cost": 8.44e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed129",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed129-020",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617458-TsgauyOu22Pr9o4ifU3v",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617458,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: painless pulsatile neck mass at carotid bifurcation, imaging shows vascular tumor splaying internal/external carotid arteries (Lyre sign), and tumor fully encases (360 degrees) the internal carotid artery without luminal narrowing. The Shamblin classification is explicitly asked for, and the defining feature of Shamblin III is complete encirclement/adherence to carotid vessels. The stem provides all necessary details: location (carotid body tumor), imaging finding (Lyre sign), and degree of encasement (full 360-degree encasement without narrowing). No contradictions or missing details. Medical accuracy is sound: Shamblin III is correctly defined by complete encirclement, and the Lyre sign is a classic radiologic sign for carotid body tumors. Minimal fix: None needed; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1840,
+        "completion_tokens": 226,
+        "total_tokens": 2066,
+        "cost": 0.00059172,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0004968,
+          "upstream_inference_completions_cost": 9.492e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

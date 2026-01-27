@@ -1,0 +1,1 @@
+{"model": "gemini-3-pro-preview", "created_at": "2025-12-26T10:48:44Z", "total_corr": 10, "total_wrong": 0, "acc": 1.0, "n_items": 10, "batch_input_file": "ABMS20260101_kimi-k2-thinking_p04_gemini-3-pro-preview_batch_input.jsonl", "batch_id": "batches/hzdy1dyox13ciypyhbqpdjre2vb1cqms28sm", "used_batch_api": true}

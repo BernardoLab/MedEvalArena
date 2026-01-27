@@ -1,0 +1,1 @@
+{"model": "gemini-3-pro-preview", "created_at": "2025-11-30T18:43:01Z", "total_corr": 6, "total_wrong": 4, "acc": 0.6, "n_items": 10, "batch_input_file": "20251129T135352000Z_claude-opus-4-5-20251101_seed125_gemini-3-pro-preview_batch_input.jsonl", "batch_id": "batches/z6yah11721vbf19wzorsapkygma9rcchh6xn", "used_batch_api": true}

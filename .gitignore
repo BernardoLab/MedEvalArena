@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.rds
+.pyc_cache/
+.uv-cache/
+.uv_cache/
+.venv/
+.cache/
+.ipynb_checkpoints/
+
+# Generated data and outputs
+results/
+eval_uq_results/
+quizbench/eval_uq_results/
+quizbench/quizzes/
+debugging/
+tmp/

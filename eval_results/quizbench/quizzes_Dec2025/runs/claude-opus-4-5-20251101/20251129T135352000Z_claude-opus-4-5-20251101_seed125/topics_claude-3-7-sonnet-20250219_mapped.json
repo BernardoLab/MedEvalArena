@@ -1,0 +1,133 @@
+{
+  "quiz_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed125",
+  "generator_model": "claude-opus-4-5-20251101",
+  "eval_model": "claude-3-7-sonnet-20250219",
+  "default_topics": [
+    "cardiology",
+    "endocrinology",
+    "infectious disease",
+    "hematology/oncology",
+    "neurology",
+    "nephrology",
+    "pulmonology",
+    "obstetrics",
+    "gynecology",
+    "pediatrics",
+    "geriatrics",
+    "dermatology",
+    "rheumatology",
+    "emergency medicine",
+    "critical care"
+  ],
+  "created_at": "2025-12-09T02:44:41Z",
+  "per_question": [
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed125-001",
+      "topic": "pediatrics",
+      "raw_response": "pediatrics",
+      "topic_mapped": "Pediatrics"
+    },
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed125-002",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    },
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed125-003",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    },
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed125-004",
+      "topic": "hematology/oncology",
+      "raw_response": "hematology/oncology",
+      "topic_mapped": "Hematology",
+      "topic_split_from_misc": {
+        "raw_topic": "hematology/oncology",
+        "model": "claude-3-7-sonnet-20250219",
+        "max_tokens": 512,
+        "temperature": 0.0,
+        "raw_response": "Hematology",
+        "applied_at": "2025-12-15T14:20:24Z"
+      }
+    },
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed125-005",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    },
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed125-006",
+      "topic": "rheumatology",
+      "raw_response": "rheumatology",
+      "topic_mapped": "Rheumatology/Musculoskeletal"
+    },
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed125-007",
+      "topic": "obstetrics",
+      "raw_response": "obstetrics",
+      "topic_mapped": "Obstetrics and Gynecology"
+    },
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed125-008",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    },
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed125-009",
+      "topic": "critical care",
+      "raw_response": "critical care",
+      "topic_mapped": "Critical Care Medicine"
+    },
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed125-010",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    }
+  ],
+  "summary": {
+    "topic_counts": {
+      "pediatrics": 1,
+      "neurology": 5,
+      "hematology/oncology": 1,
+      "rheumatology": 1,
+      "obstetrics": 1,
+      "critical care": 1
+    },
+    "majority_topic": "neurology",
+    "num_questions": 10,
+    "num_unclassified": 0
+  },
+  "topic_mapping": {
+    "applied_at": "2025-12-15T14:20:24Z",
+    "topic_map_path": "data/topic_to_abms.yaml",
+    "mode": "map",
+    "unmapped_policy": "keep",
+    "normalize": true,
+    "combined_to_misc": true,
+    "misc_category": "Misc",
+    "refine_misc_heme_onc": true,
+    "refine_misc_model": "claude-3-7-sonnet-20250219",
+    "refine_misc_max_tokens": 512,
+    "refine_misc_temperature": 0.0
+  },
+  "summary_mapped": {
+    "topic_counts": {
+      "Pediatrics": 1,
+      "Neurology": 5,
+      "Hematology": 1,
+      "Rheumatology/Musculoskeletal": 1,
+      "Obstetrics and Gynecology": 1,
+      "Critical Care Medicine": 1
+    },
+    "num_questions": 10,
+    "num_dropped": 0,
+    "num_unmapped_raw": 0,
+    "unmapped_raw_counts": {}
+  }
+}

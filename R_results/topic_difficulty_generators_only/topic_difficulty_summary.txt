@@ -1,0 +1,23 @@
+Topic difficulty only (item is the unit; p_item = mean correctness across LLMs).
+
+Items used (with topic): 300
+Topics included: 31
+LLMs contributing to p_item: 6
+Permutation stratified by quiz: TRUE
+
+Hardest topic (lowest mean p_item):
+  Vascular Surgery: 63.9% (95% CI 41.7–83.3%), n=6
+
+Easiest topic (highest mean p_item):
+  Rheumatology/Musculoskeletal: 100.0% (95% CI 100.0–100.0%), n=6
+
+Global test (permutation ANOVA on item scores by topic):
+  F = 0.9838, eta^2 = 0.09887, p_perm = 0.4687
+
+Effect size (range of topic mean item scores):
+  Range = 36.1 pp (95% bootstrap CI 30.6–66.7 pp)
+
+Files written:
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/topic_difficulty_generators_only/item_scores.csv
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/topic_difficulty_generators_only/topic_difficulty_bootstrap.csv
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/topic_difficulty_generators_only/topic_global_test_permutation.csv

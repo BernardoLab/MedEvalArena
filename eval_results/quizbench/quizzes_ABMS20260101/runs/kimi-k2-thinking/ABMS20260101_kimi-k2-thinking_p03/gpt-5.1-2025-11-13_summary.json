@@ -1,0 +1,1 @@
+{"model": "gpt-5.1-2025-11-13", "created_at": "2025-12-30T00:10:50Z", "total_corr": 9, "total_wrong": 1, "acc": 0.9, "n_items": 10, "batch_input_file": "ABMS20260101_kimi-k2-thinking_p03_gpt-5.1-2025-11-13_batch_input.jsonl", "batch_id": "batch_695316e3e1808190bbee3207ccebcbc5", "used_batch_api": true}

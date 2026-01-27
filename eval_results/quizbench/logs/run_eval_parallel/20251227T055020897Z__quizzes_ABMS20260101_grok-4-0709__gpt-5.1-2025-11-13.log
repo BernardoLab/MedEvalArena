@@ -1,0 +1,52 @@
+[INFO] Evaluating 5 quizzes with model 'gpt-5.1-2025-11-13'
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_grok-4-0709_p01 path=quizzes/quizzes_ABMS20260101/grok-4-0709/ABMS20260101_grok-4-0709_p01.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_grok-4-0709_p01, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/grok-4-0709/ABMS20260101_grok-4-0709_p01/ABMS20260101_grok-4-0709_p01_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-8Ct9XDzCrtGj4qp4HhC8iW
+Created batch with id: batch_694f748eb93c8190beeb08c8f53ed39b
+Initial batch status: validating
+Batch batch_694f748eb93c8190beeb08c8f53ed39b status: validating. Sleeping 60s...
+Batch batch_694f748eb93c8190beeb08c8f53ed39b status: in_progress. Sleeping 60s...
+Batch batch_694f748eb93c8190beeb08c8f53ed39b reached terminal status: completed
+Downloading batch file: file-LQS8GA6UNPkx1vuDXKnyJj
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/grok-4-0709/ABMS20260101_grok-4-0709_p01
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_grok-4-0709_p02 path=quizzes/quizzes_ABMS20260101/grok-4-0709/ABMS20260101_grok-4-0709_p02.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_grok-4-0709_p02, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/grok-4-0709/ABMS20260101_grok-4-0709_p02/ABMS20260101_grok-4-0709_p02_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-AoopdrNW31vnoxuBXFq2Qi
+Created batch with id: batch_694f750a02dc8190ae74e4e2d7741496
+Initial batch status: validating
+Batch batch_694f750a02dc8190ae74e4e2d7741496 status: validating. Sleeping 60s...
+Batch batch_694f750a02dc8190ae74e4e2d7741496 status: in_progress. Sleeping 60s...
+Batch batch_694f750a02dc8190ae74e4e2d7741496 reached terminal status: completed
+Downloading batch file: file-JEXcJ5ohytK6zhSXrjKkEN
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/grok-4-0709/ABMS20260101_grok-4-0709_p02
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_grok-4-0709_p03 path=quizzes/quizzes_ABMS20260101/grok-4-0709/ABMS20260101_grok-4-0709_p03.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_grok-4-0709_p03, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/grok-4-0709/ABMS20260101_grok-4-0709_p03/ABMS20260101_grok-4-0709_p03_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-DjDwYimeJJZFi3xxJyW7t3
+Created batch with id: batch_694f7584f4908190b2f9e519e7f70971
+Initial batch status: validating
+Batch batch_694f7584f4908190b2f9e519e7f70971 status: validating. Sleeping 60s...
+Batch batch_694f7584f4908190b2f9e519e7f70971 status: in_progress. Sleeping 60s...
+Batch batch_694f7584f4908190b2f9e519e7f70971 reached terminal status: completed
+Downloading batch file: file-1AuQk6b5nwPoSBh978poH7
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/grok-4-0709/ABMS20260101_grok-4-0709_p03
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_grok-4-0709_p04 path=quizzes/quizzes_ABMS20260101/grok-4-0709/ABMS20260101_grok-4-0709_p04.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_grok-4-0709_p04, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/grok-4-0709/ABMS20260101_grok-4-0709_p04/ABMS20260101_grok-4-0709_p04_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-J435idYWhosWW8eFwT5xNL
+Created batch with id: batch_694f76000f2c819099dda64069a48e39
+Initial batch status: validating
+Batch batch_694f76000f2c819099dda64069a48e39 status: validating. Sleeping 60s...
+Batch batch_694f76000f2c819099dda64069a48e39 status: in_progress. Sleeping 60s...
+Batch batch_694f76000f2c819099dda64069a48e39 reached terminal status: completed
+Downloading batch file: file-LgtwvgTexVRbcUTpPr2Lyu
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/grok-4-0709/ABMS20260101_grok-4-0709_p04
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_grok-4-0709_p05 path=quizzes/quizzes_ABMS20260101/grok-4-0709/ABMS20260101_grok-4-0709_p05.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_grok-4-0709_p05, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/grok-4-0709/ABMS20260101_grok-4-0709_p05/ABMS20260101_grok-4-0709_p05_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-8evsXQPqtFfZrKYJNpKhvZ
+Created batch with id: batch_694f767a9b5c8190bb5e4b7fb3d467e7
+Initial batch status: validating
+Batch batch_694f767a9b5c8190bb5e4b7fb3d467e7 status: validating. Sleeping 60s...
+Batch batch_694f767a9b5c8190bb5e4b7fb3d467e7 reached terminal status: completed
+Downloading batch file: file-2TqwTikWaJe43y5GVmKTsk
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/grok-4-0709/ABMS20260101_grok-4-0709_p05
+[INFO] Updated manifest at /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/grok-4-0709/quizbench_manifest_ABMS20260101.json
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/grok-4-0709

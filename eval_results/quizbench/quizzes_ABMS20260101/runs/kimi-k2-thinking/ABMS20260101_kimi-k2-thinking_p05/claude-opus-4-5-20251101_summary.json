@@ -1,0 +1,1 @@
+{"model": "claude-opus-4-5-20251101", "created_at": "2025-12-26T11:52:10Z", "total_corr": 7, "total_wrong": 3, "acc": 0.7, "n_items": 10, "batch_input_file": "ABMS20260101_kimi-k2-thinking_p05_claude-opus-4-5-20251101_anthropic_batch_requests.jsonl", "batch_id": "msgbatch_015Uq4Qq4oWiPQu48oH6xhF6", "used_batch_api": true, "batch_provider": "anthropic"}

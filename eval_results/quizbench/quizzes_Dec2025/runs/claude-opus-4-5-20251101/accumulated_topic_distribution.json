@@ -1,0 +1,67 @@
+{
+  "created_at": "2025-12-15T14:34:50Z",
+  "generator_model": "claude-opus-4-5-20251101",
+  "runs_root": "eval_results/quizbench/runs",
+  "generator_run_root": "eval_results/quizbench/runs/claude-opus-4-5-20251101",
+  "topics_eval_model": null,
+  "topic_map_path": "data/topic_to_abms.yaml",
+  "topic_map_mode": "map",
+  "unmapped_topic_policy": "keep",
+  "misc_category": "Misc",
+  "judge_models": [
+    "claude-opus-4-5-20251101",
+    "gemini-3-pro-preview",
+    "gpt-5.1-2025-11-13",
+    "grok-4-0709",
+    "deepseek-v3.2",
+    "kimi-k2-thinking"
+  ],
+  "logical_mode": "majority",
+  "min_medical_score": null,
+  "all_total_questions": 50,
+  "all_total_counted": 50,
+  "all_counts_by_topic": {
+    "Neurology": 12,
+    "Cardiovascular": 10,
+    "Rheumatology/Musculoskeletal": 5,
+    "Pediatrics": 5,
+    "Pulmonary": 4,
+    "Obstetrics and Gynecology": 4,
+    "Endocrine": 3,
+    "Emergency Medicine": 2,
+    "Critical Care Medicine": 2,
+    "Infectious Disease": 1,
+    "Misc": 1,
+    "Nephrology": 1
+  },
+  "all_runs_included": [
+    "eval_results/quizbench/runs/claude-opus-4-5-20251101/20251129T135352000Z_claude-opus-4-5-20251101_seed123",
+    "eval_results/quizbench/runs/claude-opus-4-5-20251101/20251129T135352000Z_claude-opus-4-5-20251101_seed124",
+    "eval_results/quizbench/runs/claude-opus-4-5-20251101/20251129T135352000Z_claude-opus-4-5-20251101_seed125",
+    "eval_results/quizbench/runs/claude-opus-4-5-20251101/20251129T135352000Z_claude-opus-4-5-20251101_seed126",
+    "eval_results/quizbench/runs/claude-opus-4-5-20251101/20251129T135352000Z_claude-opus-4-5-20251101_seed127"
+  ],
+  "all_runs_skipped": {},
+  "valid_total_questions": 39,
+  "valid_total_counted": 39,
+  "valid_counts_by_topic": {
+    "Neurology": 9,
+    "Cardiovascular": 8,
+    "Pulmonary": 4,
+    "Rheumatology/Musculoskeletal": 4,
+    "Pediatrics": 4,
+    "Endocrine": 3,
+    "Obstetrics and Gynecology": 3,
+    "Emergency Medicine": 2,
+    "Infectious Disease": 1,
+    "Critical Care Medicine": 1
+  },
+  "valid_runs_included": [
+    "eval_results/quizbench/runs/claude-opus-4-5-20251101/20251129T135352000Z_claude-opus-4-5-20251101_seed123",
+    "eval_results/quizbench/runs/claude-opus-4-5-20251101/20251129T135352000Z_claude-opus-4-5-20251101_seed124",
+    "eval_results/quizbench/runs/claude-opus-4-5-20251101/20251129T135352000Z_claude-opus-4-5-20251101_seed125",
+    "eval_results/quizbench/runs/claude-opus-4-5-20251101/20251129T135352000Z_claude-opus-4-5-20251101_seed126",
+    "eval_results/quizbench/runs/claude-opus-4-5-20251101/20251129T135352000Z_claude-opus-4-5-20251101_seed127"
+  ],
+  "valid_runs_skipped": {}
+}

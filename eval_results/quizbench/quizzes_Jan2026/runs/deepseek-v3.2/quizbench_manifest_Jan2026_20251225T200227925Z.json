@@ -1,0 +1,81 @@
+{
+  "created_at": "2025-12-25T20:02:27Z",
+  "config_path": "/home/dbernardo/Documents/pyres/MedEvalArena/config_deepseek3.2.yaml",
+  "generator_models": [
+    "deepseek-v3.2"
+  ],
+  "generator_model": "deepseek-v3.2",
+  "api_providers_by_model": {
+    "deepseek-v3.2": "sequential_llm"
+  },
+  "test_models": [
+    "none"
+  ],
+  "test_models_csv": "none",
+  "num_quizzes_per_generator": 5,
+  "num_questions_per_batch": 10,
+  "num_questions_per_quiz": 50,
+  "runs_root": "eval_results/quizbench/quizzes_Jan2026/runs/deepseek-v3.2/",
+  "api_provider": "sequential_llm",
+  "quizzes_root_dir": "quizzes/",
+  "quiz_collection": "quizzes_Jan2026",
+  "quizzes_dir": "quizzes/quizzes_Jan2026",
+  "target_planning": {
+    "enabled": true,
+    "topic_mapping_report": "/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_Jan2026/runs/deepseek-v3.2/accumulated_mapped_topics.json",
+    "planned_batch_request_multiplier": 2.0,
+    "targets_csv": "/home/dbernardo/Documents/pyres/MedEvalArena/data/ABMS_specialties.csv",
+    "target_total": 50,
+    "topic_map_path": "/home/dbernardo/Documents/pyres/MedEvalArena/data/topic_to_abms.yaml",
+    "topic_map_mode": "map",
+    "unmapped_topic_policy": "keep",
+    "topics_eval_model": null,
+    "prefer_topic_mapping_outputs": true,
+    "judge_models_yaml": "/home/dbernardo/Documents/pyres/MedEvalArena/data/judge_models.yaml",
+    "min_medical_score": null,
+    "allow_missing_judges": false,
+    "questions_dist_files": {
+      "deepseek-v3.2": "/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_Jan2026/runs/deepseek-v3.2/questions_dist_deepseek-v3.2.json"
+    }
+  },
+  "quizzes": [
+    {
+      "quiz_id": "20251225T200227925Z_deepseek-v3.2_seed134",
+      "quiz_path": "/home/dbernardo/Documents/pyres/MedEvalArena/quizzes/quizzes_Jan2026/20251225T200227925Z_deepseek-v3.2_seed134.jsonl",
+      "generator_model": "deepseek-v3.2",
+      "seed": 134,
+      "target_topic": [
+        "Emergency Medicine",
+        "Psychiatry",
+        "Psychiatry",
+        "Urology",
+        "Emergency Medicine",
+        "Psychiatry",
+        "Psychiatry",
+        "Urology"
+      ]
+    }
+  ],
+  "run_ids": [],
+  "batch_jobs": [
+    {
+      "generator_model": "deepseek-v3.2",
+      "batch_id": "sequential-1766692948-deepseek-v3.2",
+      "batch_input_path": "quizzes/quizzes_Jan2026/batch_inputs/deepseek-v3.2_batch_input_009.jsonl",
+      "num_requests": 1,
+      "provider": "sequential_llm"
+    }
+  ],
+  "judge_models": [
+    "claude-opus-4-5-20251101",
+    "deepseek-v3.2",
+    "gemini-3-pro-preview",
+    "gpt-5.1-2025-11-13",
+    "grok-4-0709",
+    "kimi-k2-thinking"
+  ],
+  "judge_run_ids": [
+    "20251225T200227925Z_deepseek-v3.2_seed134"
+  ],
+  "last_judge_eval_at": "2025-12-25T20:30:18Z"
+}

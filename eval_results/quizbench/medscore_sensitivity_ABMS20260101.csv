@@ -1,0 +1,3 @@
+cutoff,kept_questions,total_questions,kept_pct,run_dirs,runs_with_judges,runs_missing_judges,missing_items_total,logical_mode,require_logical_valid,logical_first,judge_models,mode
+4,297,300,99.0,58,58,0,0,majority,True,True,"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking",subset_selection_reports
+5,232,300,77.33333333333333,58,58,0,0,majority,True,True,"claude-opus-4-5-20251101,deepseek-v3.2,gemini-3-pro-preview,gpt-5.1-2025-11-13,grok-4-0709,kimi-k2-thinking",subset_selection_reports

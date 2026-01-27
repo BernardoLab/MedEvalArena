@@ -1,0 +1,96 @@
+[
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed132",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed132-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766460152-rXQgO3V10AwjqHffObej",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766460152,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: supine hypertension >180 mmHg in a frail elderly patient with neurogenic orthostatic hypotension, recurrent falls, CKD stage 3b, and cognitive fluctuations. Main logical issue: The keyed answer (C) is not the single best answer; option A is equally defensible based on standard guidelines for neurogenic orthostatic hypotension with supine hypertension, which recommend short-acting agents at bedtime (like captopril) OR midodrine with evening dose timing to avoid worsening supine hypertension, making both A and C plausible. Main medical accuracy issue: The rationale incorrectly states midodrine worsens supine hypertension, but it is a standard treatment with evening dosing to mitigate this risk, and captopril in CKD stage 3b requires caution due to hyperkalemia/renal decline. Minimal fix: Revise the stem to specify a contraindication to midodrine (e.g., 'history of urinary retention') or emphasize bedtime-only dosing for captopril to make C uniquely best.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \t\n  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1980,
+        "completion_tokens": 267,
+        "total_tokens": 2247,
+        "cost": 0.00155736,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0011088,
+          "upstream_inference_completions_cost": 0.00044856
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed132",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed132-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766460165-vNORuXPuThTTQrSfVF70",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766460165,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: AWGS 2019 algorithm requires low muscle strength (grip strength 14 kg <18 kg threshold for women) plus low muscle mass OR low physical performance. The patient has low gait speed (0.75 m/s <0.8 m/s), satisfying the performance criterion, despite normal SMI (6.8 kg/m² >5.7 kg/m²). This meets the definition for confirmed sarcopenia. Main logical issue: None; the vignette provides all necessary data, and options are mutually exclusive per AWGS categories. Main medical accuracy issue: None; the item aligns precisely with AWGS 2019 criteria. Minimal fix: None required; the item is unambiguous and accurate as written.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1879,
+        "completion_tokens": 206,
+        "total_tokens": 2085,
+        "cost": 0.00139832,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00105224,
+          "upstream_inference_completions_cost": 0.00034608
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,956 @@
+[
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459702-W6gsDt3qSx03qZYzoTDk",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459702,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: 32 weeks gestation, hemodynamic instability, ruptured giant hepatic hemangioma with active extravasation and consumptive coagulopathy (Kasabach-Merritt). The definitive management that optimizes maternal-fetal survival in this life-threatening maternal hemorrhage is immediate control of bleeding and delivery of the fetus, as maternal stabilization is paramount for fetal survival. The stem emphasizes 'hemodynamic instability' and 'active extravasation,' which mandates urgent intervention. Main logical issue: Option E (staged embolization first, then cesarean after coagulopathy corrects) delays definitive hemorrhage control and delivery in an unstable patient, contradicting standard trauma and obstetric hemorrhage protocols. Option D (emergent cesarean with concurrent embolization in a hybrid OR) provides simultaneous maternal resuscitation, hemorrhage control, and fetal delivery, which is the optimal strategy per modern multidisciplinary approaches. Main medical accuracy issue: Option E is not the definitive management in an unstable patient; it describes a stable or semi-elective scenario. Minimal fix: Change key to D and adjust rationale to emphasize hybrid OR for combined cesarean and angioembolization in unstable rupture.\", \"logical_false_reason\": \"K\", \"logical_validity\": false, \"medical_accuracy_score\": \t\"3\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1886,
+        "completion_tokens": 288,
+        "total_tokens": 2174,
+        "cost": 0.00063018,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050922,
+          "upstream_inference_completions_cost": 0.00012096
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459708-RkTfYxQwCU9FclKJt0A4",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459708,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: 68-year-old man, end colostomy, 6 cm parastomal hernia, 8 cm prolapse through fascial defect, failed conservative management. The stem describes a large parastomal hernia with significant prolapse, a scenario often considered a complex or recurrent hernia. For such cases, especially with a colostomy (contaminated field), current surgical guidelines and evidence favor a laparoscopic modified Sugarbaker repair with a composite mesh (e.g., ePTFE/polypropylene) as a standard of care, as it provides a barrier to visceral contact and reduces adhesion and erosion risk. The keyed answer (B: Open Sugarbaker with lightweight polypropylene) is suboptimal because an open approach in a contaminated field increases infection risk versus laparoscopic, and lightweight polypropylene alone is not ideal for direct visceral contact. Option C (Laparoscopic modified Sugarbaker with dual-layer composite mesh) is the most defensible best answer based on current evidence. Main logical issue: The key does not match the single best answer supported by standard surgical principles. Main medical accuracy issue: The rationale incorrectly states lightweight mesh reduces infection risk compared to composite or biologic meshes in contaminated fields; composite meshes with a barrier layer are preferred to prevent adhesions. Minimal fix: Change the correct answer key to C and update the rationale to reflect the preference for laparoscopic approach and composite mesh in contaminated fields with prolapse.\", \"logical_false_reason\": \"K\", \"logical_validity\": false, \"medical_accuracy_score\": \t\"3\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1847,
+        "completion_tokens": 341,
+        "total_tokens": 2188,
+        "cost": 0.00064191,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049869,
+          "upstream_inference_completions_cost": 0.00014322
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-003",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459716-3vmPfNwcchP9ANrxiHWF",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459716,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: U (Underspecified). Verdict on keyed answer: Not uniquely determinable. Key stem clues: bilateral retinoblastoma, persistent class 3 vitreous seeds after systemic chemo and intravitreal melphalan, tumor regression but diffuse non-confluent opacities. Main logical issue: The stem lacks critical details to uniquely justify the keyed answer (D). It does not specify whether the eye is salvageable or if there is active tumor threatening vision/globe, which is essential to choose between globe-salvaging options (A, B, D) and enucleation (C). Without this, multiple answers are defensible based on different clinical priorities (e.g., enucleation for hereditary bilateral disease vs. further intravitreal therapy). Main medical accuracy issue: The rationale's specific efficacy percentages (85% vs 40%) are not standard consensus data and may overstate evidence. Minimal fix: Add a statement clarifying the goal (e.g., 'The family desires globe salvage if possible' or 'There is no evidence of extraocular extension') to justify a unique best answer among intravitreal or radiation options.\",\n  \"logical_false_reason\": \"U\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1888,
+        "completion_tokens": 276,
+        "total_tokens": 2164,
+        "cost": 0.00152096,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00105728,
+          "upstream_inference_completions_cost": 0.00046368
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-004",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459722-9Ci8NALdVEBBIgbbhI20",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459722,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: chronic patellar tendon rupture, 7 cm retraction gap, inability to straight leg raise, MRI shows tendon degeneration but intact retinaculum. The clinical scenario describes a large, chronic defect with functional quadriceps insufficiency. The keyed answer (C: contralateral bone-patellar tendon-bone autograft) is a valid surgical option, but it is not uniquely the 'optimal' choice based on standard orthopedic literature and guidelines. Option D (Achilles tendon allograft with patellar bone block fixation) is a widely accepted and commonly preferred technique for large chronic patellar tendon ruptures due to its strength, ease of tensioning, and avoidance of donor-site morbidity. This creates a scenario where both C and D are defensible as 'optimal,' making the item miskeyed because the author's rationale does not establish C as uniquely superior. Main logical issue: Multiple defensible answers (M) leading to a miskey (K). Main medical accuracy issue: Minor; both grafts are used, but the claim of optimality for C over D is contestable. Minimal fix: Change the stem to specify a contraindication to allograft (e.g., 'patient refuses allograft tissue') to force a unique best answer toward autograft, or change the key to D and adjust rationale.\", \"logical_false_reason\": \"K\", \"logical_validity\": false, \"medical_accuracy_score\": \t\"4\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1853,
+        "completion_tokens": 325,
+        "total_tokens": 2178,
+        "cost": 0.00063681,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050031,
+          "upstream_inference_completions_cost": 0.0001365
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-005",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459729-fj6EYrxdCnF9zcsBfQcR",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459729,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. The vignette describes a penile trauma with blood at the meatus and retrograde urethrogram showing extravasation at the bulbar urethra without contrast reaching the bladder. This is a classic presentation of a complete (or near-complete) bulbar urethral injury, often associated with a straddle injury or penile fracture. For a complete bulbar urethral disruption, the definitive surgical management in the acute setting (within 48 hours) is typically immediate surgical exploration and primary realignment or anastomosis if possible, often via a perineal approach, not a penile incision. Option A describes immediate exploration via a circumferential subcoronal incision (a penile degloving approach suitable for penile fracture or pendulous urethral injuries) with primary urethral anastomosis. Option D describes immediate exploration with urethral repair over a catheter without anastomosis, which is less definitive for a complete disruption. Standard teaching for a complete bulbar urethral disruption is primary realignment or anastomosis when feasible, making A a strong contender. Option C (suprapubic catheter) is for delayed management. Option B is for delayed reconstruction. Option E (endoscopic realignment) is an alternative but may not address associated corporal injuries. The keyed answer D is not the most defensible best answer; A is more aligned with guidelines for acute complete bulbar urethral injury. The stem is slightly underspecified regarding the exact extent (partial vs. complete), but the RUG finding suggests complete disruption. Main logical issue: Miskeying. Main medical accuracy issue: The keyed answer suggests repair over a catheter without anastomosis for what appears to be a complete disruption, which is non-standard. Minimal fix: Change key to A, or clarify in the stem that the urethral injury is a partial disruption (contrast extravasation but some contrast reaching the bladder) to support D.\", \"logical_false_reason\": \"K\", \"logical_validity\": false, \"medical_accuracy_score\":  \"3\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1840,
+        "completion_tokens": 434,
+        "total_tokens": 2274,
+        "cost": 0.00067908,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0004968,
+          "upstream_inference_completions_cost": 0.00018228
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-006",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459738-yXd4ilb2htPutaxRBbgH",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459738,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: M (Multiple answers defensible). Verdict on keyed answer: Not uniquely determinable. Key stem clues: 3 mm posterior table defect after endoscopic sinus surgery, clear rhinorrhea (suggesting CSF leak). The stem does not specify the exact location (e.g., lateral vs. medial, accessibility) or whether the defect is intradural/extradural, which influences flap choice. The rationale argues for middle turbinate flap (B) over nasoseptal flap (A) for reach/vascularity, but nasoseptal flaps are a well-established first-line option for many anterior skull base defects, including frontal sinus. For a small 3 mm defect, free grafts (C) or synthetic materials (E) could also be considered depending on context. The item lacks details to definitively rule out A, C, D, or E as inferior. Main logical issue: M – multiple options are defensible based on current practice; the superiority of B is not uniquely supported by the vignette alone. Main medical accuracy issue: The blanket statement that middle turbinate flap is 'optimal' for all posterior table defects is an oversimplification; choice depends on defect size, location, and surgeon expertise. Minimal fix: Specify defect location (e.g., 'medial posterior table defect with intact olfactory cleft') and exclude other common options (e.g., 'which of the following local pedicled flaps is most appropriate?').\", \"logical_false_reason\": \"M\", \"logical_validity\": false, \"medical_accuracy_score\":  \"3\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1838,
+        "completion_tokens": 330,
+        "total_tokens": 2168,
+        "cost": 0.00063486,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049626,
+          "upstream_inference_completions_cost": 0.0001386
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-007",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459745-EVYkVgUtbGdp4WhmD24N",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459745,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: left hemiplegia post-stroke, severe shoulder pain, 2 cm inferior subluxation, EMG shows spastic co-contraction of posterior deltoid and supraspinatus without voluntary recruitment. The question asks for optimal botulinum toxin injection protocol for this scenario. Main logical issue: The keyed answer (A) targets the posterior deltoid and supraspinatus, which are co-contracting per EMG. However, in post-stroke shoulder pain with subluxation, the typical spastic pattern involves hypertonicity of internal rotators/adductors (e.g., subscapularis, pectoralis major) and weakness of external rotators/abductors (e.g., supraspinatus, deltoid). Injecting the supraspinatus, a weakened abductor, could worsen subluxation. The EMG finding of co-contraction in posterior deltoid and supraspinatus is atypical; these muscles are usually underactive/weak. A more standard approach targets spastic internal rotators. Option B targets subscapularis and pectoralis major, which aligns with common practice to reduce subluxation and pain, though the dose (200 units onabotulinumtoxinA) may be high. Thus, a unique best answer is not clearly A; B is defensible based on standard spasticity patterns. Main medical accuracy issue: The EMG finding contradicts typical pathophysiology; co-contraction of posterior deltoid and supraspinatus is not the usual cause of subluxation. Minimal fix: Change EMG finding to 'spastic co-contraction of subscapularis and pectoralis major' to make option A or B uniquely best, or adjust key to B with rationale for internal rotator targeting.\", \"logical_false_reason\": \"K\", \"logical_validity\": false, \"medical_accuracy_score\": \t\"3\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1928,
+        "completion_tokens": 423,
+        "total_tokens": 2351,
+        "cost": 0.00069822,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052056,
+          "upstream_inference_completions_cost": 0.00017766
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-008",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459754-Pc9Dt5B08hSu2zwUCaZO",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459754,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. The stem describes a full-thickness calvarial defect with dural exposure after resection of a recurrent, irradiated scalp tumor with bone erosion. The keyed answer (D) proposes a latissimus dorsi muscle-only free flap with skin graft and delayed cranioplasty. However, a full-thickness calvarial defect requires bony reconstruction to protect the brain, not just soft tissue coverage. Option E (anterolateral thigh fasciocutaneous flap with titanium mesh) provides immediate bony reconstruction with mesh and reliable soft tissue coverage, which is standard for such composite defects. Option D delays cranioplasty, leaving the brain unprotected. The keyed answer is not the single best answer; E is more defensible. The item is medically accurate in highlighting the need for vascularized tissue in irradiated fields, but the key choice is suboptimal. Minimal fix: Change key to E, or clarify in the stem that immediate bony reconstruction is not required (which would be nonstandard).\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\": \n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1878,
+        "completion_tokens": 257,
+        "total_tokens": 2135,
+        "cost": 0.000615,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050706,
+          "upstream_inference_completions_cost": 0.00010794
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-009",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459760-qE4OT3pnLGlT2WFVmMTe",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459760,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict: Correct best. The stem presents a clear intraoperative scenario: a holocord enhancing lesion (suggestive of ependymoma) and a significant (60%) reduction in motor evoked potentials (MEPs) during debulking. The key discriminating finding is the >50% MEP amplitude reduction, a widely accepted threshold for halting resection to prevent permanent neurological injury. The keyed answer (B) aligns with standard neurosurgical practice: stop resection, perform duraplasty, and plan a staged procedure. Alternative A (continue) is contraindicated given the signal change. C (switch tools) does not address the primary safety issue of ongoing neural compromise. D (steroids) is an adjunct but does not override the need to stop. E (en bloc) is not feasible for a holocord lesion. The item is logically valid, medically accurate, and supports a single best answer. Minimal fix: None required; the item is well-constructed.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\": \t\"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1858,
+        "completion_tokens": 239,
+        "total_tokens": 2097,
+        "cost": 0.00060204,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050166,
+          "upstream_inference_completions_cost": 0.00010038
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-010",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459766-sBd4G6tSoG96EYfdVUPC",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459766,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. Key stem clues: adult patient, WNT-activated medulloblastoma, CTNNB1 mutation, TP53 wild-type. The vignette correctly identifies a low-risk subgroup eligible for de-escalated therapy. However, the keyed answer (B: 23.4 Gy, no chemotherapy) is not the unique best answer. Option C (30.6 Gy craniospinal with boost plus concurrent vincristine) is also a defensible, guideline-supported regimen for adult WNT medulloblastoma, creating ambiguity. The item's logic implies only one correct de-escalation protocol, but multiple exist in evidence. Main medical accuracy issue: While de-escalation is correct, omission of chemotherapy is debated; some protocols include it. Minimal fix: Specify the patient's age more precisely (e.g., 'a 35-year-old woman per the SJMB12 protocol') and adjust options to reflect a single guideline's recommended dose/chemotherapy combination.\",\n  \"medical_accuracy_score\":  \"4\",\n  \"logical_validity\": false,\n  \"logical_false_reason\": \"K\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1906,
+        "completion_tokens": 252,
+        "total_tokens": 2158,
+        "cost": 0.00061542,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00051462,
+          "upstream_inference_completions_cost": 0.0001008
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-011",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459773-NLeoujrjj3K1Tg5e6wfx",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459773,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: mid-rectal cancer (cT3N1M0), enlarged right obturator lymph node (8 mm) on MRI, primary tumor 5 cm from anal verge. The question asks for optimal treatment sequence in a scenario with a suspicious lateral lymph node. The keyed answer (C) reflects current consensus: chemoradiation with boost to the node, followed by TME with selective lateral dissection if node persists, aligning with guidelines that avoid routine prophylactic lateral lymph node dissection due to morbidity. Alternatives are less optimal: A omits addressing the node; B uses short-course radiation and routine extended dissection, which is not standard; D uses induction chemotherapy without radiation boost to the node; E uses total neoadjuvant therapy with routine bilateral dissection, which is excessive. The item is logically valid and medically accurate. Minimal fix: None needed; item is clear and defensible.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1892,
+        "completion_tokens": 235,
+        "total_tokens": 2127,
+        "cost": 0.00060954,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00051084,
+          "upstream_inference_completions_cost": 9.87e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-012",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459778-YxuRLoTR2ONyfLMOJz1l",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459778,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. Key stem clues: retroperitoneal lymphangioma, multiloculated cystic mass, refractory chylous ascites. The vignette describes a complex, symptomatic lesion. While sclerotherapy is a valid option, definitive management for a large, refractory retroperitoneal lymphangioma causing significant symptoms is typically complete surgical excision when feasible, as it offers the highest chance of cure and is the standard referenced in major surgical and pediatric literature. The keyed answer (B) represents an interventional alternative but is not universally accepted as the definitive first-line curative treatment, making the item miskeyed. The main logical issue is that the key does not align with the most defensible best answer (A). Main medical accuracy issue: overstates sclerotherapy as the definitive standard without acknowledging the primary role of surgery in many guidelines. Minimal fix: Change the key to A or modify the stem to specify a high surgical risk or patient refusal of surgery to justify sclerotherapy as the best option.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1856,
+        "completion_tokens": 253,
+        "total_tokens": 2109,
+        "cost": 0.0014644,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00103936,
+          "upstream_inference_completions_cost": 0.00042504
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-013",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459783-KOiyIjpkBpNi1V1OE2x8",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459783,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: Ocular surface squamous neoplasia, 5 clock hours limbal involvement, 1.2 mm depth invasion into peripheral cornea, no scleral invasion. The depth (<2 mm) and absence of scleral invasion support globe-sparing surgery with adjuvant brachytherapy as per standard ophthalmic oncology. Main logical issue: None; the item is well-specified. Main medical accuracy issue: None; the management aligns with current standard of care for limited intraocular invasion. Minimal fix: None required; the item is clear and accurate. The rationale correctly explains why more radical options (A, B) are excessive and why topical (D) or cryotherapy (E) are insufficient for invasive disease.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1850,
+        "completion_tokens": 192,
+        "total_tokens": 2042,
+        "cost": 0.00058014,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0004995,
+          "upstream_inference_completions_cost": 8.064e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-014",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459787-itaPqKMZp7lIcbM0qEGJ",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459788,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: M (Multiple answers defensible). Verdict on keyed answer: Not uniquely determinable. Key stem clues: 78-year-old, four-part proximal humerus fracture with head-split pattern, 2 cm medial calcar comminution, greater tuberosity fractured but not displaced. The stem describes a complex fracture pattern in an elderly patient, where both reverse shoulder arthroplasty (RSA) and hemiarthroplasty are standard considerations. The keyed answer (D) advocates RSA with standard baseplate and tuberosity preservation. However, option C (RSA with augmented baseplate) is also highly defensible given the 2 cm medial calcar comminution, which may indicate metaphyseal bone loss potentially warranting augmentation for stability. The rationale dismisses augmentation 'without glenoid bone loss,' but the comminution is humeral, not glenoid. This creates ambiguity. Main logical issue: Two RSA options (C and D) are both plausible, and the stem lacks detail (e.g., degree of metaphyseal bone loss, patient's functional status) to definitively choose one over the other. Medical accuracy: The keyed answer's reasoning is medically sound but not uniquely superior. Minimal fix: Specify the extent of metaphyseal bone loss or patient's bone quality to justify standard vs. augmented baseplate, or remove one RSA option.\", \"logical_false_reason\": \"M\", \"logical_validity\": false, \"medical_accuracy_score\":  \"4\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1861,
+        "completion_tokens": 316,
+        "total_tokens": 2177,
+        "cost": 0.00063519,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050247,
+          "upstream_inference_completions_cost": 0.00013272
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-015",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459794-5VsTb9m5BH5d2Z1j7sT8",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459795,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. The keyed answer (C, transvaginal marsupialization) is not the optimal surgical approach for a proximal urethral diverticulum containing calculi. Standard urologic teaching and guidelines (e.g., AUA/SUFU) indicate that for symptomatic urethral diverticula, especially with stones, the definitive treatment is transvaginal diverticulectomy with urethral reconstruction and stone removal (option A). This approach allows complete excision of the diverticulum sac, removal of stones, and multilayer closure to prevent recurrence and fistula. Marsupialization (option C) is a historical procedure for distal diverticula and is not recommended for proximal lesions due to high recurrence risk and potential incontinence. The stem provides classic symptoms (recurrent UTIs, post-void dribbling) and imaging findings (proximal location, calculi), which strongly point to the need for definitive excision. The keyed rationale incorrectly prioritizes marsupialization. Minimal fix: Change the correct answer key to A and update the rationale to reflect current standard of care.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"2\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1865,
+        "completion_tokens": 272,
+        "total_tokens": 2137,
+        "cost": 0.00061779,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050355,
+          "upstream_inference_completions_cost": 0.00011424
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-016",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459800-KwtHhM0jhCWYcZtMFIor",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459800,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n    \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: 6-month-old thyroidectomy-related vocal fold paralysis with absent motor unit potentials on EMG, indicating permanent denervation. This supports permanent medialization. Main logical issue: The keyed answer (B, calcium hydroxylapatite) is a permanent material, but the stem lacks critical detail on patient preference for permanence versus trial of temporary medialization first, which is a standard consideration. Without this, both permanent (B, C, E) and temporary (A, D) options are defensible based on different clinical philosophies, making the item underspecified (U) as a secondary issue, leading to miskeying. Main medical accuracy issue: Calcium hydroxylapatite is indeed a permanent option, but autologous fat (C) is also a valid long-term choice for permanent paralysis, and the stem does not provide criteria to favor one over the other. Minimal fix: Add to the stem: 'The patient desires a permanent solution and declines temporary measures.'\",\n    \"medical_accuracy_score\":  \"4\",\n    \"logical_validity\": false,\n    \"logical_false_reason\": \"K\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1857,
+        "completion_tokens": 259,
+        "total_tokens": 2116,
+        "cost": 0.00060499,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050139,
+          "upstream_inference_completions_cost": 0.0001036
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-017",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459807-VHlutJ7ncrgh3icXYxvk",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459807,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. The keyed answer (B) describes surgical debridement with burr drilling, VAC, and gluteal flap. However, the stem specifies MRI shows marrow edema limited to cortex, indicating cortical osteomyelitis without medullary involvement. Standard surgical management for cortical osteomyelitis in pressure ulcers is local debridement and flap coverage, but the description in B includes 'burr drilling to bone' which may be excessive if only cortex is involved; more aggressive options like partial sacrectomy (C) are for medullary disease. Option D (bone biopsy and targeted IV antibiotics) is a reasonable definitive step before surgery, especially with prior antibiotic failure, and is supported by guidelines for diagnosing osteomyelitis. The stem lacks critical detail on whether a definitive diagnosis of osteomyelitis has been established (bone biopsy is often needed) and the exact extent of bone involvement. This underspecification (U) leads to multiple defensible answers (M), but the primary issue is that the keyed answer is not uniquely best; D is also defensible. Medical accuracy: The keyed answer's aggressive burr drilling may be overly invasive for cortical-only disease. Minimal fix: Specify that bone biopsy has confirmed osteomyelitis and that medullary involvement is absent, making local debridement and flap the clear best choice.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\": \n  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1876,
+        "completion_tokens": 319,
+        "total_tokens": 2195,
+        "cost": 0.0006405,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050652,
+          "upstream_inference_completions_cost": 0.00013398
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-018",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459814-ClWL9s1q3klsFIS6EUw0",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459814,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed – a unique best answer exists but the provided key (D) is not it. Key stem clues: deep partial-thickness burns, early cicatricial ectropion, 3 mm scleral show, intact but contracted tarsal plate. The clinical scenario describes an acute burn with evolving cicatricial changes, not a mature, stable contracture. Standard reconstructive principles dictate delaying definitive reconstruction (e.g., full-thickness skin graft) until scar maturation is complete, typically 6-12 months post-injury, to prevent graft failure and recurrence. However, the stem specifies 'early' ectropion, implying active inflammation, which contradicts the key's technique of 'tarsal release'—a procedure for mature, fixed contracture, not an early, evolving one. This internal contradiction between the timing descriptor ('early') and the definitive surgical step ('release') undermines the key. Option B (delayed split-thickness graft with Frost suture) is a more defensible best answer for temporary protection of the globe during the inflammatory phase while awaiting definitive reconstruction. Main medical accuracy issue: The key advocates a definitive release procedure in an 'early' inflammatory setting, which is non-standard and risks graft failure. Minimal fix: Change stem to 'mature cicatricial ectropion 9 months post-burn' to align with key D, or change key to B for 'early' presentation.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1897,
+        "completion_tokens": 346,
+        "total_tokens": 2243,
+        "cost": 0.0016436,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00106232,
+          "upstream_inference_completions_cost": 0.00058128
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-019",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459821-jvUenaPF1dquKWw2NFok",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459821,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. The stem describes a Chiari I malformation with holocord syringomyelia undergoing posterior fossa decompression. The key discriminating finding is persistent syrinx with tonsillar pulsation after bone removal, indicating inadequate CSF flow restoration. The most likely next step, per standard neurosurgical practice, is to proceed with duraplasty (to expand the subarachnoid space) and often tonsillar reduction/coagulation (not necessarily full tonsillectomy) to ensure CSF flow. Option A (duraplasty with bovine pericardial graft and tonsillectomy) is a definitive, commonly performed procedure in this scenario. Option B (duraplasty with autologous pericranial graft without tonsillectomy) is less aggressive; while autologous graft may reduce pseudomeningocele risk, avoiding tonsillectomy may not adequately address persistent obstruction from impacted tonsils. The keyed answer (B) is not the single best answer; A is equally or more defensible based on standard management. The item is underspecified regarding the degree of tonsillar obstruction, leading to multiple defensible answers (secondary label: M). Medical accuracy is reasonable, but the rationale overstates the certainty that duraplasty alone suffices. Minimal fix: Specify in the stem that tonsils remain significantly impacted below the foramen magnum, making A the clear best answer.\", \"logical_false_reason\": \"K\", \"logical_validity\": false, \"medical_accuracy_score\":  \"4\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1867,
+        "completion_tokens": 330,
+        "total_tokens": 2197,
+        "cost": 0.00064269,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050409,
+          "upstream_inference_completions_cost": 0.0001386
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+    "question_id": "20251221T010349114Z_kimi-k2-thinking_seed130-020",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766459828-2AfyEjngG7hFxZLh5Khu",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766459828,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: T2N0M0 glottic carcinoma involving anterior commissure, good performance status, no comorbidities, goal to maximize local control. Main logical issue: The keyed answer (C) is not the single best answer. For T2 glottic cancer, NCCN guidelines recommend definitive radiation, and while altered fractionation (like concomitant boost) is an option, standard fractionation (70 Gy in 35 fractions) is also a standard, guideline-supported choice for organ preservation. The vignette does not provide specific contraindications to standard fractionation or concurrent cisplatin (which is sometimes used for selected T2 lesions with adverse features), making both A and C defensible based on different clinical interpretations, leading to a secondary M (Multiple answers defensible) issue. Main medical accuracy issue: The rationale incorrectly states concurrent chemotherapy is not indicated for T2 disease; some guidelines allow it for selected cases. Minimal fix: Specify in the stem that the patient is not a candidate for concurrent chemotherapy to eliminate option A, or explicitly state the goal is altered fractionation per a specific trial.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1896,
+        "completion_tokens": 283,
+        "total_tokens": 2179,
+        "cost": 0.0015372,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00106176,
+          "upstream_inference_completions_cost": 0.00047544
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

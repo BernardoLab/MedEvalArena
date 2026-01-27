@@ -1,0 +1,11 @@
+﻿model,cost_per_quiz
+grok-4-0709,9.27
+gemini-3-pro-preview,6.43
+claude-opus-4-5-20251101,2.15
+gpt-5.1-2025-11-13,1.86
+kimi-k2-thinking,1.15
+deepseek-v3.2,0.42
+claude-haiku-4-5-20251001,0.41
+gpt-5-nano-2025-08-07,0.23
+gemini-2.5-flash-lite,0.19
+grok-4-1-fast-reasoning,0.1855

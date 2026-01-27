@@ -1,0 +1,168 @@
+[INFO] Evaluating 5 quizzes with model 'deepseek-v3.2'
+[EVAL] model=deepseek-v3.2 quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p01 path=quizzes/quizzes_ABMS20260101/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p01.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p01, run_dir=[WARN] Model 'deepseek-v3.2' is not batch-capable; falling back to per-call evaluation with OpenRouter=True.
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p01
+[EVAL] model=deepseek-v3.2 quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p02 path=quizzes/quizzes_ABMS20260101/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p02.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p02, run_dir=[WARN] Model 'deepseek-v3.2' is not batch-capable; falling back to per-call evaluation with OpenRouter=True.
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p02
+[EVAL] model=deepseek-v3.2 quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p03 path=quizzes/quizzes_ABMS20260101/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p03.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p03, run_dir=[WARN] Model 'deepseek-v3.2' is not batch-capable; falling back to per-call evaluation with OpenRouter=True.
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p03
+[EVAL] model=deepseek-v3.2 quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p04 path=quizzes/quizzes_ABMS20260101/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p04.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p04, run_dir=[WARN] Model 'deepseek-v3.2' is not batch-capable; falling back to per-call evaluation with OpenRouter=True.
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p04
+[EVAL] model=deepseek-v3.2 quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p05 path=quizzes/quizzes_ABMS20260101/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p05.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p05, run_dir=[WARN] Model 'deepseek-v3.2' is not batch-capable; falling back to per-call evaluation with OpenRouter=True.
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+  [INFO]: client.py detected deepseek-v3.2
+  [INFO]: Using Openrouter
+[INFO] Using model deepseek-v3.2 via OpenRouter
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p05
+[INFO] Updated manifest at /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13/quizbench_manifest_ABMS20260101.json
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13

@@ -1,0 +1,129 @@
+{
+  "quiz_id": "20251201T041413890Z_grok-4-0709_seed126",
+  "generator_model": "grok-4-0709",
+  "eval_model": "claude-3-7-sonnet-20250219",
+  "default_topics": [
+    "cardiology",
+    "endocrinology",
+    "infectious disease",
+    "hematology/oncology",
+    "neurology",
+    "nephrology",
+    "pulmonology",
+    "obstetrics",
+    "gynecology",
+    "pediatrics",
+    "geriatrics",
+    "dermatology",
+    "rheumatology",
+    "emergency medicine",
+    "critical care"
+  ],
+  "created_at": "2025-12-09T02:45:44Z",
+  "per_question": [
+    {
+      "question_id": "20251201T041413890Z_grok-4-0709_seed126-001",
+      "topic": "rheumatology",
+      "raw_response": "rheumatology",
+      "topic_mapped": "rheumatology"
+    },
+    {
+      "question_id": "20251201T041413890Z_grok-4-0709_seed126-002",
+      "topic": "cardiology",
+      "raw_response": "cardiology",
+      "topic_mapped": "cardiology"
+    },
+    {
+      "question_id": "20251201T041413890Z_grok-4-0709_seed126-003",
+      "topic": "cardiology",
+      "raw_response": "cardiology",
+      "topic_mapped": "cardiology"
+    },
+    {
+      "question_id": "20251201T041413890Z_grok-4-0709_seed126-004",
+      "topic": "obstetrics",
+      "raw_response": "obstetrics",
+      "topic_mapped": "obstetrics"
+    },
+    {
+      "question_id": "20251201T041413890Z_grok-4-0709_seed126-005",
+      "topic": "critical care",
+      "raw_response": "critical care",
+      "topic_mapped": "critical care"
+    },
+    {
+      "question_id": "20251201T041413890Z_grok-4-0709_seed126-006",
+      "topic": "pulmonology",
+      "raw_response": "pulmonology",
+      "topic_mapped": "pulmonology"
+    },
+    {
+      "question_id": "20251201T041413890Z_grok-4-0709_seed126-007",
+      "topic": "cardiology",
+      "raw_response": "cardiology",
+      "topic_mapped": "cardiology"
+    },
+    {
+      "question_id": "20251201T041413890Z_grok-4-0709_seed126-008",
+      "topic": "cardiology",
+      "raw_response": "cardiology",
+      "topic_mapped": "cardiology"
+    },
+    {
+      "question_id": "20251201T041413890Z_grok-4-0709_seed126-009",
+      "topic": "obstetrics",
+      "raw_response": "obstetrics",
+      "topic_mapped": "obstetrics"
+    },
+    {
+      "question_id": "20251201T041413890Z_grok-4-0709_seed126-010",
+      "topic": "critical care",
+      "raw_response": "critical care",
+      "topic_mapped": "critical care"
+    }
+  ],
+  "summary": {
+    "topic_counts": {
+      "rheumatology": 1,
+      "cardiology": 4,
+      "obstetrics": 2,
+      "critical care": 2,
+      "pulmonology": 1
+    },
+    "majority_topic": "cardiology",
+    "num_questions": 10,
+    "num_unclassified": 0
+  },
+  "topic_mapping": {
+    "applied_at": "2025-12-18T08:13:57Z",
+    "topic_map_path": null,
+    "mode": "map",
+    "unmapped_policy": "keep",
+    "normalize": true,
+    "combined_to_misc": true,
+    "misc_category": "Misc",
+    "refine_misc_heme_onc": false,
+    "refine_misc_model": "claude-3-7-sonnet-20250219",
+    "refine_misc_max_tokens": 512,
+    "refine_misc_temperature": 0.0
+  },
+  "summary_mapped": {
+    "topic_counts": {
+      "rheumatology": 1,
+      "cardiology": 4,
+      "obstetrics": 2,
+      "critical care": 2,
+      "pulmonology": 1
+    },
+    "num_questions": 10,
+    "num_dropped": 0,
+    "num_unmapped_raw": 10,
+    "unmapped_raw_counts": {
+      "rheumatology": 1,
+      "cardiology": 4,
+      "obstetrics": 2,
+      "critical care": 2,
+      "pulmonology": 1
+    }
+  }
+}

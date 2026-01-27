@@ -1,0 +1,65 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/dbernardo/Documents/pyres/MedEvalArena/quizbench/run_eval.py", line 220, in <module>
+    main()
+  File "/home/dbernardo/Documents/pyres/MedEvalArena/quizbench/run_eval.py", line 197, in main
+    run_dir = run(eval_cmd)
+              ^^^^^^^^^^^^^
+  File "/home/dbernardo/Documents/pyres/MedEvalArena/quizbench/run_eval.py", line 14, in run
+    p = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dbernardo/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dbernardo/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dbernardo/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/subprocess.py", line 2115, in _communicate
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dbernardo/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+[INFO] Evaluating 5 quizzes with model 'kimi-k2-thinking'
+[EVAL] model=kimi-k2-thinking quiz_id=ABMS20260101_claude-opus-4-5-20251101_p01 path=quizzes/quizzes_ABMS20260101/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p01.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_claude-opus-4-5-20251101_p01, run_dir=[WARN] Model 'kimi-k2-thinking' is not batch-capable; falling back to per-call evaluation with OpenRouter=True.
+  [INFO]: client.py detected kimi-k2-thinking
+  [INFO]: Using Openrouter
+[INFO] Using model kimi-k2-thinking via OpenRouter
+  [INFO]: client.py detected kimi-k2-thinking
+  [INFO]: Using Openrouter
+[INFO] Using model kimi-k2-thinking via OpenRouter
+  [INFO]: client.py detected kimi-k2-thinking
+  [INFO]: Using Openrouter
+[INFO] Using model kimi-k2-thinking via OpenRouter
+  [INFO]: client.py detected kimi-k2-thinking
+  [INFO]: Using Openrouter
+[INFO] Using model kimi-k2-thinking via OpenRouter
+  [INFO]: client.py detected kimi-k2-thinking
+  [INFO]: Using Openrouter
+[INFO] Using model kimi-k2-thinking via OpenRouter
+  [INFO]: client.py detected kimi-k2-thinking
+  [INFO]: Using Openrouter
+[INFO] Using model kimi-k2-thinking via OpenRouter
+  [INFO]: client.py detected kimi-k2-thinking
+  [INFO]: Using Openrouter
+[INFO] Using model kimi-k2-thinking via OpenRouter
+  [INFO]: client.py detected kimi-k2-thinking
+  [INFO]: Using Openrouter
+[INFO] Using model kimi-k2-thinking via OpenRouter
+  [INFO]: client.py detected kimi-k2-thinking
+  [INFO]: Using Openrouter
+[INFO] Using model kimi-k2-thinking via OpenRouter
+  [INFO]: client.py detected kimi-k2-thinking
+  [INFO]: Using Openrouter
+[INFO] Using model kimi-k2-thinking via OpenRouter
+  [INFO]: client.py detected kimi-k2-thinking
+  [INFO]: Using Openrouter
+[INFO] Using model kimi-k2-thinking via OpenRouter
+  [INFO]: client.py detected kimi-k2-thinking
+  [INFO]: Using Openrouter
+[INFO] Using model kimi-k2-thinking via OpenRouter
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p01
+[EVAL] model=kimi-k2-thinking quiz_id=ABMS20260101_claude-opus-4-5-20251101_p02 path=quizzes/quizzes_ABMS20260101/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p02.jsonl

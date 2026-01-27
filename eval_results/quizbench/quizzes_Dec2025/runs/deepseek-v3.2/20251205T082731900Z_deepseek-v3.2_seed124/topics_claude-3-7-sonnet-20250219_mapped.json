@@ -1,0 +1,123 @@
+{
+  "quiz_id": "20251205T082731900Z_deepseek-v3.2_seed124",
+  "generator_model": "deepseek-v3.2",
+  "eval_model": "claude-3-7-sonnet-20250219",
+  "default_topics": [
+    "cardiology",
+    "endocrinology",
+    "infectious disease",
+    "hematology/oncology",
+    "neurology",
+    "nephrology",
+    "pulmonology",
+    "obstetrics",
+    "gynecology",
+    "pediatrics",
+    "geriatrics",
+    "dermatology",
+    "rheumatology",
+    "emergency medicine",
+    "critical care"
+  ],
+  "created_at": "2025-12-09T02:46:14Z",
+  "per_question": [
+    {
+      "question_id": "20251205T082731900Z_deepseek-v3.2_seed124-001",
+      "topic": "pulmonology",
+      "raw_response": "pulmonology",
+      "topic_mapped": "Pulmonary"
+    },
+    {
+      "question_id": "20251205T082731900Z_deepseek-v3.2_seed124-002",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    },
+    {
+      "question_id": "20251205T082731900Z_deepseek-v3.2_seed124-003",
+      "topic": "obstetrics",
+      "raw_response": "obstetrics",
+      "topic_mapped": "Obstetrics and Gynecology"
+    },
+    {
+      "question_id": "20251205T082731900Z_deepseek-v3.2_seed124-004",
+      "topic": "infectious disease",
+      "raw_response": "infectious disease",
+      "topic_mapped": "Infectious Disease"
+    },
+    {
+      "question_id": "20251205T082731900Z_deepseek-v3.2_seed124-005",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    },
+    {
+      "question_id": "20251205T082731900Z_deepseek-v3.2_seed124-006",
+      "topic": "pulmonology",
+      "raw_response": "pulmonology",
+      "topic_mapped": "Pulmonary"
+    },
+    {
+      "question_id": "20251205T082731900Z_deepseek-v3.2_seed124-007",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    },
+    {
+      "question_id": "20251205T082731900Z_deepseek-v3.2_seed124-008",
+      "topic": "infectious disease",
+      "raw_response": "infectious disease",
+      "topic_mapped": "Infectious Disease"
+    },
+    {
+      "question_id": "20251205T082731900Z_deepseek-v3.2_seed124-009",
+      "topic": "pulmonology",
+      "raw_response": "pulmonology",
+      "topic_mapped": "Pulmonary"
+    },
+    {
+      "question_id": "20251205T082731900Z_deepseek-v3.2_seed124-010",
+      "topic": "rheumatology",
+      "raw_response": "rheumatology",
+      "topic_mapped": "Rheumatology/Musculoskeletal"
+    }
+  ],
+  "summary": {
+    "topic_counts": {
+      "pulmonology": 3,
+      "neurology": 3,
+      "obstetrics": 1,
+      "infectious disease": 2,
+      "rheumatology": 1
+    },
+    "majority_topic": "pulmonology",
+    "num_questions": 10,
+    "num_unclassified": 0
+  },
+  "topic_mapping": {
+    "applied_at": "2025-12-15T14:20:24Z",
+    "topic_map_path": "data/topic_to_abms.yaml",
+    "mode": "map",
+    "unmapped_policy": "keep",
+    "normalize": true,
+    "combined_to_misc": true,
+    "misc_category": "Misc",
+    "refine_misc_heme_onc": true,
+    "refine_misc_model": "claude-3-7-sonnet-20250219",
+    "refine_misc_max_tokens": 512,
+    "refine_misc_temperature": 0.0
+  },
+  "summary_mapped": {
+    "topic_counts": {
+      "Pulmonary": 3,
+      "Neurology": 3,
+      "Obstetrics and Gynecology": 1,
+      "Infectious Disease": 2,
+      "Rheumatology/Musculoskeletal": 1
+    },
+    "num_questions": 10,
+    "num_dropped": 0,
+    "num_unmapped_raw": 0,
+    "unmapped_raw_counts": {}
+  }
+}

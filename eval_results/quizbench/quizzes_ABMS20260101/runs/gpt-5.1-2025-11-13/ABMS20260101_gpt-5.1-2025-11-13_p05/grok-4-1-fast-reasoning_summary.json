@@ -1,0 +1,1 @@
+{"model": "grok-4-1-fast-reasoning", "created_at": "2026-01-02T00:55:00Z", "total_corr": 8, "total_wrong": 2, "acc": 0.8, "n_items": 10, "batch_input_file": null, "batch_id": "grok-async-1767315279-grok-4-1-fast-reasoning", "used_batch_api": true, "batch_provider": "grok-async"}

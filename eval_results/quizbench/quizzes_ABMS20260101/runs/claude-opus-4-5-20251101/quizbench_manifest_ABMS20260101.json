@@ -1,0 +1,80 @@
+{
+  "created_at": "2025-12-26T06:31:37Z",
+  "subset_tag": "ABMS20260101",
+  "generator_model": "claude-opus-4-5-20251101",
+  "generator_models": [
+    "claude-opus-4-5-20251101"
+  ],
+  "runs_root": "/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs",
+  "quizzes_dir": "/home/dbernardo/Documents/pyres/MedEvalArena/quizzes/quizzes_ABMS20260101",
+  "quizzes": [
+    {
+      "quiz_id": "ABMS20260101_claude-opus-4-5-20251101_p01",
+      "quiz_path": "quizzes/quizzes_ABMS20260101/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p01.jsonl",
+      "generator_model": "claude-opus-4-5-20251101",
+      "seed": null
+    },
+    {
+      "quiz_id": "ABMS20260101_claude-opus-4-5-20251101_p02",
+      "quiz_path": "quizzes/quizzes_ABMS20260101/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p02.jsonl",
+      "generator_model": "claude-opus-4-5-20251101",
+      "seed": null
+    },
+    {
+      "quiz_id": "ABMS20260101_claude-opus-4-5-20251101_p03",
+      "quiz_path": "quizzes/quizzes_ABMS20260101/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p03.jsonl",
+      "generator_model": "claude-opus-4-5-20251101",
+      "seed": null
+    },
+    {
+      "quiz_id": "ABMS20260101_claude-opus-4-5-20251101_p04",
+      "quiz_path": "quizzes/quizzes_ABMS20260101/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p04.jsonl",
+      "generator_model": "claude-opus-4-5-20251101",
+      "seed": null
+    },
+    {
+      "quiz_id": "ABMS20260101_claude-opus-4-5-20251101_p05",
+      "quiz_path": "quizzes/quizzes_ABMS20260101/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p05.jsonl",
+      "generator_model": "claude-opus-4-5-20251101",
+      "seed": null
+    }
+  ],
+  "targets_csv": "/home/dbernardo/Documents/pyres/MedEvalArena/data/ABMS_specialties.csv",
+  "judge_models": [
+    "claude-opus-4-5-20251101",
+    "gemini-3-pro-preview",
+    "gpt-5.1-2025-11-13",
+    "grok-4-0709",
+    "deepseek-v3.2",
+    "kimi-k2-thinking"
+  ],
+  "filter_min_med_score": 1,
+  "filter_require_logical_valid": true,
+  "filter_logical_mode": "majority",
+  "chunk_size": 10,
+  "num_quizzes_per_generator": 5,
+  "num_questions_per_quiz": 10,
+  "num_questions_total": 50,
+  "source_runs_roots": [
+    "/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_Jan2026/runs"
+  ],
+  "selection_report": "eval_results/quizbench/quizzes_ABMS20260101/runs/claude-opus-4-5-20251101/selection_report_ABMS20260101.json",
+  "eval_models": [
+    "claude-opus-4-5-20251101",
+    "deepseek-v3.2",
+    "gemini-2.5-flash-lite",
+    "gemini-3-pro-preview",
+    "gpt-5-nano-2025-08-07",
+    "gpt-5.1-2025-11-13",
+    "grok-4-0709",
+    "kimi-k2-thinking"
+  ],
+  "run_ids": [
+    "ABMS20260101_claude-opus-4-5-20251101_p01",
+    "ABMS20260101_claude-opus-4-5-20251101_p02",
+    "ABMS20260101_claude-opus-4-5-20251101_p03",
+    "ABMS20260101_claude-opus-4-5-20251101_p04",
+    "ABMS20260101_claude-opus-4-5-20251101_p05"
+  ],
+  "last_eval_at": "2026-01-02T03:39:18Z"
+}

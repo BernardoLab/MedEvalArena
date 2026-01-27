@@ -1,0 +1,8 @@
+anthropic==0.42.0
+datasets==3.0.1
+huggingface_hub==0.24.5
+openai==1.59.3
+pyyaml==6.0.2
+protobuf==5.29.2
+Requests==2.32.3
+tqdm==4.66.5

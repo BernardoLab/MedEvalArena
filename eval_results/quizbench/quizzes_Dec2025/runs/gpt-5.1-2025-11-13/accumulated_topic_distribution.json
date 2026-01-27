@@ -1,0 +1,68 @@
+{
+  "created_at": "2025-12-15T14:34:50Z",
+  "generator_model": "gpt-5.1-2025-11-13",
+  "runs_root": "eval_results/quizbench/runs",
+  "generator_run_root": "eval_results/quizbench/runs/gpt-5.1-2025-11-13",
+  "topics_eval_model": null,
+  "topic_map_path": "data/topic_to_abms.yaml",
+  "topic_map_mode": "map",
+  "unmapped_topic_policy": "keep",
+  "misc_category": "Misc",
+  "judge_models": [
+    "claude-opus-4-5-20251101",
+    "gemini-3-pro-preview",
+    "gpt-5.1-2025-11-13",
+    "grok-4-0709",
+    "deepseek-v3.2",
+    "kimi-k2-thinking"
+  ],
+  "logical_mode": "majority",
+  "min_medical_score": null,
+  "all_total_questions": 50,
+  "all_total_counted": 50,
+  "all_counts_by_topic": {
+    "Neurology": 9,
+    "Cardiovascular": 8,
+    "Obstetrics and Gynecology": 8,
+    "Rheumatology/Musculoskeletal": 7,
+    "Pulmonary": 4,
+    "Critical Care Medicine": 3,
+    "Misc": 3,
+    "Endocrine": 2,
+    "Emergency Medicine": 2,
+    "Infectious Disease": 2,
+    "Pediatrics": 1,
+    "Nephrology": 1
+  },
+  "all_runs_included": [
+    "eval_results/quizbench/runs/gpt-5.1-2025-11-13/20251129T045001943Z_gpt-5.1-2025-11-13_seed123",
+    "eval_results/quizbench/runs/gpt-5.1-2025-11-13/20251129T045001943Z_gpt-5.1-2025-11-13_seed124",
+    "eval_results/quizbench/runs/gpt-5.1-2025-11-13/20251129T045001943Z_gpt-5.1-2025-11-13_seed125",
+    "eval_results/quizbench/runs/gpt-5.1-2025-11-13/20251129T045001943Z_gpt-5.1-2025-11-13_seed126",
+    "eval_results/quizbench/runs/gpt-5.1-2025-11-13/20251129T045001943Z_gpt-5.1-2025-11-13_seed127"
+  ],
+  "all_runs_skipped": {},
+  "valid_total_questions": 46,
+  "valid_total_counted": 46,
+  "valid_counts_by_topic": {
+    "Neurology": 9,
+    "Cardiovascular": 8,
+    "Rheumatology/Musculoskeletal": 7,
+    "Obstetrics and Gynecology": 7,
+    "Pulmonary": 4,
+    "Misc": 3,
+    "Critical Care Medicine": 3,
+    "Infectious Disease": 2,
+    "Endocrine": 1,
+    "Pediatrics": 1,
+    "Nephrology": 1
+  },
+  "valid_runs_included": [
+    "eval_results/quizbench/runs/gpt-5.1-2025-11-13/20251129T045001943Z_gpt-5.1-2025-11-13_seed123",
+    "eval_results/quizbench/runs/gpt-5.1-2025-11-13/20251129T045001943Z_gpt-5.1-2025-11-13_seed124",
+    "eval_results/quizbench/runs/gpt-5.1-2025-11-13/20251129T045001943Z_gpt-5.1-2025-11-13_seed125",
+    "eval_results/quizbench/runs/gpt-5.1-2025-11-13/20251129T045001943Z_gpt-5.1-2025-11-13_seed126",
+    "eval_results/quizbench/runs/gpt-5.1-2025-11-13/20251129T045001943Z_gpt-5.1-2025-11-13_seed127"
+  ],
+  "valid_runs_skipped": {}
+}

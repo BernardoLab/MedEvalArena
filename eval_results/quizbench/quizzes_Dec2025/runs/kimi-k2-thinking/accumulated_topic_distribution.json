@@ -1,0 +1,68 @@
+{
+  "created_at": "2025-12-15T14:34:50Z",
+  "generator_model": "kimi-k2-thinking",
+  "runs_root": "eval_results/quizbench/runs",
+  "generator_run_root": "eval_results/quizbench/runs/kimi-k2-thinking",
+  "topics_eval_model": null,
+  "topic_map_path": "data/topic_to_abms.yaml",
+  "topic_map_mode": "map",
+  "unmapped_topic_policy": "keep",
+  "misc_category": "Misc",
+  "judge_models": [
+    "claude-opus-4-5-20251101",
+    "gemini-3-pro-preview",
+    "gpt-5.1-2025-11-13",
+    "grok-4-0709",
+    "deepseek-v3.2",
+    "kimi-k2-thinking"
+  ],
+  "logical_mode": "majority",
+  "min_medical_score": null,
+  "all_total_questions": 50,
+  "all_total_counted": 50,
+  "all_counts_by_topic": {
+    "Neurology": 11,
+    "Cardiovascular": 8,
+    "Misc": 6,
+    "Endocrine": 5,
+    "Emergency Medicine": 5,
+    "Rheumatology/Musculoskeletal": 5,
+    "Obstetrics and Gynecology": 3,
+    "Pulmonary": 2,
+    "Critical Care Medicine": 2,
+    "Infectious Disease": 1,
+    "Dermatology": 1,
+    "Pediatrics": 1
+  },
+  "all_runs_included": [
+    "eval_results/quizbench/runs/kimi-k2-thinking/20251205T080918850Z_kimi-k2-thinking_seed123",
+    "eval_results/quizbench/runs/kimi-k2-thinking/20251205T080918850Z_kimi-k2-thinking_seed124",
+    "eval_results/quizbench/runs/kimi-k2-thinking/20251205T080918850Z_kimi-k2-thinking_seed125",
+    "eval_results/quizbench/runs/kimi-k2-thinking/20251205T080918850Z_kimi-k2-thinking_seed126",
+    "eval_results/quizbench/runs/kimi-k2-thinking/20251205T080918850Z_kimi-k2-thinking_seed127"
+  ],
+  "all_runs_skipped": {},
+  "valid_total_questions": 38,
+  "valid_total_counted": 38,
+  "valid_counts_by_topic": {
+    "Neurology": 8,
+    "Emergency Medicine": 5,
+    "Rheumatology/Musculoskeletal": 5,
+    "Misc": 5,
+    "Endocrine": 3,
+    "Obstetrics and Gynecology": 3,
+    "Cardiovascular": 3,
+    "Pulmonary": 2,
+    "Critical Care Medicine": 2,
+    "Infectious Disease": 1,
+    "Dermatology": 1
+  },
+  "valid_runs_included": [
+    "eval_results/quizbench/runs/kimi-k2-thinking/20251205T080918850Z_kimi-k2-thinking_seed123",
+    "eval_results/quizbench/runs/kimi-k2-thinking/20251205T080918850Z_kimi-k2-thinking_seed124",
+    "eval_results/quizbench/runs/kimi-k2-thinking/20251205T080918850Z_kimi-k2-thinking_seed125",
+    "eval_results/quizbench/runs/kimi-k2-thinking/20251205T080918850Z_kimi-k2-thinking_seed126",
+    "eval_results/quizbench/runs/kimi-k2-thinking/20251205T080918850Z_kimi-k2-thinking_seed127"
+  ],
+  "valid_runs_skipped": {}
+}

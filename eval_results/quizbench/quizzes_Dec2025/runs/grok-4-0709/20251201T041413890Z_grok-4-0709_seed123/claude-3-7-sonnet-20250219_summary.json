@@ -1,0 +1,1 @@
+{"model": "claude-3-7-sonnet-20250219", "created_at": "2025-12-02T15:48:54Z", "total_corr": 7, "total_wrong": 3, "acc": 0.7, "n_items": 10, "batch_input_file": "20251201T041413890Z_grok-4-0709_seed123_claude-3-7-sonnet-20250219_anthropic_batch_requests.jsonl", "batch_id": "msgbatch_014oRRpii4WGC1YYeNkEFw8c", "used_batch_api": true, "batch_provider": "anthropic"}

@@ -1,0 +1,962 @@
+[
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032552-QwZArSFFuDB2eJHDFa9h",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032552,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: professional pitcher, pain/weakness in late cocking, MRI shows partial articular supraspinatus and posterosuperior labral tears, exam shows 145° external rotation and only 25° internal rotation in abduction (GIRD), with preserved total arc of motion. This classic pattern of glenohumeral internal rotation deficit (GIRD) with internal impingement is primarily attributed to posterior capsular contracture, which shifts the humeral head posterosuperiorly during throwing. The keyed answer (B) correctly identifies this. Alternatives are less primary: anterior laxity (A) and scapular dyskinesis (C) are common contributors but not the primary driver in this specific GIRD presentation; rotator cuff fatigue (D) and biceps subluxation (E) are not the core biomechanical adaptation. No logical contradictions or missing details. Medical accuracy is sound. Minimal fix: none required for a valid item.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1923,
+        "completion_tokens": 252,
+        "total_tokens": 2175,
+        "cost": 0.00062505,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00051921,
+          "upstream_inference_completions_cost": 0.00010584
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032558-K1Np5ZnhWdurWpV4WbFL",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032558,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: chronic dermatomyositis, solitary plaque, CD4+CD8- with CD7 loss, monoclonal TCR, no systemic disease on PET-CT. These findings strongly favor primary cutaneous CD4+ small/medium T-cell lymphoproliferative disorder (PC-SMLPD), an indolent entity distinct from aggressive lymphomas. The keyed answer (B) accurately reflects this. Alternatives are incorrect: A (no systemic disease), C (dermatomyositis predates lesion by 15 years, making paraneoplastic link unlikely), D (clinical presentation not typical for mycosis fungoides), E (not indicated for localized indolent disease). No logical contradictions or missing critical details. Medical accuracy is sound. Minimal fix: none required; item is well-constructed.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1951,
+        "completion_tokens": 216,
+        "total_tokens": 2167,
+        "cost": 0.00061749,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052677,
+          "upstream_inference_completions_cost": 9.072e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-003",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032563-8OMx9B6VUHC4YqjqzEqG",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032563,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: post-prostatectomy biochemical recurrence (PSA 0.35 ng/mL), PSMA-PET shows a single nodal metastasis (8mm obturator node, SUVmax 12), pT3aN0 with positive margins. The findings indicate a high-risk, node-positive recurrence. The best evidence (SPPORT trial paradigm) supports salvage radiation to the prostate bed plus elective nodal irradiation with short-term ADT for optimal oncologic control in this scenario, addressing both the local and likely regional micrometastatic disease. The keyed answer (D) aligns with this standard. Alternatives are inferior: observation (A) delays treatment; ADT alone (B) is not curative; prostate bed radiation alone (C) misses the nodal disease; SBRT to the single node alone (E) is not standard for a first salvage scenario with a high-risk profile. No logical contradictions or missing critical details. Medical accuracy is sound. Minimal fix: None required; the item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1937,
+        "completion_tokens": 260,
+        "total_tokens": 2197,
+        "cost": 0.00063219,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052299,
+          "upstream_inference_completions_cost": 0.0001092
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-004",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032571-uoBUvJR7HMpaHgY3p3L9",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032571,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: T4a (cartilage invasion) hypopharyngeal squamous cell carcinoma, N2b nodal disease, no distant metastases. Main logical issue: A unique best answer exists, but the provided key (A, total laryngopharyngectomy) is not it. For locally advanced (T4a) hypopharyngeal cancer with cartilage invasion, current NCCN guidelines and standard of care recommend definitive chemoradiation as the initial, preferred, organ-preserving approach, with surgery reserved for salvage. Option B (definitive chemoradiation with cisplatin) is the guideline-concordant best answer. Main medical accuracy issue: The rationale incorrectly states surgery offers the best outcome; this contradicts modern organ-preservation paradigms for this stage/site. Minimal fix: Change the key to B and update the rationale to reflect current NCCN guidelines favoring definitive chemoradiation for T4a hypopharyngeal cancer.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"2\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1953,
+        "completion_tokens": 243,
+        "total_tokens": 2196,
+        "cost": 0.00150192,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00109368,
+          "upstream_inference_completions_cost": 0.00040824
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-005",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032575-W1YWKO6lljofBa5ovlOC",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032575,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. Key stem clues: neurogenic bladder with detrusor overactivity and detrusor-sphincter dyssynergia (DSD), high detrusor pressure (65 cmH2O), significant post-void residual (280 mL), bilateral hydronephrosis, and failure of conservative management. The primary goal is durable upper tract protection. The keyed answer (C, onabotulinumtoxinA) effectively treats overactivity but does not address the bladder outlet obstruction from DSD, which is the main driver of high pressures and hydronephrosis in this combined dysfunction. Option E (sphincterotomy) is the definitive intervention to relieve obstruction and protect the upper tracts in refractory DSD, though it sacrifices continence. The item is medically accurate but logically miskeyed, as the most durable intervention for upper tract protection in this specific scenario is sphincterotomy, not botulinum toxin. Minimal fix: Change the key to E and adjust the rationale to acknowledge the trade-off with continence, or revise the stem to specify a goal of maintaining continence, making C the best answer.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \t\n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1977,
+        "completion_tokens": 286,
+        "total_tokens": 2263,
+        "cost": 0.00065391,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053379,
+          "upstream_inference_completions_cost": 0.00012012
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-006",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032582-WUhZLe6F2Snfvforb0wB",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032582,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. The stem describes a DIEP flap with venous congestion, immediate surgical thrombectomy/revision, and asks for the strongest evidence-based adjunct to improve salvage. The keyed answer (B, medicinal leeches) is a well-established treatment for venous congestion, but it is typically used when venous outflow cannot be surgically restored, not as an adjunct after successful surgical revision. The strongest evidence for salvage after successful revision of the anastomosis is likely systemic anticoagulation (A) to prevent re-thrombosis. The stem's successful revision makes leech therapy less directly indicated, creating a mismatch. The item is medically accurate in describing leech therapy but logically miskeyed because the clinical scenario (post-revision) shifts the best evidence. Minimal fix: Change the stem to '...venous anastomosis cannot be revised' to justify leeches, or change the key to A.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \t\n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1950,
+        "completion_tokens": 233,
+        "total_tokens": 2183,
+        "cost": 0.00062436,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0005265,
+          "upstream_inference_completions_cost": 9.786e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-007",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032587-lMxlX5ibwOarVoca6rHP",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032587,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: intradural extramedullary mass at C5-C6, lateral location, dumbbell shape with foraminal extension, supplied by vertebral artery branches. These are classic features of a spinal schwannoma. The posterolateral approach (E) is the standard for such tumors, allowing access to both intraspinal and foraminal components while minimizing instability by preserving contralateral facets. Anterior approaches (B, C) poorly access the intradural portion. Posterior laminectomy with fusion (A) is unnecessarily destabilizing. Laminoplasty (D) is for stenosis, not tumor resection. No logical or medical inaccuracies; the item is well-constructed. Minimal fix: None required; the item is already clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1928,
+        "completion_tokens": 209,
+        "total_tokens": 2137,
+        "cost": 0.0014308,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00107968,
+          "upstream_inference_completions_cost": 0.00035112
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-008",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032591-bomzWAsXiFHJgEauRpKt",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032591,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. Key stem clues: In-field recurrence after definitive chemoradiation (60 Gy) and durvalumab consolidation, with preserved but reduced pulmonary function (FEV1 65%, DLCO 55%). The vignette describes a localized recurrence, making local salvage (surgery or SBRT) a standard consideration in selected patients. The keyed answer (D, systemic therapy) is not the single best answer; salvage surgery (B) is a defensible and guideline-supported option for a solitary recurrence in a patient with adequate reserve, making this a miskey. Main logical issue: A unique best answer exists (surgery), but the provided key is incorrect. Main medical accuracy issue: The rationale overstates the toxicity of SBRT/surgery as universally unacceptable and understates their role in selected cases. Minimal fix: Change the key to B (salvage surgery) and adjust the rationale to acknowledge surgery as the preferred curative-intent option when feasible, with systemic therapy reserved for non-surgical candidates.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1957,
+        "completion_tokens": 260,
+        "total_tokens": 2217,
+        "cost": 0.00063759,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052839,
+          "upstream_inference_completions_cost": 0.0001092
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-009",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032596-2jJJ9AsZ4YnIOHnN6rj7",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032596,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: post-pneumonectomy day 8, sudden copious purulent sputum, fever, respiratory distress, bronchoscopy shows 1.5 cm bronchial stump dehiscence with visible empyema cavity, patient now hemodynamically stable. This describes a large, early bronchopleural fistula (BPF) with empyema. The primary management goal is source control and drainage of the infected space. Option B (Open window thoracostomy) is the standard initial step for a large BPF with empyema, allowing drainage and cavity sterilization before definitive repair. Alternatives are incorrect: A (immediate thoracoplasty) fails in an infected field; C (endoscopic closure) is for small fistulas without established empyema; D (chest tube/antibiotics) is insufficient for a large, documented fistula; E (transsternal closure) is overly morbid and not first-line. No logical contradictions or missing critical details. Medical accuracy aligns with thoracic surgery guidelines. Minimal fix: none required; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1932,
+        "completion_tokens": 270,
+        "total_tokens": 2202,
+        "cost": 0.00063504,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052164,
+          "upstream_inference_completions_cost": 0.0001134
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-010",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032602-HLp6YmJ7bjzUFF1ZV4kB",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032602,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: intraoperative type Ia endoleak, hostile neck anatomy (short 11 mm, 45° angulation), failure of ballooning. The question asks for the most appropriate next intervention after failed ballooning for a type Ia endoleak in a hostile neck. Endoanchors (B) are a recognized endovascular salvage technique for this specific scenario, providing transmural fixation. A (Palmaz stent) offers radial force but not fixation and is less ideal for angulation. C (open conversion) is a last resort. D (extension cuff) is not applicable as the leak is at the existing seal. E (surveillance) is unsafe for a type Ia leak. The item is logically valid and medically accurate, aligning with current endovascular practice. Minimal fix: none required.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1922,
+        "completion_tokens": 218,
+        "total_tokens": 2140,
+        "cost": 0.0006105,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00051894,
+          "upstream_inference_completions_cost": 9.156e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-011",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032607-6dh8u7gcSTWbxwkgeeAJ",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032607,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: young athlete, bilateral L5 pars defects with SPECT uptake (active healing potential), no disc degeneration, failure of 4 months of bracing, goal is return to sport. The question asks for the best surgical intervention for return to sport in a case of refractory spondylolysis without degeneration. The keyed answer (C) is direct pars repair with a pedicle screw-hook-rod construct, which is a well-accepted motion-preserving option for this scenario, superior to Buck's screw (B) for bilateral defects and preferable to fusion (A, D, E) in the absence of disc degeneration. No logical contradictions or underspecification. Medical accuracy is sound. Minimal fix: None required for validity; to enhance clarity, the stem could explicitly state 'no neurologic deficits' to further rule out fusion indications.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1942,
+        "completion_tokens": 224,
+        "total_tokens": 2166,
+        "cost": 0.00061842,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052434,
+          "upstream_inference_completions_cost": 9.408e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-012",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032613-HeBIOocHbrKSDboESEmW",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032613,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: Hurley stage III hidradenitis suppurativa, refractory to multiple antibiotics and adalimumab (with initial response then relapse), presence of sinus tracts and bridged scars. The clinical scenario describes severe, refractory disease with irreversible tissue damage, making wide local excision the definitive, durable intervention per guidelines. Main logical issue: None; the stem clearly supports a single best answer. Main medical accuracy issue: None; the key aligns with current standard of care for refractory Hurley stage III HS. Minimal fix: None required; the item is already unambiguous and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1972,
+        "completion_tokens": 175,
+        "total_tokens": 2147,
+        "cost": 0.00139832,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00110432,
+          "upstream_inference_completions_cost": 0.000294
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-013",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032617-Bry9wT8gWYngFwLyVTks",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032617,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: postoperative day 12, stable patient, confirmed ureteroileal anastomotic leak with urinoma. The findings point to a contained leak in the early postoperative period, where proximal urinary diversion is the standard initial management. Main logical issue: None. Main medical accuracy issue: None; the rationale aligns with urologic principles for managing stable postoperative anastomotic leaks. Minimal fix: None required for a valid item. The stem clearly provides timing, stability, imaging, and fluid biochemistry to support percutaneous nephrostomy as the most appropriate initial step over more invasive or less effective options.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1965,
+        "completion_tokens": 177,
+        "total_tokens": 2142,
+        "cost": 0.00060489,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053055,
+          "upstream_inference_completions_cost": 7.434e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-014",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032621-jmCn2Ysb99QHAFAmOlO6",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032621,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: 2.8 cm vestibular schwannoma with brainstem compression, patient desires hearing preservation, ABR shows prolonged I-V latency. Main logical issue: A unique best answer exists, but the provided key (E) is not it. The stem specifies brainstem compression, which is a standard neurosurgical indication for resection to relieve mass effect. Radiotherapy (options D and E) is generally contraindicated for tumors causing brainstem compression due to risk of post-radiation swelling. The best chance of hearing preservation while achieving tumor control for a symptomatic, compressive lesion is microsurgical resection with auditory monitoring (option B). Main medical accuracy issue: The keyed answer (E) recommends radiotherapy for a tumor with brainstem compression, which contradicts standard management guidelines. Minimal fix: Change the key to B (Retrosigmoid approach with intraoperative auditory monitoring) or, if the intent is to test radiotherapy, remove 'brainstem compression' from the vignette.\",\n  \"medical_accuracy_score\":  \"2\",\n  \"logical_validity\": false,\n  \"logical_false_reason\": \"K\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1955,
+        "completion_tokens": 259,
+        "total_tokens": 2214,
+        "cost": 0.00063145,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052785,
+          "upstream_inference_completions_cost": 0.0001036
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-015",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032638-ecJMDEsbwmcF4AbmoWDL",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032638,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: C6 ASIA A injury (above T6), recurrent severe headache/flushing/hypertension triggered by bladder distension, resolution after catheterization—classic autonomic dysreflexia (AD). Prophylaxis requires alpha-1 blockade to prevent sympathetic vasoconstriction. Terazosin (long-acting alpha-1 blocker) with PRN nitropaste for acute episodes aligns with standard AD management. Alternatives are inferior: oxybutynin (A) only addresses bladder spasticity; prazosin+tamsulosin (B) duplicates alpha-1 blockade unnecessarily; propranolol (D) is contraindicated (unopposed alpha constriction); clonidine (E) is central-acting and not first-line prophylaxis. No contradictions or missing details. Medical accuracy is sound. Minimal fix: none needed; item is clear and accurate.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2017,
+        "completion_tokens": 234,
+        "total_tokens": 2251,
+        "cost": 0.00063819,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00054459,
+          "upstream_inference_completions_cost": 9.36e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-016",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032644-D9bf3Eyvc4sKR6sq5Tjg",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032644,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: history of Mycobacterium fortuitum infection requiring expander removal, desire for reconstruction with lowest recurrence risk. The question asks for the approach with lowest risk of recurrent infection after NTM infection. The keyed answer (D) is defensible as best because a free DIEP flap brings non-contaminated, well-vascularized tissue without traversing the infected field, theoretically minimizing recurrence risk. Alternatives are inferior: A and E reintroduce foreign material; B delays but still uses an implant; C uses a pedicled flap that may traverse contaminated planes. The logic aligns with reconstructive principles. No internal contradictions or missing critical details. Medical accuracy is sound. Minimal fix: None required; the item is logically valid and medically accurate.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1936,
+        "completion_tokens": 207,
+        "total_tokens": 2143,
+        "cost": 0.00060552,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052272,
+          "upstream_inference_completions_cost": 8.28e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-017",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032650-iXLhn1PRqtsDJvIOVGVb",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032650,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: intradural intramedullary lesion at T8, homogeneous enhancement, associated syrinx, well-defined margins, clear cleavage plane, intraoperative confirmation of a plane, frozen section suggesting ependymoma. These findings classically describe a spinal intramedullary ependymoma, which is a well-circumscribed, benign tumor. The standard of care is gross total resection (GTR). The logical flow is valid: the vignette provides all necessary details (location, imaging features, operative findings, histologic suggestion) to uniquely point to GTR as the goal. Among GTR options, en bloc removal (B) is the most appropriate surgical strategy to preserve the cleavage plane and minimize cord injury or recurrence, as supported by the rationale. No contradictions or missing critical details exist. Medical accuracy is sound, aligning with current neurosurgical principles. Minimal fix: None required for a valid item; it is already unambiguous.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1946,
+        "completion_tokens": 243,
+        "total_tokens": 2189,
+        "cost": 0.00062262,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052542,
+          "upstream_inference_completions_cost": 9.72e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-018",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032666-ZGJ4S7UUP2BmwlsiP4Sh",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032666,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: HPV+ oropharyngeal cancer treated with definitive chemoradiation (70 Gy), complete metabolic response at 3 months, but at 18 months presents with progressive dysphagia, severe pharyngeal dysmotility with aspiration on modified barium swallow, and direct laryngoscopy showing severe pharyngeal fibrosis with reduced epiglottic deflection but no tumor recurrence. This pattern of late toxicity specifically implicates radiation-induced fibrosis of the pharyngeal constrictor muscles. Main logical issue: None; the stem provides a clear, consistent clinical picture of a known late complication. Main medical accuracy issue: None; the keyed answer aligns with established QUANTEC guidelines and literature linking mean dose to the superior pharyngeal constrictor >60 Gy with severe late dysphagia. Minimal fix: None required; the item is well-constructed. Alternative B (larynx dose) is more associated with glottic function/edema; C (parotid) with xerostomia; D (oral cavity) with mucositis/taste; E (cervical esophagus) with stricture, not the described pharyngeal dysmotility.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1967,
+        "completion_tokens": 289,
+        "total_tokens": 2256,
+        "cost": 0.00065247,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053109,
+          "upstream_inference_completions_cost": 0.00012138
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-019",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032672-Npp0GMC4hjEqueRkfCcz",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032672,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: persistent high-output chylothorax (>500 mL/day) after 7 days of NPO/TPN, leak localized to T10 via lymphangiography. Main logical issue: none; stem provides clear criteria for intervention (failed conservative management, high output, localized leak) and options are distinct. Main medical accuracy issue: none; thoracic duct embolization is consistent with current guidelines as first-line intervention after failed conservative management for a localized leak. Minimal fix: none needed; item is unambiguous and accurate.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1991,
+        "completion_tokens": 164,
+        "total_tokens": 2155,
+        "cost": 0.00060317,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053757,
+          "upstream_inference_completions_cost": 6.56e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed129-020",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032692-i6Lqg1paTrFOGzCQtkxL",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032692,
+      "choices": [
+        {
+          "error": {
+            "message": "JSON error injected into SSE stream",
+            "code": 502,
+            "metadata": {
+              "raw": "{\"code\":60000,\"message\":\"Request processing failed due to an unknown error.\",\"data\":null}",
+              "provider_name": "SiliconFlow"
+            }
+          },
+          "logprobs": null,
+          "finish_reason": null,
+          "native_finish_reason": null,
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n    \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: aortoenteric fistula (AEF) with pseudoaneurysm at proximal anastomosis in a previously repaired AAA, patient stabilized. The question asks for the BEST balance of durability and survival. The keyed answer (C, cryopreserved allograft) is a valid option, but the most widely accepted standard of care for a secondary AEF in an infected field is in-situ reconstruction with a rifampin-soaked prosthetic graft (option D) combined with extensive debridement and omental wrap, as supported by major vascular society guidelines. While allografts are used, they are not universally considered the 'best' first-line strategy due to limited availability and variable outcomes. Option D is equally or more defensible based on current evidence and guidelines, making the key not uniquely best. Main medical accuracy issue: overstating the superiority of cryopreserved allograft as the consensus best choice. Minimal fix: Change the key to D or revise the rationale to align with guideline-preferred in-situ prosthetic reconstruction.\",\n    \"logical_false_reason\": \"K\",\n    \"logical_validity\": false,\n    \"medical_accuracy_score\":  \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n    \t\n",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1970,
+        "completion_tokens": 3102,
+        "total_tokens": 5072,
+        "cost": 0.00183474,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0005319,
+          "upstream_inference_completions_cost": 0.00130284
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

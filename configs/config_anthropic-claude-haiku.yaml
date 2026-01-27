@@ -1,0 +1,16 @@
+# QuizBench generation configuration
+generator_models:
+  - claude-haiku-4-5-20251001
+test_models:
+  - none
+num_questions_per_batch: 10
+seed0: 123
+# Silo Anthropic runs to avoid clobbering manifests from other providers.
+# quizzes_dir: quizzes/
+# runs_root: eval_results/quizbench/quizzes_ABMS20260101/runs/claude-haiku-4-5-20251001
+anthropic_api_key: ""
+use_batch_api: true
+reasoning_effort: high
+# max_tokens: 600
+max_output_tokens: 16000
+num_questions_per_quiz: 50

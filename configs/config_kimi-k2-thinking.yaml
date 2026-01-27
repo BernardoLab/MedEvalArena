@@ -1,0 +1,17 @@
+# QuizBench generation configuration
+generator_models:
+  - "kimi-k2-thinking"
+test_models:
+  - none
+num_questions_per_batch: 10
+seed0: 123
+quizzes_dir: quizzes/
+runs_root: eval_results/quizbench/quizzes_Jan2026/runs/kimi-k2-thinking/
+openrouter_api_key: ""
+use_openrouter: true
+use_batch_api: false
+reasoning_effort: high
+# max_tokens: 600
+max_output_tokens: 16000
+temperature: 0.001
+num_questions_per_quiz: 50

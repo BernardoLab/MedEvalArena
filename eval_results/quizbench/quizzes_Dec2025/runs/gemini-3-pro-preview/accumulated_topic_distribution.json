@@ -1,0 +1,69 @@
+{
+  "created_at": "2025-12-15T14:34:50Z",
+  "generator_model": "gemini-3-pro-preview",
+  "runs_root": "eval_results/quizbench/runs",
+  "generator_run_root": "eval_results/quizbench/runs/gemini-3-pro-preview",
+  "topics_eval_model": null,
+  "topic_map_path": "data/topic_to_abms.yaml",
+  "topic_map_mode": "map",
+  "unmapped_topic_policy": "keep",
+  "misc_category": "Misc",
+  "judge_models": [
+    "claude-opus-4-5-20251101",
+    "gemini-3-pro-preview",
+    "gpt-5.1-2025-11-13",
+    "grok-4-0709",
+    "deepseek-v3.2",
+    "kimi-k2-thinking"
+  ],
+  "logical_mode": "majority",
+  "min_medical_score": null,
+  "all_total_questions": 50,
+  "all_total_counted": 50,
+  "all_counts_by_topic": {
+    "Cardiovascular": 9,
+    "Misc": 7,
+    "Neurology": 6,
+    "Critical Care Medicine": 4,
+    "Emergency Medicine": 4,
+    "Endocrine": 4,
+    "Rheumatology/Musculoskeletal": 3,
+    "Infectious Disease": 3,
+    "Obstetrics and Gynecology": 3,
+    "Pediatrics": 3,
+    "Pulmonary": 2,
+    "Nephrology": 2
+  },
+  "all_runs_included": [
+    "eval_results/quizbench/runs/gemini-3-pro-preview/20251129T125426901Z_gemini-3-pro-preview_seed123",
+    "eval_results/quizbench/runs/gemini-3-pro-preview/20251129T125426901Z_gemini-3-pro-preview_seed124",
+    "eval_results/quizbench/runs/gemini-3-pro-preview/20251129T125426901Z_gemini-3-pro-preview_seed125",
+    "eval_results/quizbench/runs/gemini-3-pro-preview/20251129T125426901Z_gemini-3-pro-preview_seed126",
+    "eval_results/quizbench/runs/gemini-3-pro-preview/20251129T125426901Z_gemini-3-pro-preview_seed127"
+  ],
+  "all_runs_skipped": {},
+  "valid_total_questions": 49,
+  "valid_total_counted": 49,
+  "valid_counts_by_topic": {
+    "Cardiovascular": 9,
+    "Neurology": 6,
+    "Misc": 6,
+    "Critical Care Medicine": 4,
+    "Endocrine": 4,
+    "Emergency Medicine": 4,
+    "Obstetrics and Gynecology": 3,
+    "Rheumatology/Musculoskeletal": 3,
+    "Infectious Disease": 3,
+    "Pediatrics": 3,
+    "Pulmonary": 2,
+    "Nephrology": 2
+  },
+  "valid_runs_included": [
+    "eval_results/quizbench/runs/gemini-3-pro-preview/20251129T125426901Z_gemini-3-pro-preview_seed123",
+    "eval_results/quizbench/runs/gemini-3-pro-preview/20251129T125426901Z_gemini-3-pro-preview_seed124",
+    "eval_results/quizbench/runs/gemini-3-pro-preview/20251129T125426901Z_gemini-3-pro-preview_seed125",
+    "eval_results/quizbench/runs/gemini-3-pro-preview/20251129T125426901Z_gemini-3-pro-preview_seed126",
+    "eval_results/quizbench/runs/gemini-3-pro-preview/20251129T125426901Z_gemini-3-pro-preview_seed127"
+  ],
+  "valid_runs_skipped": {}
+}

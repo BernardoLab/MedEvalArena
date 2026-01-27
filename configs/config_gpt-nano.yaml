@@ -1,0 +1,18 @@
+# QuizBench generation configuration
+generator_models:
+  # - gpt-5-nano-2025-08-07
+  - gpt-5-nano-2025-08-07
+test_models:
+  - gpt-5-nano-2025-08-07
+num_questions_per_batch: 10
+seed0: 123
+# Keep generator/eval artifacts siloed per provider to avoid manifest collisions.
+quizzes_dir: quizzes/
+# runs_root: eval_uq_results/
+# runs_root: eval_results/quizbench/quizzes_Jan2026/runs/gpt-5.1-2025-11-13/
+openai_api_key: ""
+use_batch_api: true
+reasoning_effort: high
+# max_tokens: 600
+max_output_tokens: 16000
+num_questions_per_quiz: 50

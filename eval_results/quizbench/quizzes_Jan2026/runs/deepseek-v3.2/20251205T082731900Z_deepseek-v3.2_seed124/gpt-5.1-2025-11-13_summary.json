@@ -1,0 +1,1 @@
+{"model": "gpt-5.1-2025-11-13", "created_at": "2025-12-05T16:11:36Z", "total_corr": 3, "total_wrong": 7, "acc": 0.3, "n_items": 10, "batch_input_file": "20251205T082731900Z_deepseek-v3.2_seed124_gpt-5.1-2025-11-13_batch_input.jsonl", "batch_id": "batch_69330347673c81908ed8bd76ad414cec", "used_batch_api": true}

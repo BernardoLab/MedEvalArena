@@ -1,0 +1,7 @@
+rows: 1800
+models: 6
+quizzes: 30
+questions: 300
+expected_models_per_item: 6
+pairing_issues: 0
+duplicate_responses: 0

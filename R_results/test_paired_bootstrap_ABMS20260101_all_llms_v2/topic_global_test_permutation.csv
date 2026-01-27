@@ -1,0 +1,2 @@
+"n_items","n_topics","n_llms","stratified_by_quiz","F_stat","eta_squared","perm_reps","p_value_perm"
+300,31,10,TRUE,0.831784146093814,0.0848893526118012,100,0.603960396039604

@@ -1,0 +1,670 @@
+[
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed130",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed130-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617466-glsvi1rNCeYQ4kudRZ5k",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617466,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: chronic watery diarrhea, weight loss, negative celiac serologies and genetics, villous atrophy on biopsy, no response to gluten-free diet, history of olmesartan use. Main logical issue: The keyed answer (C) is plausible but not uniquely best; option B (Autoimmune Enteropathy) is equally defensible given the presentation of severe villous atrophy with negative celiac markers and no response to gluten withdrawal, which fits autoimmune enteropathy criteria. The vignette lacks specific features (e.g., autoantibodies, extraintestinal manifestations) to discriminate between olmesartan-associated and autoimmune enteropathy. Main medical accuracy issue: None; both conditions are recognized. Minimal fix: Add a clue favoring one diagnosis, such as 'serum anti-enterocyte antibodies are positive' for autoimmune enteropathy or 'symptoms resolved after olmesartan discontinuation' for drug-associated enteropathy.\",\n  \"logical_false_reason\": \"M\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \t\n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1881,
+        "completion_tokens": 247,
+        "total_tokens": 2128,
+        "cost": 0.00146832,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00105336,
+          "upstream_inference_completions_cost": 0.00041496
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed130",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed130-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617471-NMQJWelmObJxqzVnzVFb",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617471,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: 34-year-old female on oral contraceptives, 6 cm solitary liver lesion, MRI features (T2 hyperintense, arterial enhancement, hepatobiliary phase retention), and biopsy showing diffuse strong glutamine synthetase positivity. This combination is diagnostic of a beta-catenin activated hepatocellular adenoma (HCA). The management implication is the high risk of malignant transformation, making resection necessary. The keyed answer (B, surgical resection) is the standard of care for this subtype. Alternatives are incorrect: A (discontinuation/surveillance) is insufficient due to high malignant risk; C (ablation) may be considered for small lesions but resection is definitive for a 6 cm lesion with malignant potential; D (transplantation) is not indicated; E (reassurance) is dangerous. No logical contradictions or underspecification. Medical accuracy is high. Minimal fix: None required for a clear, board-style item.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1855,
+        "completion_tokens": 239,
+        "total_tokens": 2094,
+        "cost": 0.00060123,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050085,
+          "upstream_inference_completions_cost": 0.00010038
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed130",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed130-003",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617476-plklcms2QSLLq4ggE8zO",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617476,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: prolonged aPTT, low factor VIII, normal vWF antigen and ristocetin cofactor activity, mixing study corrects (rules out inhibitor), autosomal pattern (father affected, brothers unaffected). These findings are classic for type 2N vWD, where a defect in vWF's FVIII-binding domain causes secondary FVIII deficiency. The keyed answer (B) is uniquely supported. Alternatives: A (Hemophilia A carrier) is X-linked and would not typically show this inheritance pattern; C (Type 2A vWD) would have abnormal vWF activity; D (Acquired hemophilia) would not correct on mixing study; E (Factor XI deficiency) would have low factor XI, not low FVIII with normal vWF. No logical contradictions or missing details. Medical accuracy is sound. Minimal fix: none needed; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1891,
+        "completion_tokens": 233,
+        "total_tokens": 2124,
+        "cost": 0.00060843,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00051057,
+          "upstream_inference_completions_cost": 9.786e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed130",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed130-004",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617482-BHrChSCwn29Dp2DrHC41",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617482,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: recurrent fevers, livedo reticularis, lacunar strokes, low IgM/IgG, mild neutropenia, elevated inflammatory markers, and skin biopsy showing necrotizing vasculitis collectively point strongly to Deficiency of Adenosine Deaminase 2 (DADA2). Main logical issue: None; the vignette is specific and aligns with a single diagnosis. Main medical accuracy issue: None; the presentation and keyed answer are consistent with current literature. Minimal fix: No fix required; the item is well-constructed. The only minor nuance is that DADA2 typically features low IgG and IgM, but neutropenia is less consistently reported; however, this does not undermine the unique best answer.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1833,
+        "completion_tokens": 206,
+        "total_tokens": 2039,
+        "cost": 0.00137256,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00102648,
+          "upstream_inference_completions_cost": 0.00034608
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed130",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed130-005",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617487-5aYmj99ByMa9nl5k2JAg",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617487,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: metastatic colorectal cancer, third-line therapy, KRAS/NRAS wild-type, BRAF V600E mutation, MSS. These findings direct therapy to a BRAF/EGFR inhibitor combination per the BEACON trial standard. Main logical issue: None; the stem provides all necessary molecular details to discriminate. Main medical accuracy issue: None; the keyed answer (Encorafenib plus Cetuximab) is the established standard for BRAF V600E-mutated MSS colorectal cancer. Pembrolizumab is correctly excluded due to MSS status. Minimal fix: None required for validity; to enhance clarity, could explicitly state 'MSS' in the rationale to reinforce exclusion of immunotherapy.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1847,
+        "completion_tokens": 191,
+        "total_tokens": 2038,
+        "cost": 0.00057891,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049869,
+          "upstream_inference_completions_cost": 8.022e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed130",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed130-006",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617491-UGuA94rtMEVjL7RYkOZE",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617491,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: delayed (3–6 hours post-ingestion) anaphylactic symptoms to mammalian meat, positive intradermal testing despite negative skin prick, elevated IgE to galactose-alpha-1,3-galactose (alpha-gal). Main logical issue: None; the vignette is specific and consistent with alpha-gal syndrome. Main medical accuracy issue: None; the association between alpha-gal syndrome and Lone Star tick bites is well-established in US guidelines. Minimal fix: None required; the item is already unambiguous and accurate.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1875,
+        "completion_tokens": 163,
+        "total_tokens": 2038,
+        "cost": 0.00057145,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050625,
+          "upstream_inference_completions_cost": 6.52e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed130",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed130-007",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617497-h87VakBSYJxKYUA2sEcO",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617497,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. The stem describes a classic presentation of Posterior Cortical Atrophy (PCA) with Balint's syndrome (simultanagnosia, optic ataxia) and parietal-occipital atrophy. While Alzheimer's disease (AD) pathology is the most common cause of PCA (∼80%), the question asks for the 'most likely underlying pathology' given the clinical and MRI findings. In a board exam context, for a patient with this specific syndrome, the most likely pathology is indeed AD. However, the provided key is C (Alzheimer's Disease pathology), which matches the consensus. Wait, the key is C, and the rationale states AD is the most likely. So why is this miskeyed? Let me re-examine. The key is C, and the explanation supports C. But the question says 'Correct answer key: C' and the explanation says AD is the most likely. That seems consistent. However, I need to check if any other option is equally defensible. Lewy body disease (A) can present with visual hallucinations and cognitive fluctuations, but PCA is not typical. Prion disease (B) can cause rapid dementia and myoclonus, not this slowly progressive visual syndrome. Frontotemporal lobar degeneration (D) typically affects frontal/temporal lobes, not parietal-occipital. Vascular dementia (E) could cause stepwise decline and focal deficits, but the progressive visual dysfunction and atrophy pattern are more typical of neurodegenerative. So AD is uniquely best. But the key is C, which is AD. So logical validity should be true? Wait, the answer explanation says 'the underlying pathology in the vast majority (>80%) of PCA cases is Alzheimer's disease.' That supports C. So why did I initially think K? Let me re-read the question: 'What is the most likely underlying pathology?' Options include specific pathologies. The key is C. That seems correct. However, there is a nuance: Posterior Cortical Atrophy is a clinical syndrome, and while AD is most common, other pathologies like Lewy body disease, corticobasal degeneration, or prion disease can rarely cause PCA. But the stem says 'most likely,' and given the epidemiology, AD is the clear best answer. So the key is correct. But is there any logical flaw? The stem is consistent, and the key matches. So logical validity should be true. But wait, the answer explanation says 'Despite the atypical visual presentation...' – actually, visual presentation is typical for PCA. But that's minor. So I think the item is valid. However, let's double-check the medical accuracy: Is it accurate that PCA is most commonly due to AD? Yes, literature supports that. So medical accuracy score should be high. But is there any underspecification? The stem includes all key features: progressive visual dysfunction, optic ataxia, simultanagnosia, preserved memory/language, parietal-occipital atrophy. That's sufficient to diagnose PCA and point to AD. So no underspecification. So logical validity = true, logical_false_reason = T. Medical accuracy score = 4 or 5. The item is accurate, but could be improved by specifying 'neurodegenerative' or 'Alzheimer's disease' more clearly. However, the options are specific pathologies. So I think it's valid. But let's consider: Could Lewy body disease be a contender? LBD can present with visual disturbances, but Balint's syndrome is not typical. So AD is best. So final: logical_validity = true, logical_false_reason = T. Medical accuracy score = 4 (accurate, but not perfect because PCA is a syndrome, and while AD is most common, it's not 100%; but for 'most likely,' it's fine). Analysis: Validity label: V. Verdict: Correct best. Key stem clues: Progressive visual dysfunction with optic ataxia and simultanagnosia (Balint's syndrome), preserved memory/language, MRI showing parietal-occipital atrophy. This pattern is classic for Posterior Cortical Atrophy, which is most commonly caused by Alzheimer's disease pathology. Main logical issue: None. Main medical accuracy issue: None; consistent with current understanding. Minimal fix: None needed, but could add 'neurodegenerative' to the stem to emphasize context.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n    \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1862,
+        "completion_tokens": 937,
+        "total_tokens": 2799,
+        "cost": 0.00089628,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050274,
+          "upstream_inference_completions_cost": 0.00039354
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed130",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed130-008",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617515-WV5FACDxjqiJ5Yz5Pims",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617515,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "length",
+          "native_finish_reason": "length",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. The stem describes a patient with ulcerative colitis, jaundice, pruritus, MRCP findings of multifocal strictures and dilations, elevated IgG4 (2x ULN), and a liver biopsy showing periductal concentric fibrosis ('onion-skinning') without abundant plasma cells. A trial of high-dose corticosteroids resulted in no biochemical improvement. The keyed answer is Primary Sclerosing Cholangitis (PSC). However, the presence of elevated IgG4 and the classic 'onion-skin' fibrosis, which is a hallmark of PSC, creates a diagnostic dilemma. The lack of steroid response argues against IgG4-SC, but the elevated IgG4 is atypical for classic PSC and could indicate an IgG4-SC variant or overlap. The biopsy finding of 'onion-skinning' without abundant plasma cells is classic for PSC, but the elevated IgG4 level is a red flag. Given the strict criteria for IgG4-SC (including histology with abundant IgG4+ plasma cells and steroid responsiveness), and their absence here, PSC remains the most likely diagnosis. However, the elevated IgG4 level (2x ULN) is a significant confounding factor that is not typical of classic PSC and may lead some to consider IgG4-SC. The keyed answer (B) is defensible but not uniquely so because the elevated IgG4 could be interpreted as a secondary elevation in PSC (as noted in the rationale) or as a primary feature of IgG4-SC. The item is miskeyed because the best answer is not clearly B; option A (IgG4-related Sclerosing Cholangitis) is also defensible given the elevated IgG4, though the lack of steroid response and absent abundant plasma cells on biopsy argue against it. The logical issue is miskeying (K) because a unique best answer exists (PSC) but the provided key is not that answer; however, upon closer inspection, the key is actually PSC, which is the intended correct answer. The miskeying arises from the ambiguity introduced by the elevated IgG4. The medical accuracy is mostly sound, but the elevated IgG4 level is a nuance that complicates the diagnosis. Minimal fix: Specify that the IgG4 elevation is a non-specific finding seen in a subset of PSC patients, and emphasize the absence of other IgG4-SC features (e.g., abundant IgG4+ plasma cells on biopsy) to make PSC the clear best answer.\", \"logical_false_reason\": \"K\", \"logical_validity\": false, \"medical_accuracy_score\":  \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n \t\n",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1871,
+        "completion_tokens": 4096,
+        "total_tokens": 5967,
+        "cost": 0.00222549,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050517,
+          "upstream_inference_completions_cost": 0.00172032
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed130",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed130-009",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617587-ovvDstATqnWqeeNRnEXe",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617587,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: 60-year-old female, surveillance colonoscopy, 15mm flat lesion in ascending colon, pathology shows Sessile Serrated Lesion (SSL) with dysplasia. The question explicitly references the 2020 US Multi-Society Task Force guidelines. The keyed answer (3 years) aligns with the guideline recommendation for SSL with dysplasia, which is considered high-risk. The lesion size (15mm) and location are consistent with the scenario but do not alter the interval, as dysplasia is the key risk factor. No logical issues; the stem provides all necessary details, and the options are distinct intervals. Medical accuracy is sound, reflecting current guideline consensus. Minimal fix: None required; the item is clear and accurate. If aiming for absolute precision, one could specify 'complete removal' was achieved, but this is implied in standard vignette framing.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1815,
+        "completion_tokens": 219,
+        "total_tokens": 2034,
+        "cost": 0.00058203,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049005,
+          "upstream_inference_completions_cost": 9.198e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed130",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed130-010",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617593-iBQttmLva1B3X96oxivz",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617593,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: AL amyloidosis, acquired Factor X deficiency (8%), prolonged PT/PTT corrected by mixing studies (no inhibitor), normal thrombin time. The findings point to a non-inhibitor, non-synthetic cause of isolated Factor X loss. Adsorption to amyloid fibrils is the established mechanism. Alternatives are less defensible: A ruled out by mixing correction; C unlikely with normal liver function not stated and isolated factor defect; D not supported by nephrotic syndrome mention; E not suggested by clinical picture (no DIC triggers, normal thrombin time). Medical accuracy is sound. No logical issues; a unique best answer exists and matches the key. Minimal fix: None required; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1876,
+        "completion_tokens": 200,
+        "total_tokens": 2076,
+        "cost": 0.00059052,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050652,
+          "upstream_inference_completions_cost": 8.4e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed130",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed130-011",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617598-LdcbGfrldUvviMkFQhEt",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617598,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: CVID diagnosis, later dyspnea, CT showing diffuse nodules/lymphadenopathy, biopsy with non-necrotizing granulomas, negative infectious stains. This points to Granulomatous-Lymphocytic Interstitial Lung Disease (GLILD) as the complication. The keyed answer (B: Rituximab + Azathioprine/Mycophenolate) aligns with consensus that GLILD in CVID requires combination immunosuppression targeting B-cell and T-cell dysregulation, not IVIG alone. Alternatives are incorrect: A (Infliximab) is not first-line; C (IVIG alone) is insufficient; D (transplant) is not initial; E (antituberculous) is ruled out by negative stains. No contradictions or underspecification. Medical accuracy is sound. Minimal fix: None needed; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1886,
+        "completion_tokens": 232,
+        "total_tokens": 2118,
+        "cost": 0.00060666,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050922,
+          "upstream_inference_completions_cost": 9.744e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed130",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed130-012",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617603-YygTx3MG1jKxeUJLOaje",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617603,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: Patient on ipilimumab/nivolumab (CTLA-4/PD-1 inhibitors) presents weeks later with fatigue, nausea, hypotension, hyponatremia, hyperkalemia, hypoglycemia, and biochemically low TSH with low free T4 (central hypothyroidism) and low ACTH (central adrenal insufficiency). MRI shows pituitary enlargement. This pattern of central endocrine deficiencies with pituitary enlargement on imaging in this specific drug context is pathognomonic for immune checkpoint inhibitor-induced hypophysitis. Primary adrenal insufficiency (A) has high ACTH. Thyroid storm (C) has hyperthyroidism, not central hypothyroidism. Pituitary metastasis (D) is possible but less acute and not the most likely given the temporal link to immunotherapy. SIADH (E) causes hyponatremia but not hyperkalemia, hypoglycemia, or low ACTH. The item is logically valid, medically accurate, and keyed correctly. Minimal fix: None required; item is clear.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1890,
+        "completion_tokens": 258,
+        "total_tokens": 2148,
+        "cost": 0.00061866,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0005103,
+          "upstream_inference_completions_cost": 0.00010836
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed130",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed130-013",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617609-1yNZiMNph0xEKyGHilKj",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617609,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: recurrent angioedema without urticaria, low C4, low C1-INH level and function, establishing HAE Type 1. Main logical issue: None; the findings uniquely point to HAE, and options are clearly discriminable based on pathophysiology. Main medical accuracy issue: None; the keyed answer aligns with current standard of care for HAE long-term prophylaxis. Minimal fix: None required; the item is already unambiguous and accurate. The rationale correctly explains why antihistamines, corticosteroids, and epinephrine are ineffective in bradykinin-mediated angioedema.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1884,
+        "completion_tokens": 182,
+        "total_tokens": 2066,
+        "cost": 0.0013608,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00105504,
+          "upstream_inference_completions_cost": 0.00030576
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed130",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed130-014",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617613-clEWCqvN5eoDacpTi7Kw",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617613,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: elderly patient, classic triad of gait apraxia (magnetic gait, difficulty initiating, shuffling), urinary urgency, and mild cognitive impairment. The gait description is specific for NPH, and the triad is highly suggestive. Main logical issue: None; the item is well-specified and the options are distinct. Main medical accuracy issue: None; the presentation aligns with classic NPH. Minimal fix: None required; the item is clear and accurate. The explanation correctly distinguishes NPH from Parkinson's by noting the absence of resting tremor and the specific gait initiation failure.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1845,
+        "completion_tokens": 174,
+        "total_tokens": 2019,
+        "cost": 0.00057123,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049815,
+          "upstream_inference_completions_cost": 7.308e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

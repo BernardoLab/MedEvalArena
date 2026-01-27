@@ -1,0 +1,1 @@
+{"model": "gpt-5-nano-2025-08-07", "created_at": "2026-01-01T17:00:03Z", "total_corr": 5, "total_wrong": 5, "acc": 0.5, "n_items": 10, "batch_input_file": "ABMS20260101_kimi-k2-thinking_p02_gpt-5-nano-2025-08-07_batch_input.jsonl", "batch_id": "batch_6956a75da6808190b346d531a9a6f844", "used_batch_api": true}

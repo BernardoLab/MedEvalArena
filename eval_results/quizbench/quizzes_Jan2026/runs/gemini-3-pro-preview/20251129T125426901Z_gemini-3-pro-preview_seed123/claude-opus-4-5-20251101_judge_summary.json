@@ -1,0 +1,1 @@
+{"model": "claude-opus-4-5-20251101", "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed123", "created_at": "2025-12-10T20:16:41Z", "n_items": 10, "n_valid_responses": 10, "n_invalid_responses": 0, "n_pass": 10, "n_fail": 0, "fail_reason_counts": {"NA": 10}, "medical_score_mean": 5.0, "n_safety_flag_true": 0, "used_batch_api": false}

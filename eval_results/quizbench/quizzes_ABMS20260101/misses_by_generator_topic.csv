@@ -1,0 +1,101 @@
+generator_model,total_misses,topic,topic_misses,topic_pct
+ALL,212,Pediatrics,33,15.566037735849056
+ALL,212,Emergency Medicine,14,6.60377358490566
+ALL,212,Infectious Disease,14,6.60377358490566
+ALL,212,Vascular Surgery,13,6.132075471698113
+ALL,212,Neurological Surgery,12,5.660377358490567
+ALL,212,Obstetrics and Gynecology,11,5.188679245283019
+ALL,212,Pulmonary,11,5.188679245283019
+ALL,212,Neurology,10,4.716981132075472
+ALL,212,Ophthalmology,8,3.7735849056603774
+ALL,212,Psychiatry,8,3.7735849056603774
+ALL,212,Endocrine,7,3.30188679245283
+ALL,212,General Surgery,7,3.30188679245283
+ALL,212,Physical Medicine and Rehabilitation,7,3.30188679245283
+ALL,212,Radiation Oncology,7,3.30188679245283
+ALL,212,Thoracic Surgery,7,3.30188679245283
+ALL,212,Cardiovascular,6,2.8301886792452833
+ALL,212,Anesthesiology,5,2.358490566037736
+ALL,212,Gastrointestinal,5,2.358490566037736
+ALL,212,Hematology,4,1.8867924528301887
+ALL,212,Dermatology,3,1.4150943396226416
+ALL,212,Geriatrics,3,1.4150943396226416
+ALL,212,Nephrology,3,1.4150943396226416
+ALL,212,Orthopedic Surgery,3,1.4150943396226416
+ALL,212,Plastic Surgery,3,1.4150943396226416
+ALL,212,Allergy/Immunology,2,0.9433962264150944
+ALL,212,Critical Care Medicine,2,0.9433962264150944
+ALL,212,Immunology,2,0.9433962264150944
+ALL,212,Medical Oncology,1,0.4716981132075472
+ALL,212,Urology,1,0.4716981132075472
+claude-opus-4-5-20251101,47,Neurology,5,10.638297872340425
+claude-opus-4-5-20251101,47,Ophthalmology,5,10.638297872340425
+claude-opus-4-5-20251101,47,Physical Medicine and Rehabilitation,5,10.638297872340425
+claude-opus-4-5-20251101,47,Psychiatry,5,10.638297872340425
+claude-opus-4-5-20251101,47,Pulmonary,5,10.638297872340425
+claude-opus-4-5-20251101,47,Anesthesiology,4,8.51063829787234
+claude-opus-4-5-20251101,47,Endocrine,3,6.382978723404255
+claude-opus-4-5-20251101,47,Obstetrics and Gynecology,3,6.382978723404255
+claude-opus-4-5-20251101,47,Cardiovascular,2,4.25531914893617
+claude-opus-4-5-20251101,47,Emergency Medicine,2,4.25531914893617
+claude-opus-4-5-20251101,47,Hematology,2,4.25531914893617
+claude-opus-4-5-20251101,47,Vascular Surgery,2,4.25531914893617
+claude-opus-4-5-20251101,47,General Surgery,1,2.127659574468085
+claude-opus-4-5-20251101,47,Infectious Disease,1,2.127659574468085
+claude-opus-4-5-20251101,47,Plastic Surgery,1,2.127659574468085
+claude-opus-4-5-20251101,47,Thoracic Surgery,1,2.127659574468085
+deepseek-v3.2,40,Pediatrics,6,15.0
+deepseek-v3.2,40,Pulmonary,6,15.0
+deepseek-v3.2,40,Thoracic Surgery,6,15.0
+deepseek-v3.2,40,Infectious Disease,4,10.0
+deepseek-v3.2,40,Neurological Surgery,3,7.5
+deepseek-v3.2,40,Obstetrics and Gynecology,3,7.5
+deepseek-v3.2,40,Psychiatry,3,7.5
+deepseek-v3.2,40,Gastrointestinal,2,5.0
+deepseek-v3.2,40,General Surgery,2,5.0
+deepseek-v3.2,40,Physical Medicine and Rehabilitation,2,5.0
+deepseek-v3.2,40,Emergency Medicine,1,2.5
+deepseek-v3.2,40,Neurology,1,2.5
+deepseek-v3.2,40,Vascular Surgery,1,2.5
+gemini-3-pro-preview,11,Radiation Oncology,5,45.45454545454545
+gemini-3-pro-preview,11,Vascular Surgery,3,27.27272727272727
+gemini-3-pro-preview,11,Hematology,2,18.181818181818183
+gemini-3-pro-preview,11,Emergency Medicine,1,9.090909090909092
+gpt-5.1-2025-11-13,43,Infectious Disease,8,18.6046511627907
+gpt-5.1-2025-11-13,43,Pediatrics,5,11.627906976744185
+gpt-5.1-2025-11-13,43,Vascular Surgery,5,11.627906976744185
+gpt-5.1-2025-11-13,43,Endocrine,4,9.30232558139535
+gpt-5.1-2025-11-13,43,Obstetrics and Gynecology,4,9.30232558139535
+gpt-5.1-2025-11-13,43,Neurological Surgery,3,6.976744186046512
+gpt-5.1-2025-11-13,43,Neurology,3,6.976744186046512
+gpt-5.1-2025-11-13,43,Cardiovascular,2,4.651162790697675
+gpt-5.1-2025-11-13,43,Dermatology,2,4.651162790697675
+gpt-5.1-2025-11-13,43,Immunology,2,4.651162790697675
+gpt-5.1-2025-11-13,43,Radiation Oncology,2,4.651162790697675
+gpt-5.1-2025-11-13,43,General Surgery,1,2.3255813953488373
+gpt-5.1-2025-11-13,43,Medical Oncology,1,2.3255813953488373
+gpt-5.1-2025-11-13,43,Plastic Surgery,1,2.3255813953488373
+grok-4-0709,31,Pediatrics,13,41.935483870967744
+grok-4-0709,31,Neurological Surgery,6,19.35483870967742
+grok-4-0709,31,Emergency Medicine,4,12.903225806451612
+grok-4-0709,31,Nephrology,3,9.67741935483871
+grok-4-0709,31,Anesthesiology,1,3.225806451612903
+grok-4-0709,31,Dermatology,1,3.225806451612903
+grok-4-0709,31,Gastrointestinal,1,3.225806451612903
+grok-4-0709,31,Obstetrics and Gynecology,1,3.225806451612903
+grok-4-0709,31,Orthopedic Surgery,1,3.225806451612903
+kimi-k2-thinking,40,Pediatrics,9,22.5
+kimi-k2-thinking,40,Emergency Medicine,6,15.0
+kimi-k2-thinking,40,General Surgery,3,7.5
+kimi-k2-thinking,40,Geriatrics,3,7.5
+kimi-k2-thinking,40,Ophthalmology,3,7.5
+kimi-k2-thinking,40,Allergy/Immunology,2,5.0
+kimi-k2-thinking,40,Cardiovascular,2,5.0
+kimi-k2-thinking,40,Critical Care Medicine,2,5.0
+kimi-k2-thinking,40,Gastrointestinal,2,5.0
+kimi-k2-thinking,40,Orthopedic Surgery,2,5.0
+kimi-k2-thinking,40,Vascular Surgery,2,5.0
+kimi-k2-thinking,40,Infectious Disease,1,2.5
+kimi-k2-thinking,40,Neurology,1,2.5
+kimi-k2-thinking,40,Plastic Surgery,1,2.5
+kimi-k2-thinking,40,Urology,1,2.5

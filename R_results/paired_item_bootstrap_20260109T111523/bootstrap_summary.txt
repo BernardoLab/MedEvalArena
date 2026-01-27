@@ -1,0 +1,29 @@
+Paired item bootstrap (resample items)
+Items used: 300
+LLMs: 6
+Bootstrap reps: 5000
+Delta (major difference threshold, pp): 5
+All pairwise CIs within ±Delta: FALSE
+
+Pairs with CI extending beyond ±Delta:
+
+                        A                    B  diff_pct       lo95      hi95
+ claude-opus-4-5-20251101     kimi-k2-thinking  6.000000  2.0000000 10.000000
+ claude-opus-4-5-20251101 gemini-3-pro-preview  4.666667  0.3333333  8.666667
+ claude-opus-4-5-20251101          grok-4-0709  3.666667 -0.3333333  7.666667
+ claude-opus-4-5-20251101        deepseek-v3.2  3.333333  0.0000000  6.666667
+ claude-opus-4-5-20251101   gpt-5.1-2025-11-13  3.000000 -1.0000000  7.000000
+       gpt-5.1-2025-11-13     kimi-k2-thinking  3.000000 -1.0000000  7.000000
+            deepseek-v3.2     kimi-k2-thinking  2.666667 -1.3333333  7.000000
+              grok-4-0709     kimi-k2-thinking  2.333333 -2.0000000  7.000000
+     gemini-3-pro-preview   gpt-5.1-2025-11-13 -1.666667 -5.3333333  2.000000
+            deepseek-v3.2 gemini-3-pro-preview  1.333333 -3.0000000  5.666667
+     gemini-3-pro-preview     kimi-k2-thinking  1.333333 -2.6666667  5.333333
+     gemini-3-pro-preview          grok-4-0709 -1.000000 -5.6666667  3.666667
+
+Files written:
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/paired_item_bootstrap_20260109T111523/overall_accuracy_bootstrap.csv
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/paired_item_bootstrap_20260109T111523/pairwise_accuracy_diffs_bootstrap.csv
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/paired_item_bootstrap_20260109T111523/topic_accuracy_wilson.csv
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/paired_item_bootstrap_20260109T111523/topic_accuracy_pooled_wilson.csv
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/paired_item_bootstrap_20260109T111523/topic_global_test_permutation.csv

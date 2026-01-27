@@ -1,0 +1,192 @@
+[
+  {
+    "quiz_id": "20251225T231536524Z_grok-4-0709_seed133",
+    "question_id": "20251225T231536524Z_grok-4-0709_seed133-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766705360-gQ5hH473ZwHc6SbvOyOV",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766705360,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: acute severe attack (bilateral leg weakness, urinary retention), new enhancing spinal cord lesion, failure to improve after high-dose IV steroids, and supportive CSF findings. The item asks for the next step in managing a steroid-refractory severe acute demyelinating event. Plasma exchange (PLEX) is the established rescue therapy in this scenario. The alternatives are correctly dismissed: rituximab and natalizumab are disease-modifying therapies for long-term control, not acute rescue; fingolimod is not an acute treatment and carries risks in active inflammation; repeat LP is not indicated as diagnosis is already confirmed. No logical contradictions exist, and the stem provides sufficient detail to uniquely support PLEX. Medical accuracy is sound, aligning with standard guidelines for managing steroid-unresponsive MS relapses. Minimal fix: None required; the item is already clear and accurate.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1843,
+        "completion_tokens": 232,
+        "total_tokens": 2075,
+        "cost": 0.00059041,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049761,
+          "upstream_inference_completions_cost": 9.28e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251225T231536524Z_grok-4-0709_seed133",
+    "question_id": "20251225T231536524Z_grok-4-0709_seed133-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766705370-9LtX1WB1YJuAE6tO3uqz",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766705370,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: spinal cord injury with orthostatic hypotension, minimal heart rate increase, absent sympathetic skin response below lesion indicating autonomic dysfunction. Main logical issue: none; the vignette clearly points to neurogenic orthostatic hypotension requiring vasoconstriction. Main medical accuracy issue: none; midodrine is guideline-supported for this condition. Minimal fix: none needed; the item is already unambiguous and accurate.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1836,
+        "completion_tokens": 138,
+        "total_tokens": 1974,
+        "cost": 0.00055092,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049572,
+          "upstream_inference_completions_cost": 5.52e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251225T231536524Z_grok-4-0709_seed133",
+    "question_id": "20251225T231536524Z_grok-4-0709_seed133-003",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766705380-Sp3KBHqvvzjzdYmbR0lH",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766705380,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: Confirmed NF2 mutation with bilateral vestibular schwannomas and spinal ependymoma, progressive bilateral facial weakness, and question asks for targeted therapy for tumor stabilization. The item clearly identifies NF2-associated tumors, and bevacizumab is supported by evidence for NF2-related schwannomas, particularly for hearing preservation and tumor control. Alternatives are not standard for NF2: everolimus (mTOR inhibitor) has limited evidence, crizotinib (ALK/ROS1 inhibitor) for lung cancer, trametinib (MEK inhibitor) for melanoma/other cancers, sorafenib (multi-kinase inhibitor) for renal/hepatic cancers. No internal contradictions or missing critical details. Medical accuracy is sound. Minimal fix: None required; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1809,
+        "completion_tokens": 217,
+        "total_tokens": 2026,
+        "cost": 0.00057957,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00048843,
+          "upstream_inference_completions_cost": 9.114e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251225T231536524Z_grok-4-0709_seed133",
+    "question_id": "20251225T231536524Z_grok-4-0709_seed133-004",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766705386-fLnvWAzRSjgCeCpWaKhS",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766705386,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: diabetic amyotrophy (diabetic lumbosacral radiculoplexus neuropathy), severe proximal leg weakness and pain, denervation in L2-L4 myotomes, persistent atrophy despite glycemic control. The question asks for the most evidence-based adjunctive therapy to enhance functional recovery beyond standard physical therapy. The keyed answer (A, IVIG) is not the most evidence-based first-line adjunctive therapy; corticosteroids (D) are the most established immunomodulatory treatment for diabetic amyotrophy in refractory cases, supported by more robust evidence than IVIG. IVIG is sometimes used but is not the most evidence-based first choice. The item's logic incorrectly elevates IVIG over corticosteroids. Main logical issue: Miskeyed. Main medical accuracy issue: Overstates evidence for IVIG as the most evidence-based therapy; corticosteroids have stronger support. Minimal fix: Change key to D (Corticosteroids) and adjust rationale to reflect that corticosteroids are first-line immunomodulation, with IVIG as an alternative if contraindicated.\", \"logical_false_reason\": \"K\", \"logical_validity\": false, \"medical_accuracy_score\":  \"3\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1808,
+        "completion_tokens": 270,
+        "total_tokens": 2078,
+        "cost": 0.00060156,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00048816,
+          "upstream_inference_completions_cost": 0.0001134
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

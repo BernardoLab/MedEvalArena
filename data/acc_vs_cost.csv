@@ -1,0 +1,16 @@
+﻿model,accuracy,cost_per_quiz,family
+grok-4-0709,88,9.27,xai
+gemini-3-pro-preview,87,6.43,gemini
+claude-opus-4-5-20251101,91.7,2.15,claude
+gpt-5.1-2025-11-13,88.7,1.86,gpt
+kimi-k2-thinking,85.7,1.15,kimi
+deepseek-v3.2,88.3,0.42,deepseek
+claude-haiku-4-5-20251001,80.3,0.41,clause
+gpt-5-nano-2025-08-07,81,0.23,gpt
+gemini-2.5-flash-lite,76,0.19,gemini
+grok-4-1-fast-reasoning,86.3,0.1855,xai
+,,,
+,,,
+,,,
+,,,
+,,,

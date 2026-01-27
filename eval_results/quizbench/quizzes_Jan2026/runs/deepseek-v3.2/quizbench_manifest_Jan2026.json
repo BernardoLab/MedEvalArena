@@ -1,0 +1,300 @@
+{
+  "created_at": "2025-12-16T18:39:04Z",
+  "config_path": "config_deepseek3.2.yaml",
+  "generator_models": [
+    "deepseek-v3.2"
+  ],
+  "generator_model": "deepseek-v3.2",
+  "test_models": [
+    "none"
+  ],
+  "test_models_csv": "none",
+  "num_quizzes_per_generator": 5,
+  "num_questions_per_batch": 10,
+  "num_questions_per_quiz": 30,
+  "runs_root": "eval_results/quizbench/quizzes_Jan2026/runs/deepseek-v3.2/",
+  "quizzes_root_dir": "quizzes/",
+  "quiz_collection": "quizzes_Jan2026",
+  "quizzes_dir": "quizzes/quizzes_Jan2026",
+  "target_planning": {
+    "enabled": true,
+    "topic_mapping_report": "eval_results/quizbench/quizzes_Jan2026/runs/deepseek-v3.2/accumulated_mapped_topics.json",
+    "planned_batch_request_multiplier": 2.0,
+    "targets_csv": "data/ABMS_specialties.csv",
+    "target_total": 49,
+    "topic_map_path": "data/topic_to_abms.yaml",
+    "topic_map_mode": "map",
+    "unmapped_topic_policy": "keep",
+    "topics_eval_model": null,
+    "prefer_topic_mapping_outputs": true,
+    "judge_models_yaml": "data/judge_models.yaml",
+    "min_medical_score": null,
+    "allow_missing_judges": false,
+    "questions_dist_files": {
+      "deepseek-v3.2": "eval_results/quizbench/quizzes_Jan2026/runs/deepseek-v3.2/questions_dist_deepseek-v3.2.json"
+    }
+  },
+  "quizzes": [
+    {
+      "quiz_id": "20251205T082731900Z_deepseek-v3.2_seed123",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251205T082731900Z_deepseek-v3.2_seed123.jsonl",
+      "generator_model": "deepseek-v3.2",
+      "seed": 123
+    },
+    {
+      "quiz_id": "20251205T082731900Z_deepseek-v3.2_seed124",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251205T082731900Z_deepseek-v3.2_seed124.jsonl",
+      "generator_model": "deepseek-v3.2",
+      "seed": 124
+    },
+    {
+      "quiz_id": "20251205T084024622Z_deepseek-v3.2_seed125",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251205T084024622Z_deepseek-v3.2_seed125.jsonl",
+      "generator_model": "deepseek-v3.2",
+      "seed": 125
+    },
+    {
+      "quiz_id": "20251205T084024622Z_deepseek-v3.2_seed126",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251205T084024622Z_deepseek-v3.2_seed126.jsonl",
+      "generator_model": "deepseek-v3.2",
+      "seed": 126
+    },
+    {
+      "quiz_id": "20251205T084024622Z_deepseek-v3.2_seed127",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251205T084024622Z_deepseek-v3.2_seed127.jsonl",
+      "generator_model": "deepseek-v3.2",
+      "seed": 127
+    },
+    {
+      "quiz_id": "20251216T183904770Z_deepseek-v3.2_seed128",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251216T183904770Z_deepseek-v3.2_seed128.jsonl",
+      "generator_model": "deepseek-v3.2",
+      "seed": 128,
+      "target_topic": [
+        "Pediatrics",
+        "Pediatrics",
+        "Emergency Medicine",
+        "Emergency Medicine",
+        "Emergency Medicine",
+        "Obstetrics and Gynecology",
+        "Anesthesiology",
+        "Anesthesiology",
+        "Psychiatry",
+        "Psychiatry",
+        "Pediatrics",
+        "Pediatrics",
+        "Emergency Medicine",
+        "Emergency Medicine",
+        "Emergency Medicine",
+        "Obstetrics and Gynecology",
+        "Anesthesiology",
+        "Anesthesiology",
+        "Psychiatry",
+        "Psychiatry"
+      ]
+    },
+    {
+      "quiz_id": "20251216T183904770Z_deepseek-v3.2_seed129",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251216T183904770Z_deepseek-v3.2_seed129.jsonl",
+      "generator_model": "deepseek-v3.2",
+      "seed": 129,
+      "target_topic": [
+        "Psychiatry",
+        "General Surgery",
+        "General Surgery",
+        "Ophthalmology",
+        "Orthopedic Surgery",
+        "Dermatology",
+        "Urology",
+        "Otolaryngology",
+        "Physical Medicine and Rehabilitation",
+        "Plastic Surgery",
+        "Psychiatry",
+        "General Surgery",
+        "General Surgery",
+        "Ophthalmology",
+        "Orthopedic Surgery",
+        "Dermatology",
+        "Urology",
+        "Otolaryngology",
+        "Physical Medicine and Rehabilitation",
+        "Plastic Surgery"
+      ]
+    },
+    {
+      "quiz_id": "20251216T183904770Z_deepseek-v3.2_seed130",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251216T183904770Z_deepseek-v3.2_seed130.jsonl",
+      "generator_model": "deepseek-v3.2",
+      "seed": 130,
+      "target_topic": [
+        "Neurological Surgery",
+        "Radiation Oncology",
+        "Thoracic Surgery",
+        "Vascular Surgery",
+        "Gastrointestinal",
+        "Gastrointestinal",
+        "Nephrology",
+        "Immunology",
+        "Infectious Disease",
+        "Infectious Disease",
+        "Neurological Surgery",
+        "Radiation Oncology",
+        "Thoracic Surgery",
+        "Vascular Surgery",
+        "Gastrointestinal",
+        "Gastrointestinal",
+        "Nephrology",
+        "Immunology",
+        "Infectious Disease",
+        "Infectious Disease"
+      ]
+    },
+    {
+      "quiz_id": "20251216T183904770Z_deepseek-v3.2_seed131",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251216T183904770Z_deepseek-v3.2_seed131.jsonl",
+      "generator_model": "deepseek-v3.2",
+      "seed": 131,
+      "target_topic": [
+        "Medical Oncology",
+        "Allergy / Immunology",
+        "Geriatrics",
+        "Medical Oncology",
+        "Allergy / Immunology",
+        "Geriatrics"
+      ]
+    },
+    {
+      "quiz_id": "20251219T221819110Z_deepseek-v3.2_seed132",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251219T221819110Z_deepseek-v3.2_seed132.jsonl",
+      "generator_model": "deepseek-v3.2",
+      "seed": 132,
+      "target_topic": [
+        "Pediatrics",
+        "Pediatrics",
+        "Emergency Medicine",
+        "Obstetrics and Gynecology",
+        "Psychiatry",
+        "Psychiatry",
+        "Psychiatry",
+        "Urology",
+        "Neurological Surgery",
+        "Radiation Oncology",
+        "Pediatrics",
+        "Pediatrics",
+        "Emergency Medicine",
+        "Obstetrics and Gynecology",
+        "Psychiatry",
+        "Psychiatry",
+        "Psychiatry",
+        "Urology",
+        "Neurological Surgery",
+        "Radiation Oncology"
+      ]
+    },
+    {
+      "quiz_id": "20251219T221819110Z_deepseek-v3.2_seed133",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251219T221819110Z_deepseek-v3.2_seed133.jsonl",
+      "generator_model": "deepseek-v3.2",
+      "seed": 133,
+      "target_topic": [
+        "Gastrointestinal",
+        "Hematology",
+        "Infectious Disease",
+        "Gastrointestinal",
+        "Hematology",
+        "Infectious Disease"
+      ]
+    },
+    {
+      "quiz_id": "20251225T200227925Z_deepseek-v3.2_seed134",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251225T200227925Z_deepseek-v3.2_seed134.jsonl",
+      "generator_model": "deepseek-v3.2",
+      "seed": 134,
+      "target_topic": [
+        "Emergency Medicine",
+        "Psychiatry",
+        "Psychiatry",
+        "Urology",
+        "Emergency Medicine",
+        "Psychiatry",
+        "Psychiatry",
+        "Urology"
+      ]
+    }
+  ],
+  "run_ids": [
+    "20251205T082731900Z_deepseek-v3.2_seed123",
+    "20251205T082731900Z_deepseek-v3.2_seed124",
+    "20251205T084024622Z_deepseek-v3.2_seed125",
+    "20251205T084024622Z_deepseek-v3.2_seed126",
+    "20251205T084024622Z_deepseek-v3.2_seed127"
+  ],
+  "batch_jobs": [
+    {
+      "generator_model": "deepseek-v3.2",
+      "batch_id": "sequential-1765910345-deepseek-v3.2",
+      "batch_input_path": "quizzes/quizzes_Jan2026/batch_inputs/deepseek-v3.2_batch_input_003.jsonl",
+      "num_requests": 1
+    },
+    {
+      "generator_model": "deepseek-v3.2",
+      "batch_id": "sequential-1765910603-deepseek-v3.2",
+      "batch_input_path": "quizzes/quizzes_Jan2026/batch_inputs/deepseek-v3.2_batch_input_004.jsonl",
+      "num_requests": 1
+    },
+    {
+      "generator_model": "deepseek-v3.2",
+      "batch_id": "sequential-1765910806-deepseek-v3.2",
+      "batch_input_path": "quizzes/quizzes_Jan2026/batch_inputs/deepseek-v3.2_batch_input_005.jsonl",
+      "num_requests": 1
+    },
+    {
+      "generator_model": "deepseek-v3.2",
+      "batch_id": "sequential-1765911048-deepseek-v3.2",
+      "batch_input_path": "quizzes/quizzes_Jan2026/batch_inputs/deepseek-v3.2_batch_input_006.jsonl",
+      "num_requests": 1
+    }
+  ],
+  "judge_models": [
+    "claude-opus-4-5-20251101",
+    "deepseek-v3.2",
+    "gemini-3-pro-preview",
+    "gpt-5-nano-2025-08-07",
+    "gpt-5.1-2025-11-13",
+    "grok-4-0709",
+    "kimi-k2-thinking"
+  ],
+  "judge_run_ids": [
+    "20251205T082731900Z_deepseek-v3.2_seed123",
+    "20251205T082731900Z_deepseek-v3.2_seed124",
+    "20251205T084024622Z_deepseek-v3.2_seed125",
+    "20251205T084024622Z_deepseek-v3.2_seed126",
+    "20251205T084024622Z_deepseek-v3.2_seed127",
+    "20251216T183904770Z_deepseek-v3.2_seed128",
+    "20251216T183904770Z_deepseek-v3.2_seed129",
+    "20251216T183904770Z_deepseek-v3.2_seed130",
+    "20251216T183904770Z_deepseek-v3.2_seed131",
+    "20251219T221819110Z_deepseek-v3.2_seed132",
+    "20251219T221819110Z_deepseek-v3.2_seed133",
+    "20251225T200227925Z_deepseek-v3.2_seed134"
+  ],
+  "last_judge_eval_at": "2026-01-17T21:22:17Z",
+  "eval_models": [
+    "claude-3-7-sonnet-20250219",
+    "claude-opus-4-5-20251101",
+    "deepseek-v3.2",
+    "gemini-2.5-flash-lite",
+    "gemini-3-pro-preview",
+    "gpt-5-nano-2025-08-07,",
+    "gpt-5.1-2025-11-13",
+    "grok-4-0709",
+    "kimi-k2-thinking"
+  ],
+  "manifest_refreshed_at": "2026-01-19T16:26:41Z",
+  "manifest_inputs": [
+    "quizbench_manifest.json",
+    "quizbench_manifest_Jan2026.json",
+    "quizbench_manifest_Jan2026_20251219T221819110Z.json",
+    "quizbench_manifest_Jan2026_20251225T200227925Z.json"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "created_at": "2025-12-19T22:18:19Z",
+  "config_path": "/home/dbernardo/Documents/pyres/MedEvalArena/config_deepseek3.2.yaml",
+  "generator_models": [
+    "deepseek-v3.2"
+  ],
+  "generator_model": "deepseek-v3.2",
+  "api_providers_by_model": {
+    "deepseek-v3.2": "sequential_llm"
+  },
+  "test_models": [
+    "none"
+  ],
+  "test_models_csv": "none",
+  "num_quizzes_per_generator": 5,
+  "num_questions_per_batch": 10,
+  "num_questions_per_quiz": 50,
+  "runs_root": "eval_results/quizbench/quizzes_Jan2026/runs/deepseek-v3.2/",
+  "api_provider": "sequential_llm",
+  "quizzes_root_dir": "quizzes/",
+  "quiz_collection": null,
+  "quizzes_dir": "quizzes/",
+  "target_planning": {
+    "enabled": true,
+    "topic_mapping_report": "/home/dbernardo/Documents/pyres/MedEvalArena/topic_mapping_report_20251214T202513Z.json",
+    "planned_batch_request_multiplier": 2.0,
+    "targets_csv": "/home/dbernardo/Documents/pyres/MedEvalArena/data/ABMS_specialties.csv",
+    "target_total": 49,
+    "topic_map_path": "/home/dbernardo/Documents/pyres/MedEvalArena/data/topic_to_abms.yaml",
+    "topic_map_mode": "map",
+    "unmapped_topic_policy": "keep",
+    "topics_eval_model": null,
+    "prefer_topic_mapping_outputs": true,
+    "judge_models_yaml": "/home/dbernardo/Documents/pyres/MedEvalArena/data/judge_models.yaml",
+    "min_medical_score": null,
+    "allow_missing_judges": false,
+    "questions_dist_files": {
+      "deepseek-v3.2": "/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_Jan2026/runs/deepseek-v3.2/questions_dist_deepseek-v3.2.json"
+    }
+  },
+  "quizzes": [
+    {
+      "quiz_id": "20251219T221819110Z_deepseek-v3.2_seed132",
+      "quiz_path": "/home/dbernardo/Documents/pyres/MedEvalArena/quizzes/20251219T221819110Z_deepseek-v3.2_seed132.jsonl",
+      "generator_model": "deepseek-v3.2",
+      "seed": 132,
+      "target_topic": [
+        "Pediatrics",
+        "Pediatrics",
+        "Emergency Medicine",
+        "Obstetrics and Gynecology",
+        "Psychiatry",
+        "Psychiatry",
+        "Psychiatry",
+        "Urology",
+        "Neurological Surgery",
+        "Radiation Oncology",
+        "Pediatrics",
+        "Pediatrics",
+        "Emergency Medicine",
+        "Obstetrics and Gynecology",
+        "Psychiatry",
+        "Psychiatry",
+        "Psychiatry",
+        "Urology",
+        "Neurological Surgery",
+        "Radiation Oncology"
+      ]
+    },
+    {
+      "quiz_id": "20251219T221819110Z_deepseek-v3.2_seed133",
+      "quiz_path": "/home/dbernardo/Documents/pyres/MedEvalArena/quizzes/20251219T221819110Z_deepseek-v3.2_seed133.jsonl",
+      "generator_model": "deepseek-v3.2",
+      "seed": 133,
+      "target_topic": [
+        "Gastrointestinal",
+        "Hematology",
+        "Infectious Disease",
+        "Gastrointestinal",
+        "Hematology",
+        "Infectious Disease"
+      ]
+    }
+  ],
+  "run_ids": [],
+  "batch_jobs": [
+    {
+      "generator_model": "deepseek-v3.2",
+      "batch_id": "sequential-1766182700-deepseek-v3.2",
+      "batch_input_path": "quizzes/batch_inputs/deepseek-v3.2_batch_input_007.jsonl",
+      "num_requests": 1,
+      "provider": "sequential_llm"
+    },
+    {
+      "generator_model": "deepseek-v3.2",
+      "batch_id": "sequential-1766183084-deepseek-v3.2",
+      "batch_input_path": "quizzes/batch_inputs/deepseek-v3.2_batch_input_008.jsonl",
+      "num_requests": 1,
+      "provider": "sequential_llm"
+    }
+  ]
+}

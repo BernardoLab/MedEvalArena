@@ -1,0 +1,953 @@
+[
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617159-Ju54AoQMUiJpVaqDnCnW",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617159,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: infant with cherry-red spots, exaggerated startle, motor regression, normal hexosaminidase A and B levels, and GM2A mutation. This combination uniquely points to GM2 activator deficiency (AB variant). The normal enzyme levels rule out Tay-Sachs and Sandhoff, which are enzyme deficiencies. The GM2A mutation confirms the activator defect. Main logical issue: None; the item is logically sound and provides sufficient information for a unique best answer. Main medical accuracy issue: None; the clinical description and genetic basis align with current knowledge. Minimal fix: None required; the item is already clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1818,
+        "completion_tokens": 184,
+        "total_tokens": 2002,
+        "cost": 0.00056814,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049086,
+          "upstream_inference_completions_cost": 7.728e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617164-3KNujUvpybSGTnQ4plJ0",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617164,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. The stem describes a neonate with pyridoxine-refractory seizures and a burst-suppression EEG that respond immediately to pyridoxal-5'-phosphate (PLP). The keyed answer is B (PNPO deficiency), which is a classic cause of PLP-responsive seizures. However, the stem explicitly states intravenous pyridoxine was given with 'no improvement.' In PNPO deficiency, pyridoxine is often ineffective, but it can sometimes show a partial or delayed response; the classic teaching is that PLP is the definitive treatment. The more critical logical issue is that the stem perfectly matches the classic presentation of pyridoxine-dependent epilepsy (PDE) due to antiquitin (ALDH7A1) deficiency, which typically responds dramatically to pyridoxine. The stem says pyridoxine yielded 'no improvement,' which argues against ALDH7A1 deficiency and for PNPO deficiency. However, the author's rationale incorrectly states PDE responds to pyridoxine, but the stem says it didn't, creating a contradiction between the stem's findings and the expected pathophysiology of ALDH7A1 deficiency. This internal inconsistency (C) is primary. The key (B) is likely intended, but the stem's description of pyridoxine non-response is atypical for classic PDE, yet the burst-suppression pattern is common to both. The item is miskeyed because the stem's data, while pointing to PNPO, is internally inconsistent with the known pyridoxine response in ALDH7A1 deficiency. Main medical accuracy issue: The stem presents a scenario where pyridoxine fails, which is more characteristic of PNPO deficiency, but the burst-suppression pattern and PLP response are seen in both. The explanation incorrectly simplifies the response patterns. Minimal fix: Change 'Administration of intravenous pyridoxine yields no improvement' to 'Administration of intravenous pyridoxine yields only partial and transient improvement' to align with typical ALDH7A1 deficiency and make B the clear best answer, or specify that pyridoxine trial was adequate and failed, making B unique.\", \"logical_false_reason\": \"C\", \"logical_validity\": false, \"medical_accuracy_score\": \t\"3\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1844,
+        "completion_tokens": 490,
+        "total_tokens": 2334,
+        "cost": 0.00070368,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049788,
+          "upstream_inference_completions_cost": 0.0002058
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-003",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617176-5pdUDlPPHO5P4woyOoVL",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617176,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict: The keyed answer (C) is not the single best answer. The stem describes a patient with Myotonic Dystrophy Type 1 who develops generalized rigidity after succinylcholine, making ventilation impossible, without hyperthermia. The classic and best-explained pathophysiology is a myotonic reaction due to exaggerated contracture from sodium channel hyperexcitability at the muscle membrane (option C). However, option A describes the pathophysiology of Malignant Hyperthermia (uncontrolled calcium release via RYR1), which is a critical and more common differential for rigidity post-succinylcholine, but the vignette's normal temperature argues against MH. The keyed answer C is medically accurate for a myotonic contracture. The logical flaw is that the item is miskeyed only if one insists the best answer must be MH; but given the clues, C is defensible. However, a stronger logical issue is underspecification (U) leading to potential defensibility of A, as the vignette does not explicitly rule out early MH (temperature 37.2°C is normal but could be early). The most precise primary label is K, as the provided key (C) is actually correct for the described myotonic reaction, but the item's construction may lead some to incorrectly choose A. Main medical accuracy: None; the explanation is correct. Minimal fix: Explicitly state 'Temperature remains normal throughout' to eliminate MH as a defensible alternative.\", \"logical_false_reason\": \"K\", \"logical_validity\": false, \"medical_accuracy_score\":  \"4\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1878,
+        "completion_tokens": 342,
+        "total_tokens": 2220,
+        "cost": 0.0006507,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050706,
+          "upstream_inference_completions_cost": 0.00014364
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-004",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617187-vNWwoCaji4NsJjruF4Xn",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617187,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: Erythropoietic Protoporphyria (EPP) patient undergoing prolonged laparotomy; question asks for most critical intraoperative intervention to prevent cutaneous injury. The core pathophysiology of EPP is phototoxicity from protoporphyrin IX activated by blue/violet light (~400-410 nm). Standard OR lights emit this wavelength, making light filtration the primary intraoperative risk. Main logical issue: None. Main medical accuracy issue: None; the item correctly identifies the unique, critical photoprotective measure for EPP surgery. Minimal fix: None required; the item is logically valid and medically accurate. Alternative choices are inferior: avoiding nitrous oxide (A) or volatile anesthetics (C) is not specific to EPP phototoxicity; corticosteroids (D) are not a preventive standard; normothermia (E) is general care, not specific to preventing light-induced injury.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1804,
+        "completion_tokens": 237,
+        "total_tokens": 2041,
+        "cost": 0.00058188,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00048708,
+          "upstream_inference_completions_cost": 9.48e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-005",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617201-6hGR84Bb7m6ouxrN8Ew4",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617201,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: patient on tamoxifen for breast cancer, develops MDD, question asks for antidepressant contraindicated due to a pharmacokinetic interaction reducing tamoxifen's oncologic efficacy. The critical fact is tamoxifen's activation by CYP2D6. Paroxetine is a potent CYP2D6 inhibitor, reducing active endoxifen levels, which is a well-established concern. Alternatives (venlafaxine, escitalopram, desvenlafaxine, mirtazapine) have minimal to no significant CYP2D6 inhibition. No logical issues: stem is specific, options are distinct, key matches the single best answer based on CYP2D6 inhibition. Medical accuracy is sound, aligning with current guidelines cautioning against strong CYP2D6 inhibitors with tamoxifen. Minimal fix: none needed for core logic; could add 'strong CYP2D6 inhibitor' to the stem to reinforce teaching point, but not required.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1805,
+        "completion_tokens": 244,
+        "total_tokens": 2049,
+        "cost": 0.00058983,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00048735,
+          "upstream_inference_completions_cost": 0.00010248
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-006",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617206-OpQj2eiM3wtn3cQPDCLm",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617206,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: patient with clozapine-induced myocarditis, now considered for high-risk rechallenge, question asks for co-administered medication to reduce recurrence risk per expert consensus. Main logical issue: The keyed answer (D, Lisinopril) is not the best-supported choice based on current expert consensus and literature for clozapine rechallenge after myocarditis. The most cited and evidence-based prophylactic strategy is the co-administration of prednisone (C). Main medical accuracy issue: The rationale incorrectly prioritizes an ACE inhibitor over corticosteroids, which are the cornerstone of published rechallenge protocols. Minimal fix: Change the keyed answer to C (Prednisone) and update the rationale to reflect that corticosteroid prophylaxis is the recommended strategy in expert guidelines.\",\n  \"medical_accuracy_score\":  \"2\",\n  \"logical_validity\": false,\n  \"logical_false_reason\": \"K\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1827,
+        "completion_tokens": 218,
+        "total_tokens": 2045,
+        "cost": 0.00058049,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049329,
+          "upstream_inference_completions_cost": 8.72e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-007",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617217-8KvicYSwCrroT5nAkF5a",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617217,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: episodic hypersomnia, hyperphagia, hypersexuality lasting weeks with derealization, separated by months of normalcy, strongly point to Kleine-Levin syndrome (KLS). The question asks for the agent with strongest evidence for preventing future episodes. Main logical issue: None; the vignette is specific and aligns with a single, well-defined diagnosis. Main medical accuracy issue: The evidence base for lithium in KLS is indeed limited to case series, but among the options, it is the most supported prophylactic agent in guidelines and reviews, making it the best answer. Minimal fix: None required for a valid item. Alternatives are correctly inferior: modafinil and methylphenidate are symptomatic (not preventive), fluoxetine is not first-line for KLS prophylaxis, and lorazepam is inappropriate.\",\n  \"medical_accuracy_score\":  \"4\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1789,
+        "completion_tokens": 225,
+        "total_tokens": 2014,
+        "cost": 0.00057303,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00048303,
+          "upstream_inference_completions_cost": 9e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-008",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617226-6XkGVrlaMaumN7kuBtWo",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617226,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: incidental T1b gallbladder adenocarcinoma after laparoscopic cholecystectomy, negative cystic duct margin, no liver extension. The vignette describes a T1b tumor, but the explanation incorrectly states T1b invades the muscle layer; per AJCC 8th edition, T1b is invasion into the perimuscular connective tissue, not the muscle layer (which is T1a). For a completely resected T1b tumor with negative margins (as stated), NCCN guidelines consider simple cholecystectomy potentially adequate, making observation (A) a defensible best answer, while radical resection (D) is typically reserved for T2+ or positive margins. This creates a miskeying. Main logical issue: The key (D) is not the unique best answer based on current staging and guidelines; observation is a guideline-supported alternative. Main medical accuracy issue: The rationale misstates T1b anatomy. Minimal fix: Change the pathology finding to 'invading the muscularis propria (T1b)' to align the rationale with the staging and justify radical resection, or change the key to A and update the rationale to reflect current T1b management nuance.\",\n  \"medical_accuracy_score\":  \"2\",\n  \"logical_validity\": false,\n  \"logical_false_reason\": \"K\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1852,
+        "completion_tokens": 301,
+        "total_tokens": 2153,
+        "cost": 0.00062044,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050004,
+          "upstream_inference_completions_cost": 0.0001204
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-009",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617250-cNCTC34zc2c9IPvYtBVk",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617250,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: Zone I retroperitoneal hematoma, blunt trauma, supramesocolic midline location, patient is already intraoperative. These findings mandate surgical exploration per ATLS/standard trauma surgery principles due to high risk of injury to major vessels (aorta, IVC, celiac/SMA). Main logical issue: None; the stem clearly specifies the context (intraoperatively) and location, making exploration the unequivocal next step. Main medical accuracy issue: None; the key aligns with standard trauma guidelines. Minimal fix: None required; the item is clear and accurate. Alternative choices are correctly inferior: observation (A) is contraindicated, angioembolization (C) is for pelvic/renal bleeding or unstable patients not in OR, packing (D) is for damage control in solid organs or pelvis, REBOA (E) is a prehospital/ED resuscitative maneuver, not an intraoperative mandate.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1836,
+        "completion_tokens": 246,
+        "total_tokens": 2082,
+        "cost": 0.00059412,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049572,
+          "upstream_inference_completions_cost": 9.84e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-010",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617258-TPePzsMcO61HA0sVpUcC",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617258,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: Diagnosis of optic neuritis, reference to the Optic Neuritis Treatment Trial (ONTT) regarding a treatment that increases recurrence. The ONTT clearly showed oral prednisone alone increased recurrence risk, making it contraindicated. Other options (IV methylprednisolone, IVIG, plasma exchange, observation) do not have that specific ONTT finding. No logical issues; stem is specific to ONTT results. Medical accuracy is consistent with ONTT findings and standard teaching. Minimal fix: None needed; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1816,
+        "completion_tokens": 167,
+        "total_tokens": 1983,
+        "cost": 0.00056046,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049032,
+          "upstream_inference_completions_cost": 7.014e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-011",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617262-RdK1Bp9yKwplzC6Tvuek",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617262,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: Neonate with Down syndrome, hepatosplenomegaly, high WBC with blasts, diagnosis of Transient Myeloproliferative Disorder (TMD). The association between TMD in Down syndrome and GATA1 mutations is a well-established, specific fact in hematology/oncology. Main logical issue: None; the stem provides sufficient specific information (Down syndrome + TMD) to uniquely point to GATA1. Main medical accuracy issue: None; the keyed answer and rationale are accurate and reflect current standard knowledge. Minimal fix: No fix needed; the item is clear, accurate, and logically valid. The other options (JAK2, RUNX1, ETV6, BCR-ABL) are associated with other myeloproliferative or leukemic disorders but not specifically with TMD in Down syndrome.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1794,
+        "completion_tokens": 226,
+        "total_tokens": 2020,
+        "cost": 0.0005793,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00048438,
+          "upstream_inference_completions_cost": 9.492e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-012",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617268-a2ML4eLEPIXteLun1Isp",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617268,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: classic triad of eczema, thrombocytopenia with small platelets, recurrent pyogenic infections, and confirmed WAS gene mutation. This uniquely points to Wiskott-Aldrich syndrome (WAS). The malignancy risk in WAS is strongly and specifically associated with lymphoreticular malignancies, primarily non-Hodgkin lymphoma (NHL), due to defective T-cell function and EBV susceptibility. The other malignancies listed (AML, neuroblastoma, hepatoblastoma, osteosarcoma) are not characteristically elevated in WAS. No logical contradictions or underspecification exist; the vignette provides sufficient diagnostic specificity. Medical accuracy is sound, aligning with standard hematology/immunology knowledge. Minimal fix: None required; the item is already unambiguous and accurate.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1800,
+        "completion_tokens": 208,
+        "total_tokens": 2008,
+        "cost": 0.0005692,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.000486,
+          "upstream_inference_completions_cost": 8.32e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-013",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617274-F4gLDi5phZDuB1iwGMhb",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617274,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: dual-chamber pacemaker in DDD mode, magnet applied for surgery, battery at Elective Replacement Indicator (ERI) voltage. Main logical issue: The keyed answer (C: No change) is not the most likely or standard response. In pacemaker management, a magnet typically forces asynchronous pacing (DOO/VOO) to prevent inhibition by EMI, even at ERI. While some modern devices may disable magnet response at ERI, this is a programmable feature, not a universal 'most likely' default. The most defensible best answer, based on standard safety practice and typical device behavior to prevent electrocautery-induced inhibition, is asynchronous pacing (A or B). Main medical accuracy issue: The rationale overgeneralizes a programmable feature as a default, which is nonstandard and could mislead about intraoperative magnet safety. Minimal fix: Change key to A or clarify in stem that the device is specifically programmed to disable magnet response at ERI.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"2\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1861,
+        "completion_tokens": 259,
+        "total_tokens": 2120,
+        "cost": 0.00147728,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00104216,
+          "upstream_inference_completions_cost": 0.00043512
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-014",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617279-dEG3JoUXUy2Bgu6UySyM",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617279,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. The stem describes suspected malignant hyperthermia (MH) with dantrolene administration. The keyed answer is verapamil (C), and the rationale states both verapamil and diltiazem are contraindicated. However, standard MH guidelines (e.g., MHAUS) specifically contraindicate only diltiazem and verapamil when combined with dantrolene due to risk of hyperkalemia and cardiovascular collapse. Among the options, both B (diltiazem) and C (verapamil) are contraindicated, making the key not uniquely correct. The stem asks for 'absolutely contraindicated,' implying a single answer, but two are valid per the rationale. This creates a multiple defensible answers (M) scenario secondary to miskeying. Medical accuracy is mostly correct regarding the contraindication, but the item fails to discriminate between the two non-dihydropyridine calcium channel blockers. Minimal fix: Change the question to ask for the class of calcium channel blockers contraindicated, or specify a unique agent by adding a distinguishing detail (e.g., 'Which non-dihydropyridine calcium channel blocker...').\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\": \n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1795,
+        "completion_tokens": 296,
+        "total_tokens": 2091,
+        "cost": 0.00060897,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00048465,
+          "upstream_inference_completions_cost": 0.00012432
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-015",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617287-5mPpBsJIrCLkuM5A2ymu",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617287,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. The stem describes a 65-year-old male with intention tremor, gait ataxia, MRI showing the MCP sign, and a grandson with intellectual disability. This combination is classic for Fragile X-associated tremor/ataxia syndrome (FXTAS). The molecular mechanism of FXTAS is a toxic gain-of-function of FMR1 mRNA due to a premutation (55-200 CGG repeats). Option B correctly states 'CGG repeat expansion between 55 and 200 causing mRNA toxicity,' which is the accurate mechanism. However, the provided key is B, which is the correct answer. There appears to be a mismatch between the narrative and the key listing. The narrative states 'Correct answer key: B' and the explanation supports B. Re-examining: The keyed answer in the input is explicitly 'B'. The explanation justifies B. Therefore, the key matches the single best answer. The item is logically valid. There is no miskeying. The initial miskey assessment was an error. The correct validity label is V. The keyed answer B is correct and unique. The stem provides sufficient clues: late-onset cerebellar signs, MCP sign on MRI, and family history of a grandson with intellectual disability (hinting at Fragile X spectrum). Option A describes full mutation Fragile X syndrome (gene silencing). Option C is typical for spinocerebellar ataxias. Option D is seen in myotonic dystrophy. Option E is a deletion, not the mechanism for FXTAS. No contradictions or underspecification. Medical accuracy is high. Minimal fix: None needed for validity; the item is sound. Correction to analysis: Label V, key correct.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1851,
+        "completion_tokens": 397,
+        "total_tokens": 2248,
+        "cost": 0.00066651,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049977,
+          "upstream_inference_completions_cost": 0.00016674
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-016",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617296-nj9AuLWQd1Q3bMQP4XQJ",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617296,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: stable bipolar on valproate, addition of meropenem, rapid (48h) recurrence of manic symptoms. This classic interaction is due to carbapenems (e.g., meropenem) causing a rapid, profound drop in valproate levels, primarily via increased glucuronidation and renal clearance of the glucuronide metabolite, as stated in key C. The item is logically valid; the vignette supports a single best answer. The keyed answer is medically accurate and aligns with standard pharmacology. Alternatives are incorrect: A (CYP2C9 inhibition is not the primary mechanism), B (displacement is minor/not key), D (no dopamine agonist action), E (CYP3A4 induction is not the mechanism). Minimal fix: None required for core validity; could add 'carbapenem' to the stem to reinforce drug class for learners.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1844,
+        "completion_tokens": 235,
+        "total_tokens": 2079,
+        "cost": 0.00142744,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00103264,
+          "upstream_inference_completions_cost": 0.0003948
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-017",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617301-Ln2Wa3RWGKmBC7lzk3qK",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617301,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: 'forensic evaluation of a defendant's competency to stand trial (CST)' and 'primary precedent in the United States.' The question directly asks for the foundational legal case for the CST standard. Dusky v. United States is the unequivocal, modern standard for CST in U.S. federal and most state jurisdictions. Main logical issue: None; the stem is clear, and the distractors are distinct legal precedents for other forensic concepts (insanity defense, duty to warn, death penalty competency). Main medical accuracy issue: None; the legal standard is correctly identified. Minimal fix: No fix required; the item is valid and accurate as written.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1798,
+        "completion_tokens": 194,
+        "total_tokens": 1992,
+        "cost": 0.0013328,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00100688,
+          "upstream_inference_completions_cost": 0.00032592
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-018",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617307-tkcnXQVZ3qXsvPr6e2MD",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617307,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: 40-year-old female, pancreatic tail mass, well-circumscribed, peripheral calcification, EUS-FNA shows glycogen-rich cuboidal cells. The glycogen-rich cuboidal cells are characteristic of serous cystadenoma (option A), but the combination of female sex, pancreatic tail location, well-circumscribed mass, and peripheral calcification is classic for solid pseudopapillary neoplasm (SPN, option C), which also often shows glycogen-rich cells. SPN is more common in young women and frequently has peripheral calcification. The item's key (A) is defensible based on histology alone, but the overall clinical and imaging picture strongly favors SPN, making option C equally or more defensible. This creates ambiguity. Main logical issue: The vignette blends features of two entities, leading to multiple defensible answers (M secondary). Main medical accuracy issue: Peripheral calcification is more typical of SPN than serous cystadenoma (which classically has central calcification). Minimal fix: Change imaging finding to 'central calcification and scar' to uniquely point to serous cystadenoma, or specify histology more uniquely for SPN (e.g., pseudopapillary structures).\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\": \n  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1805,
+        "completion_tokens": 312,
+        "total_tokens": 2117,
+        "cost": 0.00061839,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00048735,
+          "upstream_inference_completions_cost": 0.00013104
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-019",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617314-0shZydUeN42qDqeKv1iX",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617314,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. The question asks for the name of an aberrant vessel connecting the external iliac and obturator systems, crossing the superior pubic ramus, encountered during laparoscopic inguinal hernia repair. The key stem clues are the anatomical location (superior pubic ramus), the vascular connection (external iliac to obturator), and the surgical context (laparoscopic inguinal hernia repair, TEP approach). These uniquely point to the corona mortis, a known surgical hazard. The keyed answer (B) is medically accurate and the single best option. All other options refer to anatomically distinct structures: Circle of Willis (cerebral circulation), Arc of Riolan and Marginal Artery of Drummond (colonic anastomoses), and Batson's Plexus (vertebral venous plexus). No logical issues or contradictions exist. The item is well-specified and aligns with standard anatomical and surgical knowledge. Minimal fix: None required; the item is already valid and accurate.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1801,
+        "completion_tokens": 249,
+        "total_tokens": 2050,
+        "cost": 0.00059085,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00048627,
+          "upstream_inference_completions_cost": 0.00010458
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T232137723Z_gemini-3-pro-preview_seed128",
+    "question_id": "20251223T232137723Z_gemini-3-pro-preview_seed128-020",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766617320-uJi8mJ82XggCcoap6Iaj",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766617321,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: History of rhegmatogenous retinal detachment repair with silicone oil tamponade, inferior visual field loss, elevated IOP (35 mmHg), and gonioscopy showing silicone oil emulsification in the superior angle. The mechanism is a known complication where emulsified oil droplets, being lighter than aqueous, float superiorly and obstruct the trabecular meshwork, causing secondary open-angle glaucoma. The vignette is logically consistent and provides sufficient detail to uniquely identify the mechanism. The keyed answer (B) aligns with standard ophthalmic knowledge. No logical or medical accuracy issues are present. The item is well-constructed. A minimal fix is not required, but for absolute clarity, one could specify 'open-angle' in the stem, though gonioscopy findings already imply it.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1822,
+        "completion_tokens": 209,
+        "total_tokens": 2031,
+        "cost": 0.00057972,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00049194,
+          "upstream_inference_completions_cost": 8.778e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

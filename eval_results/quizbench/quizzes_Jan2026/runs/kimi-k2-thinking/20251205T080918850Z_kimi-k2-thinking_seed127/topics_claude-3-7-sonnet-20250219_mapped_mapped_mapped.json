@@ -1,0 +1,131 @@
+{
+  "quiz_id": "20251205T080918850Z_kimi-k2-thinking_seed127",
+  "generator_model": "kimi-k2-thinking",
+  "eval_model": "claude-3-7-sonnet-20250219",
+  "default_topics": [
+    "cardiology",
+    "endocrinology",
+    "infectious disease",
+    "hematology/oncology",
+    "neurology",
+    "nephrology",
+    "pulmonology",
+    "obstetrics",
+    "gynecology",
+    "pediatrics",
+    "geriatrics",
+    "dermatology",
+    "rheumatology",
+    "emergency medicine",
+    "critical care"
+  ],
+  "created_at": "2025-12-09T02:47:38Z",
+  "per_question": [
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed127-001",
+      "topic": "cardiology",
+      "raw_response": "cardiology",
+      "topic_mapped": "cardiology"
+    },
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed127-002",
+      "topic": "pediatrics",
+      "raw_response": "pediatrics",
+      "topic_mapped": "Pediatrics"
+    },
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed127-003",
+      "topic": "emergency medicine",
+      "raw_response": "emergency medicine",
+      "topic_mapped": "Emergency Medicine"
+    },
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed127-004",
+      "topic": "rheumatology",
+      "raw_response": "rheumatology",
+      "topic_mapped": "rheumatology"
+    },
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed127-005",
+      "topic": "endocrinology",
+      "raw_response": "endocrinology",
+      "topic_mapped": "endocrinology"
+    },
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed127-006",
+      "topic": "hematology/oncology",
+      "raw_response": "hematology/oncology",
+      "topic_mapped": "Misc"
+    },
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed127-007",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    },
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed127-008",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    },
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed127-009",
+      "topic": "rheumatology",
+      "raw_response": "rheumatology",
+      "topic_mapped": "rheumatology"
+    },
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed127-010",
+      "topic": "endocrinology",
+      "raw_response": "endocrinology",
+      "topic_mapped": "endocrinology"
+    }
+  ],
+  "summary": {
+    "topic_counts": {
+      "cardiology": 1,
+      "pediatrics": 1,
+      "emergency medicine": 1,
+      "rheumatology": 2,
+      "endocrinology": 2,
+      "hematology/oncology": 1,
+      "neurology": 2
+    },
+    "majority_topic": "rheumatology",
+    "num_questions": 10,
+    "num_unclassified": 0
+  },
+  "topic_mapping": {
+    "applied_at": "2025-12-18T08:13:57Z",
+    "topic_map_path": null,
+    "mode": "map",
+    "unmapped_policy": "keep",
+    "normalize": true,
+    "combined_to_misc": true,
+    "misc_category": "Misc",
+    "refine_misc_heme_onc": false,
+    "refine_misc_model": "claude-3-7-sonnet-20250219",
+    "refine_misc_max_tokens": 512,
+    "refine_misc_temperature": 0.0
+  },
+  "summary_mapped": {
+    "topic_counts": {
+      "cardiology": 1,
+      "Pediatrics": 1,
+      "Emergency Medicine": 1,
+      "rheumatology": 2,
+      "endocrinology": 2,
+      "Misc": 1,
+      "Neurology": 2
+    },
+    "num_questions": 10,
+    "num_dropped": 0,
+    "num_unmapped_raw": 5,
+    "unmapped_raw_counts": {
+      "cardiology": 1,
+      "rheumatology": 2,
+      "endocrinology": 2
+    }
+  }
+}

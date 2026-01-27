@@ -1,0 +1,182 @@
+{
+  "created_at": "2025-12-21T01:03:49Z",
+  "config_path": "/home/dbernardo/Documents/pyres/MedEvalArena/config_kimi-k2-thinking.yaml",
+  "generator_models": [
+    "kimi-k2-thinking"
+  ],
+  "generator_model": "kimi-k2-thinking",
+  "api_providers_by_model": {
+    "kimi-k2-thinking": "sequential_llm"
+  },
+  "test_models": [
+    "none"
+  ],
+  "test_models_csv": "none",
+  "num_quizzes_per_generator": 5,
+  "num_questions_per_batch": 10,
+  "num_questions_per_quiz": 50,
+  "runs_root": "eval_results/quizbench/quizzes_Jan2026/runs/kimi-k2-thinking/",
+  "api_provider": "sequential_llm",
+  "quizzes_root_dir": "quizzes/",
+  "quiz_collection": null,
+  "quizzes_dir": "quizzes/",
+  "target_planning": {
+    "enabled": true,
+    "topic_mapping_report": "/home/dbernardo/Documents/pyres/MedEvalArena/topic_mapping_report_20251214T202513Z.json",
+    "planned_batch_request_multiplier": 2.0,
+    "targets_csv": "/home/dbernardo/Documents/pyres/MedEvalArena/data/ABMS_specialties.csv",
+    "target_total": 49,
+    "topic_map_path": "/home/dbernardo/Documents/pyres/MedEvalArena/data/topic_to_abms.yaml",
+    "topic_map_mode": "map",
+    "unmapped_topic_policy": "keep",
+    "topics_eval_model": null,
+    "prefer_topic_mapping_outputs": true,
+    "judge_models_yaml": "/home/dbernardo/Documents/pyres/MedEvalArena/data/judge_models.yaml",
+    "min_medical_score": null,
+    "allow_missing_judges": false,
+    "questions_dist_files": {
+      "kimi-k2-thinking": "/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_Jan2026/runs/kimi-k2-thinking/questions_dist_kimi-k2-thinking.json"
+    }
+  },
+  "quizzes": [
+    {
+      "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed129",
+      "quiz_path": "/home/dbernardo/Documents/pyres/MedEvalArena/quizzes/20251221T010349114Z_kimi-k2-thinking_seed129.jsonl",
+      "generator_model": "kimi-k2-thinking",
+      "seed": 129,
+      "target_topic": [
+        "Pediatrics",
+        "Pediatrics",
+        "Pediatrics",
+        "Pediatrics",
+        "Pediatrics",
+        "Anesthesiology",
+        "Anesthesiology",
+        "Psychiatry",
+        "Psychiatry",
+        "Psychiatry",
+        "Pediatrics",
+        "Pediatrics",
+        "Pediatrics",
+        "Pediatrics",
+        "Pediatrics",
+        "Anesthesiology",
+        "Anesthesiology",
+        "Psychiatry",
+        "Psychiatry",
+        "Psychiatry"
+      ]
+    },
+    {
+      "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed130",
+      "quiz_path": "/home/dbernardo/Documents/pyres/MedEvalArena/quizzes/20251221T010349114Z_kimi-k2-thinking_seed130.jsonl",
+      "generator_model": "kimi-k2-thinking",
+      "seed": 130,
+      "target_topic": [
+        "General Surgery",
+        "General Surgery",
+        "Ophthalmology",
+        "Orthopedic Surgery",
+        "Urology",
+        "Otolaryngology",
+        "Physical Medicine and Rehabilitation",
+        "Plastic Surgery",
+        "Neurological Surgery",
+        "Radiation Oncology",
+        "General Surgery",
+        "General Surgery",
+        "Ophthalmology",
+        "Orthopedic Surgery",
+        "Urology",
+        "Otolaryngology",
+        "Physical Medicine and Rehabilitation",
+        "Plastic Surgery",
+        "Neurological Surgery",
+        "Radiation Oncology"
+      ]
+    },
+    {
+      "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed131",
+      "quiz_path": "/home/dbernardo/Documents/pyres/MedEvalArena/quizzes/20251221T010349114Z_kimi-k2-thinking_seed131.jsonl",
+      "generator_model": "kimi-k2-thinking",
+      "seed": 131,
+      "target_topic": [
+        "Thoracic Surgery",
+        "Vascular Surgery",
+        "Gastrointestinal",
+        "Gastrointestinal",
+        "Nephrology",
+        "Hematology",
+        "Immunology",
+        "Infectious Disease",
+        "Medical Oncology",
+        "Allergy/Immunology",
+        "Thoracic Surgery",
+        "Vascular Surgery",
+        "Gastrointestinal",
+        "Gastrointestinal",
+        "Nephrology",
+        "Hematology",
+        "Immunology",
+        "Infectious Disease",
+        "Medical Oncology",
+        "Allergy/Immunology"
+      ]
+    },
+    {
+      "quiz_id": "20251221T010349114Z_kimi-k2-thinking_seed132",
+      "quiz_path": "/home/dbernardo/Documents/pyres/MedEvalArena/quizzes/20251221T010349114Z_kimi-k2-thinking_seed132.jsonl",
+      "generator_model": "kimi-k2-thinking",
+      "seed": 132,
+      "target_topic": [
+        "Geriatrics",
+        "Geriatrics"
+      ]
+    }
+  ],
+  "run_ids": [],
+  "batch_jobs": [
+    {
+      "generator_model": "kimi-k2-thinking",
+      "batch_id": "sequential-1766279029-kimi-k2-thinking",
+      "batch_input_path": "quizzes/batch_inputs/kimi-k2-thinking_batch_input_006.jsonl",
+      "num_requests": 1,
+      "provider": "sequential_llm"
+    },
+    {
+      "generator_model": "kimi-k2-thinking",
+      "batch_id": "sequential-1766279742-kimi-k2-thinking",
+      "batch_input_path": "quizzes/batch_inputs/kimi-k2-thinking_batch_input_006.jsonl",
+      "num_requests": 1,
+      "provider": "sequential_llm"
+    },
+    {
+      "generator_model": "kimi-k2-thinking",
+      "batch_id": "sequential-1766279875-kimi-k2-thinking",
+      "batch_input_path": "quizzes/batch_inputs/kimi-k2-thinking_batch_input_006.jsonl",
+      "num_requests": 1,
+      "provider": "sequential_llm"
+    },
+    {
+      "generator_model": "kimi-k2-thinking",
+      "batch_id": "sequential-1766279979-kimi-k2-thinking",
+      "batch_input_path": "quizzes/batch_inputs/kimi-k2-thinking_batch_input_007.jsonl",
+      "num_requests": 1,
+      "provider": "sequential_llm"
+    },
+    {
+      "generator_model": "kimi-k2-thinking",
+      "batch_id": "sequential-1766280038-kimi-k2-thinking",
+      "batch_input_path": "quizzes/batch_inputs/kimi-k2-thinking_batch_input_008.jsonl",
+      "num_requests": 1,
+      "provider": "sequential_llm"
+    },
+    {
+      "generator_model": "kimi-k2-thinking",
+      "batch_id": "sequential-1766280358-kimi-k2-thinking",
+      "batch_input_path": "quizzes/batch_inputs/kimi-k2-thinking_batch_input_009.jsonl",
+      "num_requests": 1,
+      "provider": "sequential_llm"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+generator_model,raw_generator_models,model,num_quizzes,mean_accuracy,sem
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,gpt-5-nano-2025-08-07,5,0.6799999999999999,0.08000000000000002
+gemini-3-pro-preview,gemini-3-pro-preview,gpt-5-nano-2025-08-07,5,0.9199999999999999,0.0374165738677394
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,gpt-5-nano-2025-08-07,5,0.76,0.06000000000000001

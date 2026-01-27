@@ -1,0 +1,1 @@
+{"model": "gemini-3-pro-preview", "created_at": "2025-12-26T09:10:44Z", "total_corr": 7, "total_wrong": 3, "acc": 0.7, "n_items": 10, "batch_input_file": "ABMS20260101_deepseek-v3.2_p02_gemini-3-pro-preview_batch_input.jsonl", "batch_id": "batches/5qsv165sz2uzmeh2jg1cxqrt7bh0ia0m37tj", "used_batch_api": true}

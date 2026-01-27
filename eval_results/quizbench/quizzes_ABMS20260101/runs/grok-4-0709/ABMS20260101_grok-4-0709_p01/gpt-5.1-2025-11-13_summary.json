@@ -1,0 +1,1 @@
+{"model": "gpt-5.1-2025-11-13", "created_at": "2025-12-29T23:43:26Z", "total_corr": 9, "total_wrong": 1, "acc": 0.9, "n_items": 10, "batch_input_file": "ABMS20260101_grok-4-0709_p01_gpt-5.1-2025-11-13_batch_input.jsonl", "batch_id": "batch_695311a54ed48190b00db953f2a9a106", "used_batch_api": true}

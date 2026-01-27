@@ -1,0 +1,24 @@
+version: 1
+
+# Normalize both source topics and canonical CSV categories before matching.
+normalize: true
+
+# Drop labels that should not count toward any target.
+drop:
+  - unknown
+
+# If a label can't be mapped and looks like a combined topic (e.g. contains "/"),
+# map it to Misc for now so it won't reduce any ABMS target counts.
+combined_to_misc: true
+misc_category: Misc
+
+# Manual overrides from topic labels (left) to ABMS specialties (right).
+# Keys are normalized, so writing them lowercase is fine.
+map:
+  cardiology: Cardiovascular
+  endocrinology: Endocrine
+  pulmonology: Pulmonary
+  critical care: Critical Care Medicine
+  rheumatology: Rheumatology/Musculoskeletal
+  obstetrics: Obstetrics and Gynecology
+  gynecology: Obstetrics and Gynecology

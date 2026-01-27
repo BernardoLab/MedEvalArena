@@ -1,0 +1,20 @@
+{
+  "quiz_collection": "quizzes_Jan2026",
+  "quizzes_dir": "quizzes/quizzes_Jan2026",
+  "config_path": "/Users/dbernardo/Documents/pyres/MedEvalArena/config_anthropic.yaml",
+  "quizzes": [
+    {
+      "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed131",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251218T014545383Z_claude-opus-4-5-20251101_seed131.jsonl",
+      "generator_model": "claude-opus-4-5-20251101",
+      "seed": 131
+    }
+  ],
+  "judge_models": [
+    "gpt-5.1-2025-11-13"
+  ],
+  "judge_run_ids": [
+    "20251218T014545383Z_claude-opus-4-5-20251101_seed131"
+  ],
+  "last_judge_eval_at": "2026-01-19T00:01:41Z"
+}

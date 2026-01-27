@@ -1,0 +1,7 @@
+"model","observed_accuracy"
+"claude-opus-4-5-20251101",0.916666666666667
+"deepseek-v3.2",0.883333333333333
+"gemini-3-pro-preview",0.87
+"gpt-5.1-2025-11-13",0.886666666666667
+"grok-4-0709",0.88
+"kimi-k2-thinking",0.856666666666667

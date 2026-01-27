@@ -1,0 +1,1 @@
+{"model": "gemini-3-pro-preview", "created_at": "2025-12-01T16:31:47Z", "total_corr": 6, "total_wrong": 4, "acc": 0.6, "n_items": 10, "batch_input_file": "20251201T041413890Z_grok-4-0709_seed124_gemini-3-pro-preview_batch_input.jsonl", "batch_id": "batches/33pyh9ge0onv5jhr3bsmed343wua5jlfaeee", "used_batch_api": true}

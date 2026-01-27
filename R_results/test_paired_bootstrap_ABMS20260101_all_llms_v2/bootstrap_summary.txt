@@ -1,0 +1,94 @@
+Paired item bootstrap (resample items)
+Items used: 300
+LLMs: 10
+Bootstrap reps: 20
+Delta (major difference threshold, pp): 5
+All pairwise CIs within ±Delta: FALSE
+
+Pairs with CI extending beyond ±Delta:
+
+                         A                        B    diff_pct        lo95
+  claude-opus-4-5-20251101    gemini-2.5-flash-lite  15.6666667  10.4583333
+     gemini-2.5-flash-lite       gpt-5.1-2025-11-13 -11.6666667 -17.0166667
+ claude-haiku-4-5-20251001 claude-opus-4-5-20251101 -11.5000000 -14.8583333
+             deepseek-v3.2    gemini-2.5-flash-lite  11.3333333   5.6000000
+     gemini-2.5-flash-lite              grok-4-0709 -11.3333333 -16.1166667
+  claude-opus-4-5-20251101    gpt-5-nano-2025-08-07  11.1666667   6.4750000
+     gemini-2.5-flash-lite     gemini-3-pro-preview -10.6666667 -14.0333333
+     gemini-2.5-flash-lite  grok-4-1-fast-reasoning  -9.8333333 -14.8416667
+     gemini-2.5-flash-lite         kimi-k2-thinking  -9.1666667 -12.3333333
+ claude-haiku-4-5-20251001       gpt-5.1-2025-11-13  -8.3333333 -12.5083333
+     gpt-5-nano-2025-08-07       gpt-5.1-2025-11-13  -7.3333333 -11.4166667
+ claude-haiku-4-5-20251001              grok-4-0709  -7.1666667 -10.1750000
+     gpt-5-nano-2025-08-07              grok-4-0709  -7.0000000  -9.8416667
+ claude-haiku-4-5-20251001            deepseek-v3.2  -6.8333333 -11.0333333
+ claude-haiku-4-5-20251001     gemini-3-pro-preview  -6.8333333 -10.3666667
+             deepseek-v3.2    gpt-5-nano-2025-08-07   6.8333333   2.3166667
+ claude-haiku-4-5-20251001  grok-4-1-fast-reasoning  -6.1666667 -10.3500000
+      gemini-3-pro-preview    gpt-5-nano-2025-08-07   6.1666667   2.1583333
+  claude-opus-4-5-20251101         kimi-k2-thinking   6.1666667   2.3333333
+ claude-haiku-4-5-20251001         kimi-k2-thinking  -6.0000000  -9.0000000
+     gpt-5-nano-2025-08-07  grok-4-1-fast-reasoning  -5.5000000  -9.7000000
+  claude-opus-4-5-20251101  grok-4-1-fast-reasoning   5.1666667   2.8250000
+  claude-opus-4-5-20251101     gemini-3-pro-preview   4.8333333  -0.3833333
+  claude-opus-4-5-20251101            deepseek-v3.2   4.6666667  -0.5250000
+     gpt-5-nano-2025-08-07         kimi-k2-thinking  -4.6666667  -8.0166667
+  claude-opus-4-5-20251101              grok-4-0709   4.1666667   0.2833333
+     gemini-2.5-flash-lite    gpt-5-nano-2025-08-07  -4.1666667  -9.3666667
+  claude-opus-4-5-20251101       gpt-5.1-2025-11-13   3.6666667   0.3333333
+ claude-haiku-4-5-20251001    gemini-2.5-flash-lite   3.0000000   0.6500000
+        gpt-5.1-2025-11-13  grok-4-1-fast-reasoning   2.0000000  -1.8416667
+        gpt-5.1-2025-11-13         kimi-k2-thinking   2.0000000  -1.0000000
+      gemini-3-pro-preview       gpt-5.1-2025-11-13  -1.6666667  -5.1750000
+               grok-4-0709         kimi-k2-thinking   1.5000000  -1.0333333
+             deepseek-v3.2         kimi-k2-thinking   1.1666667  -2.2083333
+ claude-haiku-4-5-20251001    gpt-5-nano-2025-08-07  -1.0000000  -5.0166667
+      gemini-3-pro-preview  grok-4-1-fast-reasoning   0.8333333  -3.6666667
+   grok-4-1-fast-reasoning         kimi-k2-thinking   0.6666667  -3.0333333
+        gpt-5.1-2025-11-13              grok-4-0709  -0.3333333  -3.6833333
+       hi95
+ 19.7333333
+ -6.9666667
+ -6.4416667
+ 15.5083333
+ -7.0916667
+ 14.1750000
+ -6.8250000
+ -5.4916667
+ -4.6500000
+ -2.1416667
+ -3.9833333
+ -3.4750000
+ -2.0000000
+ -3.1583333
+ -1.9500000
+ 10.5083333
+ -1.1083333
+  9.8750000
+ 10.3666667
+ -0.1416667
+ -0.4750000
+  8.3833333
+  7.5083333
+  7.3333333
+ -1.3333333
+  7.5416667
+  0.0000000
+  5.5083333
+  9.2250000
+  5.0500000
+  7.1916667
+  2.5250000
+  6.9083333
+  5.3333333
+  5.2083333
+  5.3333333
+  5.3666667
+  5.3500000
+
+Files written:
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/test_paired_bootstrap_ABMS20260101_all_llms_v2/overall_accuracy_bootstrap.csv
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/test_paired_bootstrap_ABMS20260101_all_llms_v2/pairwise_accuracy_diffs_bootstrap.csv
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/test_paired_bootstrap_ABMS20260101_all_llms_v2/topic_accuracy_wilson.csv
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/test_paired_bootstrap_ABMS20260101_all_llms_v2/topic_accuracy_pooled_wilson.csv
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/test_paired_bootstrap_ABMS20260101_all_llms_v2/topic_global_test_permutation.csv

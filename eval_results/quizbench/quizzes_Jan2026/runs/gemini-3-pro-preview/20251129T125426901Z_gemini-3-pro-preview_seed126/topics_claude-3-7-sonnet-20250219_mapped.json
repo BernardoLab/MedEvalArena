@@ -1,0 +1,131 @@
+{
+  "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed126",
+  "generator_model": "gemini-3-pro-preview",
+  "eval_model": "claude-3-7-sonnet-20250219",
+  "default_topics": [
+    "cardiology",
+    "endocrinology",
+    "infectious disease",
+    "hematology/oncology",
+    "neurology",
+    "nephrology",
+    "pulmonology",
+    "obstetrics",
+    "gynecology",
+    "pediatrics",
+    "geriatrics",
+    "dermatology",
+    "rheumatology",
+    "emergency medicine",
+    "critical care"
+  ],
+  "created_at": "2025-12-09T02:43:54Z",
+  "per_question": [
+    {
+      "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed126-001",
+      "topic": "cardiology",
+      "raw_response": "cardiology",
+      "topic_mapped": "cardiology"
+    },
+    {
+      "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed126-002",
+      "topic": "hematology/oncology",
+      "raw_response": "hematology/oncology",
+      "topic_mapped": "Misc"
+    },
+    {
+      "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed126-003",
+      "topic": "obstetrics",
+      "raw_response": "obstetrics",
+      "topic_mapped": "obstetrics"
+    },
+    {
+      "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed126-004",
+      "topic": "hematology/oncology",
+      "raw_response": "hematology/oncology",
+      "topic_mapped": "Misc"
+    },
+    {
+      "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed126-005",
+      "topic": "pediatrics",
+      "raw_response": "pediatrics",
+      "topic_mapped": "Pediatrics"
+    },
+    {
+      "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed126-006",
+      "topic": "cardiology",
+      "raw_response": "cardiology",
+      "topic_mapped": "cardiology"
+    },
+    {
+      "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed126-007",
+      "topic": "nephrology",
+      "raw_response": "nephrology",
+      "topic_mapped": "Nephrology"
+    },
+    {
+      "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed126-008",
+      "topic": "critical care",
+      "raw_response": "critical care",
+      "topic_mapped": "critical care"
+    },
+    {
+      "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed126-009",
+      "topic": "hematology/oncology",
+      "raw_response": "hematology/oncology",
+      "topic_mapped": "Misc"
+    },
+    {
+      "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed126-010",
+      "topic": "infectious disease",
+      "raw_response": "infectious disease",
+      "topic_mapped": "Infectious Disease"
+    }
+  ],
+  "summary": {
+    "topic_counts": {
+      "cardiology": 2,
+      "hematology/oncology": 3,
+      "obstetrics": 1,
+      "pediatrics": 1,
+      "nephrology": 1,
+      "critical care": 1,
+      "infectious disease": 1
+    },
+    "majority_topic": "hematology/oncology",
+    "num_questions": 10,
+    "num_unclassified": 0
+  },
+  "topic_mapping": {
+    "applied_at": "2025-12-18T08:13:57Z",
+    "topic_map_path": null,
+    "mode": "map",
+    "unmapped_policy": "keep",
+    "normalize": true,
+    "combined_to_misc": true,
+    "misc_category": "Misc",
+    "refine_misc_heme_onc": false,
+    "refine_misc_model": "claude-3-7-sonnet-20250219",
+    "refine_misc_max_tokens": 512,
+    "refine_misc_temperature": 0.0
+  },
+  "summary_mapped": {
+    "topic_counts": {
+      "cardiology": 2,
+      "Misc": 3,
+      "obstetrics": 1,
+      "Pediatrics": 1,
+      "Nephrology": 1,
+      "critical care": 1,
+      "Infectious Disease": 1
+    },
+    "num_questions": 10,
+    "num_dropped": 0,
+    "num_unmapped_raw": 4,
+    "unmapped_raw_counts": {
+      "cardiology": 2,
+      "obstetrics": 1,
+      "critical care": 1
+    }
+  }
+}

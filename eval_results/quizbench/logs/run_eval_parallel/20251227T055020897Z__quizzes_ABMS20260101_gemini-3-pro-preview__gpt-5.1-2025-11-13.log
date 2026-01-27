@@ -1,0 +1,55 @@
+[INFO] Evaluating 5 quizzes with model 'gpt-5.1-2025-11-13'
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_gemini-3-pro-preview_p01 path=quizzes/quizzes_ABMS20260101/gemini-3-pro-preview/ABMS20260101_gemini-3-pro-preview_p01.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_gemini-3-pro-preview_p01, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gemini-3-pro-preview/ABMS20260101_gemini-3-pro-preview_p01/ABMS20260101_gemini-3-pro-preview_p01_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-R4SXAGC6ZZuHSC9AGcYmiW
+Created batch with id: batch_694f7417fc048190a343450e2fd8e0d5
+Initial batch status: validating
+Batch batch_694f7417fc048190a343450e2fd8e0d5 status: validating. Sleeping 60s...
+Batch batch_694f7417fc048190a343450e2fd8e0d5 status: validating. Sleeping 60s...
+Batch batch_694f7417fc048190a343450e2fd8e0d5 status: in_progress. Sleeping 60s...
+Batch batch_694f7417fc048190a343450e2fd8e0d5 reached terminal status: completed
+Downloading batch file: file-PG5Ka4UTjgpXYXSUgEmgN7
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gemini-3-pro-preview/ABMS20260101_gemini-3-pro-preview_p01
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_gemini-3-pro-preview_p02 path=quizzes/quizzes_ABMS20260101/gemini-3-pro-preview/ABMS20260101_gemini-3-pro-preview_p02.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_gemini-3-pro-preview_p02, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gemini-3-pro-preview/ABMS20260101_gemini-3-pro-preview_p02/ABMS20260101_gemini-3-pro-preview_p02_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-2oihEnsL7TEVbBbXEuY1Qu
+Created batch with id: batch_694f74cf7ed481909c88e3768624a483
+Initial batch status: validating
+Batch batch_694f74cf7ed481909c88e3768624a483 status: validating. Sleeping 60s...
+Batch batch_694f74cf7ed481909c88e3768624a483 status: in_progress. Sleeping 60s...
+Batch batch_694f74cf7ed481909c88e3768624a483 status: in_progress. Sleeping 60s...
+Batch batch_694f74cf7ed481909c88e3768624a483 reached terminal status: completed
+Downloading batch file: file-BMLgDwnHZdQcZ8rfpT89C2
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gemini-3-pro-preview/ABMS20260101_gemini-3-pro-preview_p02
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_gemini-3-pro-preview_p03 path=quizzes/quizzes_ABMS20260101/gemini-3-pro-preview/ABMS20260101_gemini-3-pro-preview_p03.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_gemini-3-pro-preview_p03, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gemini-3-pro-preview/ABMS20260101_gemini-3-pro-preview_p03/ABMS20260101_gemini-3-pro-preview_p03_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-Kdmk3d4fwJXgaY5K35rQtE
+Created batch with id: batch_694f758674cc8190a153be0e98bcc7be
+Initial batch status: validating
+Batch batch_694f758674cc8190a153be0e98bcc7be status: validating. Sleeping 60s...
+Batch batch_694f758674cc8190a153be0e98bcc7be status: in_progress. Sleeping 60s...
+Batch batch_694f758674cc8190a153be0e98bcc7be reached terminal status: completed
+Downloading batch file: file-9wgzHSqUboS3gc55mHcn2k
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gemini-3-pro-preview/ABMS20260101_gemini-3-pro-preview_p03
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_gemini-3-pro-preview_p04 path=quizzes/quizzes_ABMS20260101/gemini-3-pro-preview/ABMS20260101_gemini-3-pro-preview_p04.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_gemini-3-pro-preview_p04, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gemini-3-pro-preview/ABMS20260101_gemini-3-pro-preview_p04/ABMS20260101_gemini-3-pro-preview_p04_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-DaKCDELQoAyn1oTe8c275R
+Created batch with id: batch_694f760122608190ac117ed031d29ced
+Initial batch status: validating
+Batch batch_694f760122608190ac117ed031d29ced status: validating. Sleeping 60s...
+Batch batch_694f760122608190ac117ed031d29ced status: in_progress. Sleeping 60s...
+Batch batch_694f760122608190ac117ed031d29ced reached terminal status: completed
+Downloading batch file: file-PQjyNm4fNCcxxSmKvM6rEs
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gemini-3-pro-preview/ABMS20260101_gemini-3-pro-preview_p04
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_gemini-3-pro-preview_p05 path=quizzes/quizzes_ABMS20260101/gemini-3-pro-preview/ABMS20260101_gemini-3-pro-preview_p05.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_gemini-3-pro-preview_p05, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gemini-3-pro-preview/ABMS20260101_gemini-3-pro-preview_p05/ABMS20260101_gemini-3-pro-preview_p05_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-VQ6vDegseL4C4eFgCVpxff
+Created batch with id: batch_694f767bfb0081908849a090f13423d8
+Initial batch status: validating
+Batch batch_694f767bfb0081908849a090f13423d8 status: validating. Sleeping 60s...
+Batch batch_694f767bfb0081908849a090f13423d8 status: in_progress. Sleeping 60s...
+Batch batch_694f767bfb0081908849a090f13423d8 reached terminal status: completed
+Downloading batch file: file-G1A7tNLGV1wG7JMgbRniHU
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gemini-3-pro-preview/ABMS20260101_gemini-3-pro-preview_p05
+[INFO] Updated manifest at /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gemini-3-pro-preview/quizbench_manifest_ABMS20260101.json
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gemini-3-pro-preview

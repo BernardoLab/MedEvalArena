@@ -1,0 +1,52 @@
+{
+  "created_at": "2025-12-20T18:55:03Z",
+  "config_path": "/home/dbernardo/Documents/pyres/MedEvalArena/config_kimi-k2-thinking.yaml",
+  "generator_models": [
+    "kimi-k2-thinking"
+  ],
+  "generator_model": "kimi-k2-thinking",
+  "api_providers_by_model": {
+    "kimi-k2-thinking": "sequential_llm"
+  },
+  "test_models": [
+    "none"
+  ],
+  "test_models_csv": "none",
+  "num_quizzes_per_generator": 5,
+  "num_questions_per_batch": 10,
+  "num_questions_per_quiz": 50,
+  "runs_root": "eval_results/quizbench/quizzes_Jan2026/runs/kimi-k2-thinking/",
+  "api_provider": "sequential_llm",
+  "quizzes_root_dir": "quizzes/",
+  "quiz_collection": null,
+  "quizzes_dir": "quizzes/",
+  "target_planning": {
+    "enabled": true,
+    "topic_mapping_report": "/home/dbernardo/Documents/pyres/MedEvalArena/topic_mapping_report_20251214T202513Z.json",
+    "planned_batch_request_multiplier": 2.0,
+    "targets_csv": "/home/dbernardo/Documents/pyres/MedEvalArena/data/ABMS_specialties.csv",
+    "target_total": 49,
+    "topic_map_path": "/home/dbernardo/Documents/pyres/MedEvalArena/data/topic_to_abms.yaml",
+    "topic_map_mode": "map",
+    "unmapped_topic_policy": "keep",
+    "topics_eval_model": null,
+    "prefer_topic_mapping_outputs": true,
+    "judge_models_yaml": "/home/dbernardo/Documents/pyres/MedEvalArena/data/judge_models.yaml",
+    "min_medical_score": null,
+    "allow_missing_judges": false,
+    "questions_dist_files": {
+      "kimi-k2-thinking": "/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_Jan2026/runs/kimi-k2-thinking/questions_dist_kimi-k2-thinking.json"
+    }
+  },
+  "quizzes": [],
+  "run_ids": [],
+  "batch_jobs": [
+    {
+      "generator_model": "kimi-k2-thinking",
+      "batch_id": "sequential-1766256904-kimi-k2-thinking",
+      "batch_input_path": "quizzes/batch_inputs/kimi-k2-thinking_batch_input_006.jsonl",
+      "num_requests": 1,
+      "provider": "sequential_llm"
+    }
+  ]
+}

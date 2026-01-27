@@ -1,0 +1,119 @@
+{
+  "created_at": "2025-12-05T08:09:18Z",
+  "config_path": "/Users/dbernardo/Documents/pyres/MedEvalArena/config_kimi-k2-thinking.yaml",
+  "generator_models": [
+    "kimi-k2-thinking"
+  ],
+  "generator_model": "kimi-k2-thinking",
+  "test_models": [
+    "none"
+  ],
+  "test_models_csv": "none",
+  "num_quizzes_per_generator": 5,
+  "num_questions_per_batch": 10,
+  "num_questions_per_quiz": 50,
+  "runs_root": "eval_results/quizbench/runs/kimi-k2-thinking/",
+  "quizzes_dir": "quizzes",
+  "quizzes": [
+    {
+      "quiz_id": "20251205T080918850Z_kimi-k2-thinking_seed123",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251205T080918850Z_kimi-k2-thinking_seed123.jsonl",
+      "generator_model": "kimi-k2-thinking",
+      "seed": 123
+    },
+    {
+      "quiz_id": "20251205T080918850Z_kimi-k2-thinking_seed124",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251205T080918850Z_kimi-k2-thinking_seed124.jsonl",
+      "generator_model": "kimi-k2-thinking",
+      "seed": 124
+    },
+    {
+      "quiz_id": "20251205T080918850Z_kimi-k2-thinking_seed125",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251205T080918850Z_kimi-k2-thinking_seed125.jsonl",
+      "generator_model": "kimi-k2-thinking",
+      "seed": 125
+    },
+    {
+      "quiz_id": "20251205T080918850Z_kimi-k2-thinking_seed126",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251205T080918850Z_kimi-k2-thinking_seed126.jsonl",
+      "generator_model": "kimi-k2-thinking",
+      "seed": 126
+    },
+    {
+      "quiz_id": "20251205T080918850Z_kimi-k2-thinking_seed127",
+      "quiz_path": "quizzes/quizzes_Jan2026/20251205T080918850Z_kimi-k2-thinking_seed127.jsonl",
+      "generator_model": "kimi-k2-thinking",
+      "seed": 127
+    }
+  ],
+  "run_ids": [
+    "20251205T080918850Z_kimi-k2-thinking_seed123",
+    "20251205T080918850Z_kimi-k2-thinking_seed124",
+    "20251205T080918850Z_kimi-k2-thinking_seed125",
+    "20251205T080918850Z_kimi-k2-thinking_seed126",
+    "20251205T080918850Z_kimi-k2-thinking_seed127"
+  ],
+  "batch_jobs": [
+    {
+      "generator_model": "kimi-k2-thinking",
+      "batch_id": "sequential-1764922158-kimi-k2-thinking",
+      "batch_input_path": "quizzes/batch_inputs/kimi-k2-thinking_batch_input_000.jsonl",
+      "num_requests": 1
+    },
+    {
+      "generator_model": "kimi-k2-thinking",
+      "batch_id": "sequential-1764922193-kimi-k2-thinking",
+      "batch_input_path": "quizzes/batch_inputs/kimi-k2-thinking_batch_input_001.jsonl",
+      "num_requests": 1
+    },
+    {
+      "generator_model": "kimi-k2-thinking",
+      "batch_id": "sequential-1764922315-kimi-k2-thinking",
+      "batch_input_path": "quizzes/batch_inputs/kimi-k2-thinking_batch_input_002.jsonl",
+      "num_requests": 1
+    },
+    {
+      "generator_model": "kimi-k2-thinking",
+      "batch_id": "sequential-1764922382-kimi-k2-thinking",
+      "batch_input_path": "quizzes/batch_inputs/kimi-k2-thinking_batch_input_003.jsonl",
+      "num_requests": 1
+    },
+    {
+      "generator_model": "kimi-k2-thinking",
+      "batch_id": "sequential-1764922479-kimi-k2-thinking",
+      "batch_input_path": "quizzes/batch_inputs/kimi-k2-thinking_batch_input_004.jsonl",
+      "num_requests": 1
+    }
+  ],
+  "eval_models": [
+    "claude-3-7-sonnet-20250219",
+    "claude-opus-4-5-20251101",
+    "deepseek-v3.2",
+    "gemini-2.5-flash-lite",
+    "gemini-3-pro-preview",
+    "gpt-5-nano-2025-08-07,",
+    "gpt-5.1-2025-11-13",
+    "grok-4-0709",
+    "kimi-k2-thinking"
+  ],
+  "last_eval_at": "2025-12-07T06:48:42Z",
+  "judge_models": [
+    "claude-opus-4-5-20251101",
+    "deepseek-v3.2",
+    "gpt-5.1-2025-11-13",
+    "grok-4-0709"
+  ],
+  "judge_run_ids": [
+    "20251205T080918850Z_kimi-k2-thinking_seed123",
+    "20251205T080918850Z_kimi-k2-thinking_seed124",
+    "20251205T080918850Z_kimi-k2-thinking_seed125",
+    "20251205T080918850Z_kimi-k2-thinking_seed126",
+    "20251205T080918850Z_kimi-k2-thinking_seed127"
+  ],
+  "last_judge_eval_at": "2025-12-11T13:37:56Z",
+  "manifest_refreshed_at": "2025-12-18T11:35:37Z",
+  "manifest_inputs": [
+    "quizbench_manifest.json",
+    "quizbench_manifest_Jan2026.json"
+  ]
+}

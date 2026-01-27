@@ -1,0 +1,94 @@
+{
+  "created_at": "2025-11-29T13:53:52Z",
+  "config_path": "/Users/dbernardo/Documents/pyres/MedEvalArena/config_anthropic.yaml",
+  "generator_models": [
+    "claude-opus-4-5-20251101"
+  ],
+  "generator_model": "claude-opus-4-5-20251101",
+  "test_models": [
+    "none"
+  ],
+  "test_models_csv": "none",
+  "num_quizzes_per_generator": 5,
+  "num_questions_per_batch": 10,
+  "num_questions_per_quiz": 50,
+  "runs_root": "eval_results/quizbench/runs/",
+  "quizzes_dir": "quizzes/",
+  "api_provider": "anthropic_message_batches",
+  "quizzes": [
+    {
+      "quiz_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed123",
+      "quiz_path": "quizzes/20251129T135352000Z_claude-opus-4-5-20251101_seed123.jsonl",
+      "generator_model": "claude-opus-4-5-20251101",
+      "seed": 123
+    },
+    {
+      "quiz_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed124",
+      "quiz_path": "quizzes/20251129T135352000Z_claude-opus-4-5-20251101_seed124.jsonl",
+      "generator_model": "claude-opus-4-5-20251101",
+      "seed": 124
+    },
+    {
+      "quiz_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed125",
+      "quiz_path": "quizzes/20251129T135352000Z_claude-opus-4-5-20251101_seed125.jsonl",
+      "generator_model": "claude-opus-4-5-20251101",
+      "seed": 125
+    },
+    {
+      "quiz_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed126",
+      "quiz_path": "quizzes/20251129T135352000Z_claude-opus-4-5-20251101_seed126.jsonl",
+      "generator_model": "claude-opus-4-5-20251101",
+      "seed": 126
+    },
+    {
+      "quiz_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed127",
+      "quiz_path": "quizzes/20251129T135352000Z_claude-opus-4-5-20251101_seed127.jsonl",
+      "generator_model": "claude-opus-4-5-20251101",
+      "seed": 127
+    }
+  ],
+  "run_ids": [
+    "20251129T135352000Z_claude-opus-4-5-20251101_seed123",
+    "20251129T135352000Z_claude-opus-4-5-20251101_seed124",
+    "20251129T135352000Z_claude-opus-4-5-20251101_seed125",
+    "20251129T135352000Z_claude-opus-4-5-20251101_seed126",
+    "20251129T135352000Z_claude-opus-4-5-20251101_seed127"
+  ],
+  "batch_jobs": [
+    {
+      "generator_model": "claude-opus-4-5-20251101",
+      "batch_id": "msgbatch_01NoftqVj4CxBDSAR3Rxicgd",
+      "batch_input_path": "quizzes/anthropic_batch_inputs/claude-opus-4-5-20251101_anthropic_batch_input_000.jsonl",
+      "num_requests": 1
+    },
+    {
+      "generator_model": "claude-opus-4-5-20251101",
+      "batch_id": "msgbatch_011bEG72WvygN15aoAgca2F5",
+      "batch_input_path": "quizzes/anthropic_batch_inputs/claude-opus-4-5-20251101_anthropic_batch_input_001.jsonl",
+      "num_requests": 1
+    },
+    {
+      "generator_model": "claude-opus-4-5-20251101",
+      "batch_id": "msgbatch_01S9DXS2xJk6p1db2uBZQAfV",
+      "batch_input_path": "quizzes/anthropic_batch_inputs/claude-opus-4-5-20251101_anthropic_batch_input_002.jsonl",
+      "num_requests": 1
+    },
+    {
+      "generator_model": "claude-opus-4-5-20251101",
+      "batch_id": "msgbatch_016Ez381frXNQg6fHUomNegq",
+      "batch_input_path": "quizzes/anthropic_batch_inputs/claude-opus-4-5-20251101_anthropic_batch_input_003.jsonl",
+      "num_requests": 1
+    },
+    {
+      "generator_model": "claude-opus-4-5-20251101",
+      "batch_id": "msgbatch_01AVSFqjqzfcq8kn5YpAge49",
+      "batch_input_path": "quizzes/anthropic_batch_inputs/claude-opus-4-5-20251101_anthropic_batch_input_004.jsonl",
+      "num_requests": 1
+    }
+  ],
+  "eval_models": [
+    "claude-3-7-sonnet-20250219",
+    "gpt-5-nano-2025-08-07"
+  ],
+  "last_eval_at": "2025-11-29T19:39:56Z"
+}

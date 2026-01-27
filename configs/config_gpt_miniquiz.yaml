@@ -1,0 +1,25 @@
+# QuizBench generation configuration for a single 7-question GPT-5.1 miniquiz
+generator_models:
+  - gpt-5.1-2025-11-13
+test_models:
+  - gpt-5-nano-2025-08-07
+
+# Request exactly 7 questions in a single batch
+num_questions_per_batch: 7
+num_questions_per_quiz: 7
+
+# Use a seed that does not overlap with the existing 5 GPT-5.1 quizzes (123–127)
+seed0: 128
+
+# Store the new quiz alongside the existing JSONL quizzes
+quizzes_dir: quizzes/
+
+# Keep manifest for this miniquiz in a separate runs_root to avoid overwriting
+# the original GPT-5.1 manifest.
+runs_root: eval_results/quizbench/runs/gpt-5.1-2025-11-13_miniquiz/
+
+# Use direct (non-Batch API) generation, matching the main GPT config.
+use_batch_api: false
+reasoning_effort: high
+max_output_tokens: 16000
+

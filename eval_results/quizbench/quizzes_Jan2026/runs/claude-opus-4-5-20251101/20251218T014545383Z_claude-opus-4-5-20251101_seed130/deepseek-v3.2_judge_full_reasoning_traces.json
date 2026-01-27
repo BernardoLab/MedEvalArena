@@ -1,0 +1,857 @@
+[
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032845-GPcSleO1bcp0RnqJkCCf",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032845,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: patient with PSC, dominant stricture at hepatic duct bifurcation, atypical cells suspicious for malignancy, and FISH polysomy. The question asks which additional FISH finding most strongly supports cholangiocarcinoma over reactive atypia. The keyed answer (A) is correct: homozygous deletion of 9p21 (CDKN2A/p16) is the most specific cytogenetic marker for cholangiocarcinoma in PSC, as supported by guidelines and literature. Alternatives (B–E) are less specific chromosomal abnormalities commonly seen in reactive conditions or other cancers. No logical contradictions or underspecification exist. Medical accuracy is high, aligning with current diagnostic standards. Minimal fix: none required; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1924,
+        "completion_tokens": 202,
+        "total_tokens": 2126,
+        "cost": 0.00060432,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00051948,
+          "upstream_inference_completions_cost": 8.484e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032856-gsd1cdFYvfFolEdzafF5",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032856,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: chronic diarrhea with persistent villous atrophy despite confirmed gluten-free diet and negative tTG antibodies; aberrant IEL immunophenotype (surface CD3-, cytoplasmic CD3+, CD8 loss, CD103+); monoclonal TCR rearrangement. These findings definitively diagnose type II refractory celiac disease (RCD II), a clonal pre-lymphomatous disorder. Main logical issue: None; the stem provides a classic, specific presentation for RCD II. Main medical accuracy issue: None; the keyed answer (cladribine-based chemotherapy) aligns with current guidelines as the best initial therapy to induce remission before stem cell transplant for RCD II. Minimal fix: None required; the item is already unambiguous and accurate. Alternatives are correctly inferior: steroids (A) and immunomodulators (D) are for RCD I; anti-TNF (C) and mesalamine (E) are not indicated.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1955,
+        "completion_tokens": 242,
+        "total_tokens": 2197,
+        "cost": 0.00062465,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052785,
+          "upstream_inference_completions_cost": 9.68e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130-003",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032862-lL6zjNjcjYqY7knzD5U9",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032862,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: acute kidney injury with crescents, linear IgG staining on biopsy, positive anti-GBM antibodies, and pre-existing lupus nephritis with stable serology (normal complement, stable anti-dsDNA). These findings are pathognomonic for superimposed anti-GBM disease, not a lupus flare. The item is logically valid: the unique best answer (C) is clearly supported by the combination of linear staining and positive anti-GBM serology in this clinical context. Medical accuracy is high, reflecting a rare but documented entity. The rationale correctly notes the need for plasmapheresis. A minimal fix is not required, but specifying the absence of ANCA serology could preempt option D, though the linear staining pattern already strongly favors anti-GBM disease.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1978,
+        "completion_tokens": 209,
+        "total_tokens": 2187,
+        "cost": 0.00062184,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053406,
+          "upstream_inference_completions_cost": 8.778e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130-004",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032867-XPYHZoXsYdeNO0Pr4vs6",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032867,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. The keyed answer (A) is not the most defensible best answer. The stem describes late graft failure (day +45) with pancytopenia, hypocellular marrow, 100% donor chimerism, and no infection. The most likely mechanism in this classic presentation is drug-induced marrow suppression from valganciclovir (E), a well-known cause of late cytopenias post-transplant, especially with the given cell counts. Option A (donor-derived clonal hematopoiesis) is a rare, speculative cause not supported by the stem's lack of dysplastic or clonal findings. The rationale incorrectly dismisses drug toxicity. Main logical issue: The key does not match the single best answer supported by standard transplant knowledge. Minimal fix: Change the key to E (Drug-induced marrow suppression from valganciclovir prophylaxis) and adjust the rationale accordingly.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"2\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1988,
+        "completion_tokens": 235,
+        "total_tokens": 2223,
+        "cost": 0.00063546,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053676,
+          "upstream_inference_completions_cost": 9.87e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130-005",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032873-qjZDbeRT7oWUR6Z8i8Tu",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032885,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: recurrent sinopulmonary infections, chronic diarrhea, splenomegaly, low IgG, low IgA, elevated IgM, absent isohemagglutinins, normal B-cell numbers but absent CD27+ memory B cells, hemizygous CD40LG mutation, X-linked inheritance pattern. These findings definitively diagnose X-linked hyper-IgM syndrome type 1 (HIGM1). The question asks for the 'most unexpected' finding. In HIGM1, defective CD40L-CD40 interaction prevents germinal center formation, making option C (Germinal center formation) the expected finding to be absent, not unexpected. The keyed answer (C) is therefore the opposite of correct. Options A, B, D, and E are all well-documented complications and would be expected. The unique best answer is not C. Main logical issue: The key does not match the single best answer defensible from the vignette. Main medical accuracy: The pathophysiological association is accurate, but the key is inverted. Minimal fix: Change the key to any option other than C (e.g., a finding not associated with HIGM1) or rephrase the stem to ask for the 'most expected' finding.\",\n  \"medical_accuracy_score\":  \"4\",\n  \"logical_validity\": false,\n  \"logical_false_reason\": \"K\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1934,
+        "completion_tokens": 315,
+        "total_tokens": 2249,
+        "cost": 0.00064818,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052218,
+          "upstream_inference_completions_cost": 0.000126
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130-006",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032899-IFiz0rbmcGG8ukdsMqXv",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032912,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: HIV with CD4 45, disseminated histoplasmosis on liposomal amphotericin B, day 3 of treatment, high fever/hypotension/worsening respiratory status, negative blood cultures, improving fungal markers. This temporal pattern of clinical deterioration despite microbiologic improvement is classic for unmasking IRIS. Main logical issue: None; the vignette provides sufficient detail to uniquely identify IRIS as the cause and corticosteroid initiation as the most appropriate intervention. Main medical accuracy issue: None; the diagnosis and management align with IDSA guidelines. Minimal fix: None required; the item is well-constructed. Alternative rationales are weaker: A (resistance is rare and markers are improving), C (toxicity typically presents differently and markers are improving), D (cultures are negative), E (ART timing is a secondary concern after managing acute IRIS).\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1982,
+        "completion_tokens": 237,
+        "total_tokens": 2219,
+        "cost": 0.00150808,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00110992,
+          "upstream_inference_completions_cost": 0.00039816
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130-007",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032916-DSpPz7ZBq25vPEh5Toup",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032916,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: patient had drug-induced ILD, improved after discontinuation/steroids, now has progression. The question asks which factor most strongly supports rechallenge. Guidelines indicate rechallenge may be considered only for Grade 1 ILD with complete resolution, making A the unique best answer. Options B, C, D, and E are not established predictors of safe rechallenge. The item is logically valid and medically accurate, aligning with consensus management. No contradictions or underspecification. Minimal fix: none required; item is clear and defensible.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1955,
+        "completion_tokens": 165,
+        "total_tokens": 2120,
+        "cost": 0.00059715,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052785,
+          "upstream_inference_completions_cost": 6.93e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130-008",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032920-jRJf5I2HPwSrn5WiZRIv",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032932,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: history of chronic rhinosinusitis, nasal polyps, asthma, and severe respiratory reactions to NSAIDs (aspirin/ibuprofen) defines aspirin-exacerbated respiratory disease (AERD). During an aspirin desensitization reaction, the pathophysiologic hallmark is overproduction of cysteinyl leukotrienes. Main logical issue: None; the vignette is specific and consistent. Main medical accuracy issue: None; the association of urinary LTE4 elevation with AERD reactions is well-established. Minimal fix: No fix needed; the item is clear, accurate, and supports a single best answer.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1964,
+        "completion_tokens": 185,
+        "total_tokens": 2149,
+        "cost": 0.00060428,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053028,
+          "upstream_inference_completions_cost": 7.4e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130-009",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032937-aWsJP9XqAZBH0fIsNWoy",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032937,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: acute agitation in elderly dementia patient, recent low-dose haloperidol initiation, followed by classic NMS tetrad (fever, severe rigidity, autonomic instability, altered consciousness) with marked CK elevation. The presentation is textbook for neuroleptic malignant syndrome (NMS) from dopamine D2 blockade. Main logical issue: None; the vignette uniquely supports NMS. Main medical accuracy issue: Minor—while NMS risk is elevated in dementia, the provided explanation overstates the specific risk from donepezil interaction. Minimal fix: Clarify that haloperidol is the sole proximate cause; remove speculative interaction language from rationale to avoid overcomplication.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1963,
+        "completion_tokens": 194,
+        "total_tokens": 2157,
+        "cost": 0.00061149,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053001,
+          "upstream_inference_completions_cost": 8.148e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130-010",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032942-x0k4C75yV8wfcc4URyzz",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032942,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: post-liver transplant HCC recurrence, currently on tacrolimus + mycophenolate, question asks for evidence-supported immunosuppression modification for managing recurrence. The stem clearly establishes a scenario of HCC recurrence after transplant, directing focus to immunosuppression strategies with antitumor effects. Sirolimus (mTOR inhibitor) is uniquely supported by evidence for this specific context due to its antiproliferative properties. Alternatives lack comparable evidence: cyclosporine is another calcineurin inhibitor without proven benefit; belatacept/azathioprine lack specific antitumor data; discontinuation risks rejection. No internal contradictions or missing critical details. Medical accuracy is sound, aligning with transplant oncology guidelines. Minimal fix: none required; item is logically valid and medically accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1933,
+        "completion_tokens": 211,
+        "total_tokens": 2144,
+        "cost": 0.00061053,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052191,
+          "upstream_inference_completions_cost": 8.862e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130-011",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032947-Qo3a123Nf0DUuN65bYJh",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032947,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: chronic atrophic gastritis with intestinal metaplasia on biopsy, negative anti-intrinsic factor antibodies, no H. pylori, no gastric surgery, and low B12 with macrocytic anemia. The question asks for the finding most strongly suggesting autoimmune etiology despite negative anti-IF antibodies. Low pepsinogen I with normal pepsinogen II is a specific marker for corpus-predominant atrophic gastritis, aligning with autoimmune gastritis. Other options are less specific (anti-parietal cell antibodies), consequences rather than diagnostic (elevated gastrin, ECL hyperplasia), or irrelevant (ASCA). No logical contradictions or missing critical details; the key is uniquely defensible. Medical accuracy is sound. Minimal fix: none required.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2007,
+        "completion_tokens": 208,
+        "total_tokens": 2215,
+        "cost": 0.00062509,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00054189,
+          "upstream_inference_completions_cost": 8.32e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130-012",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032951-EM8Rnjy1Y9o3yaGeJvK4",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032951,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. The keyed answer (C) is plausible but not uniquely best. The stem describes a patient with IgA nephropathy treated with NEFECON, showing reduced proteinuria, stabilized eGFR, and decreased mesangial IgA deposits and hypercellularity on biopsy. The question asks for the mechanism best explaining the therapeutic effect. While C (targeted delivery to Peyer's patches reducing mucosal IgA production) is a known proposed mechanism for NEFECON, option A (systemic immunosuppression reducing circulating galactose-deficient IgA1) is also strongly defensible. Budesonide, even with targeted release and high first-pass metabolism, has some systemic bioavailability and glucocorticoid effects that could reduce pathogenic IgA1. The biopsy findings of reduced deposits and hypercellularity are consistent with both reduced IgA production (C) and systemic immunosuppressive effects (A). The item is underspecified (U) in not providing data to distinguish between local mucosal vs. systemic mechanisms, leading to multiple defensible answers (M). Minimal fix: Revise the stem to include a specific finding that rules out systemic effects, e.g., 'Serum cortisol and lymphocyte counts remain normal, and plasma Gd-IgA1 levels are unchanged.'\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1936,
+        "completion_tokens": 301,
+        "total_tokens": 2237,
+        "cost": 0.00064914,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052272,
+          "upstream_inference_completions_cost": 0.00012642
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130-013",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032957-dHAZ0L6glvitwRRK85AI",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032957,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: JAK2+ PV, hydroxyurea history, progressive splenomegaly, worsening anemia, 8% blasts in marrow, grade 3 fibrosis, high-risk cytogenetics (del5q, +8), and new TP53 mutation. The stem describes post-PV myelofibrosis with 8% blasts, which is <10% and thus chronic phase, not accelerated phase (10-19% blasts). The keyed answer (C) incorrectly labels this as accelerated phase. A unique best answer exists: the scenario best fits high-risk myelofibrosis (not AML, not accelerated phase), making ruxolitinib (option A) the standard initial management for symptomatic myelofibrosis, though it does not improve survival in blast phase. The item's logic fails because it misclassifies the disease phase. Main medical issue: misapplication of blast percentage thresholds. Minimal fix: Change the marrow blast percentage in the stem to ≥10% to correctly define accelerated phase, making option C defensible.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1967,
+        "completion_tokens": 271,
+        "total_tokens": 2238,
+        "cost": 0.00064491,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053109,
+          "upstream_inference_completions_cost": 0.00011382
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130-014",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032963-qNtwQpIzHdwVIm5RLUV9",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032963,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: autosomal dominant inheritance (affected daughter), hypogammaglobulinemia with poor vaccine response, normal B-cell numbers, and NFKB1 mutation—all classic for CVID due to NFKB1 haploinsufficiency. The question asks for the most characteristic additional manifestation, which is autoimmune cytopenias/lymphoproliferation (B), well-established in this genetic defect. No logical issues: the vignette is specific, options are distinct disorders. Medical accuracy is high, aligning with current literature. Minimal fix: none needed; item is clear and accurate.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1929,
+        "completion_tokens": 174,
+        "total_tokens": 2103,
+        "cost": 0.00059043,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052083,
+          "upstream_inference_completions_cost": 6.96e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130-015",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032969-PZZyywl35FqXRzjwqazl",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032969,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: rural Peru origin, progressive dysphagia/regurgitation, 'bird's beak' esophagus, absent peristalsis, positive T. cruzi serology, dilated left ventricle with apical aneurysm. These findings are classic for chronic Chagas disease. The pathophysiology question is correctly answered by autoimmune destruction (B), which is the established mechanism for chronic Chagas cardiomyopathy and megaesophagus, not direct parasitic invasion. No logical issues; the stem provides all necessary details. Medical accuracy is high. Minimal fix: None required; the item is clear, accurate, and well-constructed.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1939,
+        "completion_tokens": 179,
+        "total_tokens": 2118,
+        "cost": 0.00059871,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052353,
+          "upstream_inference_completions_cost": 7.518e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130-016",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032974-Zju6DTHSLjPm482xHbsd",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032974,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: metastatic BRAF V600E melanoma progressing on BRAF/MEK inhibitors, now on pembrolizumab (anti-PD-1) with mixed response; a single progressing liver lesion biopsied shows loss of β2-microglobulin expression. This specific molecular finding directly points to a defect in MHC class I antigen presentation, as β2-microglobulin is required for MHC I surface expression. The other options (A, C, D, E) describe plausible resistance mechanisms but are not directly supported by the biopsy result. No logical contradictions or missing critical details. Medical accuracy is high. Minimal fix: None required; the item is already clear and accurate.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1939,
+        "completion_tokens": 194,
+        "total_tokens": 2133,
+        "cost": 0.00060113,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052353,
+          "upstream_inference_completions_cost": 7.76e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130-017",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032989-ciON2QgDEixk3lhXrX5s",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032989,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: The patient has recurrent anaphylaxis, elevated acute tryptase (28 ng/mL), and bone marrow findings of atypical CD25+ mast cells with KIT D816V mutation. According to WHO criteria for systemic mastocytosis, the major criterion is multifocal dense mast cell aggregates (>15 mast cells) in bone marrow or extracutaneous tissue, and minor criteria include atypical mast cell morphology, KIT D816V mutation, CD25 expression, and baseline tryptase >20 ng/mL. The stem states bone marrow biopsy shows 'scattered atypical mast cells expressing CD25' but does NOT confirm dense aggregates. Thus, the patient currently meets two minor criteria (CD25+ mast cells and KIT mutation) but not the major criterion or a third minor criterion. Option E (multifocal dense aggregates) would confirm the diagnosis, but it is not stated as present; it is a hypothetical finding. The keyed answer (E) is not supported by the vignette—no finding confirms diagnosis yet. The unique best answer from the given data is that no option confirms it, but if forced to choose based on criteria, option B or C are already met and do not alone confirm; E is the missing criterion. However, the question asks 'Which diagnostic criterion confirms...?' implying a criterion that, if present, would confirm. Since the vignette does not report E as present, the key is miskeyed. Main logical issue: The key selects an unconfirmed finding. Main medical accuracy: Minor issue—criteria are correctly stated, but the framing is confusing. Minimal fix: Change stem to 'Which finding from her evaluation confirms systemic mastocytosis?' and specify in vignette that bone marrow shows 'multifocal dense aggregates of >15 mast cells' to match key E.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \t\n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2006,
+        "completion_tokens": 430,
+        "total_tokens": 2436,
+        "cost": 0.00184576,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00112336,
+          "upstream_inference_completions_cost": 0.0007224
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed130-018",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766032997-dyAzrju4xi4BUq3atZ0i",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766032997,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: HFpEF patient post-ADHF, CKD 3b, diabetes, on GDMT (ACEi, beta-blocker, SGLT2i, diuretic), eGFR 38, K+ 4.8. The question asks for the adjustment most strongly supported by evidence to reduce mortality. The keyed answer (A, spironolactone) is not the single best answer. For HFpEF, the strongest mortality evidence supports an SGLT2 inhibitor (empagliflozin, already present) based on EMPEROR-Preserved and DELIVER trials. Spironolactone (TOPCAT) primarily showed benefit for reducing heart failure hospitalizations, not a clear mortality benefit, and its evidence is less robust than SGLT2i. Finerenone (D) has mortality benefit in diabetic CKD but not specifically established for HFpEF mortality. Continuing current regimen (E) is a strong contender given the patient is already on foundational, evidence-based therapy. This creates a defensible argument for E, making A miskeyed. Main logical issue: Key mismatch. Main medical accuracy issue: Overstates mortality evidence for spironolactone in HFpEF. Minimal fix: Change the key to E (Continue current regimen) or, to make A best, rephrase the stem to ask for the best medication to add to reduce heart failure hospitalizations.\",\n  \"medical_accuracy_score\":  \"3\",\n  \"logical_validity\": false,\n  \"logical_false_reason\": \"K\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2031,
+        "completion_tokens": 352,
+        "total_tokens": 2383,
+        "cost": 0.00068917,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00054837,
+          "upstream_inference_completions_cost": 0.0001408
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

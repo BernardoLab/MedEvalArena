@@ -1,0 +1,66 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/dbernardo/Documents/pyres/MedEvalArena/quizbench/run_eval.py", line 220, in <module>
+    main()
+  File "/home/dbernardo/Documents/pyres/MedEvalArena/quizbench/run_eval.py", line 197, in main
+    run_dir = run(eval_cmd)
+              ^^^^^^^^^^^^^
+  File "/home/dbernardo/Documents/pyres/MedEvalArena/quizbench/run_eval.py", line 14, in run
+    p = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dbernardo/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dbernardo/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dbernardo/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/subprocess.py", line 2115, in _communicate
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dbernardo/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+[INFO] Evaluating 5 quizzes with model 'gpt-5.1-2025-11-13'
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_kimi-k2-thinking_p01 path=quizzes/quizzes_ABMS20260101/kimi-k2-thinking/ABMS20260101_kimi-k2-thinking_p01.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_kimi-k2-thinking_p01, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/kimi-k2-thinking/ABMS20260101_kimi-k2-thinking_p01/ABMS20260101_kimi-k2-thinking_p01_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-SvZoyQf8UWpy8ZiV7DP7fA
+Created batch with id: batch_694f74cad52c81909d02431c990be8eb
+Initial batch status: validating
+Batch batch_694f74cad52c81909d02431c990be8eb status: validating. Sleeping 60s...
+Batch batch_694f74cad52c81909d02431c990be8eb status: in_progress. Sleeping 60s...
+Batch batch_694f74cad52c81909d02431c990be8eb reached terminal status: completed
+Downloading batch file: file-W8WfUagsoeLPTNouGswCmY
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/kimi-k2-thinking/ABMS20260101_kimi-k2-thinking_p01
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_kimi-k2-thinking_p02 path=quizzes/quizzes_ABMS20260101/kimi-k2-thinking/ABMS20260101_kimi-k2-thinking_p02.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_kimi-k2-thinking_p02, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/kimi-k2-thinking/ABMS20260101_kimi-k2-thinking_p02/ABMS20260101_kimi-k2-thinking_p02_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-B9mNJudL7AxBMwqqwpWmJY
+Created batch with id: batch_694f7545ba5881909818c0482e521950
+Initial batch status: validating
+Batch batch_694f7545ba5881909818c0482e521950 status: validating. Sleeping 60s...
+Batch batch_694f7545ba5881909818c0482e521950 status: in_progress. Sleeping 60s...
+Batch batch_694f7545ba5881909818c0482e521950 reached terminal status: completed
+Downloading batch file: file-TzUzRbQaTLwmzP3rV7KGsH
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/kimi-k2-thinking/ABMS20260101_kimi-k2-thinking_p02
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_kimi-k2-thinking_p03 path=quizzes/quizzes_ABMS20260101/kimi-k2-thinking/ABMS20260101_kimi-k2-thinking_p03.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_kimi-k2-thinking_p03, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/kimi-k2-thinking/ABMS20260101_kimi-k2-thinking_p03/ABMS20260101_kimi-k2-thinking_p03_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-2NqwZ76awooi9aBkgB42ma
+Created batch with id: batch_694f75c08fb0819081c0a91fab74423a
+Initial batch status: validating
+Batch batch_694f75c08fb0819081c0a91fab74423a status: validating. Sleeping 60s...
+Batch batch_694f75c08fb0819081c0a91fab74423a status: in_progress. Sleeping 60s...
+Batch batch_694f75c08fb0819081c0a91fab74423a reached terminal status: completed
+Downloading batch file: file-DiuCSEmuKhp8FcjGHkzopC
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/kimi-k2-thinking/ABMS20260101_kimi-k2-thinking_p03
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_kimi-k2-thinking_p04 path=quizzes/quizzes_ABMS20260101/kimi-k2-thinking/ABMS20260101_kimi-k2-thinking_p04.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_kimi-k2-thinking_p04, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/kimi-k2-thinking/ABMS20260101_kimi-k2-thinking_p04/ABMS20260101_kimi-k2-thinking_p04_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-H6wy7UbUsk13ggK6BGHXnJ
+Created batch with id: batch_694f763b670c8190b162b01292703f70
+Initial batch status: validating
+Batch batch_694f763b670c8190b162b01292703f70 status: validating. Sleeping 60s...
+Batch batch_694f763b670c8190b162b01292703f70 status: in_progress. Sleeping 60s...
+Batch batch_694f763b670c8190b162b01292703f70 reached terminal status: completed
+Downloading batch file: file-3DofpChxy4xGAiA1aR3PYY
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/kimi-k2-thinking/ABMS20260101_kimi-k2-thinking_p04
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_kimi-k2-thinking_p05 path=quizzes/quizzes_ABMS20260101/kimi-k2-thinking/ABMS20260101_kimi-k2-thinking_p05.jsonl

@@ -1,0 +1,49 @@
+[
+  {
+    "quiz_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed131-001",
+    "question_id": "20251218T014545383Z_claude-opus-4-5-20251101_seed131-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766057679-heTptQCznJVBEnZuwI2c",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766057679,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: acquired hemophilia A (AHA) with factor VIII inhibitor (Bethesda titer 4.2 BU/mL) on emicizumab, development of acute pulmonary embolism (PE) while on emicizumab, persistent inhibitor (3.8 BU/mL), and ongoing emicizumab activity (chromogenic assays). The unique best answer is driven by the critical need to stop the thrombogenic emicizumab before initiating therapeutic anticoagulation for PE, while also intensifying immunosuppression for the unresolved inhibitor. Main logical issue: None; the vignette provides sufficient detail to discriminate. Main medical accuracy issue: Minor nuance—while stopping emicizumab and anticoagulating is standard, the specific choice of low molecular weight heparin (LMWH) over other anticoagulants in AHA with an inhibitor is guideline-consistent but not universally mandated; however, LMWH is a reasonable best choice given the unreliable aPTT. Minimal fix: Explicitly state that emicizumab must be discontinued prior to anticoagulation to reinforce the key point, though the current stem supports it.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2456,
+        "completion_tokens": 273,
+        "total_tokens": 2729,
+        "cost": 0.001834,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00137536,
+          "upstream_inference_completions_cost": 0.00045864
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,1 @@
+{"model": "gpt-5-nano-2025-08-07", "created_at": "2026-01-01T16:12:21Z", "total_corr": 10, "total_wrong": 0, "acc": 1.0, "n_items": 10, "batch_input_file": "ABMS20260101_gemini-3-pro-preview_p05_gpt-5-nano-2025-08-07_batch_input.jsonl", "batch_id": "batch_69569c2fdf98819082d9429e52cce126", "used_batch_api": true}

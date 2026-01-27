@@ -1,0 +1,213 @@
+generator_model,raw_generator_model,quiz_id,answer_model,question_id,topic,gold,pred
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p01,kimi-k2-thinking,ABMS20260101_claude-opus-4-5-20251101_p01-004,Anesthesiology,C,B
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p01,kimi-k2-thinking,ABMS20260101_claude-opus-4-5-20251101_p01-007,Ophthalmology,E,B
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p01,gpt-5.1-2025-11-13,ABMS20260101_claude-opus-4-5-20251101_p01-006,General Surgery,B,A
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p01,gpt-5.1-2025-11-13,ABMS20260101_claude-opus-4-5-20251101_p01-007,Ophthalmology,E,B
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p01,gemini-3-pro-preview,ABMS20260101_claude-opus-4-5-20251101_p01-004,Anesthesiology,C,A
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p01,gemini-3-pro-preview,ABMS20260101_claude-opus-4-5-20251101_p01-007,Ophthalmology,E,B
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p01,grok-4-0709,ABMS20260101_claude-opus-4-5-20251101_p01-004,Anesthesiology,C,A
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p01,grok-4-0709,ABMS20260101_claude-opus-4-5-20251101_p01-007,Ophthalmology,E,D
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p01,deepseek-v3.2,ABMS20260101_claude-opus-4-5-20251101_p01-004,Anesthesiology,C,
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p01,deepseek-v3.2,ABMS20260101_claude-opus-4-5-20251101_p01-007,Ophthalmology,E,B
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p02,kimi-k2-thinking,ABMS20260101_claude-opus-4-5-20251101_p02-004,Physical Medicine and Rehabilitation,C,D
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p02,kimi-k2-thinking,ABMS20260101_claude-opus-4-5-20251101_p02-009,Vascular Surgery,B,D
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p02,gpt-5.1-2025-11-13,ABMS20260101_claude-opus-4-5-20251101_p02-004,Physical Medicine and Rehabilitation,C,D
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p02,gpt-5.1-2025-11-13,ABMS20260101_claude-opus-4-5-20251101_p02-008,Thoracic Surgery,B,E
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p02,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p02-004,Physical Medicine and Rehabilitation,C,D
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p02,gemini-3-pro-preview,ABMS20260101_claude-opus-4-5-20251101_p02-005,Plastic Surgery,B,A
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p02,gemini-3-pro-preview,ABMS20260101_claude-opus-4-5-20251101_p02-009,Vascular Surgery,B,A
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p02,grok-4-0709,ABMS20260101_claude-opus-4-5-20251101_p02-004,Physical Medicine and Rehabilitation,C,D
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p02,grok-4-0709,ABMS20260101_claude-opus-4-5-20251101_p02-010,Cardiovascular,C,E
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p02,deepseek-v3.2,ABMS20260101_claude-opus-4-5-20251101_p02-004,Physical Medicine and Rehabilitation,C,D
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p03,kimi-k2-thinking,ABMS20260101_claude-opus-4-5-20251101_p03-003,Pulmonary,D,A
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p03,kimi-k2-thinking,ABMS20260101_claude-opus-4-5-20251101_p03-005,Hematology,C,
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p03,gpt-5.1-2025-11-13,ABMS20260101_claude-opus-4-5-20251101_p03-003,Pulmonary,D,C
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p03,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p03-008,Infectious Disease,B,E
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p03,gemini-3-pro-preview,ABMS20260101_claude-opus-4-5-20251101_p03-003,Pulmonary,D,A
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p03,gemini-3-pro-preview,ABMS20260101_claude-opus-4-5-20251101_p03-005,Hematology,C,D
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p03,grok-4-0709,ABMS20260101_claude-opus-4-5-20251101_p03-003,Pulmonary,D,A
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p03,deepseek-v3.2,ABMS20260101_claude-opus-4-5-20251101_p03-003,Pulmonary,D,B
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p04,kimi-k2-thinking,ABMS20260101_claude-opus-4-5-20251101_p04-004,Obstetrics and Gynecology,B,E
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p04,kimi-k2-thinking,ABMS20260101_claude-opus-4-5-20251101_p04-009,Cardiovascular,D,
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p04,kimi-k2-thinking,ABMS20260101_claude-opus-4-5-20251101_p04-010,Endocrine,D,A
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p04,gpt-5.1-2025-11-13,ABMS20260101_claude-opus-4-5-20251101_p04-003,Emergency Medicine,E,D
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p04,grok-4-0709,ABMS20260101_claude-opus-4-5-20251101_p04-003,Emergency Medicine,E,D
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p04,grok-4-0709,ABMS20260101_claude-opus-4-5-20251101_p04-006,Psychiatry,C,D
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p04,grok-4-0709,ABMS20260101_claude-opus-4-5-20251101_p04-010,Endocrine,D,A
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p04,deepseek-v3.2,ABMS20260101_claude-opus-4-5-20251101_p04-004,Obstetrics and Gynecology,B,E
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p04,deepseek-v3.2,ABMS20260101_claude-opus-4-5-20251101_p04-006,Psychiatry,C,D
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p04,deepseek-v3.2,ABMS20260101_claude-opus-4-5-20251101_p04-010,Endocrine,D,A
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p05,kimi-k2-thinking,ABMS20260101_claude-opus-4-5-20251101_p05-007,Psychiatry,D,B
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p05,kimi-k2-thinking,ABMS20260101_claude-opus-4-5-20251101_p05-008,Neurology,C,B
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p05,gpt-5.1-2025-11-13,ABMS20260101_claude-opus-4-5-20251101_p05-007,Psychiatry,D,B
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p05,gpt-5.1-2025-11-13,ABMS20260101_claude-opus-4-5-20251101_p05-008,Neurology,C,B
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p05,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p05-008,Neurology,C,B
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p05,gemini-3-pro-preview,ABMS20260101_claude-opus-4-5-20251101_p05-007,Psychiatry,D,B
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p05,grok-4-0709,ABMS20260101_claude-opus-4-5-20251101_p05-008,Neurology,C,A
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p05,deepseek-v3.2,ABMS20260101_claude-opus-4-5-20251101_p05-006,Obstetrics and Gynecology,D,B
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,ABMS20260101_claude-opus-4-5-20251101_p05,deepseek-v3.2,ABMS20260101_claude-opus-4-5-20251101_p05-008,Neurology,C,A
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p01,kimi-k2-thinking,ABMS20260101_deepseek-v3.2_p01-003,Obstetrics and Gynecology,C,A
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p01,gpt-5.1-2025-11-13,ABMS20260101_deepseek-v3.2_p01-005,Psychiatry,B,A
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p01,claude-opus-4-5-20251101,ABMS20260101_deepseek-v3.2_p01-003,Obstetrics and Gynecology,C,D
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p01,gemini-3-pro-preview,ABMS20260101_deepseek-v3.2_p01-002,Emergency Medicine,C,E
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p01,gemini-3-pro-preview,ABMS20260101_deepseek-v3.2_p01-003,Obstetrics and Gynecology,C,A
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p01,grok-4-0709,ABMS20260101_deepseek-v3.2_p01-005,Psychiatry,B,A
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p01,grok-4-0709,ABMS20260101_deepseek-v3.2_p01-006,General Surgery,B,C
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p01,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p01-005,Psychiatry,B,A
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p02,kimi-k2-thinking,ABMS20260101_deepseek-v3.2_p02-008,Thoracic Surgery,C,B
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p02,gpt-5.1-2025-11-13,ABMS20260101_deepseek-v3.2_p02-008,Thoracic Surgery,C,A
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p02,claude-opus-4-5-20251101,ABMS20260101_deepseek-v3.2_p02-006,Neurological Surgery,A,E
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p02,claude-opus-4-5-20251101,ABMS20260101_deepseek-v3.2_p02-008,Thoracic Surgery,C,D
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p02,gemini-3-pro-preview,ABMS20260101_deepseek-v3.2_p02-004,Physical Medicine and Rehabilitation,A,B
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p02,gemini-3-pro-preview,ABMS20260101_deepseek-v3.2_p02-008,Thoracic Surgery,C,B
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p02,gemini-3-pro-preview,ABMS20260101_deepseek-v3.2_p02-009,Vascular Surgery,D,A
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p02,grok-4-0709,ABMS20260101_deepseek-v3.2_p02-006,Neurological Surgery,A,E
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p02,grok-4-0709,ABMS20260101_deepseek-v3.2_p02-008,Thoracic Surgery,C,B
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p02,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p02-004,Physical Medicine and Rehabilitation,A,E
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p02,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p02-006,Neurological Surgery,A,C
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p02,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p02-008,Thoracic Surgery,C,B
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p03,kimi-k2-thinking,ABMS20260101_deepseek-v3.2_p03-003,Pulmonary,B,A
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p03,gpt-5.1-2025-11-13,ABMS20260101_deepseek-v3.2_p03-002,Gastrointestinal,B,C
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p03,claude-opus-4-5-20251101,ABMS20260101_deepseek-v3.2_p03-003,Pulmonary,B,C
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p03,gemini-3-pro-preview,ABMS20260101_deepseek-v3.2_p03-002,Gastrointestinal,B,A
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p03,gemini-3-pro-preview,ABMS20260101_deepseek-v3.2_p03-003,Pulmonary,B,A
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p03,grok-4-0709,ABMS20260101_deepseek-v3.2_p03-003,Pulmonary,B,A
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p03,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p03-003,Pulmonary,B,C
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p04,kimi-k2-thinking,ABMS20260101_deepseek-v3.2_p04-002,Pediatrics,C,A
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p04,gpt-5.1-2025-11-13,ABMS20260101_deepseek-v3.2_p04-002,Pediatrics,C,E
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p04,gemini-3-pro-preview,ABMS20260101_deepseek-v3.2_p04-002,Pediatrics,C,A
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p04,grok-4-0709,ABMS20260101_deepseek-v3.2_p04-007,General Surgery,D,C
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p05,kimi-k2-thinking,ABMS20260101_deepseek-v3.2_p05-003,Infectious Disease,A,D
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p05,kimi-k2-thinking,ABMS20260101_deepseek-v3.2_p05-004,Pediatrics,A,B
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p05,gpt-5.1-2025-11-13,ABMS20260101_deepseek-v3.2_p05-003,Infectious Disease,A,D
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p05,claude-opus-4-5-20251101,ABMS20260101_deepseek-v3.2_p05-003,Infectious Disease,A,D
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p05,gemini-3-pro-preview,ABMS20260101_deepseek-v3.2_p05-002,Pulmonary,A,
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p05,gemini-3-pro-preview,ABMS20260101_deepseek-v3.2_p05-003,Infectious Disease,A,D
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p05,gemini-3-pro-preview,ABMS20260101_deepseek-v3.2_p05-009,Pediatrics,E,A
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p05,gemini-3-pro-preview,ABMS20260101_deepseek-v3.2_p05-010,Pediatrics,B,C
+deepseek-v3.2,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p05,deepseek-v3.2,ABMS20260101_deepseek-v3.2_p05-008,Neurology,E,C
+gemini-3-pro-preview,gemini-3-pro-preview,ABMS20260101_gemini-3-pro-preview_p01,deepseek-v3.2,ABMS20260101_gemini-3-pro-preview_p01-002,Emergency Medicine,B,A
+gemini-3-pro-preview,gemini-3-pro-preview,ABMS20260101_gemini-3-pro-preview_p02,kimi-k2-thinking,ABMS20260101_gemini-3-pro-preview_p02-007,Radiation Oncology,B,A
+gemini-3-pro-preview,gemini-3-pro-preview,ABMS20260101_gemini-3-pro-preview_p02,kimi-k2-thinking,ABMS20260101_gemini-3-pro-preview_p02-009,Vascular Surgery,C,A
+gemini-3-pro-preview,gemini-3-pro-preview,ABMS20260101_gemini-3-pro-preview_p02,gpt-5.1-2025-11-13,ABMS20260101_gemini-3-pro-preview_p02-007,Radiation Oncology,B,A
+gemini-3-pro-preview,gemini-3-pro-preview,ABMS20260101_gemini-3-pro-preview_p02,gpt-5.1-2025-11-13,ABMS20260101_gemini-3-pro-preview_p02-009,Vascular Surgery,C,B
+gemini-3-pro-preview,gemini-3-pro-preview,ABMS20260101_gemini-3-pro-preview_p02,claude-opus-4-5-20251101,ABMS20260101_gemini-3-pro-preview_p02-007,Radiation Oncology,B,A
+gemini-3-pro-preview,gemini-3-pro-preview,ABMS20260101_gemini-3-pro-preview_p02,gemini-3-pro-preview,ABMS20260101_gemini-3-pro-preview_p02-009,Vascular Surgery,C,B
+gemini-3-pro-preview,gemini-3-pro-preview,ABMS20260101_gemini-3-pro-preview_p02,grok-4-0709,ABMS20260101_gemini-3-pro-preview_p02-007,Radiation Oncology,B,A
+gemini-3-pro-preview,gemini-3-pro-preview,ABMS20260101_gemini-3-pro-preview_p02,deepseek-v3.2,ABMS20260101_gemini-3-pro-preview_p02-007,Radiation Oncology,B,A
+gemini-3-pro-preview,gemini-3-pro-preview,ABMS20260101_gemini-3-pro-preview_p03,kimi-k2-thinking,ABMS20260101_gemini-3-pro-preview_p03-005,Hematology,B,A
+gemini-3-pro-preview,gemini-3-pro-preview,ABMS20260101_gemini-3-pro-preview_p03,gpt-5.1-2025-11-13,ABMS20260101_gemini-3-pro-preview_p03-005,Hematology,B,A
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p01,kimi-k2-thinking,ABMS20260101_gpt-5.1-2025-11-13_p01-010,Neurology,B,D
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p01,gemini-3-pro-preview,ABMS20260101_gpt-5.1-2025-11-13_p01-010,Neurology,B,A
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p01,grok-4-0709,ABMS20260101_gpt-5.1-2025-11-13_p01-001,Pediatrics,A,B
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p01,deepseek-v3.2,ABMS20260101_gpt-5.1-2025-11-13_p01-006,General Surgery,A,D
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p01,deepseek-v3.2,ABMS20260101_gpt-5.1-2025-11-13_p01-010,Neurology,B,D
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p02,kimi-k2-thinking,ABMS20260101_gpt-5.1-2025-11-13_p02-005,Plastic Surgery,C,
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p02,kimi-k2-thinking,ABMS20260101_gpt-5.1-2025-11-13_p02-009,Vascular Surgery,E,B
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p02,kimi-k2-thinking,ABMS20260101_gpt-5.1-2025-11-13_p02-010,Cardiovascular,B,C
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p02,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p02-001,Dermatology,B,D
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p02,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p02-009,Vascular Surgery,E,B
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p02,claude-opus-4-5-20251101,ABMS20260101_gpt-5.1-2025-11-13_p02-010,Cardiovascular,B,C
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p02,gemini-3-pro-preview,ABMS20260101_gpt-5.1-2025-11-13_p02-001,Dermatology,B,D
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p02,gemini-3-pro-preview,ABMS20260101_gpt-5.1-2025-11-13_p02-006,Neurological Surgery,A,B
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p02,gemini-3-pro-preview,ABMS20260101_gpt-5.1-2025-11-13_p02-009,Vascular Surgery,E,B
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p02,grok-4-0709,ABMS20260101_gpt-5.1-2025-11-13_p02-006,Neurological Surgery,A,E
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p02,grok-4-0709,ABMS20260101_gpt-5.1-2025-11-13_p02-007,Radiation Oncology,A,D
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p02,grok-4-0709,ABMS20260101_gpt-5.1-2025-11-13_p02-009,Vascular Surgery,E,B
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p02,deepseek-v3.2,ABMS20260101_gpt-5.1-2025-11-13_p02-006,Neurological Surgery,A,B
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p02,deepseek-v3.2,ABMS20260101_gpt-5.1-2025-11-13_p02-007,Radiation Oncology,A,D
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p02,deepseek-v3.2,ABMS20260101_gpt-5.1-2025-11-13_p02-009,Vascular Surgery,E,B
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p03,kimi-k2-thinking,ABMS20260101_gpt-5.1-2025-11-13_p03-001,Endocrine,A,C
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p03,kimi-k2-thinking,ABMS20260101_gpt-5.1-2025-11-13_p03-008,Infectious Disease,C,
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p03,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p03-006,Immunology,C,E
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p03,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p03-009,Medical Oncology,C,B
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p03,claude-opus-4-5-20251101,ABMS20260101_gpt-5.1-2025-11-13_p03-008,Infectious Disease,C,A
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p03,gemini-3-pro-preview,ABMS20260101_gpt-5.1-2025-11-13_p03-006,Immunology,C,E
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p03,gemini-3-pro-preview,ABMS20260101_gpt-5.1-2025-11-13_p03-008,Infectious Disease,C,E
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p03,grok-4-0709,ABMS20260101_gpt-5.1-2025-11-13_p03-001,Endocrine,A,C
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p03,grok-4-0709,ABMS20260101_gpt-5.1-2025-11-13_p03-008,Infectious Disease,C,E
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p03,deepseek-v3.2,ABMS20260101_gpt-5.1-2025-11-13_p03-008,Infectious Disease,C,E
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p04,kimi-k2-thinking,ABMS20260101_gpt-5.1-2025-11-13_p04-004,Obstetrics and Gynecology,B,C
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p04,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p04-004,Obstetrics and Gynecology,B,C
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p04,gemini-3-pro-preview,ABMS20260101_gpt-5.1-2025-11-13_p04-004,Obstetrics and Gynecology,B,C
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p04,grok-4-0709,ABMS20260101_gpt-5.1-2025-11-13_p04-010,Endocrine,D,C
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p04,deepseek-v3.2,ABMS20260101_gpt-5.1-2025-11-13_p04-010,Endocrine,D,C
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p05,kimi-k2-thinking,ABMS20260101_gpt-5.1-2025-11-13_p05-004,Pediatrics,B,A
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p05,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p05-004,Pediatrics,B,C
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p05,claude-opus-4-5-20251101,ABMS20260101_gpt-5.1-2025-11-13_p05-003,Infectious Disease,B,C
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p05,gemini-3-pro-preview,ABMS20260101_gpt-5.1-2025-11-13_p05-004,Pediatrics,B,A
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p05,grok-4-0709,ABMS20260101_gpt-5.1-2025-11-13_p05-003,Infectious Disease,B,C
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p05,grok-4-0709,ABMS20260101_gpt-5.1-2025-11-13_p05-006,Obstetrics and Gynecology,A,E
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p05,deepseek-v3.2,ABMS20260101_gpt-5.1-2025-11-13_p05-003,Infectious Disease,B,C
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,ABMS20260101_gpt-5.1-2025-11-13_p05,deepseek-v3.2,ABMS20260101_gpt-5.1-2025-11-13_p05-004,Pediatrics,B,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p01,kimi-k2-thinking,ABMS20260101_grok-4-0709_p01-008,Orthopedic Surgery,C,B
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p01,gpt-5.1-2025-11-13,ABMS20260101_grok-4-0709_p01-001,Pediatrics,C,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p01,claude-opus-4-5-20251101,ABMS20260101_grok-4-0709_p01-001,Pediatrics,C,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p01,gemini-3-pro-preview,ABMS20260101_grok-4-0709_p01-001,Pediatrics,C,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p01,deepseek-v3.2,ABMS20260101_grok-4-0709_p01-001,Pediatrics,C,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p02,kimi-k2-thinking,ABMS20260101_grok-4-0709_p02-006,Neurological Surgery,B,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p02,gpt-5.1-2025-11-13,ABMS20260101_grok-4-0709_p02-006,Neurological Surgery,B,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p02,claude-opus-4-5-20251101,ABMS20260101_grok-4-0709_p02-006,Neurological Surgery,B,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p02,gemini-3-pro-preview,ABMS20260101_grok-4-0709_p02-006,Neurological Surgery,B,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p02,grok-4-0709,ABMS20260101_grok-4-0709_p02-001,Dermatology,A,B
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p02,grok-4-0709,ABMS20260101_grok-4-0709_p02-006,Neurological Surgery,B,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p02,deepseek-v3.2,ABMS20260101_grok-4-0709_p02-006,Neurological Surgery,B,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p03,kimi-k2-thinking,ABMS20260101_grok-4-0709_p03-004,Nephrology,D,B
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p03,gpt-5.1-2025-11-13,ABMS20260101_grok-4-0709_p03-004,Nephrology,D,B
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p03,claude-opus-4-5-20251101,ABMS20260101_grok-4-0709_p03-004,Nephrology,D,B
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p04,gpt-5.1-2025-11-13,ABMS20260101_grok-4-0709_p04-002,Pediatrics,C,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p04,gemini-3-pro-preview,ABMS20260101_grok-4-0709_p04-004,Obstetrics and Gynecology,A,D
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p04,grok-4-0709,ABMS20260101_grok-4-0709_p04-002,Pediatrics,C,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p04,grok-4-0709,ABMS20260101_grok-4-0709_p04-005,Anesthesiology,A,B
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p04,deepseek-v3.2,ABMS20260101_grok-4-0709_p04-002,Pediatrics,C,
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p05,kimi-k2-thinking,ABMS20260101_grok-4-0709_p05-001,Gastrointestinal,E,C
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p05,kimi-k2-thinking,ABMS20260101_grok-4-0709_p05-005,Emergency Medicine,B,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p05,kimi-k2-thinking,ABMS20260101_grok-4-0709_p05-009,Pediatrics,A,
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p05,gpt-5.1-2025-11-13,ABMS20260101_grok-4-0709_p05-005,Emergency Medicine,B,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p05,gpt-5.1-2025-11-13,ABMS20260101_grok-4-0709_p05-010,Pediatrics,B,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p05,claude-opus-4-5-20251101,ABMS20260101_grok-4-0709_p05-010,Pediatrics,B,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p05,gemini-3-pro-preview,ABMS20260101_grok-4-0709_p05-005,Emergency Medicine,B,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p05,gemini-3-pro-preview,ABMS20260101_grok-4-0709_p05-010,Pediatrics,B,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p05,grok-4-0709,ABMS20260101_grok-4-0709_p05-005,Emergency Medicine,B,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p05,grok-4-0709,ABMS20260101_grok-4-0709_p05-010,Pediatrics,B,A
+grok-4-0709,grok-4-0709,ABMS20260101_grok-4-0709_p05,deepseek-v3.2,ABMS20260101_grok-4-0709_p05-010,Pediatrics,B,A
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01-001,Pediatrics,B,E
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01-002,Emergency Medicine,B,A
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01-007,Ophthalmology,D,C
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01,gpt-5.1-2025-11-13,ABMS20260101_kimi-k2-thinking_p01-002,Emergency Medicine,B,A
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01,gpt-5.1-2025-11-13,ABMS20260101_kimi-k2-thinking_p01-009,Critical Care Medicine,C,A
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01,claude-opus-4-5-20251101,ABMS20260101_kimi-k2-thinking_p01-001,Pediatrics,B,C
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01,claude-opus-4-5-20251101,ABMS20260101_kimi-k2-thinking_p01-002,Emergency Medicine,B,A
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01,claude-opus-4-5-20251101,ABMS20260101_kimi-k2-thinking_p01-007,Ophthalmology,D,C
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01,claude-opus-4-5-20251101,ABMS20260101_kimi-k2-thinking_p01-008,Orthopedic Surgery,D,C
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01,gemini-3-pro-preview,ABMS20260101_kimi-k2-thinking_p01-001,Pediatrics,B,E
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01,gemini-3-pro-preview,ABMS20260101_kimi-k2-thinking_p01-002,Emergency Medicine,B,A
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01,grok-4-0709,ABMS20260101_kimi-k2-thinking_p01-001,Pediatrics,B,E
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01,grok-4-0709,ABMS20260101_kimi-k2-thinking_p01-002,Emergency Medicine,B,A
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01,grok-4-0709,ABMS20260101_kimi-k2-thinking_p01-009,Critical Care Medicine,C,D
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01,deepseek-v3.2,ABMS20260101_kimi-k2-thinking_p01-001,Pediatrics,B,C
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01,deepseek-v3.2,ABMS20260101_kimi-k2-thinking_p01-002,Emergency Medicine,B,A
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01,deepseek-v3.2,ABMS20260101_kimi-k2-thinking_p01-007,Ophthalmology,D,C
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p01,deepseek-v3.2,ABMS20260101_kimi-k2-thinking_p01-008,Orthopedic Surgery,D,C
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p02,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p02-002,Urology,B,
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p02,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p02-005,Plastic Surgery,D,E
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p02,gpt-5.1-2025-11-13,ABMS20260101_kimi-k2-thinking_p02-009,Vascular Surgery,D,C
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p02,gpt-5.1-2025-11-13,ABMS20260101_kimi-k2-thinking_p02-010,Cardiovascular,D,B
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p02,gemini-3-pro-preview,ABMS20260101_kimi-k2-thinking_p02-009,Vascular Surgery,D,B
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p02,grok-4-0709,ABMS20260101_kimi-k2-thinking_p02-010,Cardiovascular,D,B
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p03,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p03-002,Gastrointestinal,B,A
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p03,gpt-5.1-2025-11-13,ABMS20260101_kimi-k2-thinking_p03-010,Allergy/Immunology,D,C
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p03,gemini-3-pro-preview,ABMS20260101_kimi-k2-thinking_p03-002,Gastrointestinal,B,A
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p03,gemini-3-pro-preview,ABMS20260101_kimi-k2-thinking_p03-010,Allergy/Immunology,D,A
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p04,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p04-001,Geriatrics,C,A
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p04,gpt-5.1-2025-11-13,ABMS20260101_kimi-k2-thinking_p04-007,General Surgery,A,D
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p04,claude-opus-4-5-20251101,ABMS20260101_kimi-k2-thinking_p04-001,Geriatrics,C,E
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p04,claude-opus-4-5-20251101,ABMS20260101_kimi-k2-thinking_p04-007,General Surgery,A,D
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p04,grok-4-0709,ABMS20260101_kimi-k2-thinking_p04-001,Geriatrics,C,E
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p04,deepseek-v3.2,ABMS20260101_kimi-k2-thinking_p04-007,General Surgery,A,D
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p05,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p05-008,Neurology,C,A
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p05,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p05-009,Pediatrics,C,D
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p05,claude-opus-4-5-20251101,ABMS20260101_kimi-k2-thinking_p05-003,Infectious Disease,B,E
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p05,claude-opus-4-5-20251101,ABMS20260101_kimi-k2-thinking_p05-009,Pediatrics,C,B
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p05,claude-opus-4-5-20251101,ABMS20260101_kimi-k2-thinking_p05-010,Pediatrics,D,E
+kimi-k2-thinking,kimi-k2-thinking,ABMS20260101_kimi-k2-thinking_p05,gemini-3-pro-preview,ABMS20260101_kimi-k2-thinking_p05-009,Pediatrics,C,D

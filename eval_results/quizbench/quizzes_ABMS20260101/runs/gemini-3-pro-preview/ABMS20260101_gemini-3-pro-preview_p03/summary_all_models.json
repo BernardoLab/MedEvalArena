@@ -1,0 +1,1 @@
+[{"model": "gemini-2.5-flash-lite", "created_at": "2026-01-02T04:38:06Z", "total_corr": 10, "total_wrong": 0, "acc": 1.0, "n_items": 10, "batch_input_file": "ABMS20260101_gemini-3-pro-preview_p03_gemini-2.5-flash-lite_batch_input.jsonl", "batch_id": "batches/0m4c59y3b9bvscrv2vaw73nofzf4y0w97hz9", "used_batch_api": true}]

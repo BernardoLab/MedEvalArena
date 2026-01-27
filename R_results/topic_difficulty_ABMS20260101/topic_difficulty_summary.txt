@@ -1,0 +1,24 @@
+Topic difficulty only (item is the unit; p_item = mean correctness across LLMs).
+
+Items used (with topic): 300
+Topics included: 31
+LLMs contributing to p_item: 10
+Dropped incomplete items: TRUE
+Permutation stratified by quiz: TRUE
+
+Hardest topic (lowest mean p_item):
+  Neurological Surgery: 66.7% (95% CI 38.3–91.7%), n=6
+
+Easiest topic (highest mean p_item):
+  Medical Oncology: 98.3% (95% CI 95.0–100.0%), n=6
+
+Global test (permutation ANOVA on item scores by topic):
+  F = 0.8318, eta^2 = 0.08489, p_perm = 0.7073
+
+Effect size (range of topic mean item scores):
+  Range = 31.7 pp (95% bootstrap CI 30.0–66.7 pp)
+
+Files written:
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/topic_difficulty_ABMS20260101/item_scores.csv
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/topic_difficulty_ABMS20260101/topic_difficulty_bootstrap.csv
+  - /Users/dbernardo/Documents/pyres/MedEvalArena/R_results/topic_difficulty_ABMS20260101/topic_global_test_permutation.csv

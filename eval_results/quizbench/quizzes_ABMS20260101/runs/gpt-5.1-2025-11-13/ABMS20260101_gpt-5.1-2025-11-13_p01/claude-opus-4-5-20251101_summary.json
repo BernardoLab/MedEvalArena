@@ -1,0 +1,1 @@
+{"model": "claude-opus-4-5-20251101", "created_at": "2025-12-26T11:30:38Z", "total_corr": 10, "total_wrong": 0, "acc": 1.0, "n_items": 10, "batch_input_file": "ABMS20260101_gpt-5.1-2025-11-13_p01_claude-opus-4-5-20251101_anthropic_batch_requests.jsonl", "batch_id": "msgbatch_01EnapBpcH2mCwkjFDoiNWP9", "used_batch_api": true, "batch_provider": "anthropic"}

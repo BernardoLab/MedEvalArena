@@ -1,0 +1,130 @@
+{
+  "quiz_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed124",
+  "generator_model": "claude-opus-4-5-20251101",
+  "eval_model": "claude-3-7-sonnet-20250219",
+  "default_topics": [
+    "cardiology",
+    "endocrinology",
+    "infectious disease",
+    "hematology/oncology",
+    "neurology",
+    "nephrology",
+    "pulmonology",
+    "obstetrics",
+    "gynecology",
+    "pediatrics",
+    "geriatrics",
+    "dermatology",
+    "rheumatology",
+    "emergency medicine",
+    "critical care"
+  ],
+  "created_at": "2025-12-09T02:44:31Z",
+  "per_question": [
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed124-001",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    },
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed124-002",
+      "topic": "obstetrics",
+      "raw_response": "obstetrics",
+      "topic_mapped": "obstetrics"
+    },
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed124-003",
+      "topic": "cardiology",
+      "raw_response": "cardiology",
+      "topic_mapped": "cardiology"
+    },
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed124-004",
+      "topic": "pulmonology",
+      "raw_response": "pulmonology",
+      "topic_mapped": "pulmonology"
+    },
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed124-005",
+      "topic": "infectious disease",
+      "raw_response": "infectious disease",
+      "topic_mapped": "Infectious Disease"
+    },
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed124-006",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    },
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed124-007",
+      "topic": "rheumatology",
+      "raw_response": "rheumatology",
+      "topic_mapped": "rheumatology"
+    },
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed124-008",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    },
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed124-009",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    },
+    {
+      "question_id": "20251129T135352000Z_claude-opus-4-5-20251101_seed124-010",
+      "topic": "cardiology",
+      "raw_response": "cardiology",
+      "topic_mapped": "cardiology"
+    }
+  ],
+  "summary": {
+    "topic_counts": {
+      "neurology": 4,
+      "obstetrics": 1,
+      "cardiology": 2,
+      "pulmonology": 1,
+      "infectious disease": 1,
+      "rheumatology": 1
+    },
+    "majority_topic": "neurology",
+    "num_questions": 10,
+    "num_unclassified": 0
+  },
+  "topic_mapping": {
+    "applied_at": "2025-12-18T08:13:57Z",
+    "topic_map_path": null,
+    "mode": "map",
+    "unmapped_policy": "keep",
+    "normalize": true,
+    "combined_to_misc": true,
+    "misc_category": "Misc",
+    "refine_misc_heme_onc": false,
+    "refine_misc_model": "claude-3-7-sonnet-20250219",
+    "refine_misc_max_tokens": 512,
+    "refine_misc_temperature": 0.0
+  },
+  "summary_mapped": {
+    "topic_counts": {
+      "Neurology": 4,
+      "obstetrics": 1,
+      "cardiology": 2,
+      "pulmonology": 1,
+      "Infectious Disease": 1,
+      "rheumatology": 1
+    },
+    "num_questions": 10,
+    "num_dropped": 0,
+    "num_unmapped_raw": 5,
+    "unmapped_raw_counts": {
+      "obstetrics": 1,
+      "cardiology": 2,
+      "pulmonology": 1,
+      "rheumatology": 1
+    }
+  }
+}

@@ -1,0 +1,285 @@
+[
+  {
+    "quiz_id": "20251225T234023630Z_kimi-k2-thinking_seed133",
+    "question_id": "20251225T234023630Z_kimi-k2-thinking_seed133-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766707864-968dMov5gOrFXNHyWkgB",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766707864,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: POD3, closed-suction drain, serous output 25 mL/24h (low), drain amylase 1200 U/L (8x serum), patient afebrile, hemodynamically stable, soft abdomen, no leukocytosis. These findings meet the ISGPS definition of a biochemical leak (formerly grade A fistula), where the low-volume, clinically silent high-amylase output is managed by drain removal. The item is logically valid and medically accurate, aligning with modern postoperative pancreatic fistula (POPF) classification and management. The keyed answer (A) is uniquely defensible. Alternatives are worse: B/C/E are for symptomatic or higher-output leaks; D is premature discharge with a drain in place. Minimal fix: None required; the item is clear and accurate as written.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1862,
+        "completion_tokens": 219,
+        "total_tokens": 2081,
+        "cost": 0.00141064,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00104272,
+          "upstream_inference_completions_cost": 0.00036792
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251225T234023630Z_kimi-k2-thinking_seed133",
+    "question_id": "20251225T234023630Z_kimi-k2-thinking_seed133-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766707870-WeAHQqOa0L50VHnkPfg4",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766707870,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: high-grade T1, solitary 3 cm lesion, no CIS, EORTC score 8 (high-risk). The vignette clearly defines a high-risk non-muscle-invasive bladder cancer patient, for whom guidelines (AUA/EAU) recommend induction BCG followed by maintenance therapy. The optimal evidence-based regimen for high-risk disease is induction plus 3-year maintenance. However, the key (D) incorrectly specifies the Connaught strain and an 8-week start for the first maintenance dose. While 3-year maintenance is correct, current major guidelines (AUA, EAU, NCCN) do not endorse one BCG strain over another as superior, and the standard maintenance schedule begins at 3 months (not 8 weeks), making option D inaccurate. Option C is the most defensible best answer, as it correctly states 'Induction plus 3-year maintenance' without the incorrect strain/schedule specifics. Main logical issue: a unique best answer exists (3-year maintenance), but the provided key is not it. Main medical accuracy issue: the rationale contains outdated/contradicted claims about strain superiority and maintenance timing. Minimal fix: Change the key to C and update the rationale to reflect guideline-concordant 3-year maintenance without specifying strain or non-standard timing.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \t\n  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1841,
+        "completion_tokens": 329,
+        "total_tokens": 2170,
+        "cost": 0.00158368,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00103096,
+          "upstream_inference_completions_cost": 0.00055272
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251225T234023630Z_kimi-k2-thinking_seed133",
+    "question_id": "20251225T234023630Z_kimi-k2-thinking_seed133-003",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766707880-u4HZ39TyR1vH8ciOEWoF",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766707880,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: metastatic melanoma on ipilimumab/nivolumab, grade 3 colitis (6 watery stools/day, ulcerative colitis-like changes on colonoscopy), concurrent grade 2 hepatitis (elevated AST/ALT, normal bilirubin). The combination of steroid-refractory colitis and hepatitis makes infliximab (hepatotoxic) contraindicated and vedolizumab the preferred second-line agent, but guidelines recommend adding it only after 3-5 days of high-dose steroids without improvement. Main logical issue: None. Main medical accuracy issue: None; aligns with current ASCO/NCCN guidelines for immune-related adverse events. Minimal fix: None required; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1863,
+        "completion_tokens": 198,
+        "total_tokens": 2061,
+        "cost": 0.00058617,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050301,
+          "upstream_inference_completions_cost": 8.316e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251225T234023630Z_kimi-k2-thinking_seed133",
+    "question_id": "20251225T234023630Z_kimi-k2-thinking_seed133-004",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766707888-tnCIZZglMHBuNzkfWV1p",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766707889,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: walled-off necrosis (WON) with mature wall at 3 weeks, disconnected pancreatic duct syndrome (DPDS), fever, leukocytosis. The vignette describes infected WON requiring drainage. Current guidelines (e.g., revised Atlanta, AGA) state endoscopic step-up approach (transmural drainage ± necrosectomy) is first-line for infected WON, even with DPDS, with surgery reserved for endoscopic failure. Option B (EUS-guided cystgastrostomy now) is the guideline-supported definitive management, not immediate surgery (C). The keyed answer (C) is not the single best answer. Main logical issue: key mismatch. Main medical accuracy issue: overstates surgical indication; endoscopic drainage is standard initial definitive therapy. Minimal fix: Change key to B and adjust rationale to reflect endoscopic-first step-up approach for infected WON with DPDS.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1850,
+        "completion_tokens": 241,
+        "total_tokens": 2091,
+        "cost": 0.00144088,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.001036,
+          "upstream_inference_completions_cost": 0.00040488
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251225T234023630Z_kimi-k2-thinking_seed133",
+    "question_id": "20251225T234023630Z_kimi-k2-thinking_seed133-005",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766707894-04dZCLZZaxROwFICuO2L",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766707894,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n    \"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: BK virus nephropathy (Banff class B) with high viral load (18,000 copies/mL) in a kidney transplant recipient on tacrolimus, mycophenolate, and low-dose prednisone. Main logical issue: The keyed answer (B, reduce mycophenolate by 50%) contradicts standard management guidelines, which prioritize reducing or discontinuing the calcineurin inhibitor (tacrolimus) first to enhance viral clearance, as mycophenolate has less impact on BK virus-specific immunity. A unique best answer exists (A, reduce tacrolimus dose by 50%), but the provided key is incorrect. Main medical accuracy issue: The rationale incorrectly prioritizes mycophenolate reduction over tacrolimus reduction, which is not aligned with current consensus. Minimal fix: Change the key to A and update the explanation to reflect that initial immunosuppression reduction for BK virus nephropathy typically targets the calcineurin inhibitor.\",\n    \"medical_accuracy_score\":  \"2\",\n    \"logical_validity\": false,\n    \"logical_false_reason\": \"K\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1909,
+        "completion_tokens": 252,
+        "total_tokens": 2161,
+        "cost": 0.00061623,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00051543,
+          "upstream_inference_completions_cost": 0.0001008
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251225T234023630Z_kimi-k2-thinking_seed133",
+    "question_id": "20251225T234023630Z_kimi-k2-thinking_seed133-006",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766707909-IOpoMRwiZGpkVQG54Ebp",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766707909,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. Key stem clues: Day 7 post-axicabtagene ciloleucel with confusion, aphasia, asterixis, ICE score 8/10 (grade 2 ICANS), triphasic waves on EEG, normal MRI, and only low-grade fever (grade 1 CRS). The unique best answer is D (Tocilizumab plus dexamethasone), as current NCCN/ASCT guidelines recommend adding tocilizumab for concurrent grade 1 CRS with grade 2 ICANS to prevent CRS escalation, which is a critical nuance. The keyed answer B (dexamethasone alone) is incorrect per these guidelines, as it omits tocilizumab for the co-present CRS. The item is medically accurate but miskeyed. Minimal fix: Change the correct answer key to D.\",\n  \"medical_accuracy_score\":  \"4\",\n  \"logical_validity\": false,\n  \"logical_false_reason\": \"K\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1886,
+        "completion_tokens": 226,
+        "total_tokens": 2112,
+        "cost": 0.00059962,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050922,
+          "upstream_inference_completions_cost": 9.04e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,1 @@
+{"model": "claude-opus-4-5-20251101", "created_at": "2025-12-26T11:05:03Z", "total_corr": 9, "total_wrong": 1, "acc": 0.9, "n_items": 10, "batch_input_file": "ABMS20260101_deepseek-v3.2_p01_claude-opus-4-5-20251101_anthropic_batch_requests.jsonl", "batch_id": "msgbatch_013NEUevUrB59Du1LpPUGQE4", "used_batch_api": true, "batch_provider": "anthropic"}

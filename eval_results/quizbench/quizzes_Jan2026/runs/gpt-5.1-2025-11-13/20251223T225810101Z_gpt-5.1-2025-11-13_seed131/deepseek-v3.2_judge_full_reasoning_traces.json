@@ -1,0 +1,286 @@
+[
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed131",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed131-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766544079-cwlsssSZdbMicwddo2Fp",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766544079,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: metastatic KRAS G12C NSCLC with progression after chemoimmunotherapy, new MET amplification (copy number 9) on progression biopsy, high PD-L1, ECOG 1. The question asks for the most appropriate next-line strategy given a newly identified, potentially targetable resistance mechanism. The key (C) is defensible as best because the emergent MET amplification is a validated resistance mechanism to KRAS G12C inhibition; a clinical trial combining a KRAS G12C inhibitor and a MET inhibitor directly addresses this biology and is a rational, guideline-aligned consideration in this trial-eligible patient. Alternatives are inferior: (B) ignores the MET-driven resistance, (A) is a standard but non-targeted option, (D) is not supported after progression on pembrolizumab, (E) represents re-challenge with a previously used regimen unlikely to overcome resistance. No logical contradictions or missing critical details. Medical accuracy is sound. Minimal fix: none required; item is clear and accurate.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2065,
+        "completion_tokens": 262,
+        "total_tokens": 2327,
+        "cost": 0.00066235,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00055755,
+          "upstream_inference_completions_cost": 0.0001048
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed131",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed131-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766544085-ChQ1gMtLWrxPOL9vOfNh",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766544085,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: IgE-mediated anaphylaxis to rituximab confirmed by acute symptoms, elevated tryptase, and positive skin test; patient requires anti-CD20 therapy and failed an alternative (obinutuzumab). This creates a scenario where the culprit drug is uniquely needed, making rapid desensitization the standard management. Main logical issue: None; the stem provides sufficient detail to uniquely support desensitization. Main medical accuracy issue: None; the item aligns with allergy/oncology guidelines for managing confirmed IgE-mediated hypersensitivity to a required biologic. Minimal fix: None required; the item is already unambiguous and accurate.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2082,
+        "completion_tokens": 182,
+        "total_tokens": 2264,
+        "cost": 0.00063494,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00056214,
+          "upstream_inference_completions_cost": 7.28e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed131",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed131-003",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766544098-KhleksLlykcB0joVDWCz",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766544098,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: 88-year-old, frailty (CFS 6), CKD stage 3b, mild Alzheimer's, no falls in past year, independent in basic ADLs but needs help with IADLs. The question asks for the most appropriate fall-prevention recommendation in a frail older adult without prior falls. The keyed answer (B) aligns with guidelines for primary prevention in frail elderly: environmental modifications and medication review are core, low-risk interventions. High-intensity exercise (A) is burdensome and not evidence-based for this population. High-dose vitamin D (C) is not recommended due to lack of consistent benefit and potential harm. Deferring until a fall (D) misses primary prevention. Benzodiazepines (E) increase fall risk. The item is logically valid: a single best answer is defensible based on standard geriatric principles. Medical accuracy is high, consistent with current guidelines (e.g., AGS Beers Criteria, STOPP/START). Minimal fix: None needed; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2036,
+        "completion_tokens": 268,
+        "total_tokens": 2304,
+        "cost": 0.00066228,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00054972,
+          "upstream_inference_completions_cost": 0.00011256
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed131",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed131-004",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766544105-a4zsCGwqQSJSrNUNZnRQ",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766544105,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: postmenopausal, ER+/HER2- metastatic breast cancer, no prior systemic therapy for metastatic disease, moderate liver burden without visceral crisis. These support first-line endocrine-based combination therapy per current guidelines. Main logical issue: None; the stem provides sufficient detail to uniquely select the keyed answer. Main medical accuracy issue: None; the key aligns with standard first-line care for this scenario. Minimal fix: None required; the item is already clear and accurate. The rationale correctly notes that PARP inhibitors are not standard first-line, chemotherapy is for refractory/crisis, fulvestrant monotherapy is inferior, and tamoxifen/ovarian suppression is inappropriate in postmenopausal patients.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1977,
+        "completion_tokens": 198,
+        "total_tokens": 2175,
+        "cost": 0.00143976,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00110712,
+          "upstream_inference_completions_cost": 0.00033264
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed131",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed131-005",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766544111-usVUug6OxCzxansqlhd5",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766544111,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: recurrent sinopulmonary infections, CVID diagnosis, IVIG response, later splenomegaly, autoimmune hemolytic anemia, noncaseating granulomas, nodular lymphoid hyperplasia, flow cytometry showing near absence of class-switched memory B cells and elevated CD21low B cells. These findings are classic for a B-cell intrinsic defect in terminal differentiation and class-switch recombination, which is strongly associated with autoimmune complications, granulomatous disease, and lymphoid hyperplasia in CVID. No logical issues; the stem provides sufficient, non-contradictory details to uniquely point to option B. Medical accuracy is high, aligning with current immunology literature on CVID endotypes. Minimal fix: None required; the item is already unambiguous and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2052,
+        "completion_tokens": 210,
+        "total_tokens": 2262,
+        "cost": 0.00150192,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00114912,
+          "upstream_inference_completions_cost": 0.0003528
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed131",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed131-006",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766544115-6RnzOlBcwK72C3dUDF7a",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766544115,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: advanced age (91), severe multimorbidity (HFrEF, CKD4, dementia), functional dependence, frequent hospitalizations, POLST specifying DNR/DNI/no ICU, recurrent genital candidiasis, baseline hypotension (SBP ~100). These support a comfort-focused, risk-benefit assessment over routine guideline-directed therapy. Main logical issue: None; stem provides sufficient detail to uniquely support deferring SGLT2i. Main medical accuracy issue: None; aligns with geriatric principles of deprescribing in limited life expectancy and high treatment burden. Minimal fix: None needed; item is clear and defensible.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2107,
+        "completion_tokens": 180,
+        "total_tokens": 2287,
+        "cost": 0.00064449,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00056889,
+          "upstream_inference_completions_cost": 7.56e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

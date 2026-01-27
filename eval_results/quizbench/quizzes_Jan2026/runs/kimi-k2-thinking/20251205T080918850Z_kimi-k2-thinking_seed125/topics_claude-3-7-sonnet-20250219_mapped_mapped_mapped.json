@@ -1,0 +1,123 @@
+{
+  "quiz_id": "20251205T080918850Z_kimi-k2-thinking_seed125",
+  "generator_model": "kimi-k2-thinking",
+  "eval_model": "claude-3-7-sonnet-20250219",
+  "default_topics": [
+    "cardiology",
+    "endocrinology",
+    "infectious disease",
+    "hematology/oncology",
+    "neurology",
+    "nephrology",
+    "pulmonology",
+    "obstetrics",
+    "gynecology",
+    "pediatrics",
+    "geriatrics",
+    "dermatology",
+    "rheumatology",
+    "emergency medicine",
+    "critical care"
+  ],
+  "created_at": "2025-12-09T02:47:17Z",
+  "per_question": [
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed125-001",
+      "topic": "critical care",
+      "raw_response": "critical care",
+      "topic_mapped": "critical care"
+    },
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed125-002",
+      "topic": "hematology/oncology",
+      "raw_response": "hematology/oncology",
+      "topic_mapped": "Misc"
+    },
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed125-003",
+      "topic": "emergency medicine",
+      "raw_response": "emergency medicine",
+      "topic_mapped": "Emergency Medicine"
+    },
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed125-004",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    },
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed125-005",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    },
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed125-006",
+      "topic": "critical care",
+      "raw_response": "critical care",
+      "topic_mapped": "critical care"
+    },
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed125-007",
+      "topic": "hematology/oncology",
+      "raw_response": "hematology/oncology",
+      "topic_mapped": "Misc"
+    },
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed125-008",
+      "topic": "emergency medicine",
+      "raw_response": "emergency medicine",
+      "topic_mapped": "Emergency Medicine"
+    },
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed125-009",
+      "topic": "hematology/oncology",
+      "raw_response": "hematology/oncology",
+      "topic_mapped": "Misc"
+    },
+    {
+      "question_id": "20251205T080918850Z_kimi-k2-thinking_seed125-010",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    }
+  ],
+  "summary": {
+    "topic_counts": {
+      "critical care": 2,
+      "hematology/oncology": 3,
+      "emergency medicine": 2,
+      "neurology": 3
+    },
+    "majority_topic": "hematology/oncology",
+    "num_questions": 10,
+    "num_unclassified": 0
+  },
+  "topic_mapping": {
+    "applied_at": "2025-12-18T08:13:57Z",
+    "topic_map_path": null,
+    "mode": "map",
+    "unmapped_policy": "keep",
+    "normalize": true,
+    "combined_to_misc": true,
+    "misc_category": "Misc",
+    "refine_misc_heme_onc": false,
+    "refine_misc_model": "claude-3-7-sonnet-20250219",
+    "refine_misc_max_tokens": 512,
+    "refine_misc_temperature": 0.0
+  },
+  "summary_mapped": {
+    "topic_counts": {
+      "critical care": 2,
+      "Misc": 3,
+      "Emergency Medicine": 2,
+      "Neurology": 3
+    },
+    "num_questions": 10,
+    "num_dropped": 0,
+    "num_unmapped_raw": 2,
+    "unmapped_raw_counts": {
+      "critical care": 2
+    }
+  }
+}

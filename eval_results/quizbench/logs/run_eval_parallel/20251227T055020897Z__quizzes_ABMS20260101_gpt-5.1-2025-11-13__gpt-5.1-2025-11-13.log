@@ -1,0 +1,57 @@
+[INFO] Evaluating 5 quizzes with model 'gpt-5.1-2025-11-13'
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p01 path=quizzes/quizzes_ABMS20260101/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p01.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p01, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p01/ABMS20260101_gpt-5.1-2025-11-13_p01_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-67wLS6aaPMVToRCTXCTHoR
+Created batch with id: batch_694f7452d3408190839abf0384ccc739
+Initial batch status: validating
+Batch batch_694f7452d3408190839abf0384ccc739 status: validating. Sleeping 60s...
+Batch batch_694f7452d3408190839abf0384ccc739 status: validating. Sleeping 60s...
+Batch batch_694f7452d3408190839abf0384ccc739 status: in_progress. Sleeping 60s...
+Batch batch_694f7452d3408190839abf0384ccc739 reached terminal status: completed
+Downloading batch file: file-84d4KM8sNyyGJXXvqp8eXB
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p01
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p02 path=quizzes/quizzes_ABMS20260101/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p02.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p02, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p02/ABMS20260101_gpt-5.1-2025-11-13_p02_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-95cvkB2ZVhxKJVpnNd66sR
+Created batch with id: batch_694f750ab8a08190b0ea572093fcd88e
+Initial batch status: validating
+Batch batch_694f750ab8a08190b0ea572093fcd88e status: validating. Sleeping 60s...
+Batch batch_694f750ab8a08190b0ea572093fcd88e status: in_progress. Sleeping 60s...
+Batch batch_694f750ab8a08190b0ea572093fcd88e status: in_progress. Sleeping 60s...
+Batch batch_694f750ab8a08190b0ea572093fcd88e reached terminal status: completed
+Downloading batch file: file-MKgdfZ47CNfKbAn4ntMm95
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p02
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p03 path=quizzes/quizzes_ABMS20260101/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p03.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p03, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p03/ABMS20260101_gpt-5.1-2025-11-13_p03_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-9CjkmHi5QZVhWdnZSDifHv
+Created batch with id: batch_694f75c1b49c81908fc6e626ea59abc9
+Initial batch status: validating
+Batch batch_694f75c1b49c81908fc6e626ea59abc9 status: validating. Sleeping 60s...
+Batch batch_694f75c1b49c81908fc6e626ea59abc9 status: in_progress. Sleeping 60s...
+Batch batch_694f75c1b49c81908fc6e626ea59abc9 reached terminal status: completed
+Downloading batch file: file-Pmx9kE2Vo2i2HNykukF2Qm
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p03
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p04 path=quizzes/quizzes_ABMS20260101/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p04.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p04, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p04/ABMS20260101_gpt-5.1-2025-11-13_p04_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-PeWnDbGjrJKwTkC6MfiQjm
+Created batch with id: batch_694f763c8ac081908b458e978f2c50f2
+Initial batch status: validating
+Batch batch_694f763c8ac081908b458e978f2c50f2 status: validating. Sleeping 60s...
+Batch batch_694f763c8ac081908b458e978f2c50f2 status: in_progress. Sleeping 60s...
+Batch batch_694f763c8ac081908b458e978f2c50f2 status: in_progress. Sleeping 60s...
+Batch batch_694f763c8ac081908b458e978f2c50f2 status: in_progress. Sleeping 60s...
+Batch batch_694f763c8ac081908b458e978f2c50f2 reached terminal status: completed
+Downloading batch file: file-HzKsQ9Y99UMwe93Me3Uu6c
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p04
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p05 path=quizzes/quizzes_ABMS20260101/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p05.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_gpt-5.1-2025-11-13_p05, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p05/ABMS20260101_gpt-5.1-2025-11-13_p05_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-JUE7QZmvtKq91oW7hfuWKE
+Created batch with id: batch_694f7730139c8190a5de76e77eb17592
+Initial batch status: validating
+Batch batch_694f7730139c8190a5de76e77eb17592 status: validating. Sleeping 60s...
+Batch batch_694f7730139c8190a5de76e77eb17592 status: in_progress. Sleeping 60s...
+Batch batch_694f7730139c8190a5de76e77eb17592 reached terminal status: completed
+Downloading batch file: file-CMSQWzmUXsB4w7DLEF9SQk
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13/ABMS20260101_gpt-5.1-2025-11-13_p05
+[INFO] Updated manifest at /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13/quizbench_manifest_ABMS20260101.json
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/gpt-5.1-2025-11-13

@@ -1,0 +1,22 @@
+# QuizBench Grok (xAI) configuration
+generator_models:
+  - grok-4-0709
+test_models:
+  - none
+num_questions_per_batch: 10
+seed0: 123
+
+# Keep Grok runs siloed to avoid manifest collisions with other providers.
+quizzes_dir: quizzes/
+runs_root: eval_results/quizbench/quizzes_Jan2026/runs/grok-4-0709/
+
+# Auth / endpoints (env overrides recommended)
+grok_api_key: ""        # or set GROK_API_KEY / XAI_API_KEY env
+grok_api_base_url: "https://api.x.ai/v1"      # optional override via GROK_API_BASE_URL
+
+# Pseudo-batch settings (Grok is async fan-out, not true Batch API)
+use_batch_api: true
+reasoning_effort: high
+# max_tokens: 600            # for per-call eval mode (if use_batch_api: false)
+max_output_tokens: 16000     # for generation
+num_questions_per_quiz: 50

@@ -1,0 +1,47 @@
+generator_model,raw_generator_model,quiz_id,answer_model,question_id,topic,gold,pred
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed123,kimi-k2-thinking,20251129T135352000Z_claude-opus-4-5-20251101_seed123-001,cardiology,C,
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed123,kimi-k2-thinking,20251129T135352000Z_claude-opus-4-5-20251101_seed123-009,pulmonology,A,
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed123,claude-3-7-sonnet-20250219,20251129T135352000Z_claude-opus-4-5-20251101_seed123-001,cardiology,C,E
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed123,gemini-2.5-flash-lite,20251129T135352000Z_claude-opus-4-5-20251101_seed123-005,neurology,B,D
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed123,gpt-5-nano-2025-08-07,20251129T135352000Z_claude-opus-4-5-20251101_seed123-001,cardiology,C,B
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed123,gpt-5-nano-2025-08-07,20251129T135352000Z_claude-opus-4-5-20251101_seed123-009,pulmonology,A,B
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed123,grok-4-0709,20251129T135352000Z_claude-opus-4-5-20251101_seed123-001,cardiology,C,E
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed123,deepseek-v3.2,20251129T135352000Z_claude-opus-4-5-20251101_seed123-001,cardiology,C,E
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed124,kimi-k2-thinking,20251129T135352000Z_claude-opus-4-5-20251101_seed124-003,cardiology,B,
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed124,gemini-2.5-flash-lite,20251129T135352000Z_claude-opus-4-5-20251101_seed124-005,infectious disease,D,C
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed124,gpt-5-nano-2025-08-07,20251129T135352000Z_claude-opus-4-5-20251101_seed124-005,infectious disease,D,C
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed124,deepseek-v3.2,20251129T135352000Z_claude-opus-4-5-20251101_seed124-005,infectious disease,D,C
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed125,gpt-5-nano-2025-08-07,20251129T135352000Z_claude-opus-4-5-20251101_seed125-005,neurology,B,C
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed127,kimi-k2-thinking,20251129T135352000Z_claude-opus-4-5-20251101_seed127-008,emergency medicine,B,
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed127,gemini-2.5-flash-lite,20251129T135352000Z_claude-opus-4-5-20251101_seed127-005,pediatrics,B,A
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed127,gpt-5-nano-2025-08-07,20251129T135352000Z_claude-opus-4-5-20251101_seed127-003,rheumatology,C,E
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed127,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed127-006,cardiology,C,B
+claude-opus-4-5-20251101,claude-opus-4-5-20251101,20251129T135352000Z_claude-opus-4-5-20251101_seed127,gemini-3-pro-preview,20251129T135352000Z_claude-opus-4-5-20251101_seed127-008,emergency medicine,B,D
+deepseek-v3.2,deepseek-v3.2,20251205T082731900Z_deepseek-v3.2_seed123,claude-3-7-sonnet-20250219,20251205T082731900Z_deepseek-v3.2_seed123-003,cardiology,B,
+deepseek-v3.2,deepseek-v3.2,20251205T082731900Z_deepseek-v3.2_seed123,claude-3-7-sonnet-20250219,20251205T082731900Z_deepseek-v3.2_seed123-004,neurology,B,
+deepseek-v3.2,deepseek-v3.2,20251205T082731900Z_deepseek-v3.2_seed123,claude-3-7-sonnet-20250219,20251205T082731900Z_deepseek-v3.2_seed123-006,obstetrics,A,
+deepseek-v3.2,deepseek-v3.2,20251205T082731900Z_deepseek-v3.2_seed124,gemini-2.5-flash-lite,20251205T082731900Z_deepseek-v3.2_seed124-006,pulmonology,A,B
+deepseek-v3.2,deepseek-v3.2,20251205T084024622Z_deepseek-v3.2_seed125,kimi-k2-thinking,20251205T084024622Z_deepseek-v3.2_seed125-002,neurology,E,
+deepseek-v3.2,deepseek-v3.2,20251205T084024622Z_deepseek-v3.2_seed125,kimi-k2-thinking,20251205T084024622Z_deepseek-v3.2_seed125-006,misc,C,
+deepseek-v3.2,deepseek-v3.2,20251205T084024622Z_deepseek-v3.2_seed125,deepseek-v3.2,20251205T084024622Z_deepseek-v3.2_seed125-002,neurology,E,C
+deepseek-v3.2,deepseek-v3.2,20251205T084024622Z_deepseek-v3.2_seed126,gemini-2.5-flash-lite,20251205T084024622Z_deepseek-v3.2_seed126-003,critical care,A,
+deepseek-v3.2,deepseek-v3.2,20251205T084024622Z_deepseek-v3.2_seed126,deepseek-v3.2,20251205T084024622Z_deepseek-v3.2_seed126-003,critical care,A,E
+deepseek-v3.2,deepseek-v3.2,20251205T084024622Z_deepseek-v3.2_seed127,gemini-2.5-flash-lite,20251205T084024622Z_deepseek-v3.2_seed127-001,cardiology,A,B
+gemini-3-pro-preview,gemini-3-pro-preview,20251129T125426901Z_gemini-3-pro-preview_seed123,gemini-2.5-flash-lite,20251129T125426901Z_gemini-3-pro-preview_seed123-006,cardiology,B,E
+gemini-3-pro-preview,gemini-3-pro-preview,20251129T125426901Z_gemini-3-pro-preview_seed123,gemini-2.5-flash-lite,20251129T125426901Z_gemini-3-pro-preview_seed123-007,neurology,B,E
+gemini-3-pro-preview,gemini-3-pro-preview,20251129T125426901Z_gemini-3-pro-preview_seed124,gemini-2.5-flash-lite,20251129T125426901Z_gemini-3-pro-preview_seed124-001,cardiology,C,D
+gemini-3-pro-preview,gemini-3-pro-preview,20251129T125426901Z_gemini-3-pro-preview_seed124,gemini-2.5-flash-lite,20251129T125426901Z_gemini-3-pro-preview_seed124-008,infectious disease,D,B
+gemini-3-pro-preview,gemini-3-pro-preview,20251129T125426901Z_gemini-3-pro-preview_seed124,gpt-5-nano-2025-08-07,20251129T125426901Z_gemini-3-pro-preview_seed124-004,infectious disease,C,A
+gemini-3-pro-preview,gemini-3-pro-preview,20251129T125426901Z_gemini-3-pro-preview_seed124,grok-4-0709,20251129T125426901Z_gemini-3-pro-preview_seed124-001,cardiology,C,D
+gemini-3-pro-preview,gemini-3-pro-preview,20251129T125426901Z_gemini-3-pro-preview_seed124,deepseek-v3.2,20251129T125426901Z_gemini-3-pro-preview_seed124-001,cardiology,C,B
+gemini-3-pro-preview,gemini-3-pro-preview,20251129T125426901Z_gemini-3-pro-preview_seed126,gemini-2.5-flash-lite,20251129T125426901Z_gemini-3-pro-preview_seed126-005,pediatrics,B,D
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,20251129T045001943Z_gpt-5.1-2025-11-13_seed125,kimi-k2-thinking,20251129T045001943Z_gpt-5.1-2025-11-13_seed125-005,neurology,B,
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,20251129T045001943Z_gpt-5.1-2025-11-13_seed125,gpt-5-nano-2025-08-07,20251129T045001943Z_gpt-5.1-2025-11-13_seed125-005,neurology,B,A
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,20251129T045001943Z_gpt-5.1-2025-11-13_seed125,gemini-3-pro-preview,20251129T045001943Z_gpt-5.1-2025-11-13_seed125-005,neurology,B,A
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,20251129T045001943Z_gpt-5.1-2025-11-13_seed126,kimi-k2-thinking,20251129T045001943Z_gpt-5.1-2025-11-13_seed126-001,obstetrics,C,
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,20251129T045001943Z_gpt-5.1-2025-11-13_seed126,kimi-k2-thinking,20251129T045001943Z_gpt-5.1-2025-11-13_seed126-003,pediatrics,B,A
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,20251129T045001943Z_gpt-5.1-2025-11-13_seed126,claude-3-7-sonnet-20250219,20251129T045001943Z_gpt-5.1-2025-11-13_seed126-010,rheumatology,C,B
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,20251129T045001943Z_gpt-5.1-2025-11-13_seed126,gemini-2.5-flash-lite,20251129T045001943Z_gpt-5.1-2025-11-13_seed126-003,pediatrics,B,A
+gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,20251129T045001943Z_gpt-5.1-2025-11-13_seed126,gpt-5-nano-2025-08-07,20251129T045001943Z_gpt-5.1-2025-11-13_seed126-003,pediatrics,B,A
+grok-4-0709,grok-4-0709,20251201T041413890Z_grok-4-0709_seed123,gemini-2.5-flash-lite,20251201T041413890Z_grok-4-0709_seed123-010,cardiology,A,C
+kimi-k2-thinking,kimi-k2-thinking,20251205T080918850Z_kimi-k2-thinking_seed124,gemini-2.5-flash-lite,20251205T080918850Z_kimi-k2-thinking_seed124-005,misc,A,B

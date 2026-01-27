@@ -1,0 +1,129 @@
+{
+  "quiz_id": "20251205T084024622Z_deepseek-v3.2_seed125",
+  "generator_model": "deepseek-v3.2",
+  "eval_model": "claude-3-7-sonnet-20250219",
+  "default_topics": [
+    "cardiology",
+    "endocrinology",
+    "infectious disease",
+    "hematology/oncology",
+    "neurology",
+    "nephrology",
+    "pulmonology",
+    "obstetrics",
+    "gynecology",
+    "pediatrics",
+    "geriatrics",
+    "dermatology",
+    "rheumatology",
+    "emergency medicine",
+    "critical care"
+  ],
+  "created_at": "2025-12-09T02:46:25Z",
+  "per_question": [
+    {
+      "question_id": "20251205T084024622Z_deepseek-v3.2_seed125-001",
+      "topic": "pulmonology",
+      "raw_response": "pulmonology",
+      "topic_mapped": "pulmonology"
+    },
+    {
+      "question_id": "20251205T084024622Z_deepseek-v3.2_seed125-002",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    },
+    {
+      "question_id": "20251205T084024622Z_deepseek-v3.2_seed125-003",
+      "topic": "hematology/oncology",
+      "raw_response": "hematology/oncology",
+      "topic_mapped": "Misc"
+    },
+    {
+      "question_id": "20251205T084024622Z_deepseek-v3.2_seed125-004",
+      "topic": "critical care",
+      "raw_response": "critical care",
+      "topic_mapped": "critical care"
+    },
+    {
+      "question_id": "20251205T084024622Z_deepseek-v3.2_seed125-005",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    },
+    {
+      "question_id": "20251205T084024622Z_deepseek-v3.2_seed125-006",
+      "topic": "hematology/oncology",
+      "raw_response": "hematology/oncology",
+      "topic_mapped": "Misc"
+    },
+    {
+      "question_id": "20251205T084024622Z_deepseek-v3.2_seed125-007",
+      "topic": "neurology",
+      "raw_response": "neurology",
+      "topic_mapped": "Neurology"
+    },
+    {
+      "question_id": "20251205T084024622Z_deepseek-v3.2_seed125-008",
+      "topic": "pediatrics",
+      "raw_response": "pediatrics",
+      "topic_mapped": "Pediatrics"
+    },
+    {
+      "question_id": "20251205T084024622Z_deepseek-v3.2_seed125-009",
+      "topic": "endocrinology",
+      "raw_response": "endocrinology",
+      "topic_mapped": "endocrinology"
+    },
+    {
+      "question_id": "20251205T084024622Z_deepseek-v3.2_seed125-010",
+      "topic": "pediatrics",
+      "raw_response": "pediatrics",
+      "topic_mapped": "Pediatrics"
+    }
+  ],
+  "summary": {
+    "topic_counts": {
+      "pulmonology": 1,
+      "neurology": 3,
+      "hematology/oncology": 2,
+      "critical care": 1,
+      "pediatrics": 2,
+      "endocrinology": 1
+    },
+    "majority_topic": "neurology",
+    "num_questions": 10,
+    "num_unclassified": 0
+  },
+  "topic_mapping": {
+    "applied_at": "2025-12-18T08:13:57Z",
+    "topic_map_path": null,
+    "mode": "map",
+    "unmapped_policy": "keep",
+    "normalize": true,
+    "combined_to_misc": true,
+    "misc_category": "Misc",
+    "refine_misc_heme_onc": false,
+    "refine_misc_model": "claude-3-7-sonnet-20250219",
+    "refine_misc_max_tokens": 512,
+    "refine_misc_temperature": 0.0
+  },
+  "summary_mapped": {
+    "topic_counts": {
+      "pulmonology": 1,
+      "Neurology": 3,
+      "Misc": 2,
+      "critical care": 1,
+      "Pediatrics": 2,
+      "endocrinology": 1
+    },
+    "num_questions": 10,
+    "num_dropped": 0,
+    "num_unmapped_raw": 3,
+    "unmapped_raw_counts": {
+      "pulmonology": 1,
+      "critical care": 1,
+      "endocrinology": 1
+    }
+  }
+}

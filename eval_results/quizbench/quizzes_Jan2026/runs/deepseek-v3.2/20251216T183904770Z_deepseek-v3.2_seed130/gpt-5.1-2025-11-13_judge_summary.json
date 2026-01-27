@@ -1,0 +1,1 @@
+{"model": "gpt-5.1-2025-11-13", "quiz_id": "20251216T183904770Z_deepseek-v3.2_seed130", "created_at": "2025-12-16T21:23:15Z", "n_items": 20, "n_valid_responses": 20, "n_invalid_responses": 0, "n_pass": 10, "n_fail": 10, "fail_reason_counts": {"N": 5, "NA": 10, "K": 1, "M": 3, "U": 1}, "medical_score_mean": 3.55, "n_safety_flag_true": 0, "used_batch_api": false}

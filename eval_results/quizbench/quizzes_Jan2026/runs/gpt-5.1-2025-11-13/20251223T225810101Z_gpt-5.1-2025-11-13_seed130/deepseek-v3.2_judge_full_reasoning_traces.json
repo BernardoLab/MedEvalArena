@@ -1,0 +1,956 @@
+[
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766543908-ePLgHqIe81fgOshUiTJO",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766543908,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: free flap with venous graft, postoperative venous congestion (swelling, violaceous discoloration, brisk bleeding on pinprick, no venous signal), patent arterial anastomosis, thrombotic venous graft, limited nearby recipient veins, contralateral internal mammary and thoracodorsal systems already occupied. The scenario uniquely points to venous outflow salvage when ipsilateral recipient veins are unavailable. Option C (venous cross-over to contralateral flap vein) is a recognized microsurgical salvage technique in this specific situation, offering a new outflow pathway. Alternatives are inferior: A (shortening pedicle) doesn't solve recipient vein shortage; B (retrograde IMV with another graft) adds complexity and failure risk; D (conversion to pedicled TRAM) is not feasible after free flap harvest; E (immediate removal) is a last resort, not the highest likelihood salvage. Medical accuracy is sound; the logic supports a single best answer.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2081,
+        "completion_tokens": 246,
+        "total_tokens": 2327,
+        "cost": 0.00066519,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00056187,
+          "upstream_inference_completions_cost": 0.00010332
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766543918-AljEw9czg7u5FfK8IZSn",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766543918,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: Progressive NPH-like symptoms (gait ataxia, urinary urgency, cognitive slowing), ventriculomegaly out of proportion to atrophy, but with a subtle nodular lesion near the aqueduct (T1-hypo/T2-hyper, minimal enhancement, no diffusion restriction) suggesting a focal obstructive cause. Preserved CSF stroke volume at the aqueduct on cine MRI argues against a simple aqueductal stenosis, and high-volume tap test gave only transient/equivocal improvement, making idiopathic NPH less likely. The lesion is the key feature driving need for both CSF diversion (addressing obstruction) and tissue diagnosis. Main logical issue: None; the lesion location and characteristics logically point to endoscopic third ventriculostomy with biopsy as the most appropriate next neurosurgical step, integrating diagnosis and treatment. Main medical accuracy issue: None; the reasoning aligns with standard neurosurgical principles for symptomatic obstructive hydrocephalus with an unidentified intraventricular lesion. Minimal fix: None required for logical validity; to enhance clarity, the stem could explicitly state the lesion is causing aqueductal compression/obstruction.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1962,
+        "completion_tokens": 271,
+        "total_tokens": 2233,
+        "cost": 0.00064356,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052974,
+          "upstream_inference_completions_cost": 0.00011382
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-003",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766543926-Ob0tLL4bsWEFO2OQhprt",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766543926,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: severe interstitial lung disease (UIP pattern, DLCO 35% predicted) and the goal to most reduce risk of fatal radiation pneumonitis while allowing adequate target coverage. The stem clearly establishes extreme pulmonary vulnerability, making lung dose minimization the overriding priority. The item logically directs selection of the constraint most strongly associated with fatal pneumonitis in ILD. Main logical issue: None; the stem provides sufficient discriminatory detail (severe ILD) to prioritize MLD. Main medical accuracy issue: None; the emphasis on MLD in severe ILD is consistent with oncologic literature and clinical practice. Minimal fix: None required; the item is unambiguous and accurate as written.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1968,
+        "completion_tokens": 196,
+        "total_tokens": 2164,
+        "cost": 0.00060976,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053136,
+          "upstream_inference_completions_cost": 7.84e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-004",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766543934-gJPmEAvKAcwQmzWEPNgO",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766543934,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: acute dyspnea/subcutaneous emphysema post-VATS lobectomy; CT shows posterior membranous tracheal defect 2 cm above carina communicating with right pleural air; bronchoscopy shows 1.5-cm full-thickness laceration with necrotic edges in fragile, steroid-exposed airway; right main bronchus intact; no mediastinitis; hemodynamically stable but ventilator dependent. The findings point to a post-lobectomy tracheal injury (likely from stapler or dissection) with tissue compromise, requiring durable repair. Logical issue: None; stem provides sufficient detail for discrimination. Medical accuracy: The keyed answer (thoracotomy with direct closure and intercostal muscle flap) aligns with thoracic surgery principles for traumatic tracheal lacerations with tissue loss: direct repair with vascularized tissue reinforcement is standard, avoiding excessive resection or stenting alone in a contaminated field. Minor nuance: 'Steroid-exposed airway' implies poor healing, strengthening need for vascularized flap. Minimal fix: None needed; item is clear and accurate.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"4\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2014,
+        "completion_tokens": 265,
+        "total_tokens": 2279,
+        "cost": 0.00065508,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00054378,
+          "upstream_inference_completions_cost": 0.0001113
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-005",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766543942-eh1Du8uQGQaXCxbh0L6M",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766543942,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: limb-threatening ischemia (Rutherford 5), occluded external iliac stent, heavily calcified common femoral artery with poor clamp sites, patent profunda with robust collaterals, chronically occluded SFA, contraindications to aortobifemoral bypass (hostile abdomen, cardiopulmonary risk). The question asks for a strategy that reliably restores durable inflow to the profunda with acceptable risk. The hybrid approach (E) directly addresses both the inflow (iliac stent occlusion) and outflow (common femoral disease) lesions, which is necessary for durable revascularization. Isolated iliac relining (A) leaves the diseased common femoral artery untreated, risking failure. Ilio-profunda bypass (B) is more invasive in a hostile abdomen. Axillo-bifemoral (C) and femoral-femoral crossover (D) ignore the ipsilateral inflow lesion and are less durable or anatomically suboptimal. No contradictions or underspecification; the key is defensible as the single best answer. Medical accuracy is consistent with current vascular surgery principles. Minimal fix: None required; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2020,
+        "completion_tokens": 284,
+        "total_tokens": 2304,
+        "cost": 0.00066468,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0005454,
+          "upstream_inference_completions_cost": 0.00011928
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-006",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766543949-roKTdi2n4GkbVjiLOLzX",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766543949,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: adrenal incidentaloma with biochemical primary aldosteronism (elevated ARR, suppressed renin, borderline saline suppression), imaging-concordant left adrenal lesion, AVS shows lateralization index (LI) 2.2 (modest but >2.0) and contralateral suppression index <0.3. The item emphasizes that current AVS interpretation values contralateral suppression as a strong indicator of unilateral disease, supporting surgery despite modest LI. Main logical issue: None; the stem provides sufficient data for a unique best answer. Main medical accuracy issue: The item's teaching point aligns with modern nuanced AVS interpretation (considering both lateralization and contralateral suppression) and standard management guidelines for unilateral primary aldosteronism. Minimal fix: None required; the item is clear and accurate as written.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1989,
+        "completion_tokens": 224,
+        "total_tokens": 2213,
+        "cost": 0.00063111,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053703,
+          "upstream_inference_completions_cost": 9.408e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-007",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766543955-djqL4YS5Sy2B3uTiuXbV",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766543955,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: solitary 2.3 cm HCC in Child-Pugh A cirrhosis, portal hypertension (HVPG 13 mmHg, platelets 70k), tumor adjacent to right hepatic vein/diaphragm, patient not yet listed for transplant. The item uniquely supports percutaneous RFA (C) as best: ablation is guideline-recommended first-line curative therapy for small (<3 cm) HCC in cirrhosis with portal hypertension, balancing oncologic control (comparable to resection for small tumors) and preservation of hepatic reserve (lower decompensation risk vs. resection A/B). TACE (D) is not first-line curative for this small lesion. Transplant listing without bridging (E) risks progression. No logical contradictions; key matches standard care. Medical accuracy is sound. Minimal fix: none needed; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1936,
+        "completion_tokens": 221,
+        "total_tokens": 2157,
+        "cost": 0.00145544,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00108416,
+          "upstream_inference_completions_cost": 0.00037128
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-008",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766543959-ubEnCESbdTgTc2XPL7AF",
+      "provider": "Google",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766543959,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: recurrent pancreatitis, 2.5-cm pancreatic head mass encasing CBD with upstream dilatation, no vascular involvement, nondiagnostic EUS-FNA, normal CA 19-9, mildly elevated IgG4 (180 mg/dL), CT showing capsule-like rim and diffuse sausage-shaped gland enlargement. These classic imaging and serologic features strongly favor type 1 autoimmune pancreatitis (AIP) over malignancy. Main logical issue: None; the vignette provides sufficient discriminators (IgG4 elevation, characteristic CT findings, normal tumor marker) to uniquely support a steroid trial as the most appropriate initial management, avoiding premature surgery. Main medical accuracy issue: None; the approach aligns with consensus guidelines for suspected AIP. Minimal fix: None required; the item is well-constructed.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1952,
+        "completion_tokens": 217,
+        "total_tokens": 2169,
+        "cost": 0.00145768,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00109312,
+          "upstream_inference_completions_cost": 0.00036456
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-009",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766543963-TASgfNQc0EaGub0TS0hI",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766543963,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: young patient (26), intermediate-2 risk primary myelofibrosis (per DIPSS-plus), symptomatic splenomegaly, available HLA-matched sibling donor, triple-negative driver mutation status but isolated ASXL1 mutation (adverse prognostic marker). The stem clearly sets up a scenario where allogeneic stem cell transplantation is indicated due to risk category and age, and the question asks for the most appropriate management strategy. The keyed answer (E) recommends ruxolitinib bridge therapy followed by planned transplantation, which aligns with current guidelines: JAK inhibitor bridging to reduce spleen size and symptoms prior to transplant is a standard approach to improve transplant outcomes. Main logical issue: None; the stem provides sufficient detail to discriminate among options. Main medical accuracy issue: None; the logic is consistent with current NCCN/ELN guidelines for myelofibrosis. Minimal fix: None required; the item is well-constructed.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1991,
+        "completion_tokens": 244,
+        "total_tokens": 2235,
+        "cost": 0.00064005,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053757,
+          "upstream_inference_completions_cost": 0.00010248
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-010",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766543970-TwsbjwHYnumyaef2LcWS",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766543970,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: patient with SLE, class IV lupus nephritis, and CIDP (demyelinating polyneuropathy) requiring an immunologic treatment that controls both conditions while minimizing long-term toxicity. Rituximab (C) is a B-cell-targeted therapy with evidence for both refractory lupus nephritis and autoimmune neuropathies like CIDP, allowing steroid tapering. Alternatives are less optimal: high-dose steroids (A, B) increase toxicity and may inadequately control nephritis; cyclophosphamide (D) has higher gonadal/malignancy risk in a young woman; plasma exchange (E) is transient for CIDP and doesn't address chronic nephritis as effectively. No logical contradictions; the item supports a unique best answer. Medical accuracy is sound, aligning with current guidelines for refractory SLE/CIDP overlap. Minimal fix: none needed for validity; to enhance clarity, specify 'refractory' or 'steroid-dependent' CIDP to underscore rituximab's role.\",\n  \"medical_accuracy_score\":  \"4\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1982,
+        "completion_tokens": 260,
+        "total_tokens": 2242,
+        "cost": 0.00063914,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053514,
+          "upstream_inference_completions_cost": 0.000104
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-011",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766543979-9I979sqd7qYUA0eMvUTU",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766543979,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: severe crush-avulsion injury with segmental loss of ulnar artery and nerve (6 cm gap), large soft-tissue defect (12 × 8 cm), exposed tendons, marginal hand perfusion via radial artery, and nonrepairable flexor tendons. The question asks for the optimal single-stage reconstructive strategy considering function and the reconstructive ladder. Option B (free ALT flap with flow-through ulnar artery reconstruction and nerve grafting) uniquely addresses all critical needs: robust soft-tissue coverage, arterial reconstruction to improve perfusion, and immediate nerve repair. Alternatives are inferior: A (local flap) is insufficient for defect size and lacks reliable arterial reconstruction; C (skin graft) fails over exposed tendons and ignores vascular/nerve deficits; D (staged approach) delays nerve repair; E (contralateral radial forearm flap) sacrifices a major artery and risks tension on nerve repair. No contradictions or missing details; medical accuracy aligns with reconstructive surgery principles. Minimal fix: none required.\",\n  \"medical_accuracy_score\":  \"5\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2038,
+        "completion_tokens": 260,
+        "total_tokens": 2298,
+        "cost": 0.00065426,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00055026,
+          "upstream_inference_completions_cost": 0.000104
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-012",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766543994-MoFCFMKkeNJiGngWgcfb",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766543994,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: Delayed hyponatremia (day 7) with euvolemia, high urine osmolality, normal cortisol, and no MRI changes initially suggests SIADH. However, the worsening hyponatremia on day 12 despite fluid restriction, with further increased urine osmolality (750 mOsm/kg) and confusion, is inconsistent with persistent SIADH, as fluid restriction should improve SIADH. The triphasic pattern (B) describes transition from SIADH to DI, which would cause dilute urine and hypernatremia, not the observed high urine osmolality and worsening hyponatremia. Main logical issue: The key (A) is not the best answer given the failure of fluid restriction and the timeline; the most consistent mechanism is not clearly defensible among options. Main medical accuracy issue: The vignette's description of worsening hyponatremia despite fluid restriction challenges the SIADH diagnosis, as fluid restriction is first-line for SIADH and should prevent progression. Minimal fix: Clarify the response to fluid restriction (e.g., 'sodium stabilizes with fluid restriction') to support persistent SIADH, or adjust the key to reflect a more plausible mechanism like triphasic transition with a mixed picture.\", \"logical_false_reason\": \"K\", \"logical_validity\": false, \"medical_accuracy_score\":  \"3\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2033,
+        "completion_tokens": 318,
+        "total_tokens": 2351,
+        "cost": 0.00068247,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00054891,
+          "upstream_inference_completions_cost": 0.00013356
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-013",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766544001-M9aTCxJM2uWQjJ1RRwsM",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766544001,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. The stem describes a T2N0M0 glottic SCC extending to anterior commissure, with severe COPD and intolerance to prolonged immobilization. The key discriminating factors are need for high local control, minimizing acute edema/long-term dysphagia, and shorter treatment time. For T2 glottic cancer with anterior commissure involvement, hyperfractionated radiotherapy (option C) is often recommended in guidelines (e.g., RTOG 9512) to improve local control while managing toxicity, and it fits the goal of balancing control and toxicity. Hypofractionation (B) is used for early glottic cancer but for T2 with anterior commissure extension, hyperfractionation is typically preferred. Option B is not the best-supported choice; C is more defensible. Main logical issue: key mismatch. Main medical accuracy: minor nuance—hypofractionation is acceptable for T1, but for T2 with anterior commissure, hyperfractionation is often favored. Minimal fix: Change key to C or adjust stem to specify T1 disease.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\": \n    \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1960,
+        "completion_tokens": 276,
+        "total_tokens": 2236,
+        "cost": 0.00064512,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0005292,
+          "upstream_inference_completions_cost": 0.00011592
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-014",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766544008-ckf0oIyO20vgnyG1oC7Y",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766544008,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. Key stem clues: sudden respiratory distress, hypotension, JVD post-pneumonectomy; CXR shows mediastinal shift toward remaining lung with hyperinflation; bronchoscopy negative for mucus plug; echo shows RV dilation and LA compression. The findings are classic for tension pneumothorax in the pneumonectomy space (option B), not postpneumonectomy syndrome (D). Postpneumonectomy syndrome typically presents later (weeks to years) with dyspnea and stridor due to bronchial compression, not acute cardiopulmonary collapse. The acute onset, mediastinal shift toward the remaining lung (indicating increased pressure on the pneumonectomy side), and hyperinflation of the remaining lung are pathognomonic for tension pneumothorax in the empty hemithorax, even without bronchopleural fistula explicitly stated. Option D is incorrect for acute presentation. Main logical issue: key mismatch. Main medical accuracy issue: misattribution of acute postoperative emergency to a typically delayed syndrome. Minimal fix: Change correct answer key to B and adjust rationale to explain tension pneumothorax in pneumonectomy space.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\": \n  \"3\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1960,
+        "completion_tokens": 286,
+        "total_tokens": 2246,
+        "cost": 0.00064932,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0005292,
+          "upstream_inference_completions_cost": 0.00012012
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-015",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766544015-cnEN0WMHmG73tg9Kjbis",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766544015,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: M (Multiple answers defensible). Verdict on keyed answer: Not uniquely determinable. Key stem clues: occluded right common iliac, diffuse calcific disease of external iliac and common femoral, left iliac patent with kissing stent, coronary disease/frailty preclude aortobifemoral bypass. The stem emphasizes optimizing long-term patency and limb salvage. Main logical issue: Options C and E are both reasonable and defensible. C (femoral-femoral crossover with endarterectomy) uses existing left inflow and addresses CFA disease, but E (ilio-femoral bypass) also uses left iliac inflow via retroperitoneal route, which can be durable and less invasive than aortic surgery. The stem does not provide details (e.g., severity of calcification, patient's surgical risk beyond 'frailty') to clearly favor one over the other. Both avoid the hostile aorta. Medical accuracy: The keyed answer (C) is a valid option, but E is also supported in guidelines for selected patients. The rationale dismisses E as 'more invasive and technically challenging,' but the stem's 'frailty' is vague, and retroperitoneal ilio-femoral bypass can be performed. Minimal fix: Specify that the right common femoral artery is heavily calcified and not suitable for anastomosis, making endarterectomy less ideal, thus favoring ilio-femoral bypass, or vice versa.\",\n  \"logical_false_reason\": \"M\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\": \n  \"4\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1979,
+        "completion_tokens": 333,
+        "total_tokens": 2312,
+        "cost": 0.00067419,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053433,
+          "upstream_inference_completions_cost": 0.00013986
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-016",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766544023-ei5BSQ9qr0tKyOaIiFUl",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766544024,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: encapsulated follicular-patterned lesion, capsular and focal vascular invasion (2 of 8 vessels), RAS-mutant, no extrathyroidal extension, no lymph node involvement. These features align with modern risk stratification (e.g., ATA low-risk) for differentiated thyroid carcinoma. The item correctly identifies that limited vascular invasion (≤4 foci) without other high-risk features does not warrant routine radioactive iodine (RAI). Main logical issue: None; the stem provides sufficient detail to discriminate. Main medical accuracy issue: None; consistent with current guidelines (ATA 2015, updates). Minimal fix: None needed; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\": \n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1992,
+        "completion_tokens": 187,
+        "total_tokens": 2179,
+        "cost": 0.00061638,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053784,
+          "upstream_inference_completions_cost": 7.854e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-017",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766544028-xw7vflmm3dEtQoi4W5Zc",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766544028,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: chronic mesenteric ischemia with multivessel stenoses (celiac and SMA), patent IMA with collaterals, and a focal fibrotic jejunal stricture with viable but patchy bowel. The combination of chronic ischemia and a fixed fibrotic stricture necessitates both revascularization and resection. Main logical issue: None; the stem provides sufficient detail to uniquely support option B. Main medical accuracy issue: None; the reasoning aligns with vascular surgery principles: durable open bypass (aorto-SMA) for multivessel disease and resection of a fibrotic stricture is standard. Minimal fix: None required; the item is clear and accurate.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"5\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1975,
+        "completion_tokens": 182,
+        "total_tokens": 2157,
+        "cost": 0.00060969,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053325,
+          "upstream_inference_completions_cost": 7.644e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-018",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766544032-fjZ8PslO63RFxlbKZBQN",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766544033,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: Refractory iron-deficiency anemia, vague postprandial pain, negative EGD/colonoscopy, capsule endoscopy shows circumferential friable lesion in excluded stomach, CT shows 3.5-cm mass without metastasis. The clinical scenario strongly suggests gastric carcinoma in the excluded remnant after Roux-en-Y gastric bypass. The question asks for the most appropriate surgical approach for oncologic control given access limitations. The keyed answer (D, open completion gastrectomy with Roux-en-Y esophagojejunostomy) is the standard oncologic resection for a likely gastric cancer in this setting, providing adequate lymphadenectomy and margin control. Alternatives are inadequate: A and E are endoscopic/local therapies inappropriate for a large, likely invasive carcinoma; B (wedge resection) is insufficient for a circumferential lesion; C (conversion then gastrectomy) adds unnecessary steps. No internal contradictions or missing critical details. Medical accuracy is sound, aligning with surgical oncology principles for gastric remnant cancer. Minimal fix: None required for validity; to enhance clarity, could specify 'suspected adenocarcinoma' in the stem.\", \"logical_false_reason\": \"T\", \"logical_validity\": true, \"medical_accuracy_score\":  \"4\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1952,
+        "completion_tokens": 271,
+        "total_tokens": 2223,
+        "cost": 0.00064086,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00052704,
+          "upstream_inference_completions_cost": 0.00011382
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-019",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766544039-r982iY2m1VVmdtpbJRVf",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766544039,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"analysis\": \"Validity label: K (Miskeyed). Verdict on keyed answer: Miskeyed. Key stem clues: 45-year-old with therapy-related MDS/AML (18% blasts, complex cytogenetics including monosomy 7) after lymphoma therapy, HCT-CI score of 4, matched unrelated donor available. The stem specifies 'best chance of long-term survival.' Main logical issue: The keyed answer (C: azacitidine+venetoclax, then transplant) is not the single best answer. For fit patients with therapy-related AML (even with HCT-CI 4, which is intermediate risk) and a matched donor, current guidelines (NCCN, ELN) recommend proceeding to allogeneic transplant as the only curative option. The most direct and evidence-based path to long-term survival is induction to achieve remission followed by transplant. Option B (high-intensity induction followed by transplant in first remission) is the standard of care for eligible patients, including many with therapy-related AML, and is defensible as best. Option C represents an alternative lower-intensity induction, but is not definitively superior for long-term survival in this scenario, creating ambiguity. Main medical accuracy issue: The key implies azacitidine+venetoclax is superior to intensive induction for a patient with an HCT-CI of 4, but HCT-CI 4 does not automatically preclude intensive induction; fitness and organ function are more critical, and the stem does not specify contraindications to intensive chemo. Minimal fix: Change the key to B and adjust the rationale to reflect that for a relatively young (45-year-old) patient with a matched donor, intensive induction aiming for remission followed by allogeneic transplant offers the best chance of cure, acknowledging that lower-intensity regimens are alternatives for unfit patients.\", \"logical_false_reason\": \"K\", \"logical_validity\": false, \"medical_accuracy_score\": \t\"4\"}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 2003,
+        "completion_tokens": 406,
+        "total_tokens": 2409,
+        "cost": 0.00071133,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00054081,
+          "upstream_inference_completions_cost": 0.00017052
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130",
+    "question_id": "20251223T225810101Z_gpt-5.1-2025-11-13_seed130-020",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1766544051-0AFvD5VmZuZ9bcpuqzxg",
+      "provider": "Phala",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1766544051,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict on keyed answer: Correct best. Key stem clues: dupilumab (anti-IL-4Rα) therapy, subsequent development of peripheral eosinophilia, asthma, pulmonary infiltrates, and eosinophil-rich small-vessel vasculitis with negative ANCA. This pattern suggests an eosinophilic syndrome (e.g., EGPA-like) driven by IL-5 due to IL-4/IL-13 pathway blockade. Main logical issue: None; the vignette uniquely supports option A. Main medical accuracy issue: The described paradoxical adverse event is a recognized, though rare, phenomenon with dupilumab, aligning with current literature on IL-4/IL-13 inhibition potentially unmasking IL-5-driven eosinophilia. Minimal fix: None required for validity; to enhance clarity, the stem could explicitly note the absence of other causes (e.g., parasitic infection) to further solidify the link to dupilumab.\",\n  \"medical_accuracy_score\":  \"4\",\n  \"logical_validity\": true,\n  \"logical_false_reason\": \"T\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1974,
+        "completion_tokens": 233,
+        "total_tokens": 2207,
+        "cost": 0.00062618,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00053298,
+          "upstream_inference_completions_cost": 9.32e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

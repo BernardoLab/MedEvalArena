@@ -1,0 +1,482 @@
+[
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed124",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed124-001",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389231-Q9CSyCXmzWJs5uIWBf3u",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389231,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: HFpEF, bilateral carpal tunnel, echocardiographic 'sparkling' and wall thickening, Grade 3 PYP uptake, and the presence of a monoclonal protein (IgG lambda). The combination of a positive PYP scan and a monoclonal gammopathy creates diagnostic ambiguity between transthyretin (ATTR) and light-chain (AL) amyloidosis, as the explanation correctly notes. The logical flow is sound: when both findings are present, tissue confirmation (endomyocardial biopsy) is the definitive next step to differentiate the types before initiating disease-specific therapy. No internal contradictions exist. Medical accuracy is consistent with current guidelines. Minimal fix: None required; the item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1917,
+        "completion_tokens": 201,
+        "total_tokens": 2118,
+        "cost": 0.00060201,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00051759,
+          "upstream_inference_completions_cost": 8.442e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed124",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed124-002",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389240-hWD349fJBNAK6CGg84T2",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389240,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: recurrent fevers, livedo racemosa, acute lacunar infarct, 'beads-on-a-string' angiographic finding, low IgM/IgG, and confirmed biallelic ADA2 mutation. This constellation is classic for Deficiency of Adenosine Deaminase 2 (DADA2). The pathophysiology involves TNF-alpha dysregulation, making TNF inhibitors the established maintenance therapy to prevent recurrent vascular events. The keyed answer (C, Etanercept) aligns with current standard of care. Alternatives are incorrect: cyclophosphamide is for classic PAN; rituximab targets B cells; prednisone monotherapy is not maintenance; plasma exchange is for acute, antibody-mediated conditions. No logical contradictions or missing details. Minimal fix: none required; item is sound.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1878,
+        "completion_tokens": 215,
+        "total_tokens": 2093,
+        "cost": 0.00059736,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050706,
+          "upstream_inference_completions_cost": 9.03e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed124",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed124-003",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389250-FvRIEHIcG5QShoc4llxu",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389250,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: chronic progressive gait instability, dysarthria, dysphagia (bulbar signs), severe insomnia, stridor, and complex behaviors during both REM and NREM sleep (a hallmark of anti-IgLON5 disease). MRI is normal, arguing against a structural cause. The combination of bulbar dysfunction, stridor, and parasomnias across sleep stages is highly specific for anti-IgLON5. Main logical issue: None; the vignette is specific and points to a unique best answer. Main medical accuracy issue: None; the clinical description and keyed answer align with current literature. Minimal fix: None required; the item is well-constructed.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1864,
+        "completion_tokens": 193,
+        "total_tokens": 2057,
+        "cost": 0.00058434,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050328,
+          "upstream_inference_completions_cost": 8.106e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed124",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed124-004",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389262-A5l5QVRbQ9qKrneVNr0T",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389262,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: 4-year post-aortic valve replacement, fever of unknown origin, weight loss, pancytopenia, elevated LFTs, negative TEE, PET hypermetabolism in spleen/bone marrow, non-caseating granulomas on bone marrow biopsy, and negative standard blood cultures. This constellation is highly specific for disseminated Mycobacterium chimaera infection linked to contaminated heater-cooler units from cardiac surgery, a classic board-exam association. The item is logically valid and medically accurate. The keyed answer (C) is uniquely defensible. Sarcoidosis (A) is mimicked by granulomas but lacks the direct surgical link. HACEK endocarditis (B) is ruled out by negative TEE. Whipple's disease (D) typically causes malabsorption. Prosthetic valve thrombosis (E) would not explain the systemic granulomatous disease. Minimal fix: None required; the item is well-constructed.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1857,
+        "completion_tokens": 243,
+        "total_tokens": 2100,
+        "cost": 0.00060345,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050139,
+          "upstream_inference_completions_cost": 0.00010206
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed124",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed124-005",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389271-mUy0b1xR2sAVCPMPnNNG",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389271,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: amenorrhea 4 months postpartum, echogenic myometrial mass, low beta-hCG (120 IU/L), hPL positivity, Ki-67 of 15%, no metastasis. This profile is classic for Stage I Placental Site Trophoblastic Tumor (PSTT). PSTT is relatively chemoresistant, making hysterectomy the definitive treatment for localized disease. All distractors are incorrect: methotrexate/actinomycin-D are for low-risk GTN; EMA-CO is for high-risk/metastatic GTN; pembrolizumab is not first-line. No logical contradictions or missing details. Medical accuracy is sound. Minimal fix: None required; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1850,
+        "completion_tokens": 197,
+        "total_tokens": 2047,
+        "cost": 0.00058224,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0004995,
+          "upstream_inference_completions_cost": 8.274e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed124",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed124-006",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389280-s2bvl2rGCqSKLfUUFiIp",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389280,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. Key stem clues: Brugada syndrome, electrical storm with VF, conscious, stable vitals. The keyed answer (C, isoproterenol) is not the most appropriate initial pharmacologic agent for acute VF storm in Brugada syndrome. While isoproterenol can be used, current guidelines (e.g., AHA/ACC/HRS) recommend IV isoproterenol or quinidine for electrical storm, but the immediate, first-line therapy for a patient with recurrent VF and recent shocks is typically an antiarrhythmic like amiodarone or lidocaine, with isoproterenol considered for refractory cases or specific triggers. The rationale's blanket contraindication of amiodarone and lidocaine is overly absolute and not consistent with standard emergency management, where they are often used. The item's logic incorrectly dismisses standard agents, making the key not the single best answer. Minimal fix: Change the key to A (IV Amiodarone) and adjust the rationale to reflect guideline-based stepwise therapy, or rephrase the stem to specify 'refractory to initial antiarrhythmic therapy' to justify isoproterenol as the best answer.\",\n  \"logical_false_reason\": \"K\",\n  \"logical_validity\": false,\n  \"medical_accuracy_score\":  \"2\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1855,
+        "completion_tokens": 300,
+        "total_tokens": 2155,
+        "cost": 0.00062685,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050085,
+          "upstream_inference_completions_cost": 0.000126
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed124",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed124-007",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389291-7qlwtPtBtjvl0gkkVnzi",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389291,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: subacute encephalopathy, bilateral sensorineural hearing loss, visual field deficits (likely from retinal artery occlusions), MRI showing 'snowball' corpus callosum lesions, fluorescein angiography confirming BRAO, and CSF lacking oligoclonal bands. This combination is highly specific for Susac syndrome, distinguishing it from MS (no OCBs, BRAO, classic callosal lesions), CADASIL (no BRAO, different MRI pattern), primary CNS angiitis (typically more severe CSF inflammation, no pathognomonic callosal 'snowballs'), and MELAS (stroke-like episodes, lactic acidosis, no BRAO). No logical contradictions. Medical accuracy is high. Minimal fix: None required; the item is well-constructed.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1860,
+        "completion_tokens": 208,
+        "total_tokens": 2068,
+        "cost": 0.00058956,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.0005022,
+          "upstream_inference_completions_cost": 8.736e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed124",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed124-008",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389300-mOOD7SOdthgwLHTMPHaH",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389300,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: MSM with severe proctitis (tenesmus, bleeding), positive C. trachomatis NAAT, failure of 7-day doxycycline, and partner's travel from Europe (LGV-endemic area) strongly point to lymphogranuloma venereum (LGV). The logic is sound: LGV requires prolonged (21-day) doxycycline, making D the unique best answer. Medical accuracy is high, aligning with CDC guidelines for LGV proctitis. Alternatives are inferior: A/B repeat short-course therapy that failed; C is for gonorrhea; E is a second-line alternative, not first-line. No logical issues; the vignette provides sufficient detail for a single best answer. Minimal fix: None required; item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1898,
+        "completion_tokens": 217,
+        "total_tokens": 2115,
+        "cost": 0.0006036,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00051246,
+          "upstream_inference_completions_cost": 9.114e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed124",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed124-009",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389309-p9fSXvVRX1SXwUsDFCB3",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389309,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"analysis\": \"Validity label: V. Verdict: Correct best. Key stem clues: macrocytic anemia, thrombocytopenia, recurrent ear/nose cartilage inflammation, pulmonary infiltrates, hypercellular marrow with vacuolization of myeloid/erythroid precursors, and a somatic UBA1 mutation. This combination is pathognomonic for VEXAS syndrome, a recently defined entity. The item is logically valid and medically accurate. The keyed answer (C) is uniquely defensible. Alternative choices are incorrect: Relapsing polychondritis (A) lacks the hematologic and marrow findings; MDS (B) lacks the specific inflammatory features; Sweet syndrome (D) presents with neutrophilic dermatosis, not polychondritis or these marrow findings; Granulomatosis with polyangiitis (E) typically involves necrotizing granulomas and PR3-ANCA, not marrow vacuoles or UBA1 mutations. Minimal fix: None required; the item is clear and accurate.\",\n  \"logical_false_reason\": \"T\",\n  \"logical_validity\": true,\n  \"medical_accuracy_score\":  \t\n  \"5\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1866,
+        "completion_tokens": 242,
+        "total_tokens": 2108,
+        "cost": 0.00060546,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050382,
+          "upstream_inference_completions_cost": 0.00010164
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "quiz_id": "20251129T125426901Z_gemini-3-pro-preview_seed124",
+    "question_id": "20251129T125426901Z_gemini-3-pro-preview_seed124-010",
+    "judge_model": "deepseek-v3.2",
+    "provider_response": {
+      "id": "gen-1765389322-sgmMEXPAlOYK4yLJcFpy",
+      "provider": "SiliconFlow",
+      "model": "deepseek/deepseek-v3.2",
+      "object": "chat.completion",
+      "created": 1765389322,
+      "choices": [
+        {
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n    \"analysis\": \"Validity label: K (Miskeyed). Verdict: Miskeyed. Key stem clues: Stage IA1 cervical cancer (≤3 mm invasion) with extensive LVSI, negative margins, no lymphadenopathy, fertility desired. According to NCCN guidelines, for IA1 with LVSI, the recommended fertility-sparing treatment is conization (or trachelectomy) with negative margins PLUS lymph node assessment. Radical trachelectomy (keyed answer B) is recommended for stage IA2 or IB1, not IA1. Option C (conization with negative margins) is insufficient as stated because it omits the required lymph node assessment. The unique best answer, conization with lymph node assessment, is not among the options, making the item flawed. Main logical issue: The keyed radical procedure is too aggressive for IA1 per guidelines. Minimal fix: Change option C to 'Conization with negative margins and pelvic lymph node assessment' and key it.\",\n    \"logical_false_reason\": \"K\",\n    \"logical_validity\": false,\n    \"medical_accuracy_score\":  \"2\"\n}",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "system_fingerprint": "",
+      "usage": {
+        "prompt_tokens": 1854,
+        "completion_tokens": 235,
+        "total_tokens": 2089,
+        "cost": 0.00059928,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": null,
+          "upstream_inference_prompt_cost": 0.00050058,
+          "upstream_inference_completions_cost": 9.87e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        }
+      }
+    }
+  }
+]

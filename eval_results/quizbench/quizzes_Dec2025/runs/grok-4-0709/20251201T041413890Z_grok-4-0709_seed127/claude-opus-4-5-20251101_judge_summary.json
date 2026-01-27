@@ -1,0 +1,1 @@
+{"model": "claude-opus-4-5-20251101", "quiz_id": "20251201T041413890Z_grok-4-0709_seed127", "created_at": "2025-12-11T06:34:14Z", "n_items": 10, "n_valid_responses": 10, "n_invalid_responses": 0, "n_pass": 2, "n_fail": 8, "fail_reason_counts": {"K": 3, "NA": 2, "M": 4, "C": 1}, "medical_score_mean": 3.3, "n_safety_flag_true": 0, "used_batch_api": false}

@@ -1,0 +1,1 @@
+{"model": "gemini-3-pro-preview", "created_at": "2025-11-30T18:18:11Z", "total_corr": 8, "total_wrong": 2, "acc": 0.8, "n_items": 10, "batch_input_file": "20251129T045001943Z_gpt-5.1-2025-11-13_seed125_gemini-3-pro-preview_batch_input.jsonl", "batch_id": "batches/zciubv3g3ubg3ai9za92bw8fwuvcxk5604vl", "used_batch_api": true}

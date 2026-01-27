@@ -1,0 +1,56 @@
+[INFO] Evaluating 5 quizzes with model 'gpt-5.1-2025-11-13'
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_claude-opus-4-5-20251101_p01 path=quizzes/quizzes_ABMS20260101/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p01.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_claude-opus-4-5-20251101_p01, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p01/ABMS20260101_claude-opus-4-5-20251101_p01_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-ERPaMofUyNAvsf9nKpvVSF
+Created batch with id: batch_694f739f24dc8190a8b83e0875137cd5
+Initial batch status: validating
+Batch batch_694f739f24dc8190a8b83e0875137cd5 status: validating. Sleeping 60s...
+Batch batch_694f739f24dc8190a8b83e0875137cd5 status: validating. Sleeping 60s...
+Batch batch_694f739f24dc8190a8b83e0875137cd5 status: in_progress. Sleeping 60s...
+Batch batch_694f739f24dc8190a8b83e0875137cd5 reached terminal status: completed
+Downloading batch file: file-P4wcZ4kzwqi44Cxn6SatYK
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p01
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_claude-opus-4-5-20251101_p02 path=quizzes/quizzes_ABMS20260101/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p02.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_claude-opus-4-5-20251101_p02, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p02/ABMS20260101_claude-opus-4-5-20251101_p02_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-VdKppvAamkD9s2TwbDNVEG
+Created batch with id: batch_694f745765908190a34f5a31507f6f9e
+Initial batch status: validating
+Batch batch_694f745765908190a34f5a31507f6f9e status: validating. Sleeping 60s...
+Batch batch_694f745765908190a34f5a31507f6f9e status: in_progress. Sleeping 60s...
+Batch batch_694f745765908190a34f5a31507f6f9e status: in_progress. Sleeping 60s...
+Batch batch_694f745765908190a34f5a31507f6f9e reached terminal status: completed
+Downloading batch file: file-PVpg2L1H3bGBHwb9TFYPEu
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p02
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_claude-opus-4-5-20251101_p03 path=quizzes/quizzes_ABMS20260101/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p03.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_claude-opus-4-5-20251101_p03, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p03/ABMS20260101_claude-opus-4-5-20251101_p03_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-7KTf3srN4jzeZCgwdGd4HH
+Created batch with id: batch_694f750ebf108190b703b14afa4657ae
+Initial batch status: validating
+Batch batch_694f750ebf108190b703b14afa4657ae status: validating. Sleeping 60s...
+Batch batch_694f750ebf108190b703b14afa4657ae status: in_progress. Sleeping 60s...
+Batch batch_694f750ebf108190b703b14afa4657ae status: in_progress. Sleeping 60s...
+Batch batch_694f750ebf108190b703b14afa4657ae reached terminal status: completed
+Downloading batch file: file-E1qkqx2Ea3gmiW6dZfi2eY
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p03
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_claude-opus-4-5-20251101_p04 path=quizzes/quizzes_ABMS20260101/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p04.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_claude-opus-4-5-20251101_p04, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p04/ABMS20260101_claude-opus-4-5-20251101_p04_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-KuC7pzj58ctPu7hqNB38iY
+Created batch with id: batch_694f75c59b8481908618d9c2a0579dcf
+Initial batch status: validating
+Batch batch_694f75c59b8481908618d9c2a0579dcf status: validating. Sleeping 60s...
+Batch batch_694f75c59b8481908618d9c2a0579dcf status: in_progress. Sleeping 60s...
+Batch batch_694f75c59b8481908618d9c2a0579dcf status: in_progress. Sleeping 60s...
+Batch batch_694f75c59b8481908618d9c2a0579dcf reached terminal status: completed
+Downloading batch file: file-782SnX86qYDaoAZ8U5dy8j
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p04
+[EVAL] model=gpt-5.1-2025-11-13 quiz_id=ABMS20260101_claude-opus-4-5-20251101_p05 path=quizzes/quizzes_ABMS20260101/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p05.jsonl
+[OK] Completed eval for quiz_id=ABMS20260101_claude-opus-4-5-20251101_p05, run_dir=Uploading batch input file: /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p05/ABMS20260101_claude-opus-4-5-20251101_p05_gpt-5.1-2025-11-13_batch_input.jsonl
+Created batch input file with id: file-R5ZUzx1dmGXNdCvfWnWR8n
+Created batch with id: batch_694f767c93a08190b84e433ebd6e715b
+Initial batch status: validating
+Batch batch_694f767c93a08190b84e433ebd6e715b status: validating. Sleeping 60s...
+Batch batch_694f767c93a08190b84e433ebd6e715b reached terminal status: completed
+Downloading batch file: file-Gip2K6gV15bDeLGLEs3KpD
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/claude-opus-4-5-20251101/ABMS20260101_claude-opus-4-5-20251101_p05
+[INFO] Updated manifest at /home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/claude-opus-4-5-20251101/quizbench_manifest_ABMS20260101.json
+/home/dbernardo/Documents/pyres/MedEvalArena/eval_results/quizbench/quizzes_ABMS20260101/runs/claude-opus-4-5-20251101

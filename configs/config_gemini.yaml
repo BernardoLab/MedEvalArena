@@ -1,0 +1,16 @@
+# QuizBench generation configuration
+generator_models:
+  - gemini-3-pro-preview
+test_models:
+  - none
+num_questions_per_batch: 10
+seed0: 123
+# Store Gemini batches/evals in a dedicated subdir to prevent manifest overwrites.
+quizzes_dir: quizzes/
+runs_root: eval_results/quizbench/quizzes_Jan2026/runs/gemini-3-pro-preview/
+gemini_api_key: ""
+use_batch_api: true
+reasoning_effort: high
+# max_tokens: 600
+max_output_tokens: 16000
+num_questions_per_quiz: 50

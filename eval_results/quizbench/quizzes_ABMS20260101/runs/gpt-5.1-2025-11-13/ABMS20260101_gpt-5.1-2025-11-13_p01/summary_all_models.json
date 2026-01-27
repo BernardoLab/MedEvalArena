@@ -1,0 +1,1 @@
+[{"model": "gemini-2.5-flash-lite", "created_at": "2026-01-02T05:01:24Z", "total_corr": 6, "total_wrong": 4, "acc": 0.6, "n_items": 10, "batch_input_file": "ABMS20260101_gpt-5.1-2025-11-13_p01_gemini-2.5-flash-lite_batch_input.jsonl", "batch_id": "batches/qdf0404o75xw4yrj60kr0gj7c94ob32kyni5", "used_batch_api": true}]

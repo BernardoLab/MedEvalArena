@@ -1,0 +1,1 @@
+{"model": "claude-3-7-sonnet-20250219", "created_at": "2025-12-07T06:47:39Z", "total_corr": 8, "total_wrong": 2, "acc": 0.8, "n_items": 10, "batch_input_file": "20251205T080918850Z_kimi-k2-thinking_seed126_claude-3-7-sonnet-20250219_anthropic_batch_requests.jsonl", "batch_id": "msgbatch_01MVknVRTwzpBfZpJYpQkod4", "used_batch_api": true, "batch_provider": "anthropic"}

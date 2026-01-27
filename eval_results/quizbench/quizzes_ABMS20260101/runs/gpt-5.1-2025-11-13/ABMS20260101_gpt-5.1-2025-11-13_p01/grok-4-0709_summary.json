@@ -1,0 +1,1 @@
+{"model": "grok-4-0709", "created_at": "2025-12-26T12:43:49Z", "total_corr": 9, "total_wrong": 1, "acc": 0.9, "n_items": 10, "batch_input_file": null, "batch_id": "grok-async-1766752841-grok-4-0709", "used_batch_api": true, "batch_provider": "grok-async"}

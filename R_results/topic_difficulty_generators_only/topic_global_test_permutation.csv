@@ -1,0 +1,2 @@
+"n_items","n_topics","n_llms","stratified_by_quiz","boot_reps","perm_reps","F_stat","eta_squared","p_value_perm","range_topic_means_pp","range_lo95_pp","range_hi95_pp"
+300,31,6,TRUE,5000,5000,0.983798674691199,0.0988696147306963,0.46870625874825,36.1111111111111,30.5555555555556,66.6666666666667

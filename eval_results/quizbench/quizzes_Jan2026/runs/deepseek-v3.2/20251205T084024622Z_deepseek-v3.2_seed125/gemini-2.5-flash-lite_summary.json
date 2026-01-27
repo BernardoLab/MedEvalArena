@@ -1,0 +1,1 @@
+{"model": "gemini-2.5-flash-lite", "created_at": "2025-12-05T17:43:17Z", "total_corr": 7, "total_wrong": 3, "acc": 0.7, "n_items": 10, "batch_input_file": "20251205T084024622Z_deepseek-v3.2_seed125_gemini-2.5-flash-lite_batch_input.jsonl", "batch_id": "batches/l5jg8q6dekmf89mcy6ljntx2hsqfjj0jrc86", "used_batch_api": true}
