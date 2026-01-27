@@ -1972,7 +1972,7 @@ def parse_args() -> argparse.Namespace:
         "--bibtex-path",
         dest="bibtex_path",
         type=Path,
-        default=None,
+        default="quizbench/prem2026medevalarena.bib",
         help="Path to a .bib file (or any text file) to include verbatim in the BibTeX section.",
     )
 
