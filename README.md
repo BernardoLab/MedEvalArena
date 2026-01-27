@@ -5,6 +5,7 @@ MedEvalArena is a self-generated, peer-judged benchmark for medical reasoning.
 ![LLMs in Arena](./website_images/intro_graphic.png)
 
 [MedEvalArena Leaderboard](https://bernardolab.github.io/MedEvalArena/)
+
 [Substack post](https://danbernardo.substack.com/p/medevalarena)
 
 
@@ -108,8 +109,23 @@ uv run quizbench/apply_topic_mapping.py \
 
 ### Step 6 (Optional): Go back to step one to generate more questions
 
+## Citation
 
+Prem, P., Shidara, K., Kuppa, V., Wheeler, E., Liu, F., Alaa, A., & Bernardo, D. (2026).
+**MedevalArena: A Self-Generated, Peer-Judged Benchmark for Medical Reasoning**.
+*arXiv preprint*, submitted January 19, 2026.
 
+### BibTeX
+
+```bibtex
+@article{prem2026medevalarena,
+  title   = {MedevalArena: A Self-Generated, Peer-Judged Benchmark for Medical Reasoning},
+  author  = {Prem, P. and Shidara, K. and Kuppa, V. and Wheeler, E. and Liu, F. and Alaa, A. and Bernardo, D.},
+  journal = {arXiv preprint},
+  year    = {2026},
+  note    = {Submitted January 19, 2026}
+}
+```
 
 ## Contact
 - Danilo Bernardo: dbernardoj [at] gmail [dot] com
