@@ -517,6 +517,9 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
       --leader-bar-height: 170px;
       --leader-label-space: 2.4rem;
       --leader-axis-space: 2.6rem;
+      --leader-bar-width: 55%;
+      --leader-bar-label-size: 0.85rem;
+      --leader-bar-label-padding-x: 0.25rem;
       --leader-gridline-color: rgba(47, 47, 47, 0.18);
       --leader-gridlines: none;
       --leader-gridline-positions: 0 0;
@@ -564,6 +567,7 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
       bottom: calc(var(--leader-fill-height, 0%) + 0.25rem);
       transform: translateX(-50%);
       width: auto;
+      max-width: 100%;
       height: auto;
       color: #4a4a4a;
       text-shadow: none;
@@ -630,7 +634,7 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
     .leader-bar-vertical {{
       position: relative;
       height: var(--leader-bar-height);
-      width: 55%;
+      width: var(--leader-bar-width, 55%);
       border-radius: 12px 12px 0 0;
       background-color: transparent;
       overflow: hidden;
@@ -650,10 +654,15 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 0.85rem;
+      font-size: var(--leader-bar-label-size, 0.85rem);
       font-weight: 700;
       color: #fff;
       text-shadow: 0 1px 2px rgba(0, 0, 0, 0.28);
+      padding: 0 var(--leader-bar-label-padding-x, 0.25rem);
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
       pointer-events: none;
       z-index: 2;
     }}
@@ -735,7 +744,7 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
       stroke: #fff;
       stroke-width: 2;
     }}
-    @media (max-width: 768px) {{
+    @media (max-width: 768px), (hover: none) and (pointer: coarse) {{
       .leaderboard-grid {{
         grid-template-columns: 1fr;
       }}
@@ -743,12 +752,18 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
         --leader-bar-height: 150px;
         --leader-label-space: 2.1rem;
         --leader-axis-space: 2.3rem;
+        --leader-bar-width: 86%;
+        --leader-bar-label-size: 0.72rem;
+        --leader-bar-label-padding-x: 0.15rem;
         grid-template-columns: repeat(var(--leader-count, 1), minmax(20px, 1fr));
         gap: 0.4rem;
       }}
       .leader-label {{
         font-size: 0.72rem;
         transform: rotate(-30deg);
+      }}
+      .leader-bar-label.leader-bar-label--above {{
+        font-size: 0.68rem;
       }}
     }}
   </style>
@@ -1094,7 +1109,12 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
       if (wantsAutoLabelSpace && rootEl && rootEl.ownerDocument) {{
         try {{
           const doc = rootEl.ownerDocument;
-          const isMobile = !!(window.matchMedia && window.matchMedia('(max-width: 768px)').matches);
+          const isMobile = !!(
+            window.matchMedia && (
+              window.matchMedia('(max-width: 768px)').matches
+              || window.matchMedia('(hover: none) and (pointer: coarse)').matches
+            )
+          );
           const labelAngleDeg = isNum(opts.labelAngleDeg) ? opts.labelAngleDeg : (isMobile ? -30 : -65);
           const labelSpaceMin = isNum(opts.labelSpaceMinPx) ? opts.labelSpaceMinPx : 0;
           const labelSpaceExtra = isNum(opts.labelSpaceExtraPx) ? opts.labelSpaceExtraPx : 26;
