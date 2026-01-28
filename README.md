@@ -119,7 +119,7 @@ Prem, P., Shidara, K., Kuppa, V., Wheeler, E., Liu, F., Alaa, A., & Bernardo, D.
 
 ```bibtex
 @article{prem2026medevalarena,
-  title   = {MedevalArena: A Self-Generated, Peer-Judged Benchmark for Medical Reasoning},
+  title   = {MedEvalArena: A Self-Generated, Peer-Judged Benchmark for Medical Reasoning},
   author  = {Prem, P. and Shidara, K. and Kuppa, V. and Wheeler, E. and Liu, F. and Alaa, A. and Bernardo, D.},
   journal = {arXiv preprint},
   year    = {2026},
