@@ -109,21 +109,29 @@ uv run quizbench/apply_topic_mapping.py \
 
 ### Step 6 (Optional): Go back to step one to generate more questions
 
+### Step 7 (Optional): Generate leadboard site:
+```
+uv run quizbench/generate_leaderboard_site.py --csv-by-model tmp/agg_majority_by_model_ABMS20260101.csv --validity-results-csv tmp/validity_results.csv
+```
+
 ## Citation
 
 Prem, P., Shidara, K., Kuppa, V., Wheeler, E., Liu, F., Alaa, A., & Bernardo, D. (2026).
-**MedevalArena: A Self-Generated, Peer-Judged Benchmark for Medical Reasoning**.
-*arXiv preprint*, submitted January 19, 2026.
+*MedEvalArena: A Self-Generated, Peer-Judged Benchmark for Medical Reasoning*.
+medRxiv. https://doi.org/10.64898/2026.01.27.26344905
 
 ### BibTeX
 
 ```bibtex
-@article{prem2026medevalarena,
+@article{prem2026medevaluarena,
   title   = {MedEvalArena: A Self-Generated, Peer-Judged Benchmark for Medical Reasoning},
-  author  = {Prem, P. and Shidara, K. and Kuppa, V. and Wheeler, E. and Liu, F. and Alaa, A. and Bernardo, D.},
-  journal = {arXiv preprint},
+  author  = {Prem, Preethi and Shidara, Kie and Kuppa, Vikasini and Wheeler, Esm{\'e} and Liu, Feng and Alaa, Ahmed and Bernardo, Danilo},
+  journal = {medRxiv},
   year    = {2026},
-  note    = {Submitted January 19, 2026}
+  date    = {2026-01-27},
+  doi     = {10.64898/2026.01.27.26344905},
+  url     = {https://doi.org/10.64898/2026.01.27.26344905},
+  note    = {Preprint}
 }
 ```
 

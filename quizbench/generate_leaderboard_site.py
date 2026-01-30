@@ -197,6 +197,49 @@ def load_cost_by_model_csv(csv_path: Path) -> dict[str, float]:
     return costs
 
 
+def load_validity_results_csv(csv_path: Path | None) -> dict[str, float]:
+    """
+    Load per-model question validity (pass-rate) metadata.
+
+    Expected columns:
+      - model (str)
+      - questions_passing_percent (float, either 0-1 or 0-100)
+    """
+    if csv_path is None:
+        return {}
+    if not csv_path.exists():
+        raise FileNotFoundError(csv_path)
+
+    with csv_path.open("r", encoding="utf-8-sig", newline="") as f:
+        reader = csv.DictReader(f)
+        if not reader.fieldnames:
+            raise ValueError(f"Empty CSV or missing header: {csv_path}")
+
+        required = {"model", "questions_passing_percent"}
+        missing = required - set(reader.fieldnames)
+        if missing:
+            cols = ", ".join(reader.fieldnames)
+            raise ValueError(
+                f"CSV missing required columns {sorted(missing)}. "
+                f"Found columns: {cols}"
+            )
+
+        validity: dict[str, float] = {}
+        for raw in reader:
+            model = (raw.get("model") or "").strip()
+            if not model:
+                continue
+
+            value = _parse_float(raw.get("questions_passing_percent"))
+            if value is None:
+                continue
+            if value > 1.0:
+                value = value / 100.0
+            validity[model] = value
+
+    return validity
+
+
 def _json_for_inline_script(obj: Any) -> str:
     """
     Produce JSON that is safe to embed directly inside a <script> tag.
@@ -370,6 +413,19 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
     contact_html = "<br/>".join(contact_lines) if contact_lines else (
         "For questions, please open a GitHub issue on the repository."
     )
+
+    citation_title = "MedEvalArena: A Self-Generated, Peer-Judged Benchmark for Medical Reasoning"
+    citation_doi = "https://doi.org/10.64898/2026.01.27.26344905"
+    citation_section = f"""
+<section class="section" id="Citation">
+  <div class="container is-max-desktop content">
+    <h2 class="title is-3">Citation</h2>
+    <p>Prem, P., Shidara, K., Kuppa, V., Wheeler, E., Liu, F., Alaa, A., &amp; Bernardo, D. (2026).
+    <em>{_h(citation_title)}</em>. medRxiv.
+    <a href="{_h(citation_doi)}" target="_blank" rel="noopener">{_h(citation_doi)}</a></p>
+  </div>
+</section>
+""".rstrip()
 
     bibtex_section = ""
     if bibtex.strip():
@@ -553,9 +609,19 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
         linear-gradient(to right, var(--leader-gridline-color), var(--leader-gridline-color));
       --leader-gridline-positions: 0 100%, 0 75%, 0 50%, 0 25%, 0 0;
     }}
-    .leaderboard-plot--accuracy .leader-bar-label {{
+    .leaderboard-plot--accuracy .leader-bar-label,
+    .leaderboard-plot--validity .leader-bar-label {{
       align-items: flex-end;
       padding-bottom: 0.35rem;
+    }}
+    .leaderboard-plot--validity {{
+      --leader-gridlines:
+        linear-gradient(to right, var(--leader-gridline-color), var(--leader-gridline-color)),
+        linear-gradient(to right, var(--leader-gridline-color), var(--leader-gridline-color)),
+        linear-gradient(to right, var(--leader-gridline-color), var(--leader-gridline-color)),
+        linear-gradient(to right, var(--leader-gridline-color), var(--leader-gridline-color)),
+        linear-gradient(to right, var(--leader-gridline-color), var(--leader-gridline-color));
+      --leader-gridline-positions: 0 100%, 0 75%, 0 50%, 0 25%, 0 0;
     }}
     .leader-bar-label.leader-bar-label--bottom {{
       align-items: flex-end;
@@ -829,24 +895,35 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
             reasoning remain difficult to characterize systematically.
             We present <strong>MedEvalArena</strong>, a dynamic evaluation
             framework designed to compare medical reasoning robustness
-            across models using a symmetric, adversarial round-robin protocol.
+            across models using a symmetric, round-robin protocol.
           </p>
 
           <p>
-            In MedEvalArena, each model generates adversarial medical quizzes
-            intended to challenge the reasoning abilities of other models.
-            All models are then evaluated on the full shared quiz set,
-            enabling controlled and scalable comparisons beyond static
-            benchmarks.
+            In MedEvalArena, each model generates medical questions
+            intended to challenge the medical reasoning abilities of other models.
+            Question validity is assesed using an LLM-as-judge paradigm along two
+            axes, logical correctness and medical accuracy. 
+            Questions that the majority of the LLM-as-judge ensemble finds valid
+            'pass', and are used in the exam stage, where each LLM takes all the
+            valid questions tha were generated. 
+
+            The top 6 model families on <a href="https://artificialanalysis.ai/">https://artificialanalysis.ai/</a>
+            (model cutoff Nov 15, 2025) were included as question generators
+            and on the LLM-as-judge ensemble. LLM generators generated questions
+            until a quota of 50 total valid questions were generated per LLM for a grand total of 300 questions. 
           </p>
 
           <p>
-            Responses are assessed using an LLM-as-judge paradigm along two
-            orthogonal axes, logical correctness and medical accuracy. By 
-            co-evolving the evaluation data with frontier LLMs, MedEvalArena 
-            provides a principled framework for evaluating medical reasoning 
-            in both LLMs and humans.
+            MedEvalArena provides a dynamic and scalable framework for benchmarking LLM medical reasoning.
           </p>
+
+          <p>
+            Read more analyses here: 
+          <a href="https://www.medrxiv.org/content/10.64898/2026.01.27.26344905v1">
+          https://www.medrxiv.org/content/10.64898/2026.01.27.26344905v1
+        </a>
+          </p>
+
         </div>
       </div>
     </div>
@@ -859,6 +936,13 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
       <div class="column is-full">
         <h2 id="leaderboard" class="title is-3"><i class="fas fa-chart-bar"></i>&nbsp;Leaderboard</h2>
         <div class="leaderboard-grid">
+          <div class="leaderboard-card">
+            <div class="leaderboard-legend">
+              <span class="leaderboard-dot"></span>
+              <span>Question validity (pass rate), only models that served as question gnerators and on the LLM-as-judge ensemble are shown</span>
+            </div>
+            <div id="leaderboard-validity"></div>
+          </div>
           <div class="leaderboard-card">
             <div class="leaderboard-legend">
               <span class="leaderboard-dot"></span>
@@ -898,7 +982,7 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
         <h2 id="tables" class="title is-3">🏟️ Results</h2>
         <div class="content has-text-justified">
           <p class="help">
-            Default sort is by <b>Mean Accuracy</b> (descending). Top-3 entries are marked with 🥇🥈🥉.
+            Default sort is by <b>Mean Accuracy</b> (descending). Top-3 entries are marked with 🥇🥈🥉. Validity refers to pass-rate.
           </p>
         </div>
       </div>
@@ -936,6 +1020,7 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
                 <th data-key="model">Model</th>
                 <th class="has-text-right" data-key="mean_accuracy">Mean Accuracy</th>
                 <th class="has-text-right" data-key="sem">SEM</th>
+                <th class="has-text-right" data-key="validity">Validity</th>
               </tr>
             </thead>
             <tbody id="tables-body"></tbody>
@@ -960,6 +1045,8 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
     </div>
   </div>
 </section>
+
+{citation_section}
 
 {bibtex_section}
 
@@ -996,11 +1083,13 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
     const payload = JSON.parse(dataEl.textContent);
     const rowsRaw = Array.isArray(payload.rows) ? payload.rows : [];
     const costByModel = payload.cost_by_model || {{}};
+    const validityByModel = payload.validity_by_model || {{}};
 
     const filterEl = document.getElementById('modelFilter');
     const bodyEl = document.getElementById('tables-body');
     const countEl = document.getElementById('modelCount');
     const tableEl = document.getElementById('results-table');
+    const validityRootEl = document.getElementById('leaderboard-validity');
     const accuracyRootEl = document.getElementById('leaderboard-accuracy');
     const costRootEl = document.getElementById('leaderboard-cost');
     const scatterRootEl = document.getElementById('leaderboard-accuracy-vs-cost');
@@ -1043,6 +1132,10 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
       if (!isNum(x)) return '—';
       return x.toFixed(2);
     }}
+
+    rowsRaw.forEach((r) => {{
+      r.validity = validityByModel[String(r.model || '')];
+    }});
 
     function mountReact(element, component) {{
       if (!element || !window.React || !window.ReactDOM) return;
@@ -1671,10 +1764,15 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
         tdSem.className = 'has-text-right mono has-text-grey';
         tdSem.textContent = fmtPct(r.sem);
 
+        const tdValidity = document.createElement('td');
+        tdValidity.className = 'has-text-right mono';
+        tdValidity.textContent = fmtPct(r.validity);
+
         tr.appendChild(tdRank);
         tr.appendChild(tdModel);
         tr.appendChild(tdMean);
         tr.appendChild(tdSem);
+        tr.appendChild(tdValidity);
         bodyEl.appendChild(tr);
       }});
     }}
@@ -1706,6 +1804,20 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
     topRows.forEach((r, idx) => {{
       colorByModel.set(String(r.model || ''), colorStops(idx, topRows.length));
     }});
+    const topRowsByValidity = topRows.filter(r => {{
+      const v = validityByModel[String(r.model || '')];
+      return isNum(v);
+    }});
+    topRowsByValidity.sort((a, b) => {{
+      const va = validityByModel[String(a.model || '')];
+      const vb = validityByModel[String(b.model || '')];
+      const na = isNum(va) ? va : -Infinity;
+      const nb = isNum(vb) ? vb : -Infinity;
+      if (na === nb) {{
+        return String(a.model || '').localeCompare(String(b.model || ''));
+      }}
+      return nb - na;
+    }});
     const topRowsByCostDesc = topRows.slice();
     topRowsByCostDesc.sort((a, b) => {{
       const ca = costByModel[String(a.model || '')];
@@ -1718,6 +1830,27 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
       return nb - na;
     }});
 
+    renderLeaderboardChart(
+      validityRootEl,
+      topRowsByValidity,
+      r => validityByModel[String(r.model || '')],
+      fmtPct,
+      'No validity data available.',
+      (r, idx) => colorByModel.get(String(r.model || '')) || colorStops(idx, topRows.length),
+      {{
+        minValue: 0,
+        maxValue: 1.0,
+        plotClass: 'leaderboard-plot--validity',
+        yTicks: [
+          {{ value: 1.0, label: '100%' }},
+          {{ value: 0.75, label: '75%' }},
+          {{ value: 0.5, label: '50%' }},
+          {{ value: 0.25, label: '25%' }},
+          {{ value: 0.0, label: '0%' }},
+        ],
+        labelFmt: fmtPctIntNoSign,
+      }},
+    );
     renderLeaderboardChart(
       accuracyRootEl,
       topRows,
@@ -1811,6 +1944,7 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
 def build_payload(
     *,
     csv_path: Path,
+    validity_csv_path: Path | None,
     title: str,
     description: str,
     keywords: str,
@@ -1834,6 +1968,7 @@ def build_payload(
     )
     rows = load_accuracy_by_model_csv(csv_path)
     cost_by_model = load_cost_by_model_csv(DEFAULT_COST_CSV_PATH)
+    validity_by_model = load_validity_results_csv(validity_csv_path)
     return {
         "meta": {
             "title": title,
@@ -1857,6 +1992,7 @@ def build_payload(
         },
         "rows": rows,
         "cost_by_model": cost_by_model,
+        "validity_by_model": validity_by_model,
     }
 
 
@@ -1880,6 +2016,16 @@ def parse_args() -> argparse.Namespace:
         type=str,
         default=None,
         help="If set, uses the default /tmp suffix used by aggregate_filtered_results.sh.",
+    )
+    parser.add_argument(
+        "--validity-results-csv",
+        dest="validity_results_csv",
+        type=Path,
+        default=None,
+        help=(
+            "Path to the validity results CSV with columns "
+            "`model,questions_passing_percent` (optional)."
+        ),
     )
     parser.add_argument(
         "--out",
@@ -2017,6 +2163,7 @@ def main() -> int:
     try:
         payload = build_payload(
             csv_path=csv_path,
+            validity_csv_path=args.validity_results_csv,
             title=args.title,
             description=description,
             keywords=args.keywords,
@@ -2032,7 +2179,11 @@ def main() -> int:
             issues_url=args.issues_url,
             bibtex=bibtex_text,
         )
-    except FileNotFoundError:
+    except FileNotFoundError as exc:
+        missing = Path(exc.filename) if exc.filename else csv_path
+        if missing != csv_path:
+            print(f"[ERROR] CSV not found: {missing}")
+            return 2
         msg = (
             f"[ERROR] CSV not found: {csv_path}\n\n"
             "Generate it first, e.g.:\n"
