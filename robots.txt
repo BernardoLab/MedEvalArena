@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://medevalarena.ai/sitemap.xml

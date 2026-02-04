@@ -346,6 +346,103 @@ def _render_publication_authors(meta: dict[str, Any]) -> str:
     """.rstrip()
 
 
+def _normalize_canonical_url(url: str) -> str:
+    u = url.strip()
+    if not u:
+        return ""
+    if not u.startswith(("http://", "https://")):
+        u = f"https://{u}"
+    return u.rstrip("/") + "/"
+
+
+def _build_og_image_url(og_image_url: str, canonical_url: str) -> str:
+    u = og_image_url.strip()
+    if u:
+        if u.startswith(("http://", "https://")):
+            return u
+        if u.startswith("/"):
+            return canonical_url.rstrip("/") + u
+        return canonical_url.rstrip("/") + "/" + u
+    if canonical_url:
+        return canonical_url.rstrip("/") + "/website_images/intro_graphic.png"
+    return "website_images/intro_graphic.png"
+
+
+def _render_sitemap_xml(canonical_url: str, lastmod: str | None) -> str:
+    url = _normalize_canonical_url(canonical_url)
+    if not url:
+        return ""
+    lastmod_tag = f"<lastmod>{_h(lastmod)}</lastmod>" if lastmod else ""
+    parts = [
+        '<?xml version="1.0" encoding="UTF-8"?>\n',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n',
+        "  <url>\n",
+        f"    <loc>{_h(url)}</loc>\n",
+    ]
+    if lastmod_tag:
+        parts.append(f"    {lastmod_tag}\n")
+    parts.extend(
+        [
+            "  </url>\n",
+            "</urlset>\n",
+        ]
+    )
+    return "".join(parts)
+
+
+def _render_robots_txt(canonical_url: str) -> str:
+    url = _normalize_canonical_url(canonical_url)
+    lines = ["User-agent: *", "Allow: /"]
+    if url:
+        lines.append(f"Sitemap: {url}sitemap.xml")
+    return "\n".join(lines) + "\n"
+
+
+def _fmt_pct(value: float | None) -> str:
+    if value is None or not math.isfinite(value):
+        return "—"
+    return f"{value * 100:.2f}%"
+
+
+def _render_results_table_rows(
+    rows: list[dict[str, Any]],
+    validity_by_model: dict[str, float],
+) -> str:
+    row_html: list[str] = []
+    for idx, row in enumerate(rows):
+        model_raw = str(row.get("model") or "").strip()
+        if not model_raw:
+            continue
+        rank = idx + 1
+        medal = ""
+        if rank == 1:
+            medal = " 🥇"
+        elif rank == 2:
+            medal = " 🥈"
+        elif rank == 3:
+            medal = " 🥉"
+
+        generator_models = str(row.get("generator_models") or "").strip()
+        title_attr = (
+            f' title="{_h("Generators: " + generator_models)}"'
+            if generator_models
+            else ""
+        )
+
+        row_html.append(
+            f"""
+              <tr{title_attr}>
+                <td><span class="rank-badge">{rank}</span></td>
+                <td><span class="mono">{_h(model_raw)}</span>{medal}</td>
+                <td class="has-text-right mono">{_fmt_pct(row.get("mean_accuracy"))}</td>
+                <td class="has-text-right mono has-text-grey">{_fmt_pct(row.get("sem"))}</td>
+                <td class="has-text-right mono">{_fmt_pct(validity_by_model.get(model_raw))}</td>
+              </tr>
+            """.rstrip()
+        )
+    return "\n".join(row_html)
+
+
 def render_index_html(*, payload: dict[str, Any]) -> str:
     """
     Render a Bulma-based academic-project-style page, inspired by OlympicArena and
@@ -361,6 +458,13 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
     keywords = str(meta.get("keywords") or "LLMs, Evaluation, Medicine")
     emoji = str(meta.get("emoji") or "🏥")
     subtitle = str(meta.get("subtitle") or "")
+    site_name = str(meta.get("site_name") or title)
+    canonical_url = _normalize_canonical_url(
+        str(meta.get("canonical_url") or "https://medevalarena.ai")
+    )
+    og_image_url = _build_og_image_url(str(meta.get("og_image_url") or ""), canonical_url)
+    og_image_alt = str(meta.get("og_image_alt") or "MedEvalArena introduction graphic")
+    twitter_site = str(meta.get("twitter_site") or "")
 
     home_url = str(meta.get("home_url") or "")
     paper_url = str(meta.get("paper_url") or "")
@@ -442,6 +546,44 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
 
     generated_at = _h(str(meta.get("generated_at") or ""))
     source_csv = _h(str(meta.get("source_csv") or ""))
+    rows = payload.get("rows") or []
+    validity_by_model = payload.get("validity_by_model") or {}
+    table_rows_html = _render_results_table_rows(rows, validity_by_model)
+    json_ld = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": title,
+        "description": description,
+        "url": canonical_url,
+        "inLanguage": "en",
+        "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": og_image_url,
+            "caption": og_image_alt,
+        },
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": site_name,
+            "url": canonical_url,
+        },
+        "mainEntity": {
+            "@type": "ScholarlyArticle",
+            "headline": citation_title,
+            "name": citation_title,
+            "url": paper_url or citation_doi,
+            "identifier": citation_doi,
+            "datePublished": "2026-01-27",
+            "publisher": {
+                "@type": "Organization",
+                "name": "medRxiv",
+            },
+            "author": [
+                {"@type": "Person", "name": a.get("name")}
+                for a in DEFAULT_PUBLICATION_AUTHORS
+                if a.get("name")
+            ],
+        },
+    }
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -450,7 +592,24 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
   <meta name="description" content="{_h(description)}">
   <meta name="keywords" content="{_h(keywords)}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="{_h(canonical_url)}">
   <title>{title_html}</title>
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{_h(title)}">
+  <meta property="og:description" content="{_h(description)}">
+  <meta property="og:url" content="{_h(canonical_url)}">
+  <meta property="og:site_name" content="{_h(site_name)}">
+  <meta property="og:image" content="{_h(og_image_url)}">
+  <meta property="og:image:alt" content="{_h(og_image_alt)}">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{_h(title)}">
+  <meta name="twitter:description" content="{_h(description)}">
+  <meta name="twitter:image" content="{_h(og_image_url)}">
+  {f'<meta name="twitter:site" content="{_h(twitter_site)}">' if twitter_site else ''}
+
+  <script type="application/ld+json">{_json_for_inline_script(json_ld)}</script>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -1023,7 +1182,9 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
                 <th class="has-text-right" data-key="validity">Validity</th>
               </tr>
             </thead>
-            <tbody id="tables-body"></tbody>
+            <tbody id="tables-body">
+{table_rows_html}
+            </tbody>
           </table>
         </div>
 
@@ -1930,7 +2091,7 @@ def render_index_html(*, payload: dict[str, Any]) -> str:
   <section class="section">
     <div class="container is-max-desktop">
       <div class="notification is-warning">
-        This page requires JavaScript enabled to render.
+        Interactive charts and sorting require JavaScript. The static leaderboard table is still available.
       </div>
     </div>
   </section>
@@ -1950,6 +2111,11 @@ def build_payload(
     keywords: str,
     emoji: str,
     subtitle: str,
+    site_name: str,
+    canonical_url: str,
+    og_image_url: str,
+    og_image_alt: str,
+    twitter_site: str,
     home_url: str,
     paper_url: str,
     code_url: str,
@@ -1976,6 +2142,11 @@ def build_payload(
             "keywords": keywords,
             "emoji": emoji,
             "subtitle": subtitle,
+            "site_name": site_name,
+            "canonical_url": canonical_url,
+            "og_image_url": og_image_url,
+            "og_image_alt": og_image_alt,
+            "twitter_site": twitter_site,
             "authors": DEFAULT_PUBLICATION_AUTHORS,
             "affiliations": DEFAULT_PUBLICATION_AFFILIATIONS,
             "home_url": home_url,
@@ -2034,6 +2205,18 @@ def parse_args() -> argparse.Namespace:
         default=Path("index.html"),
         help="Output HTML path (default: ./index.html).",
     )
+    parser.add_argument(
+        "--skip-sitemap",
+        dest="skip_sitemap",
+        action="store_true",
+        help="Skip generating sitemap.xml alongside the HTML output.",
+    )
+    parser.add_argument(
+        "--skip-robots",
+        dest="skip_robots",
+        action="store_true",
+        help="Skip generating robots.txt alongside the HTML output.",
+    )
 
     # Page metadata / links
     parser.add_argument(
@@ -2056,6 +2239,34 @@ def parse_args() -> argparse.Namespace:
         type=str,
         default="",
         help="Optional subtitle line shown under the title.",
+    )
+    parser.add_argument(
+        "--site-name",
+        dest="site_name",
+        type=str,
+        default="",
+        help="Site name used for SEO metadata (defaults to --title).",
+    )
+    parser.add_argument(
+        "--canonical-url",
+        dest="canonical_url",
+        type=str,
+        default="https://medevalarena.ai",
+        help="Canonical URL for SEO (default: https://medevalarena.ai).",
+    )
+    parser.add_argument(
+        "--og-image-url",
+        dest="og_image_url",
+        type=str,
+        default="",
+        help="Absolute or relative URL for the Open Graph image (optional).",
+    )
+    parser.add_argument(
+        "--og-image-alt",
+        dest="og_image_alt",
+        type=str,
+        default="MedEvalArena introduction graphic",
+        help="Alt text for the Open Graph image.",
     )
     parser.add_argument(
         "--description",
@@ -2114,6 +2325,13 @@ def parse_args() -> argparse.Namespace:
         help="Twitter/X URL for the hero buttons (optional).",
     )
     parser.add_argument(
+        "--twitter-site",
+        dest="twitter_site",
+        type=str,
+        default="",
+        help="Twitter handle for SEO cards (e.g., @medevalarena).",
+    )
+    parser.add_argument(
         "--contact-email",
         dest="contact_email",
         type=str,
@@ -2159,6 +2377,7 @@ def main() -> int:
             return 2
 
     description = args.description.strip() or args.title
+    site_name = args.site_name.strip() or args.title
 
     try:
         payload = build_payload(
@@ -2169,6 +2388,11 @@ def main() -> int:
             keywords=args.keywords,
             emoji=args.emoji,
             subtitle=args.subtitle,
+            site_name=site_name,
+            canonical_url=args.canonical_url,
+            og_image_url=args.og_image_url,
+            og_image_alt=args.og_image_alt,
+            twitter_site=args.twitter_site,
             home_url=args.home_url,
             paper_url=args.paper_url,
             code_url=args.code_url,
@@ -2204,8 +2428,27 @@ def main() -> int:
         )
 
     html = render_index_html(payload=payload)
-    args.out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_dir = args.out_path.parent
+    out_dir.mkdir(parents=True, exist_ok=True)
     args.out_path.write_text(html, encoding="utf-8")
+    if not args.skip_sitemap:
+        sitemap_xml = _render_sitemap_xml(
+            str(payload.get("meta", {}).get("canonical_url") or ""),
+            str(payload.get("meta", {}).get("generated_at") or "") or None,
+        )
+        if sitemap_xml:
+            sitemap_path = out_dir / "sitemap.xml"
+            sitemap_path.write_text(sitemap_xml, encoding="utf-8")
+            print(f"Wrote {sitemap_path}")
+        else:
+            print("[WARN] Skipped sitemap.xml generation (missing canonical URL).")
+    if not args.skip_robots:
+        robots_txt = _render_robots_txt(
+            str(payload.get("meta", {}).get("canonical_url") or "")
+        )
+        robots_path = out_dir / "robots.txt"
+        robots_path.write_text(robots_txt, encoding="utf-8")
+        print(f"Wrote {robots_path}")
     print(f"Wrote {args.out_path}")
     return 0
 
